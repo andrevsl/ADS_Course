@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      simucstvsl
+HostName                       windossimucst1
+ProcessIdentifier              5160
+ProcessCreationTime_UTC        1766061971
+ProcessCreationTime_Readable   Thu Dec 18 12:46:11 2025 Greenwich Standard Time
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         C:\Users\simucstvsl\ADSCourse\RIS_Design_Project\RIS_Design_Project_lib\%System%Pole%Zero\schematic\sch.oa.cdslck
+TimeEditLocked                 Thu Dec 18 19:17:04 2025 Greenwich Standard Time
