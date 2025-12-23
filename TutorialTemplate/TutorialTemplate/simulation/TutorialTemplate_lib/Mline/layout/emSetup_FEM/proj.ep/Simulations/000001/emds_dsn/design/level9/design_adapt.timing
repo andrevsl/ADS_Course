@@ -1,0 +1,13 @@
+XADAPT v2.5.3
+Adapting Mesh\Adding result into mgr and cleaning up\Shutting down modeling environment	0.0006448
+Adapting Mesh\Bisecting tets	0.101836
+Adapting Mesh\Loading calcbridge info	0.004549
+Adapting Mesh\Loading port info	4.06e-05
+Adapting Mesh\Prioritizing tets	0.0132063
+Adapting Mesh\Reading and copying attribute mapping	0.0009448
+Adapting Mesh\Reading refinement	0.0060201
+Adapting Mesh\Reading src ovm	0.0041988
+Adapting Mesh\Reassign attributes	0.0011498
+Adapting Mesh\Src ovm mesh volumes	0.0045098
+Adapting Mesh\Starting modeling environment	0.0032836
+Adapting Mesh\Writing dst ovm	0.0062322

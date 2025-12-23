@@ -1,0 +1,648 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Mon Dec 22 12:23:03 2025
+      Running on host: "windossimucst1"
+      In Directory: "C:\Users\simucstvsl\ADSCourse\TutorialTemplate\TutorialTemplate\data"
+      Process ID: 2904
+
+
+OPTIM Optim1[1] <TutorialTemplate_lib:BPF:schematic>  optIter=(0->5000)
+
+SP Optim1[1].SP1[0] <TutorialTemplate_lib:BPF:schematic>  optIter=0  freq=(10 MHz->500 MHz)
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    Data in the Touchstone file `C:/Users/simucstvsl/ADSCourse/TutorialTemplate/TutorialTemplate/data/MyFIlter_dataIdeal.s2p'
+    does not cover the requested value of `freq'.
+    Therefore, the required data was obtained by extrapolation.
+
+Iteration/Trial #0:
+  CurrentEF: 281387.752404247
+  Optimization variables:
+    C1.C = 5e-12
+    C2.C = 15e-12
+    L1.L = 10e-09
+    L2.L = 10e-09
+    L3.L = 10e-09
+
+SP Optim1[1].SP1[14] <TutorialTemplate_lib:BPF:schematic>  optIter=14  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #14:
+  CurrentEF: 168704.586582856
+  Optimization variables:
+    C1.C = 6.570957321627365e-12
+    C2.C = 15.68907806310005e-12
+    L1.L = 14.4449935348584e-09
+    L2.L = 26.17449107154268e-09
+    L3.L = 13.41864007513934e-09
+
+SP Optim1[1].SP1[16] <TutorialTemplate_lib:BPF:schematic>  optIter=16  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #16:
+  CurrentEF: 26707.6866311164
+  Optimization variables:
+    C1.C = 2.289226517281488e-12
+    C2.C = 14.56645228805561e-12
+    L1.L = 52.62124636102908e-09
+    L2.L = 42.77541671514273e-09
+    L3.L = 33.41794476585634e-09
+
+SP Optim1[1].SP1[21] <TutorialTemplate_lib:BPF:schematic>  optIter=21  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #21:
+  CurrentEF: 25017.6549291743
+  Optimization variables:
+    C1.C = 1.128561983285691e-12
+    C2.C = 14.50820691728841e-12
+    L1.L = 44.93850978640271e-09
+    L2.L = 80.08701066036428e-09
+    L3.L = 28.465693264906e-09
+
+SP Optim1[1].SP1[24] <TutorialTemplate_lib:BPF:schematic>  optIter=24  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #24:
+  CurrentEF: 24305.7915527819
+  Optimization variables:
+    C1.C = 1.256422436528193e-12
+    C2.C = 13.5365415663591e-12
+    L1.L = 44.83681203190858e-09
+    L2.L = 74.87738533463591e-09
+    L3.L = 31.675545721926e-09
+
+SP Optim1[1].SP1[27] <TutorialTemplate_lib:BPF:schematic>  optIter=27  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #27:
+  CurrentEF: 17454.3304281289
+  Optimization variables:
+    C1.C = 2.428397827279765e-12
+    C2.C = 13.81507929778323e-12
+    L1.L = 24.36043614561182e-09
+    L2.L = 67.65724893745621e-09
+    L3.L = 31.11867602654845e-09
+
+SP Optim1[1].SP1[33] <TutorialTemplate_lib:BPF:schematic>  optIter=33  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #33:
+  CurrentEF: 13992.1130384458
+  Optimization variables:
+    C1.C = 4.473541172602885e-12
+    C2.C = 14.44739896048074e-12
+    L1.L = 18.80753489407231e-09
+    L2.L = 60.09935794300869e-09
+    L3.L = 33.34847559045321e-09
+
+SP Optim1[1].SP1[41] <TutorialTemplate_lib:BPF:schematic>  optIter=41  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #41:
+  CurrentEF: 9396.8393786687
+  Optimization variables:
+    C1.C = 5.527108119024709e-12
+    C2.C = 14.09561489150617e-12
+    L1.L = 12.04090888439517e-09
+    L2.L = 53.95961586025936e-09
+    L3.L = 43.80416131797246e-09
+
+SP Optim1[1].SP1[52] <TutorialTemplate_lib:BPF:schematic>  optIter=52  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #52:
+  CurrentEF: 9301.80096497393
+  Optimization variables:
+    C1.C = 4.610543421972222e-12
+    C2.C = 14.371745790813e-12
+    L1.L = 14.39832707133601e-09
+    L2.L = 58.75526290463599e-09
+    L3.L = 43.69680133454983e-09
+
+SP Optim1[1].SP1[58] <TutorialTemplate_lib:BPF:schematic>  optIter=58  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #58:
+  CurrentEF: 9082.97259585776
+  Optimization variables:
+    C1.C = 4.800877067565289e-12
+    C2.C = 14.5351499810429e-12
+    L1.L = 13.39462466651616e-09
+    L2.L = 59.00612568707346e-09
+    L3.L = 42.97915456220476e-09
+
+SP Optim1[1].SP1[69] <TutorialTemplate_lib:BPF:schematic>  optIter=69  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #69:
+  CurrentEF: 8666.64858077252
+  Optimization variables:
+    C1.C = 4.727960929712349e-12
+    C2.C = 14.09327207328111e-12
+    L1.L = 11.56187445214234e-09
+    L2.L = 57.24296284275528e-09
+    L3.L = 45.23700667436262e-09
+
+SP Optim1[1].SP1[70] <TutorialTemplate_lib:BPF:schematic>  optIter=70  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #70:
+  CurrentEF: 8088.22159559749
+  Optimization variables:
+    C1.C = 3.986731017394946e-12
+    C2.C = 15.17783132371632e-12
+    L1.L = 11.62553916319863e-09
+    L2.L = 51.46270050176565e-09
+    L3.L = 48.21780205824044e-09
+
+SP Optim1[1].SP1[72] <TutorialTemplate_lib:BPF:schematic>  optIter=72  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #72:
+  CurrentEF: 7806.81513353703
+  Optimization variables:
+    C1.C = 3.592814002649429e-12
+    C2.C = 15.39136754896239e-12
+    L1.L = 11.08243810017925e-09
+    L2.L = 51.63374301682839e-09
+    L3.L = 48.24049680402712e-09
+
+SP Optim1[1].SP1[78] <TutorialTemplate_lib:BPF:schematic>  optIter=78  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #78:
+  CurrentEF: 7801.14163339867
+  Optimization variables:
+    C1.C = 3.165489463088512e-12
+    C2.C = 15.56868700778435e-12
+    L1.L = 11.12523572237236e-09
+    L2.L = 54.55012369670017e-09
+    L3.L = 47.87540320538526e-09
+
+SP Optim1[1].SP1[79] <TutorialTemplate_lib:BPF:schematic>  optIter=79  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #79:
+  CurrentEF: 7754.21606377925
+  Optimization variables:
+    C1.C = 3.166412783403131e-12
+    C2.C = 15.82993531221193e-12
+    L1.L = 12.28113887318669e-09
+    L2.L = 55.2568760047254e-09
+    L3.L = 42.76809122875238e-09
+
+SP Optim1[1].SP1[80] <TutorialTemplate_lib:BPF:schematic>  optIter=80  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #80:
+  CurrentEF: 7617.43254771665
+  Optimization variables:
+    C1.C = 3.109203810045103e-12
+    C2.C = 15.55693981086412e-12
+    L1.L = 10.5631690350661e-09
+    L2.L = 56.65774146274697e-09
+    L3.L = 42.81042261143582e-09
+
+SP Optim1[1].SP1[82] <TutorialTemplate_lib:BPF:schematic>  optIter=82  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #82:
+  CurrentEF: 7576.51436720767
+  Optimization variables:
+    C1.C = 3.088698481672689e-12
+    C2.C = 15.46396059651574e-12
+    L1.L = 10.22267046381575e-09
+    L2.L = 58.5792939212871e-09
+    L3.L = 44.48768094572537e-09
+
+SP Optim1[1].SP1[85] <TutorialTemplate_lib:BPF:schematic>  optIter=85  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #85:
+  CurrentEF: 7534.91357692301
+  Optimization variables:
+    C1.C = 2.74515777013697e-12
+    C2.C = 15.63480290852911e-12
+    L1.L = 10.40143544207553e-09
+    L2.L = 59.10630396393376e-09
+    L3.L = 43.79061522601771e-09
+
+SP Optim1[1].SP1[102] <TutorialTemplate_lib:BPF:schematic>  optIter=102  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #102:
+  CurrentEF: 7406.06256490923
+  Optimization variables:
+    C1.C = 2.697579257144768e-12
+    C2.C = 15.829303998337e-12
+    L1.L = 10.47176234233028e-09
+    L2.L = 58.54945376305253e-09
+    L3.L = 42.49685299639046e-09
+
+SP Optim1[1].SP1[104] <TutorialTemplate_lib:BPF:schematic>  optIter=104  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #104:
+  CurrentEF: 7375.27156775381
+  Optimization variables:
+    C1.C = 2.774444757393174e-12
+    C2.C = 16.13089851690679e-12
+    L1.L = 10.79266619719662e-09
+    L2.L = 58.25369814000796e-09
+    L3.L = 41.93745332505927e-09
+
+SP Optim1[1].SP1[113] <TutorialTemplate_lib:BPF:schematic>  optIter=113  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #113:
+  CurrentEF: 7323.84558763876
+  Optimization variables:
+    C1.C = 2.663742786973112e-12
+    C2.C = 16.32742393726555e-12
+    L1.L = 10.07880291918755e-09
+    L2.L = 58.51918834358997e-09
+    L3.L = 41.81654473393733e-09
+
+SP Optim1[1].SP1[116] <TutorialTemplate_lib:BPF:schematic>  optIter=116  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #116:
+  CurrentEF: 7316.30257664868
+  Optimization variables:
+    C1.C = 2.486748691266715e-12
+    C2.C = 16.55469543462604e-12
+    L1.L = 11.7510070075303e-09
+    L2.L = 57.97344080570517e-09
+    L3.L = 40.5391118980821e-09
+
+SP Optim1[1].SP1[117] <TutorialTemplate_lib:BPF:schematic>  optIter=117  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #117:
+  CurrentEF: 7295.67892146144
+  Optimization variables:
+    C1.C = 2.332640342290427e-12
+    C2.C = 16.5088420459066e-12
+    L1.L = 13.10468627188376e-09
+    L2.L = 56.75469064230927e-09
+    L3.L = 40.7809583404242e-09
+
+SP Optim1[1].SP1[119] <TutorialTemplate_lib:BPF:schematic>  optIter=119  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #119:
+  CurrentEF: 7247.37792749647
+  Optimization variables:
+    C1.C = 2.063391409796503e-12
+    C2.C = 16.42864905450855e-12
+    L1.L = 12.13289506546263e-09
+    L2.L = 56.79081782094178e-09
+    L3.L = 40.76344432312197e-09
+
+SP Optim1[1].SP1[120] <TutorialTemplate_lib:BPF:schematic>  optIter=120  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #120:
+  CurrentEF: 7224.33218729655
+  Optimization variables:
+    C1.C = 1.7860307613506e-12
+    C2.C = 16.46320295806673e-12
+    L1.L = 12.31307454876395e-09
+    L2.L = 57.42400553227355e-09
+    L3.L = 41.32829703799279e-09
+
+SP Optim1[1].SP1[126] <TutorialTemplate_lib:BPF:schematic>  optIter=126  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #126:
+  CurrentEF: 7132.04244093041
+  Optimization variables:
+    C1.C = 2.008237141336469e-12
+    C2.C = 16.4943913914885e-12
+    L1.L = 11.48051560233968e-09
+    L2.L = 56.09310038947745e-09
+    L3.L = 42.28399159515168e-09
+
+SP Optim1[1].SP1[128] <TutorialTemplate_lib:BPF:schematic>  optIter=128  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #128:
+  CurrentEF: 7062.49921490869
+  Optimization variables:
+    C1.C = 2.111374927700759e-12
+    C2.C = 16.73519975966302e-12
+    L1.L = 11.93612961062234e-09
+    L2.L = 56.01650553292447e-09
+    L3.L = 40.36079763407015e-09
+
+SP Optim1[1].SP1[131] <TutorialTemplate_lib:BPF:schematic>  optIter=131  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #131:
+  CurrentEF: 7030.77569275582
+  Optimization variables:
+    C1.C = 1.793069515119542e-12
+    C2.C = 16.64644619168893e-12
+    L1.L = 10.79211250281301e-09
+    L2.L = 56.55117306865712e-09
+    L3.L = 40.76858889672005e-09
+
+SP Optim1[1].SP1[133] <TutorialTemplate_lib:BPF:schematic>  optIter=133  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #133:
+  CurrentEF: 7020.68692943353
+  Optimization variables:
+    C1.C = 1.560872732297719e-12
+    C2.C = 16.68165747549054e-12
+    L1.L = 10.10609772683551e-09
+    L2.L = 55.94388389845677e-09
+    L3.L = 42.06316385204804e-09
+
+SP Optim1[1].SP1[134] <TutorialTemplate_lib:BPF:schematic>  optIter=134  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #134:
+  CurrentEF: 6914.9946886499
+  Optimization variables:
+    C1.C = 1.373910939979579e-12
+    C2.C = 16.86353218317582e-12
+    L1.L = 10.35633273095993e-09
+    L2.L = 55.64132852578106e-09
+    L3.L = 42.25281606913697e-09
+
+SP Optim1[1].SP1[136] <TutorialTemplate_lib:BPF:schematic>  optIter=136  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #136:
+  CurrentEF: 6875.99275787674
+  Optimization variables:
+    C1.C = 1.370785358705286e-12
+    C2.C = 16.97385514534202e-12
+    L1.L = 12.08709262307748e-09
+    L2.L = 56.64767936239617e-09
+    L3.L = 41.59576012140607e-09
+
+SP Optim1[1].SP1[138] <TutorialTemplate_lib:BPF:schematic>  optIter=138  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #138:
+  CurrentEF: 6795.28230166465
+  Optimization variables:
+    C1.C = 1.217884654903582e-12
+    C2.C = 17.02470233622392e-12
+    L1.L = 11.08313258377886e-09
+    L2.L = 56.63690106829335e-09
+    L3.L = 42.35753905416115e-09
+
+SP Optim1[1].SP1[141] <TutorialTemplate_lib:BPF:schematic>  optIter=141  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #141:
+  CurrentEF: 6773.67789258681
+  Optimization variables:
+    C1.C = 1.178574538796238e-12
+    C2.C = 17.05971389118276e-12
+    L1.L = 10.67592447199308e-09
+    L2.L = 55.8063723414283e-09
+    L3.L = 42.3268477996385e-09
+
+SP Optim1[1].SP1[142] <TutorialTemplate_lib:BPF:schematic>  optIter=142  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #142:
+  CurrentEF: 6741.11222267748
+  Optimization variables:
+    C1.C = 1.124221790101204e-12
+    C2.C = 17.04579971087891e-12
+    L1.L = 10.1326342280011e-09
+    L2.L = 56.48247063916094e-09
+    L3.L = 41.6816153254326e-09
+
+SP Optim1[1].SP1[194] <TutorialTemplate_lib:BPF:schematic>  optIter=194  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #194:
+  CurrentEF: 6607.52449658258
+  Optimization variables:
+    C1.C = 1.275358666444933e-12
+    C2.C = 17.30465553656608e-12
+    L1.L = 10.77792050569099e-09
+    L2.L = 55.52327262875582e-09
+    L3.L = 40.93314398696498e-09
+
+SP Optim1[1].SP1[249] <TutorialTemplate_lib:BPF:schematic>  optIter=249  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #249:
+  CurrentEF: 6599.06557292743
+  Optimization variables:
+    C1.C = 1.164701615736493e-12
+    C2.C = 17.43691363896365e-12
+    L1.L = 10.15646660136447e-09
+    L2.L = 55.81617383361446e-09
+    L3.L = 42.93687651880478e-09
+
+SP Optim1[1].SP1[270] <TutorialTemplate_lib:BPF:schematic>  optIter=270  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #270:
+  CurrentEF: 6576.32829926738
+  Optimization variables:
+    C1.C = 1.219787250757836e-12
+    C2.C = 17.33048946960126e-12
+    L1.L = 10.35813450361526e-09
+    L2.L = 55.92170354532737e-09
+    L3.L = 42.08343191464702e-09
+
+SP Optim1[1].SP1[272] <TutorialTemplate_lib:BPF:schematic>  optIter=272  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #272:
+  CurrentEF: 6561.75465959481
+  Optimization variables:
+    C1.C = 1.166942766686148e-12
+    C2.C = 17.29865074541588e-12
+    L1.L = 10.33838923179335e-09
+    L2.L = 56.18531475526765e-09
+    L3.L = 41.48085714728913e-09
+
+SP Optim1[1].SP1[287] <TutorialTemplate_lib:BPF:schematic>  optIter=287  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #287:
+  CurrentEF: 6532.06465071454
+  Optimization variables:
+    C1.C = 1.10168969302518e-12
+    C2.C = 17.3284610608464e-12
+    L1.L = 10.00464992271329e-09
+    L2.L = 56.92940130159804e-09
+    L3.L = 41.46337045468809e-09
+
+SP Optim1[1].SP1[400] <TutorialTemplate_lib:BPF:schematic>  optIter=400  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #400:
+  CurrentEF: 6514.96295530195
+  Optimization variables:
+    C1.C = 1.061041918915279e-12
+    C2.C = 17.36067420061242e-12
+    L1.L = 10.09397640475528e-09
+    L2.L = 56.56723483038808e-09
+    L3.L = 41.49061926266836e-09
+
+SP Optim1[1].SP1[406] <TutorialTemplate_lib:BPF:schematic>  optIter=406  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #406:
+  CurrentEF: 6498.64563016801
+  Optimization variables:
+    C1.C = 1.189374072120138e-12
+    C2.C = 17.48518146463783e-12
+    L1.L = 10.33778604584233e-09
+    L2.L = 56.05018485525725e-09
+    L3.L = 40.80564701684552e-09
+
+SP Optim1[1].SP1[426] <TutorialTemplate_lib:BPF:schematic>  optIter=426  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #426:
+  CurrentEF: 6480.06713557131
+  Optimization variables:
+    C1.C = 1.18438568716279e-12
+    C2.C = 17.51488475135868e-12
+    L1.L = 10.01209546194032e-09
+    L2.L = 55.72669242799638e-09
+    L3.L = 40.56277644990763e-09
+
+SP Optim1[1].SP1[534] <TutorialTemplate_lib:BPF:schematic>  optIter=534  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #534:
+  CurrentEF: 6469.26657751118
+  Optimization variables:
+    C1.C = 1.14718199554901e-12
+    C2.C = 17.51706871706619e-12
+    L1.L = 10.04684689546964e-09
+    L2.L = 55.63267048729107e-09
+    L3.L = 41.27244431515349e-09
+
+SP Optim1[1].SP1[857] <TutorialTemplate_lib:BPF:schematic>  optIter=857  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #857:
+  CurrentEF: 6452.4366254217
+  Optimization variables:
+    C1.C = 1.019964807166006e-12
+    C2.C = 17.5685081950043e-12
+    L1.L = 10.02215468740446e-09
+    L2.L = 55.08818091810112e-09
+    L3.L = 41.05896569146792e-09
+
+SP Optim1[1].SP1[887] <TutorialTemplate_lib:BPF:schematic>  optIter=887  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #887:
+  CurrentEF: 6450.86094424042
+  Optimization variables:
+    C1.C = 1.008200012540048e-12
+    C2.C = 17.57072112389846e-12
+    L1.L = 10.02641014349934e-09
+    L2.L = 55.10348458735781e-09
+    L3.L = 41.03194682245277e-09
+
+SP Optim1[1].SP1[1018] <TutorialTemplate_lib:BPF:schematic>  optIter=1018  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #1018:
+  CurrentEF: 6446.43599092592
+  Optimization variables:
+    C1.C = 1.022736062335879e-12
+    C2.C = 17.57202130510361e-12
+    L1.L = 10.13161117471822e-09
+    L2.L = 55.21976411715799e-09
+    L3.L = 41.08359387210506e-09
+
+SP Optim1[1].SP1[1099] <TutorialTemplate_lib:BPF:schematic>  optIter=1099  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #1099:
+  CurrentEF: 6425.44467240687
+  Optimization variables:
+    C1.C = 1.019426062167298e-12
+    C2.C = 17.72734083695189e-12
+    L1.L = 10.54615378599646e-09
+    L2.L = 55.86728029546029e-09
+    L3.L = 40.43908984276932e-09
+
+SP Optim1[1].SP1[1120] <TutorialTemplate_lib:BPF:schematic>  optIter=1120  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #1120:
+  CurrentEF: 6423.3490017518
+  Optimization variables:
+    C1.C = 1.00468569400307e-12
+    C2.C = 17.70189154481089e-12
+    L1.L = 10.50650826209874e-09
+    L2.L = 56.07379195907101e-09
+    L3.L = 39.51795627498327e-09
+
+SP Optim1[1].SP1[1324] <TutorialTemplate_lib:BPF:schematic>  optIter=1324  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #1324:
+  CurrentEF: 6414.71798258164
+  Optimization variables:
+    C1.C = 1.004164954831464e-12
+    C2.C = 17.69311815701714e-12
+    L1.L = 10.16680438750984e-09
+    L2.L = 55.71782055458846e-09
+    L3.L = 39.81066296724252e-09
+
+SP Optim1[1].SP1[1340] <TutorialTemplate_lib:BPF:schematic>  optIter=1340  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #1340:
+  CurrentEF: 6403.64340884012
+  Optimization variables:
+    C1.C = 1.002415037820367e-12
+    C2.C = 17.69865647553967e-12
+    L1.L = 10.08784296889944e-09
+    L2.L = 55.81756727302742e-09
+    L3.L = 40.01775042687659e-09
+
+SP Optim1[1].SP1[1482] <TutorialTemplate_lib:BPF:schematic>  optIter=1482  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #1482:
+  CurrentEF: 6403.48446965925
+  Optimization variables:
+    C1.C = 1.014354756776173e-12
+    C2.C = 17.73733044119093e-12
+    L1.L = 10.12104692391586e-09
+    L2.L = 55.98294641329502e-09
+    L3.L = 40.16539470493784e-09
+
+SP Optim1[1].SP1[1495] <TutorialTemplate_lib:BPF:schematic>  optIter=1495  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #1495:
+  CurrentEF: 6398.29655030368
+  Optimization variables:
+    C1.C = 1.015559142813026e-12
+    C2.C = 17.74932946406528e-12
+    L1.L = 10.0335962157942e-09
+    L2.L = 55.89243229059599e-09
+    L3.L = 40.30569436367075e-09
+
+SP Optim1[1].SP1[1599] <TutorialTemplate_lib:BPF:schematic>  optIter=1599  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #1599:
+  CurrentEF: 6397.29596019955
+  Optimization variables:
+    C1.C = 1.018727954672256e-12
+    C2.C = 17.82578183746948e-12
+    L1.L = 10.25361487013905e-09
+    L2.L = 55.23872947358217e-09
+    L3.L = 40.45748420352275e-09
+
+SP Optim1[1].SP1[1602] <TutorialTemplate_lib:BPF:schematic>  optIter=1602  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #1602:
+  CurrentEF: 6396.29685282545
+  Optimization variables:
+    C1.C = 1.012114590262856e-12
+    C2.C = 17.84393421327478e-12
+    L1.L = 10.29257545144872e-09
+    L2.L = 55.00599184510747e-09
+    L3.L = 40.55236537303073e-09
+
+SP Optim1[1].SP1[1769] <TutorialTemplate_lib:BPF:schematic>  optIter=1769  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #1769:
+  CurrentEF: 6381.811448648
+  Optimization variables:
+    C1.C = 1.003729908372717e-12
+    C2.C = 17.82581551847387e-12
+    L1.L = 10.00920062190793e-09
+    L2.L = 55.04711178743263e-09
+    L3.L = 40.67656419224666e-09
+
+SP Optim1[1].SP1[2247] <TutorialTemplate_lib:BPF:schematic>  optIter=2247  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #2247:
+  CurrentEF: 6380.8116077147
+  Optimization variables:
+    C1.C = 1.002753083699201e-12
+    C2.C = 17.83809639959606e-12
+    L1.L = 10.00950420179149e-09
+    L2.L = 54.93421896522776e-09
+    L3.L = 40.52301729696188e-09
+
+SP Optim1[1].SP1[3256] <TutorialTemplate_lib:BPF:schematic>  optIter=3256  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #3256:
+  CurrentEF: 6380.10534032566
+  Optimization variables:
+    C1.C = 1.001263380771814e-12
+    C2.C = 17.85249537525535e-12
+    L1.L = 10.0117081883636e-09
+    L2.L = 55.21421083894283e-09
+    L3.L = 40.17318213161633e-09
+Optim1[1] reached the iteration limit. 
+
+Resource usage:
+  Total stopwatch time     =   422.23 seconds.
+

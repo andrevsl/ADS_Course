@@ -1,0 +1,9 @@
+BEGIN_SUBSTRATE
+2 __SubstrateLayer1
+1 __SubstrateLayer3
+0 top
+END_SUBSTRATE
+BEGIN_MASK
+4 RF
+2 Patch
+END_MASK

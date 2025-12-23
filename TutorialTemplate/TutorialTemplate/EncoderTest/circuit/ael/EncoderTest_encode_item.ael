@@ -1,0 +1,17 @@
+create_item("Design_1_withQschematic",		//Name
+		"Design_1_withQschematic - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"EncoderTest\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"Design_1_withQschematic",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+);
+

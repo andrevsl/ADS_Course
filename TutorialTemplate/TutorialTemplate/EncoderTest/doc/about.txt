@@ -1,0 +1,5 @@
+Name: EncoderTest
+Version: 1
+Date: Sat Dec 20 18:03:32 2025
+Description: Teste
+Revision: Initial revision

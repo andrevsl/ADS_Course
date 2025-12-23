@@ -1,0 +1,16 @@
+<emDataViewOptions>
+  <version major="1" minor="2"/>
+  <Options enforcePassivity="DuringExtrapolation" extrapolationMode="Linear"/>
+  <cellParameters useInterpolation="no">
+    <parameters>
+      <cellParameter resolution="0.0001 mm" delta="0.15 mm" name="w4"/>
+      <cellParameter resolution="0.0001 mm" delta="0.15 mm" name="w3"/>
+      <cellParameter resolution="0.0001 mm" delta="0.15 mm" name="w2"/>
+      <cellParameter resolution="0.0001 mm" delta="0.15 mm" name="w1"/>
+      <cellParameter resolution="0.0001 mm" delta="0.15 mm" name="wo3"/>
+      <cellParameter resolution="0.0001 mm" delta="0.15 mm" name="wo2"/>
+      <cellParameter resolution="0.0001 mm" delta="0.15 mm" name="wo1"/>
+      <cellParameter resolution="0.0001 mm" delta="0.15 mm" name="len"/>
+    </parameters>
+  </cellParameters>
+</emDataViewOptions>

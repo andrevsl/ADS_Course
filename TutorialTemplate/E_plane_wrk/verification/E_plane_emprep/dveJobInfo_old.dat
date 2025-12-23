@@ -1,0 +1,5 @@
+jobName=E_plane_emprep
+jobType=emprep
+designName=E_plane
+ruleFilePath=
+addInfo="EM preprocessor messages displayed as DRC errors"

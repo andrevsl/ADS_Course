@@ -1,0 +1,5 @@
+MainWindow279.SelectedTreeItemIndex = 3
+MainWindow279.SelectedTreeItemIndex = 2
+MainWindow279.SelectedTreeItemIndex = 1
+MainWindow279.SelectedTreeItemIndex = 5
+MainWindow279.SelectedTreeItemIndex = 0

@@ -1,0 +1,19 @@
+<!DOCTYPE Substrate>
+<SubstrateModel>
+    <stack>
+        <material materialname="AIR"/>
+        <interface materialname="PERFECT_CONDUCTOR" thick="0" thickunit="micron" groundplane="1"/>
+        <material materialname="duroid_0" thick="31" thickunit="mil"/>
+        <interface materialname="" thick="0" thickunit="micron"/>
+        <material materialname="duroid_1" thick="31" thickunit="mil"/>
+        <interface materialname="PERFECT_CONDUCTOR" thick="0" thickunit="micron" groundplane="1"/>
+        <material materialname="AIR"/>
+    </stack>
+    <layers>
+        <layer materialname="PERFECT_CONDUCTOR" toprough="" bottomrough="" thick="0" precedence="0" sheet="1" thickunit="millimeter" layer="1" negative="0" subtype="0" expand="0" index="1"/>
+    </layers>
+    <vias>
+        <via materialname="PERFECT_CONDUCTOR" rough="" index1="0" index2="1" precedence="0" layer="3" subtype="0"/>
+    </vias>
+    <substrates/>
+</SubstrateModel>

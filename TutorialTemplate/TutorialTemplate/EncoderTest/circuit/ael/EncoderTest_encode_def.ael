@@ -1,0 +1,16 @@
+decl dir_delim = "/";
+decl EncoderTest_bitmap_path =
+        strcat(EncoderTest_PATH, dir_delim,
+        "circuit", dir_delim, 
+        "bitmaps", dir_delim); 
+de_define_palette_group( SCHEM_WIN, "analogRF_net",
+        "EncoderTest", "EncoderTest", -2,
+        "Design_1_withQschematic", "Encoded Version of Part - Design_1_withQschematic",
+                strcat( EncoderTest_bitmap_path, "Design_1_withQschematic")
+        );
+de_define_palette_group( SCHEM_WIN, "sigproc_net",
+        "EncoderTest", "EncoderTest", -2,
+         "Design_1_withQschematic", "Encoded Version of Part - Design_1_withQschematic", 
+                strcat( EncoderTest_bitmap_path, "Design_1_withQschematic")
+        );
+

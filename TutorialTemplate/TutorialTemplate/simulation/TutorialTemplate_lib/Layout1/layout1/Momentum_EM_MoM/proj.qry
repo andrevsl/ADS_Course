@@ -1,0 +1,16 @@
+#Momentum: B.2022.00.265 (*) built: Jul  2 2021 
+#Momentum Date and Time: Tue Dec 23 14:09:39 2025
+
+Overall database status : 1 (file present and valid)
+
+Frequency range : from 0.01386673948 GHz to 6 GHz.
+
+Requested frequency range : from 0.01386673948 GHz to 6 GHz.
+
+Individual status fields : (0 = FALSE, 1 = TRUE)
+ File exists             : 1
+ Substrates match        : 1
+ Frequency-range matches : 1
+
+Corresponding potentialpath : C:\Users\simucstvsl/
+Corresponding potentialname : C:\Users\simucstvsl\\substrates\0001.sdb

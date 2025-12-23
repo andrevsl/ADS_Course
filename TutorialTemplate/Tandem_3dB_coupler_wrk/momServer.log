@@ -1,0 +1,32 @@
+Momentum Server logfile: momServer.log
+
+EM Model generation from "Tandem_3dB_coupler_lib:Coupler3_8dB:emModel"
+  parameterNames = list("w4","w3","w2","w1","wo3","wo2","wo1","len","Substrate","MeshDensity")
+  parameterValues = list("0.00053","0.000871","0.00103","0.001139","0.00084","0.001251","0.001894","0.00991","definedInState","20")
+  topLevel design name = "Tandem_3dB_coupler_lib:Coupler3_3dB_EMCo:schematic"
+  instance name = "X1.em_data"
+  processID = "1180@CND1245K1B"
+  visible = TRUE
+Connected to external process by processID
+..handle = 17
+..pid = 1180@CND1245K1B
+..name = hpeesofsim
+Creating work design Tandem_3dB_coupler_lib:Coupler3_3dB_EMCo:layout_hpeesofsim
+..new work design opened
+..inserting instance of Tandem_3dB_coupler_lib:Coupler3_8dB:layout
+..adding pins to the instance pins
+..copying port setup
+Successfully created the work design
+Starting EM simulation for design: Tandem_3dB_coupler_lib:Coupler3_3dB_EMCo:layout_hpeesofsim
+  Contains instance of : Tandem_3dB_coupler_lib:Coupler3_8dB:layout
+  EM setup view name   : emSetup_hpeesofsim
+  EM model view name   : emModel
+..disable simulation log popup
+..simulation M110825154936 started
+..simulation M110825154936 ended
+EM simulation finished successfully
+..new data added to EM model view
+..deleting layout_hpeesofsim view for work design
+..deleting emSetup_hpeesofsim view for work design
+..deleting simulation directory for work design
+..sending DONE to parent

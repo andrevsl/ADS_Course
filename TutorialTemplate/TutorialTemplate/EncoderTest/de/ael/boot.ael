@@ -1,0 +1,20 @@
+/* ---------------------------------------------------------------------------+/
+FILE            :    boot.ael
+This file controls the loading of the design kit.
+The value of variable designKitRecord is picked up from the eesof_lib.cfg file.
+/+-----------------------------------------------------------------------------*/
+
+// Read values from eesof_lib.cfg file.
+decl EncoderTest_NAME = designKitRecord[0];
+decl EncoderTest_PATH = designKitRecord[1];
+decl EncoderTest_BOOT = designKitRecord[2];
+decl EncoderTest_VER  = designKitRecord[3];
+
+decl EncoderTest_BITMAP_DIR = sprintf("%s/circuit/bitmaps/", EncoderTest_PATH);
+decl EncoderTest_CIRCUIT_AEL_DIR = sprintf("%s/circuit/ael/", EncoderTest_PATH);
+decl EncoderTest_CIRCUIT_MODEL_DIR = sprintf("%s/circuit/models/", EncoderTest_PATH);
+decl EncoderTest_DE_AEL_DIR = sprintf("%s/de/ael/", EncoderTest_PATH);
+
+// Load the circuit/ael files
+load(strcat(EncoderTest_PATH,"circuit/ael/EncoderTest_encode_item"));
+load(strcat(EncoderTest_PATH,"circuit/ael/EncoderTest_encode_def"));

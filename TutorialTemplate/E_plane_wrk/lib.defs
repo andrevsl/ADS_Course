@@ -1,0 +1,3 @@
+INCLUDE $HPEESOF_DIR/oalibs/ads.defs
+DEFINE E_plane_lib E_plane_lib
+ASSIGN E_plane_lib libMode shared

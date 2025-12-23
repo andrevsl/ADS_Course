@@ -1,0 +1,24 @@
+<!DOCTYPE Substrate>
+<SubstrateModel>
+    <stack>
+        <material materialname="AIR"/>
+        <interface materialname="PERFECT_CONDUCTOR" thick="5" thickunit="millimeter" groundplane="1"/>
+        <material materialname="Rogers_RT_Duroid5880" thick="31" thickunit="mil"/>
+        <interface materialname="" thick="0" thickunit="micron"/>
+        <material materialname="Rogers_RT_Duroid5880" thick="5" thickunit="mil"/>
+        <interface materialname="" thick="0" thickunit="millimeter"/>
+        <material materialname="Rogers_RT_Duroid5880" thick="31" thickunit="mil"/>
+        <interface materialname="PERFECT_CONDUCTOR" thick="5" thickunit="millimeter" groundplane="1"/>
+        <material materialname="AIR"/>
+    </stack>
+    <layers>
+        <layer materialname="PERFECT_CONDUCTOR" toprough="" pinsOnly="0" bottomrough="" thick="2" precedence="1" sheet="1" thickunit="micron" layer="1" negative="0" subtype="0" expand="0" index="1"/>
+        <layer materialname="PERFECT_CONDUCTOR" toprough="" pinsOnly="0" bottomrough="" thick="2" precedence="0" sheet="1" thickunit="micron" layer="2" negative="0" subtype="0" expand="0" index="2"/>
+    </layers>
+    <vias>
+        <via materialname="PERFECT_CONDUCTOR" rough="" index1="2" index2="3" precedence="0" layer="16" subtype="0"/>
+        <via materialname="PERFECT_CONDUCTOR" rough="" index1="1" index2="2" precedence="0" layer="17" subtype="0"/>
+        <via materialname="PERFECT_CONDUCTOR" rough="" index1="0" index2="1" precedence="0" layer="18" subtype="0"/>
+    </vias>
+    <substrates/>
+</SubstrateModel>

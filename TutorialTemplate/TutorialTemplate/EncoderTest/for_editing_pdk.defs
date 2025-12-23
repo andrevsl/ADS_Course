@@ -1,0 +1,6 @@
+# Library Defs for EncoderTest design kit
+# Remove this from the design kit before distributing to customers.
+DEFINE EncoderTest_tech ./EncoderTest_tech
+ASSIGN EncoderTest_tech libMode shared
+DEFINE EncoderTest ./EncoderTest
+ASSIGN EncoderTest libMode shared

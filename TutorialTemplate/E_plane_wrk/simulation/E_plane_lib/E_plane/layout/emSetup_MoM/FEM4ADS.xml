@@ -1,0 +1,33 @@
+<!DOCTYPE EMViewerXML>
+<Visualization>
+ <Materials>
+  <material red="0.792156862745098" blue="1" name="__TOP" green="0.8823529411764706" />
+  <material red="0.2549019607843137" blue="0.8823529411764706" name="Patch" green="0.4117647058823529" />
+  <material red="0.792156862745098" blue="1" name="__SubstrateLayer3___SubstrateLayer1" green="0.8823529411764706" />
+  <material red="1" blue="0" name="RF" green="0.6470588235294118" />
+  <material red="0" blue="0.7529411764705882" name="closed_bottom" green="0" />
+ </Materials>
+ <Objects>
+  <object opaque="0" solid="0" visible="1" red="0.792156862745098" blue="1" name="__SubstrateLayer3___SubstrateLayer1_2" green="0.8823529411764706" />
+  <object opaque="0" solid="0" visible="1" red="0.792156862745098" blue="1" name="__TOP_2" green="0.8823529411764706" />
+  <object opaque="70" solid="0" visible="1" red="0" blue="0.7529411764705882" name="closed_bottom_2" green="0" />
+  <object opaque="0" solid="0" visible="1" red="1" blue="0" name="RF_5" green="0.6470588235294118" />
+  <object opaque="0" solid="0" visible="1" red="1" blue="0" name="RF_4" green="0.6470588235294118" />
+  <object opaque="0" solid="0" visible="1" red="1" blue="0" name="RF_3" green="0.6470588235294118" />
+  <object opaque="0" solid="0" visible="1" red="1" blue="0" name="RF_2" green="0.6470588235294118" />
+  <object opaque="0" solid="0" visible="1" red="0.2549019607843137" blue="0.8823529411764706" name="Patch_5" green="0.4117647058823529" />
+  <object opaque="0" solid="0" visible="1" red="0.2549019607843137" blue="0.8823529411764706" name="Patch_4" green="0.4117647058823529" />
+  <object opaque="0" solid="0" visible="1" red="0.2549019607843137" blue="0.8823529411764706" name="Patch_3" green="0.4117647058823529" />
+  <object opaque="0" solid="0" visible="1" red="0.2549019607843137" blue="0.8823529411764706" name="Patch_2" green="0.4117647058823529" />
+ </Objects>
+ <Planes/>
+ <Camera>
+  <Position x="11642.7" y="3843.91" z="5062.87" />
+  <Target x="6642.85" y="8843.78" z="63" />
+  <Up x="-0.40825" y="0.40825" z="0.8165" />
+  <Size width="3464.01" height="3464.01" />
+  <Top_Color red="0" blue="0" green="0" />
+  <Bottom_Color red="0" blue="0" green="0" />
+  <Background shadow="0" />
+ </Camera>
+</Visualization>

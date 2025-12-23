@@ -1,0 +1,10 @@
+<!DOCTYPE Materials>
+<Materials>
+    <Conductors/>
+    <Dielectrics>
+        <Dielectric loss_type="0" mur_real="1" lowfreq="" valuefreq="" er_imag="" highfreq="" er_loss="0.0001" name="duroid_1" er_real="2.2" mur_imag="0"/>
+        <Dielectric loss_type="0" mur_real="1" lowfreq="" valuefreq="" er_imag="" highfreq="" er_loss="0.0001" name="duroid_0" er_real="2.2" mur_imag="0"/>
+    </Dielectrics>
+    <Semiconductors/>
+    <roughness/>
+</Materials>

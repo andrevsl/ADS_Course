@@ -1,0 +1,20 @@
+<!DOCTYPE Substrate>
+<SubstrateModel>
+    <stack BAL_NUM="0" BAL_TYPE="NONE">
+        <material BAL_NUM="0" materialname="AIR" BAL_TYPE="INHERIT"/>
+        <interface thick="5" thickunit="millimeter" BAL_NUM="0" groundplane="1" materialname="PERFECT_CONDUCTOR" BAL_TYPE="NONE"/>
+        <material thick="31" thickunit="mil" BAL_NUM="0" materialname="Rogers_RT_Duroid5880" BAL_TYPE="INHERIT"/>
+        <interface thick="" thickunit="micron" BAL_NUM="0" materialname="" BAL_TYPE="INHERIT"/>
+        <material thick="5" thickunit="mil" BAL_NUM="0" materialname="Rogers_RT_Duroid5880" BAL_TYPE="INHERIT"/>
+        <interface thick="" thickunit="millimeter" BAL_NUM="0" materialname="" BAL_TYPE="INHERIT"/>
+        <material thick="31" thickunit="mil" BAL_NUM="0" materialname="Rogers_RT_Duroid5880" BAL_TYPE="INHERIT"/>
+        <interface thick="5" thickunit="millimeter" BAL_NUM="0" groundplane="1" materialname="PERFECT_CONDUCTOR" BAL_TYPE="NONE"/>
+        <material BAL_NUM="0" materialname="AIR" BAL_TYPE="INHERIT"/>
+    </stack>
+    <layers>
+        <layer thick="2" index="1" pinsOnly="0" negative="0" thickunit="micron" sheet="1" angle="90" expand="0" bottomrough="" layer="1" materialname="PERFECT_CONDUCTOR" toprough="" subtype="0" precedence="1" processRole="1"/>
+        <layer thick="2" index="2" pinsOnly="0" negative="0" thickunit="micron" sheet="1" angle="90" expand="0" bottomrough="" layer="2" materialname="PERFECT_CONDUCTOR" toprough="" subtype="0" precedence="0" processRole="1"/>
+    </layers>
+    <vias/>
+    <substrates/>
+</SubstrateModel>

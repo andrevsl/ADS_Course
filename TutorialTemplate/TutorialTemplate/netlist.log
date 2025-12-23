@@ -1,27 +1,29 @@
-; Top Design: "TutorialTemplate_lib:Test_Bench_Filter_Design_1_MC:schematic"
+; Top Design: "TutorialTemplate_lib:Test_Bench_Filter_Design_1:schematic"
 ; Netlisted using Hierarchy Policy: "Standard"
 
-Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=yes TopDesignName="TutorialTemplate_lib:Test_Bench_Filter_Design_1_MC:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="TutorialTemplate_lib:Test_Bench_Filter_Design_1:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
 ; Library Name: TutorialTemplate_lib
-; Cell Name: Design_1_MC
-; View Name: schematic
-define Design_1_MC ( P1  P2 ) 
-;parameters 
-L:L1  N__0 N__9 L=41.46 nH tune{ 10 nH to 1200 nH by 8 nH } opt{ 10 nH to 150 nH } stat{ gauss +/- 3.73 nH } Noise=yes  
-L:L2  N__9 P2 L=67.38 nH tune{ 10 nH to 1500 nH by 10 nH } opt{ 10 nH to 120 nH } stat{ gauss +/- 1.6 nH } Noise=yes  
-L:L3  P1 N__0 L=34.03 nH tune{ 10 nH to 1500 nH by 10 nH } opt{ 10 nH to 159 nH } stat{ gauss +/- 2.31 nH } Noise=yes  
-C:C1  N__0 0 C=22.06 pF tune{ 1 pF to 150 pF by 1 pF } opt{ 1 pF to 56.13 pF } stat{ gauss +/- 0.976 pF } 
-C:C2  N__9 0 C=24.09 pF tune{ 1 pF to 150 pF by 1 pF } opt{ 1 pF to 15 pF } stat{ gauss +/- 0.75 pF } 
-end Design_1_MC
+; Cell Name: Design_1
+; View Name: schematicQschematic
+define Design_1 ( P1  P2 ) 
+parameters  L1=41  C1=22 
+#uselib "ckt" , "INDQ_Z"
+INDQ_Z:L1  N__0 N__9 L=67.38 nH tune{ 10 nH to 1200 nH by 8 nH } opt{ 10 nH to 150 nH } Q=15 F=100.0 MHz Mode=1 Rdc=0.0 Ohm 
+#uselib "ckt" , "INDQ_Z"
+INDQ_Z:L2  N__9 P2 L=34.03 nH tune{ 10 nH to 1500 nH by 10 nH } opt{ 10 nH to 120 nH } Q=15 F=100.0 MHz Mode=1 Rdc=0.0 Ohm 
+#uselib "ckt" , "INDQ_Z"
+INDQ_Z:L3  P1 N__0 L=L1 nH Q=15 F=100.0 MHz Mode=1 Rdc=0.0 Ohm 
+CAPQ:C1  N__0 0 C=C1 pF Q=100 F=100.0 MHz Mode=1 
+CAPQ:C2  N__9 0 C=24 pF tune{ 1 pF to 150 pF by 1 pF } opt{ 1 pF to 15 pF } Q=100 F=100.0 MHz Mode=1 
+end Design_1
 
-Design_1_MC:X1  N__1 N__0 
-S_Param:SP1 CalcS=yes CalcY=no CalcZ=no CalcGroupDelay=yes GroupDelayAperture=1e-4 \
+S_Param:SP2 CalcS=yes CalcY=no CalcZ=no CalcGroupDelay=yes GroupDelayAperture=1e-4 \
 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
-SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+SweepVar="freq" SweepPlan="SP2_stim" OutputPlan="SP2_Output" 
 
-SweepPlan: SP1_stim Start=0.01 GHz Stop=0.5 GHz Lin=101 
+SweepPlan: SP2_stim Start=0.01 GHz Stop=0.5 GHz Lin=101 
 
-OutputPlan:SP1_Output \
+OutputPlan:SP2_Output \
       Type="Output" \
       UseEquationNestLevel=yes \
       EquationNestLevel=2 \
@@ -30,8 +32,24 @@ OutputPlan:SP1_Output \
 
 #load "python","LinearCollapse"
 Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
-Port:TermG1  N__1 0 Num=1 Z=50 Ohm Noise=yes 
-Port:TermG2  N__0 0 Num=2 Z=50 Ohm Noise=yes 
-YieldSpec:Spec1  Expr="dB(S(2,1))" SimInstanceName="SP1" Min=-1 RangeVar[1]="freq" RangeMin[1]=0.01 GHz RangeMax[1]=0.2 GHz 
-Yield:Yield1  NumIters=250 MaxTrials=1000 PPT_Mode="none" ShadowModelType="none" SaveSolns=yes SaveSpecs=no SaveRandVars=no UpdateDataset=no SaveAllIterations=yes UseAllSpecs=yes StatusLevel=2 Enable=yes StartTrial=0 StopTrial=-1 StatVariations=yes ProcessVariations=yes MismatchVariations=no 
-YieldSpec:Spec3  Expr="dB(S(2,1))" SimInstanceName="SP1" Max=-25 RangeVar[1]="freq" RangeMin[1]=0.35 GHz RangeMax[1]=0.5 GHz 
+
+Optim:"Optim1" OptimType="random" ErrorForm="L2" MaxIters=5000 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="None" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=no UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=yes UseAllGoals=yes SaveCurrentEF=no InitialTempControlMode=0 SANumTrialsPerIter=10 NumShootsPerIter=20 SATempControlAlpha=0.8 EnableCockpit=yes NormalizeError=yes SaveAllTrials=no UseAdvTermCriteria=no CostRelativeTol=1.0e-8 LimitOfContSmallImprovement=5 
+
+
+myC=22
+myL=41
+OptimGoal:OptimGoal3 Expr="dB(S(1,1))" SimInstanceName="SP1" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal3_limit1" 
+SpecLimitLine:"OptimGoal3_limit1" Type="LessThan" Max=-15 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=10 MHz IndepMax[1]=200 MHz 
+OptimGoal:OptimGoal1 Expr="dB(S(2,1))" SimInstanceName="SP1" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal1_limit1" SpecLimitLine[2]="OptimGoal1_limit2" 
+SpecLimitLine:"OptimGoal1_limit1" Type="GreaterThan" Min=-1 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=10 MHz IndepMax[1]=200 MHz 
+SpecLimitLine:"OptimGoal1_limit2" Type="LessThan" Max=-25 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=350 MHz IndepMax[1]=500 MHz 
+Design_1:X6  N__16 N__17 L1=41 C1=22 
+Port:TermG1  N__16 0 Num=1 Z=50 Ohm Noise=yes 
+Port:TermG2  N__17 0 Num=2 Z=50 Ohm Noise=yes 

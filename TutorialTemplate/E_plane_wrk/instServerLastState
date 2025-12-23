@@ -1,0 +1,30 @@
+instrument File
+readWriteIndex 0
+nwaDataFormatIndex 2
+nwaDataLocationIndex 1
+nwaDataTypeReadIndex 0
+nwaDataTypeWriteIndex 0
+nwaAddress 16
+saTraceReadIndex 0
+saTraceWriteIndex 0
+saAddress 18
+oscTraceReadIndex 0
+oscTraceWriteIndex 0
+oscAddress 10
+mtaTraceReadIndex 0
+mtaTraceWriteIndex 0
+mtaXaxisReadIndex 0
+mtaXaxisWriteIndex 0
+mtaAddress 19
+hpibDriverType HP_hpib
+hpibSymbolicName hpib
+statusLogToggle 1
+datasetName
+variableName
+fileFormatReadIndex 0
+fileFormatWriteIndex 0
+fileType Touchstone
+MDIFSubFileWriteIndex 0
+MDIFSubFileReadIndex 0
+fileDigitsIndex 9
+complexTypeIndex 0

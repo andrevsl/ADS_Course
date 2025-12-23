@@ -1,0 +1,580 @@
+Loading Data from C:\Users\simucstvsl\ADSCourse\TutorialTemplate\TutorialTemplate\simulation\TutorialTemplate_lib\Mline\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design\design.sat
+Load ACIS file
+  acis version = ACIS 31.0 NT
+  product = Keysight Technologies
+  errmsg = success
+  entlist.count() = 5
+  Unit is  = 1
+removing transformation
+BODY 0 with transformation: scaling=1, translation=(25, 0, -5)
+BODY 1 with transformation: scaling=1, translation=(0, 0, 0)
+  Body transf not removed as not necessary  1
+BODY 2 with transformation: scaling=1, translation=(0, 0, 0.80000000000000004)
+BODY 3 with transformation: scaling=1, translation=(0, 0, 0)
+  Body transf not removed as not necessary  3
+BODY 4 with transformation: scaling=1, translation=(25.000000000000004, 0, 0.40000000000000036)
+separating bodies
+Entity 0,name=Simulation box, bb=(-3.1250000000000036,-13.125000000000002,-5)->(53.125,13.125000000000002,5.8000000000000007)
+Entity 1,name=fr4custom, bb=(-3.125,-13.125000000000002,0)->(53.125000000000007,13.125000000000002,0.80000000000000004)
+Entity 2,name=, bb=(0,-0.75,0.80000000000000004)->(50,0.75,0.80000000000000004)
+Entity 3,name=, bb=(0,-10,0)->(50,10,0)
+Entity 4,name=*unknown*, bb=(-3.125,-13.125000000000002,-5)->(53.125000000000007,13.125000000000002,5.8000000000000007)
+Creating Topology
+Analyzing Topology
+Merged Objects with same material: merged 5 objects into 5 objects.
+ Current Process: Cleaning topologyObjects Combined
+Creating Mesh
+Restricting h (face curvature)
+Restricting h (face curvature)
+
+Line meshing completed:
+Mesh overview:
+  Vertices: 177
+  Edges:    189
+  Surfaces: 0
+  Volumes:  0
+
+Smaller local tree being used
+
+Surface meshing completed:
+Mesh overview:
+  Vertices: 362
+  Edges:    189
+  Surfaces: 783
+  Volumes:  0
+
+Surface optimization:
+  All faces planar: 1
+  All edges straight: 1
+totalActionsTaken = 1158
+
+2D optimization completed:
+Mesh overview:
+  Vertices: 362
+  Edges:    189
+  Surfaces: 783
+  Volumes:  0
+
+ Optimized Face 17 / 17
+
+Surface meshing completed:
+Mesh overview:
+  Vertices: 305
+  Edges:    189
+  Surfaces: 669
+  Volumes:  0
+
+Starting volume meshing:
+Mesh overview:
+  Vertices: 305
+  Edges:    189
+  Surfaces: 669
+  Volumes:  0
+blockfill local h
+rel filldist = 0.10000000000000001
+
+
+
+Points:           356
+Volume Elements:  1472
+39 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 256
+0.05 -  0.1: 81
+ 0.1 - 0.15: 63
+0.15 -  0.2: 74
+ 0.2 - 0.25: 78
+0.25 -  0.3: 93
+ 0.3 - 0.35: 108
+0.35 -  0.4: 97
+ 0.4 - 0.45: 113
+0.45 -  0.5: 96
+ 0.5 - 0.55: 87
+0.55 -  0.6: 75
+ 0.6 - 0.65: 61
+0.65 -  0.7: 53
+ 0.7 - 0.75: 46
+0.75 -  0.8: 35
+ 0.8 - 0.85: 34
+0.85 -  0.9: 13
+ 0.9 - 0.95: 5
+0.95 -    1: 4
+total error: 3.9e+11
+free: 879, fixed: 593
+
+Start SwapImprove
+free: 469, fixed: 950
+
+Start SwapImprove
+
+
+Points:           356
+Volume Elements:  1411
+39 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 256
+0.05 -  0.1: 85
+ 0.1 - 0.15: 76
+0.15 -  0.2: 62
+ 0.2 - 0.25: 79
+0.25 -  0.3: 80
+ 0.3 - 0.35: 97
+0.35 -  0.4: 82
+ 0.4 - 0.45: 101
+0.45 -  0.5: 78
+ 0.5 - 0.55: 73
+0.55 -  0.6: 74
+ 0.6 - 0.65: 66
+0.65 -  0.7: 51
+ 0.7 - 0.75: 53
+0.75 -  0.8: 36
+ 0.8 - 0.85: 42
+0.85 -  0.9: 11
+ 0.9 - 0.95: 6
+0.95 -    1: 3
+total error: 3.9e+11
+   0 times used rule Free Tetrahedron
+  25 times used rule Tetrahedron 60
+   8 times used rule Tetrahedron 60 with edge(1)
+   0 times used rule Tetrahedron Vis a Vis Point (1)
+   0 times used rule Tetrahedron Vis a Vis Point with edge(1)
+   9 times used rule Tetrahedron Vis a Vis Point with 2 edges (1)
+  21 times used rule Tetrahedron Vis a Vis Point with 3 edges (1)
+   0 times used rule Tetrahedron Vis a Vis Triangle (1)
+   0 times used rule Octaeder 1
+   0 times used rule Octaeder 2
+   0 times used rule Octaeder 2a
+   0 times used rule Pyramid 1
+   6 times used rule Tetrahedron 2 times 60
+   0 times used rule Fill Tetrahedron (1)
+   0 times used rule Tetrahedron 120 (1)
+   0 times used rule Tetrahedron 2 times 120 (1)
+   0 times used rule four Tetrahedron non convex (4)
+   0 times used rule five Tetrahedron non convex (4)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule three Tetrahedron non convex (4)
+   0 times used rule three Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule Tetrahedron 2 in 60 (12)
+   0 times used rule Tetrahedron 120: but more than 180 (13)
+   0 times used rule Free Tetrahedron (14)
+   0 times used rule Free Tetrahedron (15)
+blockfill local h
+rel filldist = 0.1
+
+
+
+Points:           360
+Volume Elements:  1117
+19 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 194
+0.05 -  0.1: 49
+ 0.1 - 0.15: 37
+0.15 -  0.2: 25
+ 0.2 - 0.25: 42
+0.25 -  0.3: 49
+ 0.3 - 0.35: 49
+0.35 -  0.4: 46
+ 0.4 - 0.45: 55
+0.45 -  0.5: 59
+ 0.5 - 0.55: 69
+0.55 -  0.6: 56
+ 0.6 - 0.65: 68
+0.65 -  0.7: 79
+ 0.7 - 0.75: 79
+0.75 -  0.8: 57
+ 0.8 - 0.85: 48
+0.85 -  0.9: 32
+ 0.9 - 0.95: 15
+0.95 -    1: 9
+total error: 1.9e+11
+free: 413, fixed: 704
+
+Start SwapImprove
+free: 123, fixed: 984
+
+Start SwapImprove
+
+
+Points:           360
+Volume Elements:  1107
+18 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 194
+0.05 -  0.1: 51
+ 0.1 - 0.15: 39
+0.15 -  0.2: 30
+ 0.2 - 0.25: 40
+0.25 -  0.3: 48
+ 0.3 - 0.35: 49
+0.35 -  0.4: 46
+ 0.4 - 0.45: 57
+0.45 -  0.5: 57
+ 0.5 - 0.55: 65
+0.55 -  0.6: 57
+ 0.6 - 0.65: 67
+0.65 -  0.7: 75
+ 0.7 - 0.75: 72
+0.75 -  0.8: 58
+ 0.8 - 0.85: 44
+0.85 -  0.9: 35
+ 0.9 - 0.95: 14
+0.95 -    1: 9
+total error: 1.8e+11
+   0 times used rule Free Tetrahedron
+  10 times used rule Tetrahedron 60
+  13 times used rule Tetrahedron 60 with edge(1)
+   0 times used rule Tetrahedron Vis a Vis Point (1)
+   0 times used rule Tetrahedron Vis a Vis Point with edge(1)
+   7 times used rule Tetrahedron Vis a Vis Point with 2 edges (1)
+   1 times used rule Tetrahedron Vis a Vis Point with 3 edges (1)
+   0 times used rule Tetrahedron Vis a Vis Triangle (1)
+   0 times used rule Octaeder 1
+   0 times used rule Octaeder 2
+   0 times used rule Octaeder 2a
+   0 times used rule Pyramid 1
+   1 times used rule Tetrahedron 2 times 60
+   0 times used rule Fill Tetrahedron (1)
+   2 times used rule Tetrahedron 120 (1)
+   0 times used rule Tetrahedron 2 times 120 (1)
+   1 times used rule four Tetrahedron non convex (4)
+   0 times used rule five Tetrahedron non convex (4)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule three Tetrahedron non convex (4)
+   0 times used rule three Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule Tetrahedron 2 in 60 (12)
+   0 times used rule Tetrahedron 120: but more than 180 (13)
+   0 times used rule Free Tetrahedron (14)
+   0 times used rule Free Tetrahedron (15)
+blockfill local h
+rel filldist = 0.1
+
+
+
+Points:           354
+Volume Elements:  976
+8 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 173
+0.05 -  0.1: 56
+ 0.1 - 0.15: 37
+0.15 -  0.2: 24
+ 0.2 - 0.25: 27
+0.25 -  0.3: 28
+ 0.3 - 0.35: 42
+0.35 -  0.4: 42
+ 0.4 - 0.45: 50
+0.45 -  0.5: 56
+ 0.5 - 0.55: 45
+0.55 -  0.6: 63
+ 0.6 - 0.65: 67
+0.65 -  0.7: 64
+ 0.7 - 0.75: 63
+0.75 -  0.8: 54
+ 0.8 - 0.85: 31
+0.85 -  0.9: 28
+ 0.9 - 0.95: 15
+0.95 -    1: 11
+total error: 8e+10
+free: 243, fixed: 733
+
+Start SwapImprove
+free: 110, fixed: 861
+
+Start SwapImprove
+
+
+Points:           354
+Volume Elements:  971
+8 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 171
+0.05 -  0.1: 60
+ 0.1 - 0.15: 33
+0.15 -  0.2: 23
+ 0.2 - 0.25: 35
+0.25 -  0.3: 27
+ 0.3 - 0.35: 38
+0.35 -  0.4: 47
+ 0.4 - 0.45: 46
+0.45 -  0.5: 56
+ 0.5 - 0.55: 41
+0.55 -  0.6: 66
+ 0.6 - 0.65: 63
+0.65 -  0.7: 65
+ 0.7 - 0.75: 61
+0.75 -  0.8: 54
+ 0.8 - 0.85: 31
+0.85 -  0.9: 28
+ 0.9 - 0.95: 15
+0.95 -    1: 11
+total error: 8e+10
+   0 times used rule Free Tetrahedron
+   8 times used rule Tetrahedron 60
+  12 times used rule Tetrahedron 60 with edge(1)
+   0 times used rule Tetrahedron Vis a Vis Point (1)
+   1 times used rule Tetrahedron Vis a Vis Point with edge(1)
+   7 times used rule Tetrahedron Vis a Vis Point with 2 edges (1)
+   7 times used rule Tetrahedron Vis a Vis Point with 3 edges (1)
+   0 times used rule Tetrahedron Vis a Vis Triangle (1)
+   0 times used rule Octaeder 1
+   0 times used rule Octaeder 2
+   0 times used rule Octaeder 2a
+   0 times used rule Pyramid 1
+   0 times used rule Tetrahedron 2 times 60
+   2 times used rule Fill Tetrahedron (1)
+   1 times used rule Tetrahedron 120 (1)
+   0 times used rule Tetrahedron 2 times 120 (1)
+   5 times used rule four Tetrahedron non convex (4)
+   0 times used rule five Tetrahedron non convex (4)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule three Tetrahedron non convex (4)
+   0 times used rule three Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule Tetrahedron 2 in 60 (12)
+   0 times used rule Tetrahedron 120: but more than 180 (13)
+   0 times used rule Free Tetrahedron (14)
+   0 times used rule Free Tetrahedron (15)
+Vol Meshing added
+  1207 tetrahedra through Delaunay tetrahedralization
+  86 tetrahedra through advancing front tetrahedralization
+  3 passes on advancing front tetrahedralization
+
+
+Points:           321
+Volume Elements:  1293
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 15
+0.05 -  0.1: 42
+ 0.1 - 0.15: 40
+0.15 -  0.2: 27
+ 0.2 - 0.25: 50
+0.25 -  0.3: 66
+ 0.3 - 0.35: 69
+0.35 -  0.4: 77
+ 0.4 - 0.45: 88
+0.45 -  0.5: 90
+ 0.5 - 0.55: 90
+0.55 -  0.6: 102
+ 0.6 - 0.65: 86
+0.65 -  0.7: 108
+ 0.7 - 0.75: 107
+0.75 -  0.8: 80
+ 0.8 - 0.85: 79
+0.85 -  0.9: 36
+ 0.9 - 0.95: 24
+0.95 -    1: 17
+total error: 3.9e+03
+
+Volume meshing completed:
+Mesh overview:
+  Vertices: 321
+  Edges:    189
+  Surfaces: 669
+  Volumes:  1293
+Start CombineImprove
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.3e-18
+illegal tet 906
+illegal tet 907
+illegal tet 908
+illegal tet 915
+illegal tet 910
+illegal tet 911
+illegal tet 912
+illegal tet 916
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 1285
+illegal tet 1288
+illegal tet 1289
+illegal tet 1291
+6 elements combined
+CombineImprove done
+Improve Mesh
+Total badness = 4.7e+03
+
+Total badness = 4614.9671
+start SplitImprove
+Total badness = 4614.9671
+Splitt - Improve done
+Total badness = 4560.1664
+Improve Mesh
+Total badness = 4560.1664
+
+Total badness = 4557.3442
+Improve Mesh
+Total badness = 4557.3442
+
+Total badness = 4556.5631
+
+
+Points:           316
+Volume Elements:  1269
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 14
+0.05 -  0.1: 39
+ 0.1 - 0.15: 31
+0.15 -  0.2: 22
+ 0.2 - 0.25: 49
+0.25 -  0.3: 53
+ 0.3 - 0.35: 68
+0.35 -  0.4: 70
+ 0.4 - 0.45: 90
+0.45 -  0.5: 102
+ 0.5 - 0.55: 96
+0.55 -  0.6: 106
+ 0.6 - 0.65: 77
+0.65 -  0.7: 105
+ 0.7 - 0.75: 106
+0.75 -  0.8: 83
+ 0.8 - 0.85: 78
+0.85 -  0.9: 38
+ 0.9 - 0.95: 26
+0.95 -    1: 16
+total error: 3.6e+03
+Start CombineImprove
+illegal tet 4
+illegal tet 10
+illegal tet 40
+illegal tet 191
+low volume of tet 0
+illegal tet 519
+illegal tet 1266
+illegal tet 1268
+2 elements combined
+CombineImprove done
+Improve Mesh
+Total badness = 4.5e+03
+
+Total badness = 4470.3989
+start SplitImprove
+Total badness = 4470.3989
+Splitt - Improve done
+Total badness = 4454.9055
+Improve Mesh
+Total badness = 4454.9055
+
+Total badness = 4454.6317
+Improve Mesh
+Total badness = 4454.6317
+
+Total badness = 4454.63
+
+
+Points:           316
+Volume Elements:  1271
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 13
+0.05 -  0.1: 37
+ 0.1 - 0.15: 33
+0.15 -  0.2: 25
+ 0.2 - 0.25: 50
+0.25 -  0.3: 49
+ 0.3 - 0.35: 72
+0.35 -  0.4: 65
+ 0.4 - 0.45: 95
+0.45 -  0.5: 106
+ 0.5 - 0.55: 91
+0.55 -  0.6: 103
+ 0.6 - 0.65: 79
+0.65 -  0.7: 104
+ 0.7 - 0.75: 108
+0.75 -  0.8: 84
+ 0.8 - 0.85: 77
+0.85 -  0.9: 38
+ 0.9 - 0.95: 26
+0.95 -    1: 16
+total error: 3.5e+03
+Start CombineImprove
+illegal tet 191
+illegal tet 212
+illegal tet 482
+illegal tet 906
+illegal tet 908
+illegal tet 531
+low volume of tet 0
+illegal tet 1261
+illegal tet 1262
+2 elements combined
+CombineImprove done
+Improve Mesh
+Total badness = 4.3e+03
+
+Total badness = 4347.8122
+start SplitImprove
+Total badness = 4347.8122
+Splitt - Improve done
+Total badness = 4352.4073
+Improve Mesh
+Total badness = 4352.4073
+
+Total badness = 4352.4586
+Improve Mesh
+Total badness = 4352.4586
+
+Total badness = 4352.4684
+
+
+Points:           315
+Volume Elements:  1267
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 12
+0.05 -  0.1: 34
+ 0.1 - 0.15: 33
+0.15 -  0.2: 25
+ 0.2 - 0.25: 50
+0.25 -  0.3: 49
+ 0.3 - 0.35: 68
+0.35 -  0.4: 68
+ 0.4 - 0.45: 94
+0.45 -  0.5: 106
+ 0.5 - 0.55: 92
+0.55 -  0.6: 106
+ 0.6 - 0.65: 76
+0.65 -  0.7: 104
+ 0.7 - 0.75: 107
+0.75 -  0.8: 85
+ 0.8 - 0.85: 77
+0.85 -  0.9: 39
+ 0.9 - 0.95: 26
+0.95 -    1: 16
+total error: 3.4e+03
+
+Volume optimization completed:
+Mesh overview:
+  Vertices: 315
+  Edges:    189
+  Surfaces: 669
+  Volumes:  1267
+Generated 1267 Tetrahedra, 2694 Surfaces, 315 Points

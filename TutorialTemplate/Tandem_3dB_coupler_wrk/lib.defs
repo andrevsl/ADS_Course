@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE Tandem_3dB_coupler_lib Tandem_3dB_coupler_lib
+ASSIGN Tandem_3dB_coupler_lib libMode shared

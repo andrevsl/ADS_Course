@@ -1,0 +1,16 @@
+<eesof_empro_setup>
+ <version>
+  <actual>3</actual>
+  <minimum>2</minimum>
+ </version>
+ <tool>rfpro</tool>
+ <layout>
+  <lib>TutorialTemplate_lib</lib>
+  <cell>Layout1</cell>
+  <view>layout1</view>
+ </layout>
+ <substrate>
+  <lib>TutorialTemplate_lib</lib>
+  <name>substrate1</name>
+ </substrate>
+</eesof_empro_setup>

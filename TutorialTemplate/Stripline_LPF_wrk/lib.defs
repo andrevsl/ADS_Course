@@ -1,0 +1,3 @@
+INCLUDE $HPEESOF_DIR/oalibs/ads.defs
+DEFINE Stripline_LPF_lib Stripline_LPF_lib
+ASSIGN Stripline_LPF_lib libMode shared

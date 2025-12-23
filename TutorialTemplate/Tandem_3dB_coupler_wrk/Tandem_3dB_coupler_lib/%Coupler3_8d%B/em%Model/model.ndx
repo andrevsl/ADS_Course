@@ -1,0 +1,16 @@
+COMPONENT: em_data;
+NROFMODELS: 1;
+MODEL: RF, Layout, 0, 10, 20, 45, 0, 1;
+SUBSTRATE: definedInState;
+NROFPARAM: 8;
+PARAM: w4, 0.0, 0.0, 0.0, 150e-6, 100e-9, None, -1;
+PARAM: w3, 0.0, 0.0, 0.0, 150e-6, 100e-9, None, -1;
+PARAM: w2, 0.0, 0.0, 0.0, 150e-6, 100e-9, None, -1;
+PARAM: w1, 0.0, 0.0, 0.0, 150e-6, 100e-9, None, -1;
+PARAM: wo3, 0.0, 0.0, 0.0, 150e-6, 100e-9, None, -1;
+PARAM: wo2, 0.0, 0.0, 0.0, 150e-6, 100e-9, None, -1;
+PARAM: wo1, 0.0, 0.0, 0.0, 150e-6, 100e-9, None, -1;
+PARAM: len, 0.0, 0.0, 0.0, 150e-6, 100e-9, None, -1;
+NROFSAMPLES: 1;
+SAMPLEFILE: data.000.cct;
+SAMPLE: 530e-6, 871e-6, 0.00103, 0.001139, 840e-6, 0.001251, 0.001894, 0.00991;

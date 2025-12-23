@@ -1,0 +1,5 @@
+# Library Defs for EncoderTest design kit
+DEFINE EncoderTest_tech ./EncoderTest_tech
+ASSIGN EncoderTest_tech libMode readOnly
+DEFINE EncoderTest ./EncoderTest
+ASSIGN EncoderTest libMode readOnly

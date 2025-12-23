@@ -1,0 +1,14 @@
+UNIT: mm, 10000, 0.001;
+PARAM: L2,Nominal/Perturbed, 50, 50, 52, 50, 50, mm;
+PERTdefA 4:
+PERT 1: LinearStretch, 5, 0, 1;
+PERT 2: LinearStretch, 5, 0, 1;
+PERT 3: LinearStretch, -5, 0, 1;
+PERT 4: LinearStretch, -5, 0, 1;
+;
+OBJdefA 4:
+OBJ 1: 7, Point, 50, 20.1, 1#|#-1, <ApolloObject>Deleted Apollo Object, PERTrefA 1 {1};
+OBJ 2: 7, Point, 50, 0.1, 1#|#-1, <ApolloObject>Deleted Apollo Object, PERTrefA 1 {2};
+OBJ 3: 1, Point, 0, 0.1, 1#|#-1, PERTrefA 1 {3};
+OBJ 4: 1, Point, 0, 20.1, 1#|#-1, PERTrefA 1 {4};
+;

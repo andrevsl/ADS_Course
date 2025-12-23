@@ -1,0 +1,13 @@
+<!DOCTYPE Materials>
+<Materials>
+    <Conductors>
+        <Conductor parmtype="1" imag="" name="RF" real="4.1e+07 Siemens/m"/>
+        <Conductor parmtype="1" imag="" name="Patch" real="4.1e+07 Siemens/m"/>
+    </Conductors>
+    <Dielectrics>
+        <Dielectric loss_type="0" mur_real="1" lowfreq="" valuefreq="" er_imag="" highfreq="" er_loss="0.0012" name="DEFAULT_1" er_real="2.94" mur_imag="0"/>
+        <Dielectric loss_type="0" mur_real="1" lowfreq="" valuefreq="" er_imag="" highfreq="" er_loss="0.0012" name="DEFAULT_2" er_real="2.94" mur_imag="0"/>
+    </Dielectrics>
+    <Semiconductors/>
+    <roughness/>
+</Materials>

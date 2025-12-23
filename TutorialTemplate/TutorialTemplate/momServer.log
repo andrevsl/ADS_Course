@@ -1,0 +1,33 @@
+Momentum Server logfile: momServer.log
+
+EM Model generation from "TutorialTemplate_lib:Layout1:emModel"
+  parameterNames = list("l1","l2","Substrate","MeshDensity")
+  parameterValues = list("0.01","0.01","definedInState","20")
+  topLevel design name = "TutorialTemplate_lib:Test_Bench_Layout:schematic"
+  instance name = "X1.em_data"
+  processID = "55985@127.0.0.1:hpeesofsim:_unique55981_1"
+  visible = TRUE
+Connected to external process by processID
+..handle = 15
+..pid = 55985@127.0.0.1:hpeesofsim:_unique55981_1
+..name = hpeesofsim
+Creating work design TutorialTemplate_lib:Layout1:layout_hpeesofsim
+..new work design opened
+..inserting instance of TutorialTemplate_lib:Layout1:layout1
+..promoting instance pins and ports
+Successfully created the work design
+Successfully created the associated schematic of the work design
+Starting EM simulation for design: TutorialTemplate_lib:Layout1:layout_hpeesofsim
+  Contains instance of : TutorialTemplate_lib:Layout1:layout1
+  EM setup view name   : emSetup_hpeesofsim
+  EM model design name   : TutorialTemplate_lib:Layout1:emModel
+..disable simulation log popup
+..simulation M251223132437 started
+..simulation M251223132437 ended
+EM simulation finished successfully
+..adding new data to EM model view: Success Added simulation data.
+..deleting layout_hpeesofsim view for work design
+..deleting schematic_hpeesofsim view for work design
+..deleting emSetup_hpeesofsim view for work design
+..deleting simulation directory for work design
+..sending DONE to parent

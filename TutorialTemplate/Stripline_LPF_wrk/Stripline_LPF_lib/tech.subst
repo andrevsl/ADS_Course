@@ -1,0 +1,19 @@
+<!DOCTYPE Substrate>
+<SubstrateModel>
+    <stack BAL_NUM="0" BAL_TYPE="NONE">
+        <material BAL_NUM="0" materialname="AIR" BAL_TYPE="INHERIT"/>
+        <interface thick="0" thickunit="micron" BAL_NUM="0" groundplane="1" materialname="PERFECT_CONDUCTOR" BAL_TYPE="NONE"/>
+        <material thick="31" thickunit="mil" BAL_NUM="0" materialname="duroid_0" BAL_TYPE="INHERIT"/>
+        <interface thick="" thickunit="micron" BAL_NUM="0" materialname="" BAL_TYPE="INHERIT"/>
+        <material thick="31" thickunit="mil" BAL_NUM="0" materialname="duroid_1" BAL_TYPE="INHERIT"/>
+        <interface thick="0" thickunit="micron" BAL_NUM="0" groundplane="1" materialname="PERFECT_CONDUCTOR" BAL_TYPE="NONE"/>
+        <material BAL_NUM="0" materialname="AIR" BAL_TYPE="INHERIT"/>
+    </stack>
+    <layers>
+        <layer thick="0" index="1" pinsOnly="0" negative="0" thickunit="millimeter" sheet="1" angle="90" expand="0" bottomrough="" layer="1" materialname="PERFECT_CONDUCTOR" toprough="" subtype="0" precedence="0" processRole="1"/>
+    </layers>
+    <vias>
+        <via platingdielectricmaterial="" platingenabled="0" index1="0" layer="3" platingthickness="" materialname="PERFECT_CONDUCTOR" platingthicknessunit="micron" subtype="0" rough="" precedence="0" processRole="4" index2="1"/>
+    </vias>
+    <substrates/>
+</SubstrateModel>

@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      sjangale
+HostName                       kumuda.msr.is.keysight.com
+ProcessIdentifier              17616
+ProcessCreationTime_UTC        1501223108
+ProcessCreationTime_Readable   Fri 28 Jul 2017 11:55:08 AM IST IST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/sjangale/JAMIT/ADS2017_03/Examples_Update/E_plane_wrk/E_plane_lib/%E_plane/layout/layout.oa.cdslck.dirlck
+TimeEditLocked                 Fri 28 Jul 2017 11:55:17 AM IST IST

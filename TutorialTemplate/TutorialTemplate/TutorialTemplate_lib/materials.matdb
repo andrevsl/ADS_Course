@@ -1,0 +1,14 @@
+<!DOCTYPE Materials>
+<Materials>
+    <Conductors>
+        <Conductor name="Copper" tc2="" thermal_conductivity_in_z="" mur_real="1" tnom="" tc1="" electron_path="" thermal_conductivity="401" heat_capacity="2.49E+06" real="5.8e7 Siemens/m" imag="" mur_imag="" parmtype="1"/>
+        <Conductor name="Cu" tc2="" thermal_conductivity_in_z="" mur_real="1" tnom="" tc1="" electron_path="" thermal_conductivity="401" heat_capacity="2.49E+06" real="5.8e7 Siemens/m" imag="" mur_imag="" parmtype="1"/>
+    </Conductors>
+    <Dielectrics>
+        <Dielectric name="Alumina" er_loss="" er_imag="" loss_type="1" thermal_conductivity_in_z="" mur_real="1" electron_path="" thermal_conductivity="25.25" heat_capacity="1.73E+06" er_real="9.6" mur_imag="" valuefreq="1 GHz" lowfreq="1 KHz" highfreq="1 THz"/>
+        <Dielectric name="Rogers_RO4350" er_loss="0.004" er_imag="" loss_type="1" thermal_conductivity_in_z="" mur_real="1" electron_path="" thermal_conductivity="" heat_capacity="" er_real="3.66" mur_imag="" valuefreq="10.0 GHz" lowfreq="1 KHz" highfreq="1 THz"/>
+        <Dielectric name="fr4custom" er_loss="0.04" er_imag="" loss_type="1" thermal_conductivity_in_z="" mur_real="1" electron_path="" thermal_conductivity="" heat_capacity="" er_real="4.4" mur_imag="" valuefreq="1 GHz" lowfreq="1 KHz" highfreq="1 THz"/>
+    </Dielectrics>
+    <Semiconductors/>
+    <roughness/>
+</Materials>

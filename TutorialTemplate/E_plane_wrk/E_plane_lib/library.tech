@@ -1,0 +1,7 @@
+<!DOCTYPE Technology>
+<Lpp_List>
+  <LPP purpose="drawing" fill="0" mode="1" line="0" protect="0" rgb="16753920" layer="default" visible="1" alpha="255"/>
+  <LPP purpose="drawing" fill="0" mode="1" line="0" protect="0" rgb="16753920" layer="RF" visible="1" alpha="255"/>
+  <LPP purpose="drawing" fill="0" mode="1" line="0" protect="0" rgb="4286945" layer="Patch" visible="1" alpha="255"/>
+  <LPP purpose="drawing" fill="0" mode="0" line="0" protect="0" rgb="16777215" layer="momentum_ref_offset" visible="1" alpha="255"/>
+</Lpp_List>

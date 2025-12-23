@@ -1,0 +1,5 @@
+CurrentLayer number = 4
+default	number = 0 stream = 0 iges = 0 color = 88 fill = 0 line = 0, 1 0 1, "*", type = 1
+RF	number = 4 stream = 4 iges = 4 color = 88 fill = 0 line = 0, 1 0 1, "*", type = 1
+Patch	number = 2 stream = 2 iges = 2 color = 19 fill = 0 line = 0, 1 0 1, "*", type = 1
+momentum_ref_offset	number = 5 stream = 5 iges = 5 color = 8 fill = 0 line = 0, 0 0 1, "*", type = 1

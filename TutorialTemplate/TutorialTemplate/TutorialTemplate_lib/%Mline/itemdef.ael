@@ -1,0 +1,4 @@
+create_item("Mline","Mline","X",16,-1,NULL,"Component Parameters",NULL,"%43?global %;%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","Mline","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","",3,NULL,0,
+create_parm("L","Subnetwork 50 mm",66560,"StdFormSet",5,prm("StdForm","50 mm")),
+create_parm("ws","Subnetwork 1.9 mm",66560,"StdFormSet",5,prm("StdForm","1.9 mm")),
+create_parm("W","Subnetwork 20 mm",66560,"StdFormSet",5,prm("StdForm","20 mm")));

@@ -1,0 +1,1137 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Sat Dec 20 16:20:09 2025
+      Running on host: "windossimucst1"
+      In Directory: "C:\Users\simucstvsl\ADSCourse\TutorialTemplate\TutorialTemplate\data"
+      Process ID: 5392
+
+
+CT Sweep2[1] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>   myC=(5->50)
+
+CT Sweep2[1].Sweep1[1/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=5  myL=(10->100)
+
+SP Sweep2[1].Sweep1[1/19].SP1[1/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=5 myL=10  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[1/19].SP1[2/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=5 myL=15  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[1/19].SP1[3/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=5 myL=20  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[1/19].SP1[4/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=5 myL=25  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[1/19].SP1[5/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=5 myL=30  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[1/19].SP1[6/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=5 myL=35  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[1/19].SP1[7/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=5 myL=40  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[1/19].SP1[8/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=5 myL=45  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[1/19].SP1[9/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=5 myL=50  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[1/19].SP1[10/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=5 myL=55  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[1/19].SP1[11/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=5 myL=60  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[1/19].SP1[12/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=5 myL=65  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[1/19].SP1[13/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=5 myL=70  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[1/19].SP1[14/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=5 myL=75  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[1/19].SP1[15/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=5 myL=80  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[1/19].SP1[16/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=5 myL=85  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[1/19].SP1[17/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=5 myL=90  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[1/19].SP1[18/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=5 myL=95  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[1/19].SP1[19/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=5 myL=100  freq=(10 MHz->500 MHz)
+
+
+CT Sweep2[1].Sweep1[2/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=7.5  myL=(10->100)
+
+SP Sweep2[1].Sweep1[2/19].SP1[1/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=7.5 myL=10  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[2/19].SP1[2/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=7.5 myL=15  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[2/19].SP1[3/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=7.5 myL=20  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[2/19].SP1[4/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=7.5 myL=25  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[2/19].SP1[5/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=7.5 myL=30  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[2/19].SP1[6/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=7.5 myL=35  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[2/19].SP1[7/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=7.5 myL=40  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[2/19].SP1[8/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=7.5 myL=45  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[2/19].SP1[9/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=7.5 myL=50  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[2/19].SP1[10/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=7.5 myL=55  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[2/19].SP1[11/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=7.5 myL=60  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[2/19].SP1[12/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=7.5 myL=65  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[2/19].SP1[13/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=7.5 myL=70  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[2/19].SP1[14/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=7.5 myL=75  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[2/19].SP1[15/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=7.5 myL=80  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[2/19].SP1[16/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=7.5 myL=85  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[2/19].SP1[17/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=7.5 myL=90  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[2/19].SP1[18/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=7.5 myL=95  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[2/19].SP1[19/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=7.5 myL=100  freq=(10 MHz->500 MHz)
+
+
+CT Sweep2[1].Sweep1[3/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=10  myL=(10->100)
+
+SP Sweep2[1].Sweep1[3/19].SP1[1/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=10 myL=10  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[3/19].SP1[2/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=10 myL=15  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[3/19].SP1[3/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=10 myL=20  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[3/19].SP1[4/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=10 myL=25  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[3/19].SP1[5/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=10 myL=30  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[3/19].SP1[6/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=10 myL=35  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[3/19].SP1[7/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=10 myL=40  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[3/19].SP1[8/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=10 myL=45  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[3/19].SP1[9/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=10 myL=50  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[3/19].SP1[10/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=10 myL=55  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[3/19].SP1[11/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=10 myL=60  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[3/19].SP1[12/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=10 myL=65  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[3/19].SP1[13/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=10 myL=70  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[3/19].SP1[14/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=10 myL=75  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[3/19].SP1[15/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=10 myL=80  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[3/19].SP1[16/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=10 myL=85  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[3/19].SP1[17/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=10 myL=90  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[3/19].SP1[18/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=10 myL=95  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[3/19].SP1[19/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=10 myL=100  freq=(10 MHz->500 MHz)
+
+
+CT Sweep2[1].Sweep1[4/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=12.5  myL=(10->100)
+
+SP Sweep2[1].Sweep1[4/19].SP1[1/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=12.5 myL=10  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[4/19].SP1[2/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=12.5 myL=15  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[4/19].SP1[3/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=12.5 myL=20  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[4/19].SP1[4/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=12.5 myL=25  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[4/19].SP1[5/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=12.5 myL=30  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[4/19].SP1[6/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=12.5 myL=35  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[4/19].SP1[7/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=12.5 myL=40  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[4/19].SP1[8/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=12.5 myL=45  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[4/19].SP1[9/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=12.5 myL=50  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[4/19].SP1[10/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=12.5 myL=55  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[4/19].SP1[11/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=12.5 myL=60  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[4/19].SP1[12/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=12.5 myL=65  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[4/19].SP1[13/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=12.5 myL=70  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[4/19].SP1[14/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=12.5 myL=75  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[4/19].SP1[15/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=12.5 myL=80  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[4/19].SP1[16/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=12.5 myL=85  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[4/19].SP1[17/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=12.5 myL=90  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[4/19].SP1[18/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=12.5 myL=95  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[4/19].SP1[19/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=12.5 myL=100  freq=(10 MHz->500 MHz)
+
+
+CT Sweep2[1].Sweep1[5/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=15  myL=(10->100)
+
+SP Sweep2[1].Sweep1[5/19].SP1[1/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=15 myL=10  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[5/19].SP1[2/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=15 myL=15  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[5/19].SP1[3/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=15 myL=20  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[5/19].SP1[4/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=15 myL=25  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[5/19].SP1[5/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=15 myL=30  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[5/19].SP1[6/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=15 myL=35  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[5/19].SP1[7/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=15 myL=40  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[5/19].SP1[8/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=15 myL=45  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[5/19].SP1[9/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=15 myL=50  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[5/19].SP1[10/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=15 myL=55  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[5/19].SP1[11/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=15 myL=60  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[5/19].SP1[12/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=15 myL=65  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[5/19].SP1[13/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=15 myL=70  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[5/19].SP1[14/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=15 myL=75  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[5/19].SP1[15/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=15 myL=80  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[5/19].SP1[16/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=15 myL=85  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[5/19].SP1[17/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=15 myL=90  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[5/19].SP1[18/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=15 myL=95  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[5/19].SP1[19/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=15 myL=100  freq=(10 MHz->500 MHz)
+
+
+CT Sweep2[1].Sweep1[6/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=17.5  myL=(10->100)
+
+SP Sweep2[1].Sweep1[6/19].SP1[1/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=17.5 myL=10  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[6/19].SP1[2/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=17.5 myL=15  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[6/19].SP1[3/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=17.5 myL=20  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[6/19].SP1[4/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=17.5 myL=25  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[6/19].SP1[5/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=17.5 myL=30  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[6/19].SP1[6/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=17.5 myL=35  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[6/19].SP1[7/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=17.5 myL=40  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[6/19].SP1[8/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=17.5 myL=45  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[6/19].SP1[9/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=17.5 myL=50  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[6/19].SP1[10/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=17.5 myL=55  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[6/19].SP1[11/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=17.5 myL=60  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[6/19].SP1[12/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=17.5 myL=65  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[6/19].SP1[13/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=17.5 myL=70  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[6/19].SP1[14/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=17.5 myL=75  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[6/19].SP1[15/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=17.5 myL=80  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[6/19].SP1[16/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=17.5 myL=85  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[6/19].SP1[17/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=17.5 myL=90  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[6/19].SP1[18/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=17.5 myL=95  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[6/19].SP1[19/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=17.5 myL=100  freq=(10 MHz->500 MHz)
+
+
+CT Sweep2[1].Sweep1[7/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=20  myL=(10->100)
+
+SP Sweep2[1].Sweep1[7/19].SP1[1/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=20 myL=10  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[7/19].SP1[2/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=20 myL=15  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[7/19].SP1[3/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=20 myL=20  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[7/19].SP1[4/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=20 myL=25  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[7/19].SP1[5/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=20 myL=30  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[7/19].SP1[6/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=20 myL=35  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[7/19].SP1[7/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=20 myL=40  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[7/19].SP1[8/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=20 myL=45  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[7/19].SP1[9/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=20 myL=50  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[7/19].SP1[10/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=20 myL=55  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[7/19].SP1[11/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=20 myL=60  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[7/19].SP1[12/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=20 myL=65  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[7/19].SP1[13/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=20 myL=70  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[7/19].SP1[14/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=20 myL=75  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[7/19].SP1[15/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=20 myL=80  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[7/19].SP1[16/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=20 myL=85  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[7/19].SP1[17/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=20 myL=90  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[7/19].SP1[18/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=20 myL=95  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[7/19].SP1[19/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=20 myL=100  freq=(10 MHz->500 MHz)
+
+
+CT Sweep2[1].Sweep1[8/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=22.5  myL=(10->100)
+
+SP Sweep2[1].Sweep1[8/19].SP1[1/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=22.5 myL=10  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[8/19].SP1[2/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=22.5 myL=15  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[8/19].SP1[3/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=22.5 myL=20  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[8/19].SP1[4/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=22.5 myL=25  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[8/19].SP1[5/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=22.5 myL=30  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[8/19].SP1[6/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=22.5 myL=35  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[8/19].SP1[7/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=22.5 myL=40  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[8/19].SP1[8/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=22.5 myL=45  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[8/19].SP1[9/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=22.5 myL=50  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[8/19].SP1[10/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=22.5 myL=55  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[8/19].SP1[11/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=22.5 myL=60  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[8/19].SP1[12/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=22.5 myL=65  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[8/19].SP1[13/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=22.5 myL=70  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[8/19].SP1[14/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=22.5 myL=75  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[8/19].SP1[15/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=22.5 myL=80  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[8/19].SP1[16/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=22.5 myL=85  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[8/19].SP1[17/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=22.5 myL=90  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[8/19].SP1[18/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=22.5 myL=95  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[8/19].SP1[19/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=22.5 myL=100  freq=(10 MHz->500 MHz)
+
+
+CT Sweep2[1].Sweep1[9/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=25  myL=(10->100)
+
+SP Sweep2[1].Sweep1[9/19].SP1[1/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=25 myL=10  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[9/19].SP1[2/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=25 myL=15  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[9/19].SP1[3/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=25 myL=20  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[9/19].SP1[4/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=25 myL=25  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[9/19].SP1[5/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=25 myL=30  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[9/19].SP1[6/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=25 myL=35  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[9/19].SP1[7/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=25 myL=40  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[9/19].SP1[8/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=25 myL=45  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[9/19].SP1[9/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=25 myL=50  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[9/19].SP1[10/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=25 myL=55  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[9/19].SP1[11/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=25 myL=60  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[9/19].SP1[12/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=25 myL=65  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[9/19].SP1[13/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=25 myL=70  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[9/19].SP1[14/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=25 myL=75  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[9/19].SP1[15/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=25 myL=80  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[9/19].SP1[16/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=25 myL=85  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[9/19].SP1[17/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=25 myL=90  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[9/19].SP1[18/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=25 myL=95  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[9/19].SP1[19/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=25 myL=100  freq=(10 MHz->500 MHz)
+
+
+CT Sweep2[1].Sweep1[10/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=27.5  myL=(10->100)
+
+SP Sweep2[1].Sweep1[10/19].SP1[1/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=27.5 myL=10  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[10/19].SP1[2/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=27.5 myL=15  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[10/19].SP1[3/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=27.5 myL=20  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[10/19].SP1[4/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=27.5 myL=25  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[10/19].SP1[5/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=27.5 myL=30  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[10/19].SP1[6/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=27.5 myL=35  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[10/19].SP1[7/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=27.5 myL=40  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[10/19].SP1[8/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=27.5 myL=45  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[10/19].SP1[9/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=27.5 myL=50  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[10/19].SP1[10/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=27.5 myL=55  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[10/19].SP1[11/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=27.5 myL=60  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[10/19].SP1[12/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=27.5 myL=65  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[10/19].SP1[13/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=27.5 myL=70  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[10/19].SP1[14/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=27.5 myL=75  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[10/19].SP1[15/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=27.5 myL=80  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[10/19].SP1[16/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=27.5 myL=85  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[10/19].SP1[17/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=27.5 myL=90  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[10/19].SP1[18/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=27.5 myL=95  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[10/19].SP1[19/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=27.5 myL=100  freq=(10 MHz->500 MHz)
+
+
+CT Sweep2[1].Sweep1[11/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=30  myL=(10->100)
+
+SP Sweep2[1].Sweep1[11/19].SP1[1/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=30 myL=10  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[11/19].SP1[2/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=30 myL=15  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[11/19].SP1[3/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=30 myL=20  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[11/19].SP1[4/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=30 myL=25  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[11/19].SP1[5/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=30 myL=30  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[11/19].SP1[6/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=30 myL=35  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[11/19].SP1[7/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=30 myL=40  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[11/19].SP1[8/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=30 myL=45  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[11/19].SP1[9/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=30 myL=50  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[11/19].SP1[10/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=30 myL=55  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[11/19].SP1[11/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=30 myL=60  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[11/19].SP1[12/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=30 myL=65  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[11/19].SP1[13/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=30 myL=70  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[11/19].SP1[14/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=30 myL=75  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[11/19].SP1[15/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=30 myL=80  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[11/19].SP1[16/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=30 myL=85  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[11/19].SP1[17/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=30 myL=90  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[11/19].SP1[18/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=30 myL=95  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[11/19].SP1[19/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=30 myL=100  freq=(10 MHz->500 MHz)
+
+
+CT Sweep2[1].Sweep1[12/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=32.5  myL=(10->100)
+
+SP Sweep2[1].Sweep1[12/19].SP1[1/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=32.5 myL=10  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[12/19].SP1[2/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=32.5 myL=15  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[12/19].SP1[3/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=32.5 myL=20  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[12/19].SP1[4/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=32.5 myL=25  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[12/19].SP1[5/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=32.5 myL=30  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[12/19].SP1[6/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=32.5 myL=35  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[12/19].SP1[7/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=32.5 myL=40  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[12/19].SP1[8/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=32.5 myL=45  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[12/19].SP1[9/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=32.5 myL=50  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[12/19].SP1[10/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=32.5 myL=55  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[12/19].SP1[11/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=32.5 myL=60  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[12/19].SP1[12/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=32.5 myL=65  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[12/19].SP1[13/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=32.5 myL=70  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[12/19].SP1[14/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=32.5 myL=75  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[12/19].SP1[15/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=32.5 myL=80  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[12/19].SP1[16/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=32.5 myL=85  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[12/19].SP1[17/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=32.5 myL=90  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[12/19].SP1[18/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=32.5 myL=95  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[12/19].SP1[19/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=32.5 myL=100  freq=(10 MHz->500 MHz)
+
+
+CT Sweep2[1].Sweep1[13/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=35  myL=(10->100)
+
+SP Sweep2[1].Sweep1[13/19].SP1[1/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=35 myL=10  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[13/19].SP1[2/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=35 myL=15  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[13/19].SP1[3/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=35 myL=20  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[13/19].SP1[4/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=35 myL=25  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[13/19].SP1[5/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=35 myL=30  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[13/19].SP1[6/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=35 myL=35  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[13/19].SP1[7/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=35 myL=40  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[13/19].SP1[8/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=35 myL=45  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[13/19].SP1[9/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=35 myL=50  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[13/19].SP1[10/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=35 myL=55  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[13/19].SP1[11/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=35 myL=60  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[13/19].SP1[12/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=35 myL=65  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[13/19].SP1[13/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=35 myL=70  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[13/19].SP1[14/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=35 myL=75  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[13/19].SP1[15/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=35 myL=80  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[13/19].SP1[16/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=35 myL=85  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[13/19].SP1[17/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=35 myL=90  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[13/19].SP1[18/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=35 myL=95  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[13/19].SP1[19/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=35 myL=100  freq=(10 MHz->500 MHz)
+
+
+CT Sweep2[1].Sweep1[14/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=37.5  myL=(10->100)
+
+SP Sweep2[1].Sweep1[14/19].SP1[1/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=37.5 myL=10  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[14/19].SP1[2/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=37.5 myL=15  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[14/19].SP1[3/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=37.5 myL=20  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[14/19].SP1[4/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=37.5 myL=25  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[14/19].SP1[5/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=37.5 myL=30  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[14/19].SP1[6/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=37.5 myL=35  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[14/19].SP1[7/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=37.5 myL=40  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[14/19].SP1[8/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=37.5 myL=45  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[14/19].SP1[9/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=37.5 myL=50  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[14/19].SP1[10/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=37.5 myL=55  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[14/19].SP1[11/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=37.5 myL=60  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[14/19].SP1[12/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=37.5 myL=65  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[14/19].SP1[13/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=37.5 myL=70  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[14/19].SP1[14/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=37.5 myL=75  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[14/19].SP1[15/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=37.5 myL=80  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[14/19].SP1[16/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=37.5 myL=85  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[14/19].SP1[17/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=37.5 myL=90  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[14/19].SP1[18/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=37.5 myL=95  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[14/19].SP1[19/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=37.5 myL=100  freq=(10 MHz->500 MHz)
+
+
+CT Sweep2[1].Sweep1[15/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=40  myL=(10->100)
+
+SP Sweep2[1].Sweep1[15/19].SP1[1/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=40 myL=10  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[15/19].SP1[2/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=40 myL=15  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[15/19].SP1[3/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=40 myL=20  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[15/19].SP1[4/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=40 myL=25  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[15/19].SP1[5/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=40 myL=30  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[15/19].SP1[6/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=40 myL=35  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[15/19].SP1[7/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=40 myL=40  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[15/19].SP1[8/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=40 myL=45  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[15/19].SP1[9/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=40 myL=50  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[15/19].SP1[10/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=40 myL=55  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[15/19].SP1[11/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=40 myL=60  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[15/19].SP1[12/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=40 myL=65  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[15/19].SP1[13/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=40 myL=70  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[15/19].SP1[14/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=40 myL=75  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[15/19].SP1[15/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=40 myL=80  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[15/19].SP1[16/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=40 myL=85  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[15/19].SP1[17/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=40 myL=90  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[15/19].SP1[18/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=40 myL=95  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[15/19].SP1[19/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=40 myL=100  freq=(10 MHz->500 MHz)
+
+
+CT Sweep2[1].Sweep1[16/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=42.5  myL=(10->100)
+
+SP Sweep2[1].Sweep1[16/19].SP1[1/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=42.5 myL=10  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[16/19].SP1[2/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=42.5 myL=15  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[16/19].SP1[3/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=42.5 myL=20  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[16/19].SP1[4/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=42.5 myL=25  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[16/19].SP1[5/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=42.5 myL=30  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[16/19].SP1[6/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=42.5 myL=35  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[16/19].SP1[7/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=42.5 myL=40  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[16/19].SP1[8/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=42.5 myL=45  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[16/19].SP1[9/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=42.5 myL=50  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[16/19].SP1[10/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=42.5 myL=55  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[16/19].SP1[11/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=42.5 myL=60  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[16/19].SP1[12/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=42.5 myL=65  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[16/19].SP1[13/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=42.5 myL=70  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[16/19].SP1[14/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=42.5 myL=75  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[16/19].SP1[15/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=42.5 myL=80  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[16/19].SP1[16/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=42.5 myL=85  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[16/19].SP1[17/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=42.5 myL=90  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[16/19].SP1[18/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=42.5 myL=95  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[16/19].SP1[19/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=42.5 myL=100  freq=(10 MHz->500 MHz)
+
+
+CT Sweep2[1].Sweep1[17/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=45  myL=(10->100)
+
+SP Sweep2[1].Sweep1[17/19].SP1[1/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=45 myL=10  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[17/19].SP1[2/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=45 myL=15  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[17/19].SP1[3/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=45 myL=20  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[17/19].SP1[4/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=45 myL=25  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[17/19].SP1[5/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=45 myL=30  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[17/19].SP1[6/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=45 myL=35  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[17/19].SP1[7/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=45 myL=40  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[17/19].SP1[8/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=45 myL=45  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[17/19].SP1[9/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=45 myL=50  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[17/19].SP1[10/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=45 myL=55  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[17/19].SP1[11/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=45 myL=60  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[17/19].SP1[12/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=45 myL=65  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[17/19].SP1[13/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=45 myL=70  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[17/19].SP1[14/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=45 myL=75  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[17/19].SP1[15/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=45 myL=80  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[17/19].SP1[16/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=45 myL=85  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[17/19].SP1[17/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=45 myL=90  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[17/19].SP1[18/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=45 myL=95  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[17/19].SP1[19/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=45 myL=100  freq=(10 MHz->500 MHz)
+
+
+CT Sweep2[1].Sweep1[18/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=47.5  myL=(10->100)
+
+SP Sweep2[1].Sweep1[18/19].SP1[1/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=47.5 myL=10  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[18/19].SP1[2/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=47.5 myL=15  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[18/19].SP1[3/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=47.5 myL=20  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[18/19].SP1[4/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=47.5 myL=25  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[18/19].SP1[5/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=47.5 myL=30  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[18/19].SP1[6/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=47.5 myL=35  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[18/19].SP1[7/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=47.5 myL=40  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[18/19].SP1[8/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=47.5 myL=45  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[18/19].SP1[9/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=47.5 myL=50  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[18/19].SP1[10/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=47.5 myL=55  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[18/19].SP1[11/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=47.5 myL=60  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[18/19].SP1[12/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=47.5 myL=65  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[18/19].SP1[13/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=47.5 myL=70  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[18/19].SP1[14/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=47.5 myL=75  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[18/19].SP1[15/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=47.5 myL=80  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[18/19].SP1[16/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=47.5 myL=85  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[18/19].SP1[17/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=47.5 myL=90  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[18/19].SP1[18/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=47.5 myL=95  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[18/19].SP1[19/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=47.5 myL=100  freq=(10 MHz->500 MHz)
+
+
+CT Sweep2[1].Sweep1[19/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=50  myL=(10->100)
+
+SP Sweep2[1].Sweep1[19/19].SP1[1/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=50 myL=10  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[19/19].SP1[2/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=50 myL=15  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[19/19].SP1[3/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=50 myL=20  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[19/19].SP1[4/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=50 myL=25  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[19/19].SP1[5/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=50 myL=30  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[19/19].SP1[6/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=50 myL=35  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[19/19].SP1[7/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=50 myL=40  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[19/19].SP1[8/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=50 myL=45  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[19/19].SP1[9/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=50 myL=50  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[19/19].SP1[10/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=50 myL=55  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[19/19].SP1[11/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=50 myL=60  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[19/19].SP1[12/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=50 myL=65  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[19/19].SP1[13/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=50 myL=70  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[19/19].SP1[14/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=50 myL=75  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[19/19].SP1[15/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=50 myL=80  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[19/19].SP1[16/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=50 myL=85  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[19/19].SP1[17/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=50 myL=90  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[19/19].SP1[18/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=50 myL=95  freq=(10 MHz->500 MHz)
+
+
+SP Sweep2[1].Sweep1[19/19].SP1[19/19] <TutorialTemplate_lib:Test_Bench_Filter_Design_ParametricSweep:schematic>  myC=50 myL=100  freq=(10 MHz->500 MHz)
+
+
+Resource usage:
+  Total stopwatch time     =     6.66 seconds.
+

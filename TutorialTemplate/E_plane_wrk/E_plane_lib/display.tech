@@ -1,0 +1,10 @@
+<!DOCTYPE Display>
+<Display>
+  <Lpp_Display_Order order="0">
+    <LPP name="default:drawing"/>
+    <LPP name="RF:drawing"/>
+    <LPP name="Patch:drawing"/>
+    <LPP name="momentum_ref_offset:drawing"/>
+  </Lpp_Display_Order>
+  <Current_Lpp name="RF:drawing"/>
+</Display>

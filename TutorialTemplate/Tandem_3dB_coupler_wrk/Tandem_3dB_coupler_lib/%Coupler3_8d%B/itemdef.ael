@@ -1,0 +1,9 @@
+create_item("Coupler3_8dB","Coupler3_8dB","X",16,-1,NULL,"Component Parameters",NULL,"%43?global %;%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","Coupler3_8dB","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","",3,NULL,0,
+create_parm("w4","Subnetwork 0.52 mm",66560,"StdFormSet",5,prm("StdForm","0.52 mm")),
+create_parm("w3","Subnetwork 0.94 mm",66560,"StdFormSet",5,prm("StdForm","0.94 mm")),
+create_parm("w2","Subnetwork 1.17 mm",66560,"StdFormSet",5,prm("StdForm","1.17 mm")),
+create_parm("w1","Subnetwork 1.29 mm",66560,"StdFormSet",5,prm("StdForm","1.29 mm")),
+create_parm("wo3","Subnetwork 0.93 mm",66560,"StdFormSet",5,prm("StdForm","0.93 mm")),
+create_parm("wo2","Subnetwork 1.41 mm",66560,"StdFormSet",5,prm("StdForm","1.41 mm")),
+create_parm("wo1","Subnetwork 2.05 mm",66560,"StdFormSet",5,prm("StdForm","2.05 mm")),
+create_parm("len","Subnetwork 10.1 mm",66560,"StdFormSet",5,prm("StdForm","10.1 mm")));
