@@ -1,0 +1,75 @@
+CITIFILE A.01.01
+
+# FEM  : 410.000 2021-07-26
+# Date : Fri Dec 26 20:20:17 2025
+
+NAME DATA
+
+#eesof Port[1] P1
+#eesof Port[2] P2
+
+VAR freq MAG 1
+
+DATA S[1,1] RI
+DATA S[1,2] RI
+DATA S[2,1] RI
+DATA S[2,2] RI
+DATA GAMMA[1] RI
+DATA GAMMA[2] RI
+DATA PORTZ[1] RI
+DATA PORTZ[2] RI
+DATA Zpi[1] RI
+DATA Zpi[2] RI
+DATA Zpv[1] RI
+DATA Zpv[2] RI
+DATA Zvi[1] RI
+DATA Zvi[2] RI
+
+VAR_LIST_BEGIN
+             6000000000
+VAR_LIST_END
+
+BEGIN
+  -0.076949921758926051,    0.013360662216754828
+END
+BEGIN
+    0.59774913087073234,     0.48722770211838751
+END
+BEGIN
+    0.59774913087073234,     0.48722770211838751
+END
+BEGIN
+  -0.070577997311087326,    0.017350031962294555
+END
+BEGIN
+                      0,                       0
+END
+BEGIN
+                      0,                       0
+END
+BEGIN
+                     50,                       0
+END
+BEGIN
+                     50,                       0
+END
+BEGIN
+                     50,                       0
+END
+BEGIN
+                     50,                       0
+END
+BEGIN
+                     50,                       0
+END
+BEGIN
+                     50,                       0
+END
+BEGIN
+                     50,                       0
+END
+BEGIN
+                     50,                       0
+END
+#RENORMALIZED IMPEDANCE (50.000000,0.000000) OHMS WRT ZPI FOR EXCITATION 1
+#RENORMALIZED IMPEDANCE (50.000000,0.000000) OHMS WRT ZPI FOR EXCITATION 2

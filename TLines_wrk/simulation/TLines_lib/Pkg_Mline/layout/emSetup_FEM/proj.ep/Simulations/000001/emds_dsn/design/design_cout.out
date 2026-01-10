@@ -1,0 +1,938 @@
+Loading Data from C:\Users\simucstvsl\Documents\ADS_Course\TLines_wrk\simulation\TLines_lib\Pkg_Mline\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design\design.sat
+Load ACIS file
+  acis version = ACIS 31.0 NT
+  product = Keysight Technologies
+  errmsg = success
+  entlist.count() = 5
+  Unit is  = 1
+removing transformation
+BODY 0 with transformation: scaling=1, translation=(8.5999999999999979, 13.799999999999999, -5)
+BODY 1 with transformation: scaling=1, translation=(0, 0, 0.018000000000000002)
+BODY 2 with transformation: scaling=1, translation=(0, 0, 0.81799999999999995)
+BODY 3 with transformation: scaling=1, translation=(0, 0, 0.018000000000000002)
+BODY 4 with transformation: scaling=1, translation=(8.5999999999999979, 13.799999999999999, 0.41800000000000015)
+separating bodies
+Entity 0,name=Simulation box, bb=(-4.5250000000000021,0.67499999999999716,-5)->(21.724999999999998,26.925000000000001,5.8360000000000003)
+Entity 1,name=FR_4_Core, bb=(-4.5250000000000021,0.67499999999999982,0.018000000000000002)->(21.725000000000001,26.925000000000001,0.81799999999999995)
+Entity 2,name=, bb=(-1.3999999999999999,13.199999999999999,0.81799999999999995)->(18.599999999999998,14.4,0.83599999999999997)
+Entity 3,name=, bb=(-1.3999999999999999,3.7999999999999998,0)->(18.599999999999998,23.800000000000001,0.018000000000000002)
+Entity 4,name=*unknown*, bb=(-4.5250000000000021,0.67499999999999716,-5)->(21.724999999999998,26.925000000000001,5.8360000000000003)
+Creating Topology
+Analyzing Topology
+Merged Objects with same material: merged 5 objects into 5 objects.
+ Current Process: Cleaning topologyObjects Combined
+Creating Mesh
+Restricting h (face curvature)
+Restricting h (face curvature)
+
+Line meshing completed:
+Mesh overview:
+  Vertices: 365
+  Edges:    385
+  Surfaces: 0
+  Volumes:  0
+
+Smaller local tree being used
+
+999/0/0 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+771/397/10 map/can/use rule Right 60 (1)
+694/388/11 map/can/use rule Left 60 (1)
+690/0/0 map/can/use rule Right 120 (1)
+809/0/0 map/can/use rule Left 120 (1)
+543/62/0 map/can/use rule Left Right 120 (1)
+45/45/4 map/can/use rule Fill Triangle
+3476/1712/4 map/can/use rule Vis A Vis (1)
+1102/330/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/0/0 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+818/422/10 map/can/use rule Right 60 (1)
+685/361/7 map/can/use rule Left 60 (1)
+708/0/0 map/can/use rule Right 120 (1)
+817/0/0 map/can/use rule Left 120 (1)
+556/94/0 map/can/use rule Left Right 120 (1)
+56/56/6 map/can/use rule Fill Triangle
+3684/1788/6 map/can/use rule Vis A Vis (1)
+1188/432/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/1/1 map/can/use rule Free Triangle (1)
+0/43/4 map/can/use rule Free Triangle (5)
+0/15/4 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+727/270/7 map/can/use rule Right 60 (1)
+641/282/6 map/can/use rule Left 60 (1)
+558/34/0 map/can/use rule Right 120 (1)
+678/34/0 map/can/use rule Left 120 (1)
+424/23/0 map/can/use rule Left Right 120 (1)
+117/117/2 map/can/use rule Fill Triangle
+4652/1635/6 map/can/use rule Vis A Vis (1)
+1306/240/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+1999/1/1 map/can/use rule Free Triangle (1)
+0/101/4 map/can/use rule Free Triangle (5)
+0/58/4 map/can/use rule Free Triangle (10)
+0/13/3 map/can/use rule Free Triangle (20)
+1598/641/9 map/can/use rule Right 60 (1)
+1494/629/8 map/can/use rule Left 60 (1)
+1308/123/0 map/can/use rule Right 120 (1)
+1520/81/0 map/can/use rule Left 120 (1)
+992/71/0 map/can/use rule Left Right 120 (1)
+342/342/7 map/can/use rule Fill Triangle
+9320/2829/9 map/can/use rule Vis A Vis (1)
+4214/528/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/1/1 map/can/use rule Free Triangle (1)
+0/40/7 map/can/use rule Free Triangle (5)
+0/5/2 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+654/236/6 map/can/use rule Right 60 (1)
+538/242/5 map/can/use rule Left 60 (1)
+573/25/0 map/can/use rule Right 120 (1)
+642/22/0 map/can/use rule Left 120 (1)
+443/40/0 map/can/use rule Left Right 120 (1)
+61/61/2 map/can/use rule Fill Triangle
+4085/1933/9 map/can/use rule Vis A Vis (1)
+434/235/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+1999/1/1 map/can/use rule Free Triangle (1)
+0/95/7 map/can/use rule Free Triangle (5)
+0/30/9 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+1498/567/9 map/can/use rule Right 60 (1)
+1329/600/8 map/can/use rule Left 60 (1)
+1181/79/0 map/can/use rule Right 120 (1)
+1415/62/0 map/can/use rule Left 120 (1)
+936/69/0 map/can/use rule Left Right 120 (1)
+271/271/5 map/can/use rule Fill Triangle
+9961/2988/15 map/can/use rule Vis A Vis (1)
+2620/436/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+2999/1/1 map/can/use rule Free Triangle (1)
+0/162/7 map/can/use rule Free Triangle (5)
+0/77/10 map/can/use rule Free Triangle (10)
+0/9/3 map/can/use rule Free Triangle (20)
+2398/926/11 map/can/use rule Right 60 (1)
+2199/979/10 map/can/use rule Left 60 (1)
+1957/142/0 map/can/use rule Right 120 (1)
+2265/95/0 map/can/use rule Left 120 (1)
+1451/114/0 map/can/use rule Left Right 120 (1)
+561/561/9 map/can/use rule Fill Triangle
+17971/3993/18 map/can/use rule Vis A Vis (1)
+7411/627/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+3999/1/1 map/can/use rule Free Triangle (1)
+0/180/7 map/can/use rule Free Triangle (5)
+0/90/10 map/can/use rule Free Triangle (10)
+0/12/4 map/can/use rule Free Triangle (20)
+3388/1345/16 map/can/use rule Right 60 (1)
+3174/1352/12 map/can/use rule Left 60 (1)
+2856/145/0 map/can/use rule Right 120 (1)
+3231/96/0 map/can/use rule Left 120 (1)
+1993/135/0 map/can/use rule Left Right 120 (1)
+1012/1012/13 map/can/use rule Fill Triangle
+25575/4253/19 map/can/use rule Vis A Vis (1)
+11821/721/2 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/1/1 map/can/use rule Free Triangle (1)
+0/34/4 map/can/use rule Free Triangle (5)
+0/11/3 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+760/253/8 map/can/use rule Right 60 (1)
+648/269/4 map/can/use rule Left 60 (1)
+605/41/0 map/can/use rule Right 120 (1)
+701/39/0 map/can/use rule Left 120 (1)
+467/20/0 map/can/use rule Left Right 120 (1)
+140/140/3 map/can/use rule Fill Triangle
+4832/1731/7 map/can/use rule Vis A Vis (1)
+1404/283/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+1999/1/1 map/can/use rule Free Triangle (1)
+0/108/4 map/can/use rule Free Triangle (5)
+0/65/3 map/can/use rule Free Triangle (10)
+0/14/4 map/can/use rule Free Triangle (20)
+1644/623/9 map/can/use rule Right 60 (1)
+1494/667/6 map/can/use rule Left 60 (1)
+1341/107/0 map/can/use rule Right 120 (1)
+1531/54/0 map/can/use rule Left 120 (1)
+1046/83/0 map/can/use rule Left Right 120 (1)
+355/355/7 map/can/use rule Fill Triangle
+9249/2668/10 map/can/use rule Vis A Vis (1)
+4138/467/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/1/1 map/can/use rule Free Triangle (1)
+0/1/1 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+689/264/10 map/can/use rule Right 60 (1)
+497/207/12 map/can/use rule Left 60 (1)
+626/3/0 map/can/use rule Right 120 (1)
+716/5/0 map/can/use rule Left 120 (1)
+419/32/0 map/can/use rule Left Right 120 (1)
+66/66/4 map/can/use rule Fill Triangle
+3777/1797/6 map/can/use rule Vis A Vis (1)
+560/245/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/176/116 map/can/use rule Free Triangle (1)
+0/2/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+519/366/53 map/can/use rule Right 60 (1)
+423/293/53 map/can/use rule Left 60 (1)
+417/105/16 map/can/use rule Right 120 (1)
+408/69/7 map/can/use rule Left 120 (1)
+188/27/2 map/can/use rule Left Right 120 (1)
+60/60/16 map/can/use rule Fill Triangle
+5158/404/25 map/can/use rule Vis A Vis (1)
+487/14/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/86/71 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+644/300/48 map/can/use rule Right 60 (1)
+552/254/40 map/can/use rule Left 60 (1)
+407/28/0 map/can/use rule Right 120 (1)
+514/63/16 map/can/use rule Left 120 (1)
+152/37/2 map/can/use rule Left Right 120 (1)
+176/172/27 map/can/use rule Fill Triangle
+3402/144/28 map/can/use rule Vis A Vis (1)
+217/0/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/84/72 map/can/use rule Free Triangle (1)
+0/1/1 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+649/276/44 map/can/use rule Right 60 (1)
+569/235/37 map/can/use rule Left 60 (1)
+391/30/1 map/can/use rule Right 120 (1)
+508/69/14 map/can/use rule Left 120 (1)
+142/25/2 map/can/use rule Left Right 120 (1)
+196/192/32 map/can/use rule Fill Triangle
+3509/128/32 map/can/use rule Vis A Vis (1)
+230/0/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/218/138 map/can/use rule Free Triangle (1)
+0/6/1 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+449/363/49 map/can/use rule Right 60 (1)
+367/291/61 map/can/use rule Left 60 (1)
+345/102/15 map/can/use rule Right 120 (1)
+412/104/10 map/can/use rule Left 120 (1)
+164/49/1 map/can/use rule Left Right 120 (1)
+22/22/5 map/can/use rule Fill Triangle
+5751/404/14 map/can/use rule Vis A Vis (1)
+802/24/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+Surface meshing completed:
+Mesh overview:
+  Vertices: 1077
+  Edges:    385
+  Surfaces: 2337
+  Volumes:  0
+
+Surface optimization:
+  All faces planar: 1
+  All edges straight: 1
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+totalActionsTaken = 4355
+
+2D optimization completed:
+Mesh overview:
+  Vertices: 1077
+  Edges:    385
+  Surfaces: 2337
+  Volumes:  0
+
+ Optimized Face 27 / 27
+
+Surface meshing completed:
+Mesh overview:
+  Vertices: 866
+  Edges:    385
+  Surfaces: 1915
+  Volumes:  0
+
+Starting volume meshing:
+Mesh overview:
+  Vertices: 866
+  Edges:    385
+  Surfaces: 1915
+  Volumes:  0
+blockfill local h
+rel filldist = 0.10000000000000001
+.
+
+
+Points:           1048
+Volume Elements:  4073
+16 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 249
+0.05 -  0.1: 65
+ 0.1 - 0.15: 74
+0.15 -  0.2: 125
+ 0.2 - 0.25: 131
+0.25 -  0.3: 183
+ 0.3 - 0.35: 240
+0.35 -  0.4: 262
+ 0.4 - 0.45: 341
+0.45 -  0.5: 401
+ 0.5 - 0.55: 377
+0.55 -  0.6: 408
+ 0.6 - 0.65: 308
+0.65 -  0.7: 301
+ 0.7 - 0.75: 209
+0.75 -  0.8: 176
+ 0.8 - 0.85: 115
+0.85 -  0.9: 65
+ 0.9 - 0.95: 37
+0.95 -    1: 6
+total error: 1.6e+11
+free: 2287, fixed: 1786
+
+Start SwapImprove
+free: 616, fixed: 3366
+
+Start SwapImprove
+
+
+Points:           1048
+Volume Elements:  3978
+16 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 242
+0.05 -  0.1: 60
+ 0.1 - 0.15: 56
+0.15 -  0.2: 102
+ 0.2 - 0.25: 121
+0.25 -  0.3: 202
+ 0.3 - 0.35: 232
+0.35 -  0.4: 278
+ 0.4 - 0.45: 340
+0.45 -  0.5: 388
+ 0.5 - 0.55: 360
+0.55 -  0.6: 377
+ 0.6 - 0.65: 312
+0.65 -  0.7: 294
+ 0.7 - 0.75: 205
+0.75 -  0.8: 183
+ 0.8 - 0.85: 119
+0.85 -  0.9: 66
+ 0.9 - 0.95: 36
+0.95 -    1: 5
+total error: 1.6e+11
+   0 times used rule Free Tetrahedron
+  79 times used rule Tetrahedron 60
+  46 times used rule Tetrahedron 60 with edge(1)
+   0 times used rule Tetrahedron Vis a Vis Point (1)
+   6 times used rule Tetrahedron Vis a Vis Point with edge(1)
+  24 times used rule Tetrahedron Vis a Vis Point with 2 edges (1)
+  39 times used rule Tetrahedron Vis a Vis Point with 3 edges (1)
+   0 times used rule Tetrahedron Vis a Vis Triangle (1)
+   0 times used rule Octaeder 1
+   0 times used rule Octaeder 2
+   0 times used rule Octaeder 2a
+   0 times used rule Pyramid 1
+   5 times used rule Tetrahedron 2 times 60
+   0 times used rule Fill Tetrahedron (1)
+   4 times used rule Tetrahedron 120 (1)
+   0 times used rule Tetrahedron 2 times 120 (1)
+   0 times used rule four Tetrahedron non convex (4)
+   0 times used rule five Tetrahedron non convex (4)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule three Tetrahedron non convex (4)
+   0 times used rule three Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule Tetrahedron 2 in 60 (12)
+   0 times used rule Tetrahedron 120: but more than 180 (13)
+   0 times used rule Free Tetrahedron (14)
+   0 times used rule Free Tetrahedron (15)
+blockfill local h
+rel filldist = 0.1
+.
+
+
+Points:           1076
+Volume Elements:  3079
+1 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 465
+0.05 -  0.1: 152
+ 0.1 - 0.15: 75
+0.15 -  0.2: 106
+ 0.2 - 0.25: 111
+0.25 -  0.3: 139
+ 0.3 - 0.35: 187
+0.35 -  0.4: 213
+ 0.4 - 0.45: 243
+0.45 -  0.5: 251
+ 0.5 - 0.55: 229
+0.55 -  0.6: 205
+ 0.6 - 0.65: 190
+0.65 -  0.7: 146
+ 0.7 - 0.75: 133
+0.75 -  0.8: 89
+ 0.8 - 0.85: 72
+0.85 -  0.9: 40
+ 0.9 - 0.95: 23
+0.95 -    1: 10
+total error: 1e+10
+free: 1956, fixed: 1123
+
+Start SwapImprove
+free: 668, fixed: 2326
+
+Start SwapImprove
+
+
+Points:           1076
+Volume Elements:  2991
+1 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 477
+0.05 -  0.1: 150
+ 0.1 - 0.15: 58
+0.15 -  0.2: 86
+ 0.2 - 0.25: 68
+0.25 -  0.3: 121
+ 0.3 - 0.35: 199
+0.35 -  0.4: 216
+ 0.4 - 0.45: 245
+0.45 -  0.5: 244
+ 0.5 - 0.55: 220
+0.55 -  0.6: 209
+ 0.6 - 0.65: 183
+0.65 -  0.7: 153
+ 0.7 - 0.75: 134
+0.75 -  0.8: 92
+ 0.8 - 0.85: 67
+0.85 -  0.9: 38
+ 0.9 - 0.95: 22
+0.95 -    1: 9
+total error: 1e+10
+vol = -1.1e-07 h = 2.6
+   6 times used rule Free Tetrahedron
+ 146 times used rule Tetrahedron 60
+  87 times used rule Tetrahedron 60 with edge(1)
+   0 times used rule Tetrahedron Vis a Vis Point (1)
+  18 times used rule Tetrahedron Vis a Vis Point with edge(1)
+  45 times used rule Tetrahedron Vis a Vis Point with 2 edges (1)
+  86 times used rule Tetrahedron Vis a Vis Point with 3 edges (1)
+   0 times used rule Tetrahedron Vis a Vis Triangle (1)
+   0 times used rule Octaeder 1
+   0 times used rule Octaeder 2
+   0 times used rule Octaeder 2a
+   0 times used rule Pyramid 1
+  32 times used rule Tetrahedron 2 times 60
+   4 times used rule Fill Tetrahedron (1)
+  24 times used rule Tetrahedron 120 (1)
+   0 times used rule Tetrahedron 2 times 120 (1)
+   0 times used rule four Tetrahedron non convex (4)
+   0 times used rule five Tetrahedron non convex (4)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule three Tetrahedron non convex (4)
+   0 times used rule three Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule Tetrahedron 2 in 60 (12)
+   0 times used rule Tetrahedron 120: but more than 180 (13)
+   0 times used rule Free Tetrahedron (14)
+   0 times used rule Free Tetrahedron (15)
+blockfill local h
+rel filldist = 0.1
+.
+
+
+Points:           1191
+Volume Elements:  2692
+1 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 212
+0.05 -  0.1: 90
+ 0.1 - 0.15: 105
+0.15 -  0.2: 90
+ 0.2 - 0.25: 116
+0.25 -  0.3: 103
+ 0.3 - 0.35: 151
+0.35 -  0.4: 176
+ 0.4 - 0.45: 167
+0.45 -  0.5: 239
+ 0.5 - 0.55: 213
+0.55 -  0.6: 237
+ 0.6 - 0.65: 193
+0.65 -  0.7: 196
+ 0.7 - 0.75: 144
+0.75 -  0.8: 107
+ 0.8 - 0.85: 89
+0.85 -  0.9: 45
+ 0.9 - 0.95: 16
+0.95 -    1: 3
+total error: 1e+10
+free: 1556, fixed: 1136
+
+Start SwapImprove
+free: 744, fixed: 1863
+
+Start SwapImprove
+
+
+Points:           1191
+Volume Elements:  2603
+1 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 231
+0.05 -  0.1: 65
+ 0.1 - 0.15: 84
+0.15 -  0.2: 62
+ 0.2 - 0.25: 96
+0.25 -  0.3: 87
+ 0.3 - 0.35: 150
+0.35 -  0.4: 183
+ 0.4 - 0.45: 180
+0.45 -  0.5: 236
+ 0.5 - 0.55: 218
+0.55 -  0.6: 226
+ 0.6 - 0.65: 196
+0.65 -  0.7: 189
+ 0.7 - 0.75: 143
+0.75 -  0.8: 112
+ 0.8 - 0.85: 81
+0.85 -  0.9: 43
+ 0.9 - 0.95: 18
+0.95 -    1: 3
+total error: 1e+10
+   3 times used rule Free Tetrahedron
+ 101 times used rule Tetrahedron 60
+  78 times used rule Tetrahedron 60 with edge(1)
+   0 times used rule Tetrahedron Vis a Vis Point (1)
+  12 times used rule Tetrahedron Vis a Vis Point with edge(1)
+  38 times used rule Tetrahedron Vis a Vis Point with 2 edges (1)
+  71 times used rule Tetrahedron Vis a Vis Point with 3 edges (1)
+   0 times used rule Tetrahedron Vis a Vis Triangle (1)
+   0 times used rule Octaeder 1
+   0 times used rule Octaeder 2
+   0 times used rule Octaeder 2a
+   0 times used rule Pyramid 1
+  19 times used rule Tetrahedron 2 times 60
+   2 times used rule Fill Tetrahedron (1)
+   5 times used rule Tetrahedron 120 (1)
+   0 times used rule Tetrahedron 2 times 120 (1)
+  15 times used rule four Tetrahedron non convex (4)
+   2 times used rule five Tetrahedron non convex (4)
+  16 times used rule four Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule three Tetrahedron non convex (4)
+   0 times used rule three Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule Tetrahedron 2 in 60 (12)
+   0 times used rule Tetrahedron 120: but more than 180 (13)
+   0 times used rule Free Tetrahedron (14)
+   0 times used rule Free Tetrahedron (15)
+free: 30, fixed: 5134
+Improve Mesh
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+
+free: 30, fixed: 5134
+Start CombineImprove
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+5 elements combined
+CombineImprove done
+free: 8, fixed: 5136
+Improve Mesh
+
+free: 8, fixed: 5136
+
+Start SwapImprove
+free: 8, fixed: 5136
+
+Start SwapImprove2
+Total badness = 29964.449
+Total badness = 29964.449
+swapimprove2 done
+free: 8, fixed: 5136
+Improve Mesh
+
+free: 8, fixed: 5136
+Start CombineImprove
+low volume of tet 9.9385199e-20
+low volume of tet 5.3080731e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+2 elements combined
+CombineImprove done
+free: 2, fixed: 5134
+Improve Mesh
+
+free: 2, fixed: 5134
+
+Start SwapImprove
+free: 2, fixed: 5134
+
+Start SwapImprove2
+Total badness = 28253.149
+Total badness = 28253.149
+swapimprove2 done
+free: 2, fixed: 5134
+Improve Mesh
+
+free: 2, fixed: 5134
+Start CombineImprove
+0 elements combined
+CombineImprove done
+free: 2, fixed: 5134
+Improve Mesh
+
+free: 2, fixed: 5134
+
+Start SwapImprove
+free: 2, fixed: 5134
+
+Start SwapImprove2
+Total badness = 28102.256
+Total badness = 28102.256
+swapimprove2 done
+free: 2, fixed: 5134
+Improve Mesh
+
+free: 2, fixed: 5134
+Start CombineImprove
+0 elements combined
+CombineImprove done
+free: 2, fixed: 5134
+Improve Mesh
+
+   0 times used rule Free Tetrahedron
+  29 times used rule Tetrahedron 60
+  16 times used rule Tetrahedron 60 with edge(1)
+   0 times used rule Tetrahedron Vis a Vis Point (1)
+   5 times used rule Tetrahedron Vis a Vis Point with edge(1)
+   9 times used rule Tetrahedron Vis a Vis Point with 2 edges (1)
+  19 times used rule Tetrahedron Vis a Vis Point with 3 edges (1)
+   0 times used rule Tetrahedron Vis a Vis Triangle (1)
+   0 times used rule Octaeder 1
+   0 times used rule Octaeder 2
+   0 times used rule Octaeder 2a
+   0 times used rule Pyramid 1
+   6 times used rule Tetrahedron 2 times 60
+   0 times used rule Fill Tetrahedron (1)
+   3 times used rule Tetrahedron 120 (1)
+   0 times used rule Tetrahedron 2 times 120 (1)
+   4 times used rule four Tetrahedron non convex (4)
+   0 times used rule five Tetrahedron non convex (4)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule three Tetrahedron non convex (4)
+   0 times used rule three Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule Tetrahedron 2 in 60 (12)
+   0 times used rule Tetrahedron 120: but more than 180 (13)
+   0 times used rule Free Tetrahedron (14)
+   0 times used rule Free Tetrahedron (15)
+Vol Meshing added
+  4566 tetrahedra through Delaunay tetrahedralization
+  651 tetrahedra through advancing front tetrahedralization
+  4 passes on advancing front tetrahedralization
+
+
+Points:           1160
+Volume Elements:  5131
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 157
+0.05 -  0.1: 88
+ 0.1 - 0.15: 85
+0.15 -  0.2: 89
+ 0.2 - 0.25: 126
+0.25 -  0.3: 162
+ 0.3 - 0.35: 244
+0.35 -  0.4: 330
+ 0.4 - 0.45: 403
+0.45 -  0.5: 442
+ 0.5 - 0.55: 463
+0.55 -  0.6: 506
+ 0.6 - 0.65: 437
+0.65 -  0.7: 467
+ 0.7 - 0.75: 342
+0.75 -  0.8: 337
+ 0.8 - 0.85: 214
+0.85 -  0.9: 151
+ 0.9 - 0.95: 74
+0.95 -    1: 14
+total error: 2.5e+04
+
+Volume meshing completed:
+Mesh overview:
+  Vertices: 1160
+  Edges:    385
+  Surfaces: 1915
+  Volumes:  5131
+Start CombineImprove
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 7.4e-17
+low volume of tet 1.9e-17
+low volume of tet 0
+low volume of tet 3e-16
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 9.3e-18
+low volume of tet 2.3e-18
+low volume of tet 0
+low volume of tet 0
+low volume of tet 9.3e-18
+low volume of tet 0
+low volume of tet 7.4e-17
+low volume of tet 0
+low volume of tet 0
+illegal tet 5118
+illegal tet 5121
+low volume of tet 0
+low volume of tet 5.9e-16
+low volume of tet 1.7e-18
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+6 elements combined
+CombineImprove done
+Improve Mesh
+Total badness = 2.8e+04
+
+Total badness = 27985.301
+start SplitImprove
+Total badness = 27985.301
+Splitt - Improve done
+Total badness = 27684.503
+Improve Mesh
+Total badness = 27684.503
+
+Total badness = 27666.596
+Improve Mesh
+Total badness = 27666.596
+no success with linesearch
+
+Total badness = 27668.031
+
+
+Points:           1150
+Volume Elements:  5108
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 147
+0.05 -  0.1: 91
+ 0.1 - 0.15: 81
+0.15 -  0.2: 88
+ 0.2 - 0.25: 124
+0.25 -  0.3: 182
+ 0.3 - 0.35: 241
+0.35 -  0.4: 329
+ 0.4 - 0.45: 396
+0.45 -  0.5: 440
+ 0.5 - 0.55: 475
+0.55 -  0.6: 504
+ 0.6 - 0.65: 431
+0.65 -  0.7: 456
+ 0.7 - 0.75: 343
+0.75 -  0.8: 330
+ 0.8 - 0.85: 217
+0.85 -  0.9: 141
+ 0.9 - 0.95: 77
+0.95 -    1: 15
+total error: 2.2e+04
+Start CombineImprove
+low volume of tet 5.9e-16
+low volume of tet 1.9e-17
+low volume of tet 0
+low volume of tet 3.7e-17
+1 elements combined
+CombineImprove done
+Improve Mesh
+Total badness = 2.8e+04
+no success with linesearch
+
+Total badness = 27613.272
+start SplitImprove
+Total badness = 27613.272
+Splitt - Improve done
+Total badness = 27226.949
+Improve Mesh
+Total badness = 27226.949
+no success with linesearch
+
+Total badness = 27225.558
+Improve Mesh
+Total badness = 27225.558
+no success with linesearch
+
+Total badness = 27227.281
+
+
+Points:           1152
+Volume Elements:  5118
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 150
+0.05 -  0.1: 91
+ 0.1 - 0.15: 80
+0.15 -  0.2: 92
+ 0.2 - 0.25: 126
+0.25 -  0.3: 182
+ 0.3 - 0.35: 249
+0.35 -  0.4: 327
+ 0.4 - 0.45: 390
+0.45 -  0.5: 434
+ 0.5 - 0.55: 480
+0.55 -  0.6: 502
+ 0.6 - 0.65: 440
+0.65 -  0.7: 447
+ 0.7 - 0.75: 348
+0.75 -  0.8: 330
+ 0.8 - 0.85: 218
+0.85 -  0.9: 142
+ 0.9 - 0.95: 75
+0.95 -    1: 15
+total error: 2.2e+04
+Start CombineImprove
+0 elements combined
+CombineImprove done
+Improve Mesh
+Total badness = 2.7e+04
+no success with linesearch
+
+Total badness = 27229.333
+start SplitImprove
+Total badness = 27229.333
+Splitt - Improve done
+Total badness = 27229.333
+Improve Mesh
+Total badness = 27229.333
+no success with linesearch
+no success with linesearch
+no success with linesearch
+
+Total badness = 27231.434
+Improve Mesh
+Total badness = 27231.434
+no success with linesearch
+no success with linesearch
+no success with linesearch
+
+Total badness = 27233.427
+
+
+Points:           1152
+Volume Elements:  5118
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 150
+0.05 -  0.1: 90
+ 0.1 - 0.15: 80
+0.15 -  0.2: 95
+ 0.2 - 0.25: 127
+0.25 -  0.3: 181
+ 0.3 - 0.35: 251
+0.35 -  0.4: 322
+ 0.4 - 0.45: 389
+0.45 -  0.5: 436
+ 0.5 - 0.55: 476
+0.55 -  0.6: 506
+ 0.6 - 0.65: 435
+0.65 -  0.7: 452
+ 0.7 - 0.75: 340
+0.75 -  0.8: 337
+ 0.8 - 0.85: 219
+0.85 -  0.9: 142
+ 0.9 - 0.95: 75
+0.95 -    1: 15
+total error: 2.2e+04
+
+Volume optimization completed:
+Mesh overview:
+  Vertices: 1152
+  Edges:    385
+  Surfaces: 1915
+  Volumes:  5118
+Generated 5118 Tetrahedra, 10835 Surfaces, 1152 Points

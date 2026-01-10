@@ -1,0 +1,29 @@
+; Top Design: "TLines_lib:Test_bench_Msline_Opt:schematic_opt_FEM"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="TLines_lib:Test_bench_Msline_Opt:schematic_opt_FEM" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=0.1 GHz Stop=6 GHz Step=0.1 GHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+Port:TermG1  N__2 0 Num=1 Z=50 Ohm Noise=yes 
+Port:TermG2  N__4 0 Num=2 Z=50 Ohm Noise=yes 
+
+L1=20
+wl=1.2
+#uselib "ckt" , "S2P"
+S2P:SNP1  N__2 N__4 0 File="C:\Users\simucstvsl\Documents\ADS_Course\CSTData\Msline_w1p5_h0p8_L20_er_4p6\msline_1p5_1.s2p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+
+h=0.8
+s=0.5
+ws=1.2 tune{ 0.95 to 2.85 by 0.1 }

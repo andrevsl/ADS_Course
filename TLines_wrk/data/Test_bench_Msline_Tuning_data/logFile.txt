@@ -1,0 +1,24 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Sat Dec 27 12:45:15 2025
+      Running on host: "rfcourse"
+      In Directory: "C:\Users\simucstvsl\Documents\ADS_Course\TLines_wrk\data"
+      Process ID: 7556
+
+Error detected by hpeesofsim during circuit set up.
+    Unable to perform optimization.
+        No Optim component was found in the design.
+    To fix this problem:
+        From the schematic, choose the 'Optim/Stat/DOE' palette and place an 'Optim' component.
+
+
+-------------------------------------------------------------------------------
+Simulation finished with errors.
+-------------------------------------------------------------------------------
+
+Resource usage:
+  Total stopwatch time     =     0.93 seconds.
+

@@ -1,0 +1,150 @@
+{
+    "abort_simulation": false,
+    "cutoff_intervals": [],
+    "fg_run_status": 0,
+    "interrupt_simulation": false,
+    "nb_sub_solver_respawns": 0,
+    "setup_data": {
+        "allWaveguidePortsAreInternal": "1",
+        "hasWaveguidePorts": "0",
+        "sql_comps_pins": "INSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P1','0','0','0','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P2','1','1','1','current source','-1','-1','1','0','Zpi');\n"
+    },
+    "simulation_phase": "solving",
+    "timestamp_state": "2025-12-26 20:21:41.270494",
+    "work_queue": [
+        {
+            "args": {
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "Iovm": "/level1/design.ovm",
+                "lvldir": "level1"
+            },
+            "data": "{\n    \"sql_comps_pins\": \"INSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P1','0','0','0','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P2','1','1','1','current source','-1','-1','1','0','Zpi');\\n\",\n    \"hasWaveguidePorts\": \"0\",\n    \"allWaveguidePortsAreInternal\": \"1\"\n}\n",
+            "jobId": "0",
+            "processed": 1,
+            "status": "done",
+            "type": "fg_determine_setup_data",
+            "workerId": "1"
+        },
+        {
+            "args": {
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "Iovm": "/level1/design.ovm",
+                "lvldir": "level1",
+                "maxF": "6000000000.000000000000000",
+                "minF": "0.000000000000000"
+            },
+            "data": "",
+            "jobId": "1",
+            "processed": 1,
+            "status": "done",
+            "type": "determine_cutoff_intervals",
+            "workerId": "1"
+        },
+        {
+            "args": {
+                "Fsolve": "1000.000000000000000",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "Iovm": "/level1/design.ovm",
+                "iterative_order": "2",
+                "lvldir": "level1",
+                "simdir": "f_1000.0"
+            },
+            "data": {
+                "data": {
+                    "Fsolve": "1000.000000000000000",
+                    "has_blg": "0",
+                    "iterative_converged": "1",
+                    "subdir": "f_1000.0"
+                },
+                "metadata": {
+                    "cpu_time": "80.796875000000000",
+                    "discretization_order": "0",
+                    "e_time": "50.133917300000000",
+                    "lst_success": "1",
+                    "memory": "3473879040.000000000000000",
+                    "nb_iter": "-1",
+                    "nb_unknowns": "527358",
+                    "norm_res": "-1.000000000000000",
+                    "solver_type": "1"
+                }
+            },
+            "jobId": "2",
+            "processed": 1,
+            "status": "done",
+            "type": "solve",
+            "workerId": "1"
+        },
+        {
+            "args": {
+                "Fsolve": "2000000666.666666746139526",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "Iovm": "/level1/design.ovm",
+                "iterative_order": "2",
+                "lvldir": "level1",
+                "simdir": "f_2000000666.6666667"
+            },
+            "data": {
+                "data": {
+                    "Fsolve": "2000000666.666666746139526",
+                    "has_blg": "0",
+                    "iterative_converged": "1",
+                    "subdir": "f_2000000666.6666667"
+                },
+                "metadata": {
+                    "cpu_time": "54.171875000000000",
+                    "discretization_order": "0",
+                    "e_time": "28.961095600000000",
+                    "lst_success": "1",
+                    "memory": "3474468864.000000000000000",
+                    "nb_iter": "-1",
+                    "nb_unknowns": "527358",
+                    "norm_res": "-1.000000000000000",
+                    "solver_type": "1"
+                }
+            },
+            "jobId": "3",
+            "processed": 1,
+            "status": "done",
+            "type": "solve",
+            "workerId": "1"
+        },
+        {
+            "args": {
+                "Fsolve": "4000000333.333333492279053",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "Iovm": "/level1/design.ovm",
+                "iterative_order": "2",
+                "lvldir": "level1",
+                "simdir": "f_4000000333.3333335"
+            },
+            "data": [],
+            "jobId": "4",
+            "processed": 0,
+            "status": "started",
+            "type": "solve",
+            "workerId": "1"
+        }
+    ],
+    "x_solve_request_files_status": {},
+    "x_substatus_clients": {
+        "0": {
+            "aborted": 0,
+            "alive": 1,
+            "allow_respawn": 1,
+            "hostname": "rfcourse",
+            "last_ping": "2025-12-26 20:21:40.957051"
+        },
+        "1": {
+            "aborted": 0,
+            "alive": 1,
+            "allow_respawn": 1,
+            "hostname": "rfcourse",
+            "last_ping": "2025-12-26 20:21:40.501925"
+        }
+    }
+}

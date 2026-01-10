@@ -1,0 +1,55 @@
+
+CONFIGURATION VARIABLES WITH NON-DEFAULT VALUES:
+                                        Actual             Default
+  
+  
+FEM engine                : 410.000 2021-07-26
+FEM solver                : 1.3.11
+AFS                       : 3.1.1
+Machine                             : rfcourse
+Maximum number of threads           : Automatic
+Date                                : Sat Dec 27 14:11:33 2025
+Design                              : C:\Users\simucstvsl\Documents\ADS_Course\TLines_wrk\simulation\TLines_lib\Pkg_Mline\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design
+FEM Mesher: 2.7.0
+    
+Automatic initial target mesh size: 1.67e+01 mm
+   
+ 
+INITIAL MESH
+------------
+ 
+nbPoints     : 1152
+nbTetrahedra : 5118
+  
+REFINING
+--------
+                     |              MESHING                |                           SOLVING
+ level    frequency  |  nbTetr  Elapsed time    CPU time   |  nbUnknowns   mem(GB)   Elapsed time    CPU time  Delta(S)             solver  nbIter     normRes            
+---------------------|-------------------------------------|--------------------------------------------------------------------------------------------------
+     1    6.000 GHz  |    5118    00:00:01.9  00:00:01.7   |       35404     0.218     00:00:02.3  00:00:03.8         /               Dm64                                
+     2    6.000 GHz  |    5891    00:00:00.6  00:00:00.5   |       40620     0.251     00:00:02.6  00:00:04.5    0.0256 [-&gt;0.0200]    Dm64                                
+     3    6.000 GHz  |    7051    00:00:00.4  00:00:00.4   |       48204     0.284     00:00:02.9  00:00:04.8    0.0204 [-&gt;0.0200]    Dm64                                
+     4    6.000 GHz  |    8231    00:00:00.7  00:00:00.7   |       55928     0.347     00:00:04.5  00:00:07.4    0.0181 [-&gt;0.0200]    Dm64                                
+ 
+COMPUTING SOLUTION
+------------------
+ 
+sample    frequency  |  nbUnknowns    mem(GB)  Elapsed time     CPU time  solver  nbIter     normRes
+---------------------|------------------------------------------------------------------------------
+     1    0.000 Hz   |       48204      0.285    00:00:04.2   00:00:05.1      LF                    
+     2    6.000 GHz  |       48204      0.284    00:00:02.9   00:00:04.8   reuse                    
+     3    2.000 GHz  |       48204      0.286    00:00:02.9   00:00:04.1    Dm64                    
+     4    4.000 GHz  |       48204      0.286    00:00:02.3   00:00:03.9    Dm64                    
+     5    1.000 GHz  |       48204      0.287    00:00:02.7   00:00:03.6    Dm64                    
+     6  500.001 MHz  |       48204      0.287    00:00:02.0   00:00:02.8    Dm64                    
+     7    5.000 GHz  |       48204      0.287    00:00:02.5   00:00:03.6    Dm64                    
+     8    5.500 GHz  |       48204      0.287    00:00:02.2   00:00:02.8    Dm64                    
+------------------------------------------------
+DISTRIBUTION SUMMARY:
+controller with id 0    on rfcourse 
+solver with id 1    on rfcourse:  #freq:7     
+------------------------------------------------
+------------------------------------------------
+  Total Elapsed Time = 0:00:48
+------------------------------------------------
+Simulation results can be reused

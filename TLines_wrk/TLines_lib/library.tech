@@ -1,0 +1,12 @@
+<!DOCTYPE Technology>
+<Lpp_List>
+    <LPP alpha="128" visible="1" rgb="16755200" mode="2" protect="0" fill="18" layer="boardBound" line="0" purpose="drawing"/>
+    <LPP alpha="128" visible="1" rgb="255" mode="2" protect="0" fill="18" layer="cond2" line="0" purpose="drawing"/>
+    <LPP alpha="128" visible="1" rgb="16711680" mode="2" protect="0" fill="18" layer="cond" line="0" purpose="drawing"/>
+    <LPP alpha="128" visible="1" rgb="16731308" mode="2" protect="0" fill="18" layer="cond_cond2" line="0" purpose="drawing"/>
+    <LPP alpha="128" visible="1" rgb="16777215" mode="2" protect="0" fill="18" layer="scratch" line="0" purpose="drawing"/>
+    <LPP alpha="255" visible="1" rgb="16773083" mode="2" protect="0" fill="18" layer="silk_screen2" line="0" purpose="drawing"/>
+    <LPP alpha="255" visible="1" rgb="16773083" mode="2" protect="0" fill="18" layer="silk_screen" line="0" purpose="drawing"/>
+    <LPP alpha="128" visible="1" rgb="13027014" mode="2" protect="0" fill="18" layer="silkscreenBottom" line="0" purpose="drawing"/>
+    <LPP alpha="128" visible="1" rgb="16777215" mode="2" protect="0" fill="18" layer="silkscreenTop" line="0" purpose="drawing"/>
+</Lpp_List>

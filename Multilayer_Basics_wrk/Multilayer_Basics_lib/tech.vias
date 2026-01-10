@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Vias>
+<Vias Version="1000">
+ <Via Name="default_via">
+  <DefaultPad>
+   <Pad Type="Circle">
+    <Diam Unit="mil">15</Diam>
+   </Pad>
+   <Thermal Type="Str">
+    <Clr Unit="mil">2</Clr>
+    <Conn Unit="mil">5</Conn>
+   </Thermal>
+  </DefaultPad>
+  <Drill>
+   <Size Unit="mil">10</Size>
+  </Drill>
+  <Mask Type="None">
+   <Exp>0.0</Exp>
+  </Mask>
+  <Paste Type="None">
+   <Exp>0.0</Exp>
+  </Paste>
+ </Via>
+ <Via Name="octa_via">
+  <DefaultPad>
+   <Pad Type="Octagon">
+    <Width Unit="mil">30</Width>
+   </Pad>
+   <Thermal Type="Full"/>
+   <KeepOut Type="None"/>
+   <AntiPad Type="SameAsKeepout"/>
+  </DefaultPad>
+  <Drill>
+   <Size Unit="mil">10</Size>
+  </Drill>
+ </Via>
+</Vias>

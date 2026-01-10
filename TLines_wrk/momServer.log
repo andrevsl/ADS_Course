@@ -1,0 +1,33 @@
+Momentum Server logfile: momServer.log
+
+EM Model generation from "TLines_lib:Pkg_Mline:emModel"
+  parameterNames = list("L","w1","Substrate","MeshDensity")
+  parameterValues = list("0.02","0.0025","definedInState","20")
+  topLevel design name = "TLines_lib:Test_bench_Msline:schematic_Parametric"
+  instance name = "X1.em_data"
+  processID = "57626@127.0.0.1:hpeesofsim:_unique50112_13"
+  visible = TRUE
+Connected to external process by processID
+..handle = 22
+..pid = 57626@127.0.0.1:hpeesofsim:_unique50112_13
+..name = hpeesofsim
+Creating work design TLines_lib:Pkg_Mline:layout_hpeesofsim
+..new work design opened
+..inserting instance of TLines_lib:Pkg_Mline:layout
+..promoting instance pins and ports
+Successfully created the work design
+Successfully created the associated schematic of the work design
+Starting EM simulation for design: TLines_lib:Pkg_Mline:layout_hpeesofsim
+  Contains instance of : TLines_lib:Pkg_Mline:layout
+  EM setup view name   : emSetup_hpeesofsim
+  EM model design name   : TLines_lib:Pkg_Mline:emModel
+..disable simulation log popup
+..simulation M251227143821 started
+..simulation M251227143821 ended
+EM simulation finished successfully
+..adding new data to EM model view: Success Added simulation data.
+..deleting layout_hpeesofsim view for work design
+..deleting schematic_hpeesofsim view for work design
+..deleting emSetup_hpeesofsim view for work design
+..deleting simulation directory for work design
+..sending DONE to parent

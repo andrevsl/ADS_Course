@@ -1,0 +1,17 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Sat Dec 27 14:46:06 2025
+      Running on host: "rfcourse"
+      In Directory: "C:\Users\simucstvsl\Documents\ADS_Course\TLines_wrk\data"
+      Process ID: 4732
+
+
+SP SP1[1] <TLines_lib:Test_bench_Msline_Opt:schematic_opt_FEM>   freq=(100 MHz->6 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     0.90 seconds.
+

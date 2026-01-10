@@ -1,0 +1,60 @@
+{
+    "parameters": [
+        {
+            "expr": "20",
+            "name": "L",
+            "value": "20"
+        },
+        {
+            "expr": "20",
+            "name": "W",
+            "value": "20"
+        },
+        {
+            "expr": "0.4",
+            "name": "h",
+            "value": "0.4"
+        },
+        {
+            "expr": "0.8",
+            "name": "ws",
+            "value": "0.8"
+        },
+        {
+            "expr": "4.6",
+            "name": "er",
+            "value": "4.6"
+        },
+        {
+            "expr": "0",
+            "name": "R",
+            "value": "0"
+        },
+        {
+            "expr": "0",
+            "name": "C",
+            "value": "0"
+        },
+        {
+            "expr": "0",
+            "name": "Lind",
+            "value": "0"
+        },
+        {
+            "expr": "0",
+            "name": "tangd",
+            "value": "0"
+        },
+        {
+            "expr": "0.01",
+            "name": "tangdelta",
+            "value": "0.01"
+        },
+        {
+            "expr": "0.018",
+            "name": "t",
+            "value": "0.018"
+        }
+    ],
+    "version": 1
+}

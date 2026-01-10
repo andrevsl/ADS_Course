@@ -1,0 +1,20 @@
+<!DOCTYPE Substrate>
+<SubstrateModel>
+    <stack PURPOSE_TREATMENT="USE_ALL_EXCEPT_SPECIFIED" TOP_OF_BOARD_INDEX="2" BAL_NUM="0" BOTTOM_OF_BOARD_INDEX="1" SPECIFIED_PURPOSES="" BAL_TYPE="NONE">
+        <material BAL_NUM="0" materialname="AIR" BAL_TYPE="INHERIT"/>
+        <interface BAL_NUM="0" thickunit="millimeter" materialname="" BAL_TYPE="INHERIT" thick=""/>
+        <material BAL_NUM="0" thickunit="millimeter" materialname="FR_4_Core" BAL_TYPE="INHERIT" thick="0.8"/>
+        <interface BAL_NUM="0" thickunit="micron" materialname="" BAL_TYPE="INHERIT" thick=""/>
+        <material BAL_NUM="0" materialname="AIR" BAL_TYPE="INHERIT"/>
+    </stack>
+    <layers>
+        <layer processRole="1" index="0" negative="0" thickunit="millimeter" materialname="Copper" toprough="" precedence="1" subtype="0" sheet="0" bottomrough="" thick="-0.018" layer="3" angle="90.0" expand="1" pinsOnly="0"/>
+        <layer processRole="20" index="0" negative="0" thickunit="mil" materialname="" toprough="" precedence="0" subtype="-1" sheet="0" bottomrough="" thick="-0.1" layer="4" angle="90.0" expand="1" pinsOnly="0"/>
+        <layer processRole="1" index="1" negative="0" thickunit="millimeter" materialname="Copper" toprough="" precedence="1" subtype="0" sheet="0" bottomrough="" thick="0.018" layer="2" angle="90.0" expand="0" pinsOnly="0"/>
+        <layer processRole="20" index="1" negative="0" thickunit="mil" materialname="" toprough="" precedence="0" subtype="-1" sheet="0" bottomrough="" thick="0.1" layer="1" angle="90.0" expand="1" pinsOnly="0"/>
+    </layers>
+    <vias>
+        <via processRole="4" platingthickness="" index2="1" materialname="PERFECT_CONDUCTOR" precedence="0" rough="" subtype="0" platingdielectricmaterial="AIR" index1="0" layer="5" platingenabled="0" platingthicknessunit="micron"/>
+    </vias>
+    <substrates/>
+</SubstrateModel>

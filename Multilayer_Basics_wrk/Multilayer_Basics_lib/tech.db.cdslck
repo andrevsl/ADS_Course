@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      simucstvsl
+HostName                       rfcourse
+ProcessIdentifier              3640
+ProcessCreationTime_UTC        1766748713
+ProcessCreationTime_Readable   Fri Dec 26 11:31:53 2025 Greenwich Standard Time
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         C:\Users\simucstvsl\Documents\ADS_Course\Multilayer_Basics_wrk\Multilayer_Basics_lib\tech.db.cdslck
+TimeEditLocked                 Fri Dec 26 11:47:53 2025 Greenwich Standard Time

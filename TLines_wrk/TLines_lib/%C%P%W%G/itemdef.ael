@@ -1,0 +1,4 @@
+create_item("CPWG","CPWG","X",65552,-1,NULL,"Component Parameters",NULL,"%43?global %;%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","CPWG","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","",2,"CPWG_artwork",0,
+create_parm("L","Nominal/Perturbed 50 52 mm",66560,"StdFormSet",5,prm("StdForm","50 mm")),
+create_parm("ws","Nominal/Perturbed 2 4 mm",66560,"StdFormSet",5,prm("StdForm","1.9  mm")),
+create_parm("s","Nominal/Perturbed 4 6 mm",66560,"StdFormSet",5,prm("StdForm","4 mm")));

@@ -1,0 +1,350 @@
+// Nominal/Perturbed Design Artwork Macro
+// Cell: CPWG
+// Parameters: L ws s 
+
+defun CPWG_artwork
+(
+  L,
+  ws,
+  s
+)
+{
+  decl unitH;
+  decl layerId;
+  decl polygonH;
+  decl polylineH;
+  decl rectangleH;
+  decl circleH;
+  decl arcH;
+  decl pathH;
+  decl textH;
+  decl constructLineH;
+  decl objectList;
+  decl portH;
+  decl pinH;
+  decl holesH;
+  decl listOfPoints;
+  decl point;
+  decl listOfBulges;
+  decl bulge;
+  decl shape;
+  decl ok;
+  decl context = de_get_current_design_context();
+  decl selfIntersectionPref = de_get_preference( CHECK_INTERSECTION_P);
+  decl paramUnitH;
+  decl offsetH;
+  decl objectH;
+  decl paramValues;
+  decl perturbationList;
+  decl paramPerturbList;
+  decl paramPerturbH;
+  decl perturbList;
+  decl nomObjectH;
+  decl pertObjectH;
+  decl x0, y0;
+
+  de_set_preference( CHECK_INTERSECTION_P, 0);
+  unitH = list("mm", 10000, 0.001);
+  paramValues = list( ((1000*L)-(50))*(0.5), ((1000*ws)-(2))*(0.5), ((1000*s)-(4))*(0.5));
+  offsetH = list(-5, 0, 0.0001);
+  perturbationList = NULL;
+
+  //--- perturbation data for parameter: L -----------
+  paramUnitH = list("mm", 10000, 0.001);
+  paramPerturbList = list(paramUnitH);
+  objectH = list(7, "Point", 45, -10, db_layerid(2, -1));
+  perturbList = list
+  (
+    list("LinearStretch", 1, 0, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(7, "Point", 45, -2, db_layerid(2, -1));
+  perturbList = list
+  (
+    list("LinearStretch", 1, 0, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(7, "Point", 45, 2, db_layerid(2, -1));
+  perturbList = list
+  (
+    list("LinearStretch", 1, 0, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(7, "Point", 45, 10, db_layerid(2, -1));
+  perturbList = list
+  (
+    list("LinearStretch", 1, 0, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(7, "Point", 45, -1, db_layerid(2, -1));
+  perturbList = list
+  (
+    list("LinearStretch", 1, 0, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(7, "Point", 45, 1, db_layerid(2, -1));
+  perturbList = list
+  (
+    list("LinearStretch", 1, 0, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(7, "Point", 45, -10, db_layerid(3, -1));
+  perturbList = list
+  (
+    list("LinearStretch", 1, 0, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(7, "Point", 45, 10, db_layerid(3, -1));
+  perturbList = list
+  (
+    list("LinearStretch", 1, 0, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(0, "Port", 45, 0, 2, "P2", 0, db_layerid(2, -1));
+  perturbList = list
+  (
+    list("LinearStretch", 1, 0, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(1, "Point", -5, -10, db_layerid(2, -1));
+  perturbList = list
+  (
+    list("LinearStretch", -1, 0, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(1, "Point", -5, -2, db_layerid(2, -1));
+  perturbList = list
+  (
+    list("LinearStretch", -1, 0, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(1, "Point", -5, 2, db_layerid(2, -1));
+  perturbList = list
+  (
+    list("LinearStretch", -1, 0, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(1, "Point", -5, 10, db_layerid(2, -1));
+  perturbList = list
+  (
+    list("LinearStretch", -1, 0, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(1, "Point", -5, -1, db_layerid(2, -1));
+  perturbList = list
+  (
+    list("LinearStretch", -1, 0, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(1, "Point", -5, 1, db_layerid(2, -1));
+  perturbList = list
+  (
+    list("LinearStretch", -1, 0, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(1, "Point", -5, -10, db_layerid(3, -1));
+  perturbList = list
+  (
+    list("LinearStretch", -1, 0, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(1, "Point", -5, 10, db_layerid(3, -1));
+  perturbList = list
+  (
+    list("LinearStretch", -1, 0, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(0, "Port", -5, 0, 1, "P1", 180, db_layerid(2, -1));
+  perturbList = list
+  (
+    list("LinearStretch", -1, 0, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  perturbationList = append(perturbationList, list(paramPerturbList));
+
+  //--- perturbation data for parameter: ws -----------
+  paramUnitH = list("mm", 10000, 0.001);
+  paramPerturbList = list(paramUnitH);
+  objectH = list(7, "Point", -5, 1, db_layerid(2, -1));
+  perturbList = list
+  (
+    list("LinearStretch", 0, 1, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(7, "Point", 45, 1, db_layerid(2, -1));
+  perturbList = list
+  (
+    list("LinearStretch", 0, 1, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(1, "Point", -5, -1, db_layerid(2, -1));
+  perturbList = list
+  (
+    list("LinearStretch", 0, -1, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(1, "Point", 45, -1, db_layerid(2, -1));
+  perturbList = list
+  (
+    list("LinearStretch", 0, -1, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  perturbationList = append(perturbationList, list(paramPerturbList));
+
+  //--- perturbation data for parameter: s -----------
+  paramUnitH = list("mm", 10000, 0.001);
+  paramPerturbList = list(paramUnitH);
+  objectH = list(7, "Point", 45, 2, db_layerid(2, -1));
+  perturbList = list
+  (
+    list("LinearStretch", 0, 1, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(7, "Point", -5, 2, db_layerid(2, -1));
+  perturbList = list
+  (
+    list("LinearStretch", 0, 1, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(7, "Point", -5, -2, db_layerid(2, -1));
+  perturbList = list
+  (
+    list("LinearStretch", 0, -1, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  objectH = list(7, "Point", 45, -2, db_layerid(2, -1));
+  perturbList = list
+  (
+    list("LinearStretch", 0, -1, 1)
+  );
+  paramPerturbH = list(objectH, perturbList);
+  paramPerturbList = append(paramPerturbList, list(paramPerturbH));
+  perturbationList = append(perturbationList, list(paramPerturbList));
+
+  //--- polygon (in db units) --------------------------
+  layerId = db_layerid(2, -1);
+  listOfPoints = NULL;
+  listOfBulges = NULL;
+  nomObjectH = list(1, "Point", -5, -1, layerId);
+  pertObjectH = momArtwork_getPerturbedPoint_db(nomObjectH, paramValues, perturbationList, offsetH);
+  listOfPoints = append(listOfPoints, list(pertObjectH));
+  nomObjectH = list(1, "Point", 45, -1, layerId);
+  pertObjectH = momArtwork_getPerturbedPoint_db(nomObjectH, paramValues, perturbationList, offsetH);
+  listOfPoints = append(listOfPoints, list(pertObjectH));
+  nomObjectH = list(1, "Point", 45, 1, layerId);
+  pertObjectH = momArtwork_getPerturbedPoint_db(nomObjectH, paramValues, perturbationList, offsetH);
+  listOfPoints = append(listOfPoints, list(pertObjectH));
+  nomObjectH = list(1, "Point", -5, 1, layerId);
+  pertObjectH = momArtwork_getPerturbedPoint_db(nomObjectH, paramValues, perturbationList, offsetH);
+  listOfPoints = append(listOfPoints, list(pertObjectH));
+  polygonH = list(listOfPoints);
+  holesH = NULL;
+  shape = momArtwork_addPolygonWithHoles(polygonH, holesH, unitH, layerId);
+
+  //--- polygon (in db units) --------------------------
+  layerId = db_layerid(2, -1);
+  listOfPoints = NULL;
+  listOfBulges = NULL;
+  nomObjectH = list(1, "Point", -5, -10, layerId);
+  pertObjectH = momArtwork_getPerturbedPoint_db(nomObjectH, paramValues, perturbationList, offsetH);
+  listOfPoints = append(listOfPoints, list(pertObjectH));
+  nomObjectH = list(1, "Point", 45, -10, layerId);
+  pertObjectH = momArtwork_getPerturbedPoint_db(nomObjectH, paramValues, perturbationList, offsetH);
+  listOfPoints = append(listOfPoints, list(pertObjectH));
+  nomObjectH = list(1, "Point", 45, -2, layerId);
+  pertObjectH = momArtwork_getPerturbedPoint_db(nomObjectH, paramValues, perturbationList, offsetH);
+  listOfPoints = append(listOfPoints, list(pertObjectH));
+  nomObjectH = list(1, "Point", -5, -2, layerId);
+  pertObjectH = momArtwork_getPerturbedPoint_db(nomObjectH, paramValues, perturbationList, offsetH);
+  listOfPoints = append(listOfPoints, list(pertObjectH));
+  polygonH = list(listOfPoints);
+  holesH = NULL;
+  shape = momArtwork_addPolygonWithHoles(polygonH, holesH, unitH, layerId);
+
+  //--- polygon (in db units) --------------------------
+  layerId = db_layerid(2, -1);
+  listOfPoints = NULL;
+  listOfBulges = NULL;
+  nomObjectH = list(1, "Point", -5, 2, layerId);
+  pertObjectH = momArtwork_getPerturbedPoint_db(nomObjectH, paramValues, perturbationList, offsetH);
+  listOfPoints = append(listOfPoints, list(pertObjectH));
+  nomObjectH = list(1, "Point", 45, 2, layerId);
+  pertObjectH = momArtwork_getPerturbedPoint_db(nomObjectH, paramValues, perturbationList, offsetH);
+  listOfPoints = append(listOfPoints, list(pertObjectH));
+  nomObjectH = list(1, "Point", 45, 10, layerId);
+  pertObjectH = momArtwork_getPerturbedPoint_db(nomObjectH, paramValues, perturbationList, offsetH);
+  listOfPoints = append(listOfPoints, list(pertObjectH));
+  nomObjectH = list(1, "Point", -5, 10, layerId);
+  pertObjectH = momArtwork_getPerturbedPoint_db(nomObjectH, paramValues, perturbationList, offsetH);
+  listOfPoints = append(listOfPoints, list(pertObjectH));
+  polygonH = list(listOfPoints);
+  holesH = NULL;
+  shape = momArtwork_addPolygonWithHoles(polygonH, holesH, unitH, layerId);
+
+  //--- polygon (in db units) --------------------------
+  layerId = db_layerid(3, -1);
+  listOfPoints = NULL;
+  listOfBulges = NULL;
+  nomObjectH = list(1, "Point", -5, -10, layerId);
+  pertObjectH = momArtwork_getPerturbedPoint_db(nomObjectH, paramValues, perturbationList, offsetH);
+  listOfPoints = append(listOfPoints, list(pertObjectH));
+  nomObjectH = list(1, "Point", 45, -10, layerId);
+  pertObjectH = momArtwork_getPerturbedPoint_db(nomObjectH, paramValues, perturbationList, offsetH);
+  listOfPoints = append(listOfPoints, list(pertObjectH));
+  nomObjectH = list(1, "Point", 45, 10, layerId);
+  pertObjectH = momArtwork_getPerturbedPoint_db(nomObjectH, paramValues, perturbationList, offsetH);
+  listOfPoints = append(listOfPoints, list(pertObjectH));
+  nomObjectH = list(1, "Point", -5, 10, layerId);
+  pertObjectH = momArtwork_getPerturbedPoint_db(nomObjectH, paramValues, perturbationList, offsetH);
+  listOfPoints = append(listOfPoints, list(pertObjectH));
+  polygonH = list(listOfPoints);
+  holesH = NULL;
+  shape = momArtwork_addPolygonWithHoles(polygonH, holesH, unitH, layerId);
+
+  //--- port[1] ----------------------------------------
+  layerId = db_layerid(2, -1);
+  nomObjectH = list(0, "Port", -5, 0, 1, "P1", 180, layerId);
+  pertObjectH = momArtwork_getPerturbedObject(nomObjectH, paramValues, perturbationList, offsetH);
+  pinH = momArtwork_addPort(pertObjectH, unitH, layerId);
+  x0 = nth(0, pertObjectH);
+  y0 = nth(1, pertObjectH);
+
+  //--- port[2] ----------------------------------------
+  layerId = db_layerid(2, -1);
+  nomObjectH = list(0, "Port", 45, 0, 2, "P2", 0, layerId);
+  pertObjectH = momArtwork_getPerturbedObject(nomObjectH, paramValues, perturbationList, offsetH);
+  pinH = momArtwork_addPort(pertObjectH, unitH, layerId);
+
+  db_set_port_definitions(context, list(list(list("P1"),NULL,50,0,5,0,"cond2"),list(list("P2"),NULL,50,0,5,0,"cond2")));
+
+  de_set_origin_ex( context, x0, y0);
+
+  de_set_preference( CHECK_INTERSECTION_P, selfIntersectionPref);
+  return;
+}
+

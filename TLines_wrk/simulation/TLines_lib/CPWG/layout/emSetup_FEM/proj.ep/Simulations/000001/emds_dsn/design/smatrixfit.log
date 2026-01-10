@@ -1,0 +1,51 @@
+
+
+=======================================================================
+=======================================================================
+=======================================================================
+
+
+Flimit=1000, Fmin=0
+adaptively solving frequency plan: 
+discrete frequencies: 0 Hz 6 GHz 
+frequency ranges: 
+[ 0 Hz , 6 GHz ], #=101
+Fdc = 1000
+no cutoff intervals detected
+cutoff intervals:
+== ISOLATED DISCRETE FREQUENCIES ==========================
+
+===============================================
+== ADAPTIVE FIT in [1e-06 , 6] GHz, maxNbSamples=101 =========================
+===============================================
+Fitting options : 
+  nbInitialSamplesPerInterval                : 4
+  nbTestPointsPerInterval                    : 10
+  maxDepthDifference                         : 3
+  relFreqFactorForDistance                   : 0
+  nbTestPointsForDistance                    : 1
+  maxDistanceBetweenModels                   : 0.01
+  maxDistanceFromSamples                     : 0.001
+  nbNewSamples                               : 1
+  nbNewDiscreteSamples                       : 0
+  maxNbIntervalsToBeSubdivided               : 1
+  maxNbSamples                               : 101
+  minAbsDistanceBetweenSubsequentFrequencies : 10
+  minRelDistanceBetweenSubsequentFrequencies : 0.001
+  passivityThreshold                         : 0.005
+  useSvdForPassivity                         : 0
+  enforcePassivity                           : 0
+  maxPhaseDifferenceBetweenSubsequentSamples : 2.0944
+  unwrapPhaseDifference                      : 0
+  amplitudeThresholdForMaxPhaseDifference    : 0.01
+  maxNbSamplesInModelRange                   : 30
+  model type for S-parameters                : 3
+  #poles - #zeros                            : [-1 , -1]
+  maxNbPoles                                 : 100
+  maxImpedanceRelDistanceFromSamples         : 0.01
+  maxNbThreads                               : 2
+  extrapolateToDc                            : 0
+  vectorfitting_mirrorPolesIntoLHP           : 0
+  vectorfitting_maxNbIterations              : 5
+  vectorfitting_leastSquaresMode             : QR
+  vectorfitting_incremental                  : 1

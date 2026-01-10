@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE Multilayer_Basics_lib Multilayer_Basics_lib
+ASSIGN Multilayer_Basics_lib libMode shared
