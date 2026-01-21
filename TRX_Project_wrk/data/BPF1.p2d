@@ -1,0 +1,19 @@
+
+
+BEGIN ACDATA
+# AC( MHZ  S  RI  R 50     FC 1 0 )
+! small signal s-parameter
+% F n11x n11y n21x n21y n12x n12y n22x n22y
+2000.000000   6.661338e-16  9.742207e-14  0.999967      -8.086247e-03 0.999967      -8.086247e-03 6.661338e-16  9.742146e-14  
+! power dependent s-parameter
+% F
+2000.000000   
+% P1 P2 n11x n11y n21x n21y n12x n12y n22x n22y
+-100.000000   -100.000000   8.035660e-16  9.742231e-14  0.999967      -8.086247e-03 0.999967      -8.086247e-03 8.035660e-16  9.742250e-14  
+END   ACDATA
+BEGIN NDATA
+# AC( MHZ  S  MA  R 50    )
+! noise parameters
+% F NFMIN N11X N11Y RN
+2000.000000   9.643275e-16  4.871196e-14  -89.738827    1.665335e-16  
+END   NDATA

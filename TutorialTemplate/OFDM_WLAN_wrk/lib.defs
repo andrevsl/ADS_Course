@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/ads.defs
+DEFINE OFDM_WLAN_lib ./OFDM_WLAN_lib
+ASSIGN OFDM_WLAN_lib writePath OFDM_WLAN_lib
+ASSIGN OFDM_WLAN_lib libMode shared

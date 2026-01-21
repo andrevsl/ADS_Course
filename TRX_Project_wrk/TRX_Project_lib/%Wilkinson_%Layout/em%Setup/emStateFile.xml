@@ -1,7 +1,7 @@
 <EmSimSetup version="1.0">
   <MainWindow version="2.2">
-    <SelectedTreeItemIndex>0</SelectedTreeItemIndex>
-    <selectedTreeItem>0,unknown</selectedTreeItem>
+    <SelectedTreeItemIndex>6</SelectedTreeItemIndex>
+    <selectedTreeItem>0,opts</selectedTreeItem>
     <simCalculationType>5</simCalculationType>
     <cosimCalculationType>0</cosimCalculationType>
     <CoSimulation version="2.0">
@@ -710,9 +710,9 @@
         <MomOptionDef version="1.2">
           <optionName>&lt;(inPreparation)></optionName>
           <readOnlyData>False</readOnlyData>
-          <OptionsTabIndex>0</OptionsTabIndex>
+          <OptionsTabIndex>3</OptionsTabIndex>
           <SubstrateTabIndex>0</SubstrateTabIndex>
-          <MeshTabIndex>0</MeshTabIndex>
+          <MeshTabIndex>3</MeshTabIndex>
           <PreprocTabIndex>0</PreprocTabIndex>
           <isImported>False</isImported>
           <MomSimOptDescription version="1.0">
@@ -1842,7 +1842,7 @@
                 <layerIdName>cond:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
-                  <stdItem>0.0072946:0.00695</stdItem>
+                  <stdItem>0.00625:0.0065</stdItem>
                 </points>
               </PinShapeDef>
             </shapes>
@@ -1861,7 +1861,7 @@
                 <layerIdName>cond:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
-                  <stdItem>0.0072946:-0.005767</stdItem>
+                  <stdItem>0.00625:-0.0053</stdItem>
                 </points>
               </PinShapeDef>
             </shapes>

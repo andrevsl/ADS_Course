@@ -1,7 +1,7 @@
 simulationMode 1;
 simulationTemperature 298.15;
 # simDir "C:\Users\simucstvsl\Documents\ADS_Course\TRX_Project_wrk\simulation\TRX_Project_lib\WilkinsonCPW\layout\emSetup_MoM";
-# simTag "M260113054749";
+# simTag "M260121212110";
 logFile "proj.log";
 processPriority Normal;
 mesh_reduction ON;

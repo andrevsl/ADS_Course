@@ -1,0 +1,17 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Wed Jan 21 16:28:04 2026
+      Running on host: "rfcourse"
+      In Directory: "C:\Users\simucstvsl\Documents\ADS_Course\TutorialTemplate\OFDM_WLAN_wrk\data"
+      Process ID: 3360
+
+`DF2': Simulation started. 
+`DF2': Scheduling completed in 15 milliseconds (CPU time).
+`DF2': Simulation completed in 187 milliseconds (CPU time).
+
+Resource usage:
+  Total stopwatch time     =     1.12 seconds.
+

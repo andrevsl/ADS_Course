@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotation_files Version="1.0" Simulator="hpeesofsim" Time="Wed Jan 21 23:31:55 2026">
+ <File name="annotation_1.xml">
+  <Controller name="X1.HB1">
+   <P>freq: 3.5000000000000000e+09</P>
+   <P>_p2dInputPower: -1.0000000000000000e+02</P>
+  </Controller>
+ </File>
+</annotation_files>

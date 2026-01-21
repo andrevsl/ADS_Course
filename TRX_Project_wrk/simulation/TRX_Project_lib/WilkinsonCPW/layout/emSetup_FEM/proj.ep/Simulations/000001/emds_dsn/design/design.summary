@@ -1,0 +1,28 @@
+SIMULATION SUMMARY
+------------------
+EMDS version             : unknown
+Operating system         : win32_64
+Machine                  : rfcourse
+Date                     : Wed Jan 21 21:32:57 2026
+
+Total time               :     449.78 sec
+
+Adaptive phase: 
+  refinement steps       : 1
+  time                   :     129.86 sec  ( 28.87 %)
+
+Solve phase:
+  time                   :     237.29 sec  ( 52.76 %)
+
+Timing per subtask:
+  setup                  :       0.02 sec  (  0.00 %)
+  mesh                   :      37.16 sec  (  8.26 %)
+  adapt                  :      21.28 sec  (  4.73 %)
+  mesh2d                 :       0.00 sec  (  0.00 %)
+  solve2d                :       0.00 sec  (  0.00 %)
+  solve3d                :     388.12 sec  ( 86.29 %)
+  fileIO                 :       0.00 sec  (  0.00 %)
+  farfield               :       0.00 sec  (  0.00 %)
+  fem_vmesh              :       0.00 sec  (  0.00 %)
+  fem_vmesh_2            :       0.00 sec  (  0.00 %)
+  mesh_ops               :       0.00 sec  (  0.00 %)

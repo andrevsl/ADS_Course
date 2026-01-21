@@ -1,0 +1,5 @@
+create_text_form("StdForm","Standard","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("M4_MODULE","M4_MODULE","X",16,-1,NULL,"Component Parameters",NULL,"%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","M4_MODULE","%t%b%r%38?%:\n%39?all_parm%A%:%30?%s%:%k%?[%1i]%;=%s%;%;%;%e%e%;","SYM_2Port",0,NULL,0,
+create_parm("IN1","IN1",132096,"StdFormSet",-1,prm("StdForm","")));

@@ -1,0 +1,112 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Wed Jan 21 20:49:36 2026
+      Running on host: "rfcourse"
+      In Directory: "C:\Users\simucstvsl\Documents\ADS_Course\RIS_Design_Project\data"
+      Process ID: 5052
+
+
+CT Sweep1[1] <D310_lib:Classic_RIS_UnitCell:schematic>   Vdc=(0->16)
+    Matrix is singular (detected at node or branch `DC_Feed1.i').
+Adding gmin to branches
+    Matrix is singular (detected between nodes or branches `L1.i' and `SRC1.i').
+Adding gmin to branches
+    Matrix is singular (detected between nodes or branches `L1.i' and `SRC1.i').
+Adding gmin to branches
+    Matrix is singular (detected between nodes or branches `L1.i' and `SRC1.i').
+Adding gmin to branches
+    Matrix is singular (detected between nodes or branches `L1.i' and `SRC1.i').
+Adding gmin to branches
+    Matrix is singular (detected between nodes or branches `L1.i' and `SRC1.i').
+Adding gmin to branches
+    Matrix is singular (detected between nodes or branches `L1.i' and `SRC1.i').
+Adding gmin to branches
+    Matrix is singular (detected between nodes or branches `L1.i' and `SRC1.i').
+Adding gmin to branches
+    Matrix is singular (detected between nodes or branches `L1.i' and `SRC1.i').
+Adding gmin to branches
+    Matrix is singular (detected between nodes or branches `L1.i' and `SRC1.i').
+Adding gmin to branches
+The final gnode step did NOT converge in 1 iteration(s) with gnode=1.000000e-18
+    Matrix is singular (detected between nodes or branches `L1.i' and `SRC1.i').
+Adding gmin to branches
+    Matrix is singular (detected between nodes or branches `L1.i' and `SRC1.i').
+Adding gmin to branches
+Warning detected by hpeesofsim during DC analysis `SP1'.
+    Circuit converged after a virtual resistance of 1 TOhms 
+    was added between each node and ground, and a virtual 
+    resistance of 1 pOhms was inserted in each current branch. 
+    Possible causes include floating nodes or missing ground.
+
+SP Sweep1[1].SP1[1/17] <D310_lib:Classic_RIS_UnitCell:schematic>  Vdc=0  freq=(2 GHz->10 GHz)
+
+    Matrix is singular (detected at node or branch `L1.i').
+Adding gmin to branches
+Warning detected by hpeesofsim during DC analysis `SP1'.
+    A virtual resistance of 1 pOhms 
+    was added to branch L1.i.
+
+SP Sweep1[1].SP1[2/17] <D310_lib:Classic_RIS_UnitCell:schematic>  Vdc=1  freq=(2 GHz->10 GHz)
+
+Warning detected by hpeesofsim during DC analysis `SP1'.
+    Circuit converged after a virtual resistance of 10 GOhms 
+    was added between each node and ground, and a virtual 
+    resistance of 100 pOhms was inserted in each current branch. 
+    Possible causes include floating nodes or missing ground.
+
+SP Sweep1[1].SP1[3/17] <D310_lib:Classic_RIS_UnitCell:schematic>  Vdc=2  freq=(2 GHz->10 GHz)
+
+Warning detected by hpeesofsim during DC analysis `SP1'.
+    Circuit converged after a virtual resistance of 100 GOhms 
+    was added between each node and ground, and a virtual 
+    resistance of 10 pOhms was inserted in each current branch. 
+    Possible causes include floating nodes or missing ground.
+
+SP Sweep1[1].SP1[4/17] <D310_lib:Classic_RIS_UnitCell:schematic>  Vdc=3  freq=(2 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[5/17] <D310_lib:Classic_RIS_UnitCell:schematic>  Vdc=4  freq=(2 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[6/17] <D310_lib:Classic_RIS_UnitCell:schematic>  Vdc=5  freq=(2 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[7/17] <D310_lib:Classic_RIS_UnitCell:schematic>  Vdc=6  freq=(2 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[8/17] <D310_lib:Classic_RIS_UnitCell:schematic>  Vdc=7  freq=(2 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[9/17] <D310_lib:Classic_RIS_UnitCell:schematic>  Vdc=8  freq=(2 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[10/17] <D310_lib:Classic_RIS_UnitCell:schematic>  Vdc=9  freq=(2 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[11/17] <D310_lib:Classic_RIS_UnitCell:schematic>  Vdc=10  freq=(2 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[12/17] <D310_lib:Classic_RIS_UnitCell:schematic>  Vdc=11  freq=(2 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[13/17] <D310_lib:Classic_RIS_UnitCell:schematic>  Vdc=12  freq=(2 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[14/17] <D310_lib:Classic_RIS_UnitCell:schematic>  Vdc=13  freq=(2 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[15/17] <D310_lib:Classic_RIS_UnitCell:schematic>  Vdc=14  freq=(2 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[16/17] <D310_lib:Classic_RIS_UnitCell:schematic>  Vdc=15  freq=(2 GHz->10 GHz)
+
+
+SP Sweep1[1].SP1[17/17] <D310_lib:Classic_RIS_UnitCell:schematic>  Vdc=16  freq=(2 GHz->10 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     1.04 seconds.
+

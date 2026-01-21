@@ -1,0 +1,469 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Wed Jan 21 17:20:05 2026
+      Running on host: "rfcourse"
+      In Directory: "C:\Users\simucstvsl\Documents\ADS_Course\RIS_Design_Project\data"
+      Process ID: 2704
+
+
+CT Sweep1[1] <D310_lib:Test_Spar_Varactor:schematic>   VDC=(0->15)
+
+SP Sweep1[1].SP1[1/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=0  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[2/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=100e-03  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[3/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=200e-03  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[4/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=300e-03  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[5/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=400e-03  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[6/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=500e-03  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[7/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=600e-03  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[8/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=700e-03  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[9/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=800e-03  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[10/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=900e-03  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[11/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=1  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[12/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=1.1  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[13/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=1.2  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[14/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=1.3  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[15/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=1.4  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[16/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=1.5  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[17/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=1.6  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[18/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=1.7  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[19/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=1.8  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[20/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=1.9  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[21/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=2  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[22/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=2.1  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[23/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=2.2  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[24/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=2.3  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[25/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=2.4  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[26/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=2.5  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[27/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=2.6  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[28/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=2.7  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[29/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=2.8  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[30/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=2.9  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[31/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=3  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[32/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=3.1  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[33/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=3.2  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[34/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=3.3  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[35/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=3.4  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[36/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=3.5  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[37/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=3.6  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[38/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=3.7  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[39/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=3.8  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[40/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=3.9  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[41/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=4  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[42/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=4.1  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[43/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=4.2  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[44/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=4.3  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[45/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=4.4  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[46/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=4.5  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[47/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=4.6  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[48/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=4.7  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[49/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=4.8  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[50/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=4.9  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[51/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=5  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[52/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=5.1  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[53/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=5.2  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[54/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=5.3  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[55/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=5.4  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[56/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=5.5  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[57/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=5.6  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[58/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=5.7  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[59/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=5.8  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[60/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=5.9  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[61/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=6  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[62/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=6.1  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[63/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=6.2  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[64/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=6.3  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[65/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=6.4  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[66/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=6.5  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[67/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=6.6  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[68/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=6.7  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[69/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=6.8  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[70/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=6.9  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[71/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=7  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[72/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=7.1  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[73/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=7.2  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[74/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=7.3  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[75/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=7.4  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[76/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=7.5  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[77/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=7.6  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[78/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=7.7  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[79/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=7.8  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[80/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=7.9  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[81/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=8  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[82/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=8.1  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[83/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=8.2  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[84/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=8.3  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[85/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=8.4  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[86/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=8.5  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[87/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=8.6  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[88/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=8.7  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[89/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=8.8  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[90/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=8.9  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[91/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=9  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[92/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=9.1  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[93/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=9.2  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[94/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=9.3  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[95/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=9.4  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[96/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=9.5  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[97/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=9.6  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[98/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=9.7  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[99/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=9.8  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[100/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=9.9  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[101/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=10  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[102/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=10.1  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[103/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=10.2  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[104/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=10.3  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[105/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=10.4  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[106/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=10.5  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[107/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=10.6  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[108/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=10.7  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[109/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=10.8  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[110/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=10.9  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[111/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=11  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[112/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=11.1  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[113/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=11.2  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[114/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=11.3  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[115/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=11.4  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[116/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=11.5  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[117/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=11.6  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[118/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=11.7  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[119/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=11.8  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[120/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=11.9  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[121/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=12  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[122/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=12.1  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[123/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=12.2  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[124/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=12.3  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[125/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=12.4  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[126/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=12.5  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[127/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=12.6  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[128/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=12.7  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[129/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=12.8  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[130/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=12.9  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[131/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=13  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[132/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=13.1  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[133/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=13.2  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[134/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=13.3  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[135/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=13.4  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[136/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=13.5  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[137/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=13.6  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[138/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=13.7  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[139/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=13.8  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[140/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=13.9  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[141/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=14  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[142/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=14.1  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[143/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=14.2  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[144/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=14.3  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[145/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=14.4  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[146/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=14.5  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[147/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=14.6  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[148/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=14.7  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[149/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=14.8  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[150/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=14.9  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[151/151] <D310_lib:Test_Spar_Varactor:schematic>  VDC=15  freq=(1 GHz->20 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     1.09 seconds.
+

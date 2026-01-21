@@ -1,0 +1,260 @@
+; Top Design: "OFDM_WLAN_lib:OFDM_MOD:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="OFDM_WLAN_lib:OFDM_MOD:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+; Library Name: Numeric
+; Cell Name: AddCx2
+; View Name: schematic
+define AddCx2 ( N__3  N__2  N__0 ) 
+;parameters 
+_vKeysightEEsof_dSDF_nAddCx_lsdfstars:A1  N__1 N__0 
+_vKeysightEEsof_dHOF_nNop_lhofstars_pinput_x3d2_aBusMerge2:B1  N__3 N__2 N__1 
+end AddCx2
+
+; Library Name: Numeric
+; Cell Name: Bits
+; View Name: schematic
+define Bits ( N__3 ) 
+parameters  Type=0  ProbOfZero=0.5  LFSR_Length=12  LFSR_InitState=1 
+_vKeysightEEsof_dSDF_nImpulseFloat_lsdfstars:R1  N__0 Level=1.0 Period=2 Delay=1 
+_vKeysightEEsof_dHOF_nBus_lhofstars:B1  N__2 N__1 BusWidth=1 
+_vKeysightEEsof_dHOF_nBus_lhofstars:B3  N__4 N__3 BusWidth=1 
+_vKeysightEEsof_dHOF_nIfElse_lhofstars:I6  N__9 N__5 N__7 N__6 N__4 N__8 Condition=int( Type ) 
+_vKeysightEEsof_dHOF_nBus_lhofstars:B2  N__10 N__9 BusWidth=1 
+_vKeysightEEsof_dHOF_nIfElse_lhofstars:I4  N__14 N__0 N__12 N__11 N__2 N__13 Condition=int( Type ) 
+_vKeysightEEsof_dSDF_nLFSR_lsdfomnistars:L1  N__16 N__15 Seed="LFSR_Seed" FeedbackList="List" 
+_vKeysightEEsof_dHOF_nIfElse_lhofstars:I5  N__1 N__15 N__17 N__16 N__10 N__18 Condition=int( Type ) 
+_vKeysightEEsof_dSDF_nIID_x5fUniform_lsdfstars:I7  N__12 Lower=0.0 Upper=1.0 
+_vKeysightEEsof_dSDF_nFloatToInt_lsdfstars:F14  N__8 N__7 
+_vKeysightEEsof_dSDF_nQuant_lsdfstars:Q14  N__18 N__17 Thresholds="Thresholds" Levels="" 
+_vKeysightEEsof_dSDF_nDownSample_lsdfstars:D1  N__6 N__5 Factor=2 Phase=1 
+
+Thresholds=if ( ProbOfZero <= 0 ) then "-1.0" elseif ( ProbOfZero >= 1 ) then "2.0" else "ProbOfZero" endif
+
+L=if ( ( LFSR_Length > 1 ) && ( LFSR_Length < 32 ) ) then LFSR_Length else 12 endif
+LFSR_Seed=if ( ( LFSR_InitState > 0 ) && ( LFSR_InitState < 2**L ) ) then LFSR_InitState else 1 endif
+List=if (L<=9) then List1 elseif (L<=17) then List2 elseif (L<=25) then List3 else List4 endif
+List1=if (L==2) then L2 elseif (L==3) then L3 elseif (L==4) then L4 elseif (L==5) then L5 elseif (L==6) then L6 elseif (L==7) then L7 elseif (L==8) then L8 else L9 endif
+List2=if (L==10) then L10 elseif (L==11) then L11 elseif (L==12) then L12 elseif (L==13) then L13 elseif (L==14) then L14 elseif (L==15) then L15 elseif (L==16) then L16 else L17 endif
+List3=if (L==18) then L18 elseif (L==19) then L19 elseif (L==20) then L20 elseif (L==21) then L21 elseif (L==22) then L22 elseif (L==23) then L23 elseif (L==24) then L24 else L25 endif
+List4=if (L==26) then L26 elseif (L==27) then L27 elseif (L==28) then L28 elseif (L==29) then L29 elseif (L==30) then L30 else L31 endif
+List5=if (L==2) then L2 elseif (L==3) then L3 elseif (L==4) then L4 elseif (L==5) then L5 elseif (L==6) then L6 elseif (L==7) then L7 elseif (L==8) then L8 elseif (L==9) then L9 elseif (L==10) then L10 elseif (L==11) then L11 elseif (L==12) then L12 elseif (L==13) then L13 elseif (L==14) then L14 elseif (L==15) then L15 elseif (L==16) then L16 elseif (L==17) then L17 elseif (L==18) then L18 elseif (L==19) then L19 elseif (L==20) then L20 elseif (L==21) then L21 elseif (L==22) then L22 elseif (L==23) then L23 elseif (L==24) then L24 elseif (L==25) then L25 elseif (L==26) then L26 elseif (L==27) then L27 elseif (L==28) then L28 elseif (L==29) then L29 elseif (L==30) then L30 else L31 endif
+
+L2="2 1"
+L3="3 1"
+L4="4 1"
+L5="5 2"
+L6="6 1"
+L7="7 1"
+L8="8 5 3 1"
+
+L9="9 4"
+L10="10 3"
+L11="11 7 3 2"
+L12="12 6 4 1"
+L13="13 4 3 1"
+L14="14 12 2 1"
+L15="15 1"
+
+L16="16 12 3 1"
+L17="17 3"
+L18="18 7"
+L19="19 5 2 1"
+L20="20 3"
+L21="21 2"
+L22="22 1"
+
+L23="23 5"
+L24="24 7 2"
+L25="25 3"
+L26="26 6 2 1"
+L27="27 5 2 1"
+L28="28 3"
+L29="29 2"
+L30="30 23 2 1"
+L31="31 3"
+end Bits
+
+; Library Name: Timed
+; Cell Name: GainRF
+; View Name: schematic
+define GainRF ( N__3  N__2 ) 
+parameters  RIn=DefaultRIn  ROut=DefaultROut  RTemp=DefaultRTemp  Gain=1  NoiseFigure=0  GCType=0  TOIout=3  dBc1out=1  PSat=1  GCSat=1  GComp="0  0  0" 
+R:R2  N__1 N__2 R=ROut Temp=RTemp 
+R:R1  0 N__3 R=RIn Temp=-273.15 
+_vKeysightEEsof_dTSDF_n_x5fGainRF_ltsdfstars:G1  N__3 N__1 RIn=RIn ROut=ROut RTemp=RTemp Gain=Gain NoiseFigure=NoiseFigure GCType=GCType TOIout=TOIout dBc1out=dBc1out PSat=PSat GCSat=GCSat GComp=GComp 
+end GainRF
+
+; Library Name: Timed
+; Cell Name: MixerRF
+; View Name: schematic
+define MixerRF ( N__4  N__3  N__2 ) 
+parameters  RIn=DefaultRIn  ROut=DefaultROut  RTemp=DefaultRTemp  NoiseFigure=0  Type=0  RfRej=-200  ImRej=-200  LoRej=-200  LComp=" 0 0  0" 
+R:R3  N__1 N__2 R=ROut Temp=RTemp 
+_vKeysightEEsof_dTSDF_n_x5fMixerRF_ltsdfstars:M1  N__4 N__3 N__1 RIn=RIn ROut=ROut RTemp=RTemp NoiseFigure=NoiseFigure Type=Type RfRej=RfRej ImRej=ImRej LoRej=LoRej LComp=LComp 
+R:R1  N__4 0 R=RIn Temp=-273.15 
+R:R2  N__3 0 R=RIn Temp=-273.15 
+end MixerRF
+
+; Library Name: Timed
+; Cell Name: N_Tones
+; View Name: schematic
+define N_Tones ( N__1 ) 
+parameters  ROut=DefaultROut  RTemp=DefaultRTemp  TStep=0.0001  Frequency1=999999  Power1=.010  Phase1=0.0  AdditionalTones=""  RandomPhase=0  PhaseNoiseData=""  PN_Type=0 
+_vKeysightEEsof_dTSDF_n_x5fN_x5fTones_ltsdfstars:N1  N__0 ROut=ROut RTemp=-273.15 TStep=TStep Frequency1=Frequency1 Power1=Power1 Phase1=Phase1 AdditionalTones=AdditionalTones RandomPhase=RandomPhase PhaseNoiseData=PhaseNoiseData PN_Type=PN_Type 
+R:R1  N__0 N__1 R=ROut Temp=RTemp 
+end N_Tones
+
+; Library Name: Numeric
+; Cell Name: QAM4
+; View Name: schematic
+define QAM4 ( N__2  N__0 ) 
+;parameters 
+_vKeysightEEsof_dSDF_nTableCx_lsdfstars:T1  N__1 N__0 Values="(1.0,1.0) (-1.0,1.0) (1.0,-1.0) (-1.0,-1.0) " 
+_vKeysightEEsof_dSDF_nBitsToInt_lsdfstars:B1  N__2 N__1 nBits=2 
+end QAM4
+
+; Library Name: Timed
+; Cell Name: QAM_Mod
+; View Name: schematic
+define QAM_Mod ( N__2  N__1  N__3 ) 
+parameters  RIn=DefaultRIn  ROut=DefaultROut  RTemp=DefaultRTemp  FCarrier=1000000  Power=0.01  VRef=1  Phase=0  GainImbalance=0  PhaseImbalance=0 
+R:R2  0 N__1 R=RIn Temp=-273.15 
+R:R1  N__2 0 R=RIn Temp=-273.15 
+R:R3  N__3 N__4 R=ROut Temp=RTemp 
+_vKeysightEEsof_dTSDF_n_x5fQAM_x5fMod_ltsdfstars:Q1  N__2 N__1 N__4 RIn=RIn ROut=ROut RTemp=-273.15 FCarrier=FCarrier Power=Power VRef=VRef Phase=Phase GainImbalance=GainImbalance PhaseImbalance=PhaseImbalance 
+end QAM_Mod
+
+; Library Name: Sinks
+; Cell Name: SpectrumAnalyzerResBW
+; View Name: schematic
+define SpectrumAnalyzerResBW ( N__1 ) 
+parameters  Plot=0  RLoad=DefaultRLoad  RTemp=DefaultRTemp  Start=DefaultTimeStart  Stop=DefaultTimeStop  Window=0  ResBW=30 kHz  NumSegments=0  SegmentTime=1.0 msec 
+R:R1  N__1 0 R=RLoad Temp=RTemp 
+_vKeysightEEsof_dTSDF_n_x5fSpectrumAnalyzerResBW_ltsdfsinks:S1  N__1 Plot=Plot RLoad=RLoad RTemp=RTemp Start=Start Stop=Stop Window=Window ResBW=ResBW NumSegments=NumSegments SegmentTime=SegmentTime 
+end SpectrumAnalyzerResBW
+
+; Library Name: Timed
+; Cell Name: SplitterRF
+; View Name: schematic
+define SplitterRF ( N__3  N__4  N__5 ) 
+parameters  RIn=DefaultRIn  ROut=DefaultROut  RTemp=DefaultRTemp 
+_vKeysightEEsof_dTSDF_n_x5fSplitterRF_ltsdfstars:S1  N__3 N__2 N__1 RIn=RIn ROut=ROut RTemp=-273.15 
+R:R1  N__3 0 R=RIn Temp=-273.15 
+R:R2  N__2 N__4 R=ROut Temp=RTemp 
+R:R3  N__1 N__5 R=ROut Temp=RTemp 
+end SplitterRF
+
+; Library Name: Sinks
+; Cell Name: TimedSink
+; View Name: schematic
+define TimedSink ( N__1 ) 
+parameters  Plot=0  RLoad=DefaultRLoad  RTemp=DefaultRTemp  Start=DefaultTimeStart  Stop=DefaultTimeStop  ControlSimulation=1 
+R:R1  N__1 0 R=RLoad Temp=RTemp 
+_vKeysightEEsof_dTSDF_n_x5fTimedSink_ltsdfsinks:T1  N__1 Plot=Plot RLoad=RLoad RTemp=RTemp Start=Start Stop=Stop ControlSimulation=ControlSimulation 
+end TimedSink
+
+SpectrumAnalyzerResBW:Spec_Mod  N__0 Plot=0 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=0 sec Stop=(1*total_samps/Fs) sec Window=2 ResBW=300 kHz NumSegments=0 SegmentTime=1.0 msec 
+SpectrumAnalyzerResBW:Spec_Out  N__1 Plot=0 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=0 sec Stop=(1*total_samps/Fs) sec Window=2 ResBW=300 kHz NumSegments=0 SegmentTime=1.0 msec 
+N_Tones:N6  N__2 ROut=50.0 Ohm RTemp=-273.15 TStep=(1.0/Fs) sec Frequency1=F_LO Hz Power1=dbmtow(7) Phase1=0.0 AdditionalTones="" RandomPhase=0 PhaseNoiseData="" PN_Type=0 
+Bits:B3  N__4 Type=0 ProbOfZero=0.5 LFSR_Length=12 LFSR_InitState=1 
+QAM4:X4  N__4 N__5 
+GainRF:G2  N__6 N__1 RIn=50.0 Ohm ROut=50.0 Ohm RTemp=-273.15 Gain=dbpolar(31.625,85.164) NoiseFigure=0.0 GCType=2 TOIout=3.0 W dBc1out=dbmtow(17.166) PSat=1.0 W GCSat=1.0 GComp="" 
+_vKeysightEEsof_dHOF_nFork_lhofstars:F1  N__5 N__7 
+_vKeysightEEsof_dSDF_nGainCx_lsdfstars:G1  N__9 N__8 Gain=10.0+j*0.0 
+QAM_Mod:Q1  N__12 N__11 N__10 RIn=50.0 Ohm ROut=50.0 Ohm RTemp=-273.15 FCarrier=(Fs/2) Hz Power=dbmtow(PinValue) VRef=1.0 V Phase=0.0 GainImbalance=0.0 PhaseImbalance=0.0 
+_vKeysightEEsof_dSDF_nChop_lsdfstars:C4  N__8 N__13 nRead=run_samps nWrite=total_samps Offset=0 UsePastInputs=0 
+MixerRF:M1  N__10 N__2 N__14 RIn=50.0 Ohm ROut=50.0 Ohm RTemp=-273.15 NoiseFigure=0.0 Type=0 RfRej=-200.0 ImRej=-200.0 LoRej=-200.0 
+SplitterRF:S2  N__16 N__15 N__0 RIn=50.0 Ohm ROut=50.0 Ohm RTemp=-273.15 
+_vKeysightEEsof_dSDF_nMpyCx_lsdfstars_pinput_x3d2_aMpyCx2:M5  N__19 N__18 N__17 
+DefaultNumericStart=0.0
+DefaultNumericStop=total_samps
+DefaultTimeStart=0.0 usec
+DefaultTimeStop=total_samps usec
+DefaultSeed=1234567
+DefaultRIn=50
+DefaultROut=50
+DefaultRLoad=1.0e15
+DefaultRTemp=-273.15
+__DefaultPartition=1
+__SimulationID=0
+_vKeysightEEsof_dTSDF_nDF_ltsdf:DF2 DefaultTimeUnit=3 DefaultSeed=if (DefaultSeed==0) then 0 else (DefaultSeed+__SimulationID) endif DefaultPartition=__DefaultPartition OutVar="" ProfileTimes="" logFile="" DeadlockManager=0 CktCosimInputs=0 OutputPlan="DF2_Output" 
+OutputPlan:DF2_Output \
+      Type="Output" \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:F6  N__20 N__12 TStep=(1.0/Fs) sec 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:F5  N__21 N__11 TStep=(1.0/Fs) sec 
+_vKeysightEEsof_dSDF_nCxToRect_lsdfstars:C7  N__13 N__20 N__21 
+SplitterRF:S1  N__14 N__16 N__6 RIn=50.0 Ohm ROut=50.0 Ohm RTemp=-273.15 
+_vKeysightEEsof_dSDF_nChop_lsdfstars:C1  N__7 N__22 nRead=carriers nWrite=FFT_dim Offset=car_offset-FFT_dim/2.0 UsePastInputs=0 
+_vKeysightEEsof_dSDF_nChop_lsdfstars:C10  N__7 N__23 nRead=carriers nWrite=FFT_dim Offset=car_offset+FFT_dim/2.0 UsePastInputs=0 
+AddCx2:X1  N__22 N__23 N__24 
+_vKeysightEEsof_dSDF_nFFT_x5fCx_lsdfdspstars:F7  N__24 N__25 Order=order Size=FFT_dim Direction=0 
+_vKeysightEEsof_dSDF_nChop_lsdfstars:C13  N__27 N__26 nRead=run_samps-ramp_len nWrite=total_samps Offset=0 UsePastInputs=0 
+_vKeysightEEsof_dSDF_nChop_lsdfstars:C15  N__17 N__28 nRead=run_samps-ramp_len nWrite=total_samps Offset=ramp_len UsePastInputs=0 
+_vKeysightEEsof_dSDF_nChop_lsdfstars:C16  N__30 N__29 nRead=FFT_dim nWrite=s_samps Offset=gs_offset UsePastInputs=0 
+_vKeysightEEsof_dSDF_nConst_lsdfstars:C3  N__31 Level=0.0 
+_vKeysightEEsof_dSDF_nConst_lsdfstars:C2  N__32 Level=0.0 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R9  N__33 FileName="down_ramp_16_80.data" ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R8  N__34 FileName="up_ramp_16_80.data" ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nRectToCx_lsdfstars:R10  N__34 N__32 N__35 
+_vKeysightEEsof_dSDF_nMpyCx_lsdfstars_pinput_x3d2_aMpyCx2:M4  N__29 N__35 N__36 
+_vKeysightEEsof_dSDF_nChop_lsdfstars:C12  N__30 N__19 nRead=FFT_dim nWrite=s_samps Offset=tail_offset UsePastInputs=0 
+AddCx2:X6  N__28 N__26 N__9 
+AddCx2:X5  N__37 N__36 N__27 
+_vKeysightEEsof_dSDF_nChop_lsdfstars:C11  N__30 N__37 nRead=FFT_dim nWrite=s_samps Offset=sym_offset UsePastInputs=0 
+_vKeysightEEsof_dSDF_nRectToCx_lsdfstars:R11  N__33 N__31 N__18 
+_vKeysightEEsof_dHOF_nFork_lhofstars:F12  N__25 N__30 
+TimedSink:T2  N__15 Plot=0 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=0 sec Stop=(run_samps/Fs) sec ControlSimulation=1 
+TimedSink:T1  N__11 Plot=0 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=0 sec Stop=(run_samps/Fs) sec ControlSimulation=1 
+_vKeysightEEsof_dSDF_nNumericSink_ltsdfsinks:Carriers  N__25 Plot=0 Start=DefaultNumericStart Stop=DefaultNumericStop ControlSimulation=1 
+_vKeysightEEsof_dSDF_nNumericSink_ltsdfsinks:Guard_Samples  N__36 Plot=0 Start=DefaultNumericStart Stop=DefaultNumericStop ControlSimulation=1 
+_vKeysightEEsof_dSDF_nNumericSink_ltsdfsinks:Shape_Samples  N__28 Plot=0 Start=DefaultNumericStart Stop=DefaultNumericStop ControlSimulation=1 
+_vKeysightEEsof_dSDF_nNumericSink_ltsdfsinks:Total_Samples  N__13 Plot=0 Start=DefaultNumericStart Stop=DefaultNumericStop ControlSimulation=1 
+_vKeysightEEsof_dSDF_nNumericSink_ltsdfsinks:Guarded_and_Shaped  N__8 Plot=0 Start=DefaultNumericStart Stop=DefaultNumericStop ControlSimulation=1 
+_vKeysightEEsof_dSDF_nNumericSink_ltsdfsinks:Coded_Data_In  N__7 Plot=0 Start=0 Stop=100 ControlSimulation=1 
+
+FFT_dim=FFT_size*OSR
+car_offset=(FFT_dim-carriers)/2
+order=log(FFT_dim)/log(2)
+
+SweepPlan:Plan1 SweepPlan[1]="Plan1_seg1" SweepPlan[2]="Plan1__Plan2"  
+SweepPlan:Plan1__Plan2 Sort=no Reverse=no SweepPlan="Plan2"
+SweepPlan:Plan1_seg1 Pt=11 
+
+SweepPlan:Plan2 SweepPlan[1]="Plan2_seg1" SweepPlan[2]="Plan2__Plan3"  
+SweepPlan:Plan2__Plan3 Sort=no Reverse=no SweepPlan="Plan3"
+SweepPlan:Plan2_seg1 Pt=4 
+
+carriers=16
+FFT_size=32
+guard=8
+OSR=2
+ramp_len=16
+tx_symbols=80
+Fs=67.108864e6
+F_Xmit=5223.527e6
+F_LO=F_Xmit-(Fs/2)
+
+g_samps=guard*OSR
+s_samps=ramp_len+g_samps+FFT_dim
+gs_offset=-(FFT_dim-g_samps-ramp_len)
+sym_offset=ramp_len+g_samps
+tail_offset=FFT_dim+g_samps
+
+run_samps=tx_symbols*s_samps+ramp_len
+two_pow=int(log(run_samps+ramp_len)/log(2.0))+1
+two_samps=exp(two_pow*ln(2.0))
+total_samps=run_samps
+
+SweepPlan:Plan3 SweepPlan[1]="Plan3_seg1" 
+SweepPlan:Plan3_seg1 Pt=0 
+
+PinForP1dBc=-13.46
+BackOff=4
+PinValue=PinForP1dBc-BackOff
+R:R3  N__15 0 R=50 Ohm Noise=no 
+R:R2  N__1 0 R=50 Ohm Noise=no 
+R:R4  N__0 0 R=50 Ohm Noise=no 

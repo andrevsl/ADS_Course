@@ -1,0 +1,92 @@
+<!DOCTYPE SimulationData>
+<SimulationData>
+  <SimulationData Generation="1" Simulator="com.keysight.xxpro.simulator.fdtd" sname="Simulation" TotalScatteredFieldInterfaces="NoInterfaces" ComputeDissipatedPower="false" ExcitationType="DiscreteSources" UseTotalScatteredFieldFormulation="false">
+    <BoundaryConditions subjectID="1" ptrID="0">
+      <BoundaryConditions AbsorptionType="PML" ZUpperBoundaryType="Absorbing" YLowerBoundaryType="Absorbing" YUpperBoundaryType="Absorbing" XLowerBoundaryType="Absorbing" XUpperBoundaryType="Absorbing" ZLowerBoundaryType="Absorbing">
+        <NumPMLLayers subjectID="3" ptrID="2">
+          <Expression>
+            <Formula typeid="2" value="7" type="Int"/>
+          </Expression>
+        </NumPMLLayers>
+        <UseHybridFemMom value="false"/>
+        <HybridFemMomType>Volakis_Symm</HybridFemMomType>
+        <WrittenWith RevisionID="588" Version="EMPro 410.000 (64-bit)" BuildString="AAAAi3icJYq7CsJAFAX7fMUBGwXvcrPPJKVgKVgI1rt5YMRkNa5F/t5FYaqZudzGNzLH03mJ0CULZsbWagpj2omiOHzGR8KwxAm1Vla51vQOcUA/PZdIIeeOJMuS2JB01K5z51/ZIs7w4U5XibDi98En/FdH0oLrRtrGqD02pqrEF+skJp8="/>
+        <SelectedType value="7274601"/>
+      </BoundaryConditions>
+    </BoundaryConditions>
+    <ParameterValues>
+      <ParameterList/>
+      <ParameterList/>
+      <ParameterList/>
+      <ParameterList/>
+    </ParameterValues>
+    <ActivePorts>
+      <PortList>
+        <Port Number="1" Name="P1"/>
+      </PortList>
+      <PortList>
+        <Port Number="2" Name="P2"/>
+      </PortList>
+      <PortList>
+        <Port Number="3" Name="P3"/>
+      </PortList>
+      <PortList>
+        <Port Number="4" Name="4"/>
+      </PortList>
+    </ActivePorts>
+    <SteadyStateFrequencySets/>
+    <FieldStorageFrequencySets/>
+    <Sinusoidal Count="4" DataFormat="ASCII" Compressed="false">0 0 0 0</Sinusoidal>
+    <StaticVoltagePointSets>
+      <StaticVoltagePointSet/>
+      <StaticVoltagePointSet/>
+      <StaticVoltagePointSet/>
+      <StaticVoltagePointSet/>
+    </StaticVoltagePointSets>
+    <FrequencyRangesOfInterest>
+      <FrequencyRange Max="-1" Min="-1"/>
+      <FrequencyRange Max="-1" Min="-1"/>
+      <FrequencyRange Max="-1" Min="-1"/>
+      <FrequencyRange Max="-1" Min="-1"/>
+    </FrequencyRangesOfInterest>
+    <RunDirectories>
+      <Item>Run0001</Item>
+      <Item>Run0002</Item>
+      <Item>Run0003</Item>
+      <Item>Run0004</Item>
+    </RunDirectories>
+    <Timesteps Count="4" DataFormat="ASCII" Compressed="false">-1 -1 -1 -1</Timesteps>
+    <MaximumFrequencies Count="4" DataFormat="ASCII" Compressed="false">5000000000 5000000000 5000000000 5000000000</MaximumFrequencies>
+    <Details>Simulation Summary%0A======================================================%0AEM engine:                 FEM%0AS-Parameters:              On%0A%0AParameter sweep: No%0A%0ABoundary conditions:%0A    Lower/Upper X:        Absorbing / Absorbing%0A    Lower/Upper Y:        Absorbing / Absorbing%0A    Lower/Upper Z:        Absorbing / Absorbing%0A%0AFrequency Plans:%0A    Adaptive sweep from 1e+09 Hz to 5e+09 Hz with maximal 50 points%0A%0AMesh/Discretisation:%0A    Delta error: 0.02%0A    Minimum number of adaptive passes: 2%0A    Maximum number of adaptive passes: 15%0A    Refining at highest frequency of interest%0A    Consecutive passes of delta error required: 1%0A    Mesh refinement percentage: 25%0A    Target Mesh Size: Automatic%0A    Order of basis functions: 2%0A    [Advanced] Merging objects of same material%0A%0AAuto-select matrix solver selected%0A    tolerance       : 1e-05%0A    max %23iterations : 500%0A%0AFields are saved for: no frequencies.%0A%0A%0AList of parameters and their values:%0A    Name                            Formula                                       Value    %0A    --------------------------------------------------------------------------------------------%0A    xLowerBoundingBox               -0.0046500000000000005 m - xLowerExtension    -0.007775%0A    mask_viaL1_L4_Zmax              1.337 mm                                      0.001337 %0A    mask_Layer3_Zmax                mask_Layer3_Zmin                              0.000617 %0A    yLowerBoundingBox               -0.01 m - yLowerExtension                     -0.013125%0A    minFreq                         1 GHz                                         1e+09    %0A    stack_substrate1_layer_1_Z      0 mm                                          0        %0A    maxFreq                         5 GHz                                         5e+09    %0A    zLowerBoundingBox               0.0 m - zLowerExtension                       -0.005   %0A    xUpperBoundingBox               0.0175 m + xUpperExtension                    0.020625 %0A    lateralExtension                3.125 mm                                      0.003125 %0A    mask_cond_Zmax                  1.354 mm                                      0.001354 %0A    mask_Layer2_Zmax                0.737 mm                                      0.000737 %0A    mask_L1_L2_Zmin                 0.737 mm                                      0.000737 %0A    yUpperBoundingBox               0.01 m + yUpperExtension                      0.013125 %0A    mask_Layer4_Zmax                0.017 mm                                      1.7e-05  %0A    stack_substrate1_layer_3_Z      0.017 mm                                      1.7e-05  %0A    mask_Layer3_Zmin                0.617 mm                                      0.000617 %0A    stack_substrate1_layer_7_Z      0.727 mm                                      0.000727 %0A    xUpperExtension                 lateralExtension                              0.003125 %0A    zLowerExtension                 verticalExtension                             0.005    %0A    mask_Layer2_Zmin                0.727 mm                                      0.000727 %0A    yLowerExtension                 lateralExtension                              0.003125 %0A    mask_Layer4_Zmin                0 mm                                          0        %0A    mask_cond_Zmin                  1.337 mm                                      0.001337 %0A    verticalExtension               5 mm                                          0.005    %0A    stack_substrate1_layer_9_Z      0.737 mm                                      0.000737 %0A    zUpperBoundingBox               0.0013540000000000002 m + zUpperExtension     0.006354 %0A    stack_substrate1_layer_5_Z      0.617 mm                                      0.000617 %0A    stack_substrate1_layer_11_Z     1.337 mm                                      0.001337 %0A    mask_viaL1_L4_Zmin              0.017 mm                                      1.7e-05  %0A    yUpperExtension                 lateralExtension                              0.003125 %0A    toggleExtensionToBoundingBox    1                                             1        %0A    mask_L1_L2_Zmax                 1.337 mm                                      0.001337 %0A    xLowerExtension                 lateralExtension                              0.003125 %0A    stack_substrate1_layer_13_Z     1.354 mm                                      0.001354 %0A    zUpperExtension                 verticalExtension                             0.005    %0A%0A</Details>
+    <BoundingBox>
+      <Upper x="0.020625000000000001" y="0.013125000000000001" z="0.0063539999999999994"/>
+      <Lower x="-0.0077750000000000007" y="-0.013125000000000001" z="-0.0050000000000000001"/>
+    </BoundingBox>
+    <FemSaveFieldsFor value="0"/>
+    <CreationDateTime value="1769030708"/>
+    <SimulationGroup>000001</SimulationGroup>
+    <AgNewSimulationData>
+      <WrittenWith RevisionID="588" Version="EMPro 410.000 (64-bit)" BuildString="AAAAi3icJYq7CsJAFAX7fMUBGwXvcrPPJKVgKVgI1rt5YMRkNa5F/t5FYaqZudzGNzLH03mJ0CULZsbWagpj2omiOHzGR8KwxAm1Vla51vQOcUA/PZdIIeeOJMuS2JB01K5z51/ZIs7w4U5XibDi98En/FdH0oLrRtrGqD02pqrEF+skJp8="/>
+      <Engine value="1"/>
+      <HasAdaptiveFrequencyPlans value="true"/>
+      <FemEigenMode value="false"/>
+      <PortOnlyMode value="false"/>
+      <Reuse value="false"/>
+      <UseDistributed value="false"/>
+      <RunLocal value="true"/>
+      <NumberOfThreads value="0"/>
+      <NumberOfParallelFreq value="1"/>
+      <NumberOfNodes value="1"/>
+      <LaunchPrefix value="true"/>
+      <LaunchPrefix_alpha value="true"/>
+      <LaunchPrefix_beta value="true"/>
+      <LaunchPrefix_omega value="true"/>
+      <ResourceSettingsPtr subjectID="5" ptrID="4">
+        <LocalResourceSettings>
+          <ResourceSettings NumberOfWorkers="1" NumberOfThreads="0"/>
+        </LocalResourceSettings>
+      </ResourceSettingsPtr>
+      <HasTdafsSParameterData value="false"/>
+    </AgNewSimulationData>
+  </SimulationData>
+</SimulationData>

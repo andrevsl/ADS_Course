@@ -1,4 +1,4 @@
-<ADSWorkspace Revision="13" Version="100">
+<ADSWorkspace Revision="40" Version="100">
     <Workspace Name="">
         <LibraryDefs Name="lib.defs" />
         <Library Name="ads_standard_layers_ic" />
@@ -71,9 +71,7 @@
         <Log Name="search_history.log" />
         <Data_Files Name="dc_annotation\%Varactors_%P%W%M_%P%W%M_schematic\annotation_1.xml" />
         <Data_Files Name="dc_annotation\%Varactors_%P%W%M_%P%W%M_schematic\annotation_map.xml" />
-        <Data_Display Name="PWM.dds" />
         <Library Name="Varactors_PWM1_lib" />
-        <Cell Name="Varactors_PWM1_lib:PWM" />
         <Log Name="nettrans.log" />
         <Library Name="D310_lib" />
         <Log Name="ifftolib.log" />
@@ -86,14 +84,16 @@
             <Cell Name="Varactors_PWM1_lib:DCDiode" />
             <Cell Name="Varactors_PWM1_lib:PinDiodeBar6302" />
             <Cell Name="Varactors_PWM1_lib:Diode_IV_Curve" />
+            <Cell Name="Varactors_PWM1_lib:Spar_SPST" />
+            <Data_Display Name="Diode_IV_Curve.dds" />
+            <Data_Display Name="Spar_PinDiode.dds" />
+            <Data_Display Name="Spar_SPST.dds" />
         </Folder>
         <Dataset Name="Diode_IV_Curve.ds" />
         <Data_Files Name="dc_annotation\%Varactors_%P%W%M1_lib_%Diode_%I%V_%Curve_schematic\annotation_1.xml" />
         <Data_Files Name="dc_annotation\%Varactors_%P%W%M1_lib_%Diode_%I%V_%Curve_schematic\annotation_map.xml" />
         <Data_Files Name="Diode_IV_Curve.ds" />
         <Data_Files Name="Diode_IV_Curve_data\logFile.txt" />
-        <Data_Display Name="Diode_IV_Curve.dds" />
-        <Cell Name="Varactors_PWM1_lib:Spar_PinDiode" />
         <Data_Files Name="dc_annotation\%Varactors_%P%W%M1_lib_%P%W%M_schematic\annotation_1.xml" />
         <Data_Files Name="dc_annotation\%Varactors_%P%W%M1_lib_%P%W%M_schematic\annotation_map.xml" />
         <Dataset Name="Spar_PinDiode.ds" />
@@ -101,6 +101,57 @@
         <Data_Files Name="dc_annotation\%Varactors_%P%W%M1_lib_%Spar_%Pin%Diode_schematic\annotation_map.xml" />
         <Data_Files Name="Spar_PinDiode.ds" />
         <Data_Files Name="Spar_PinDiode_data\logFile.txt" />
-        <Folder Name="Waveform" />
+        <Folder Name="Waveform">
+            <Cell Name="Varactors_PWM1_lib:DataAcessWaveform" />
+            <Data_Display Name="DataAcessWaveform.dds" />
+        </Folder>
+        <Preferences Name="D310_lib_lay.prf" />
+        <Preferences Name="D310_lib_sch.prf" />
+        <Preferences Name="Varactors_PWM1_lib_lay.prf" />
+        <Dataset Name="DataAcessWaveform.ds" />
+        <Dataset Name="Waveform5G.ds" />
+        <Data_Files Name="DataAcessWaveform.ds" />
+        <Data_Files Name="DataAcessWaveform_data\logFile.txt" />
+        <Data_Files Name="dc_annotation\%Varactors_%P%W%M1_lib_%Data%Acess%Waveform_schematic\annotation_1.xml" />
+        <Data_Files Name="dc_annotation\%Varactors_%P%W%M1_lib_%Data%Acess%Waveform_schematic\annotation_map.xml" />
+        <Data_Files Name="Waveform5G.ds" />
+        <Dataset Name="Spar_SPST.ds" />
+        <Data_Files Name="dc_annotation\%Varactors_%P%W%M1_lib_%Spar_%S%P%S%T_schematic\annotation_1.xml" />
+        <Data_Files Name="dc_annotation\%Varactors_%P%W%M1_lib_%Spar_%S%P%S%T_schematic\annotation_map.xml" />
+        <Data_Files Name="Spar_SPST.ds" />
+        <Data_Files Name="Spar_SPST_data\logFile.txt" />
+        <Folder Name="Varactor">
+            <Cell Name="D310_lib:MAVR-000120-1141" />
+            <Cell Name="D310_lib:Test_Spar_Varactor" />
+            <Cell Name="D310_lib:SMV1405" />
+            <Cell Name="D310_lib:Tol_Varactor_VDC" />
+        </Folder>
+        <Dataset Name="Test_Spar_Varactor.ds" />
+        <Data_Files Name="dc_annotation\%D310_lib_%Test_%Spar_%Varactor_schematic\annotation_1.xml" />
+        <Data_Files Name="dc_annotation\%D310_lib_%Test_%Spar_%Varactor_schematic\annotation_map.xml" />
+        <Data_Files Name="Test_Spar_Varactor.ds" />
+        <Data_Files Name="Test_Spar_Varactor_data\logFile.txt" />
+        <Folder Name="Varactor_Control">
+            <Cell Name="Varactors_PWM1_lib:PWM" />
+            <Data_Display Name="PinDiode.dds" />
+            <Cell Name="Varactors_PWM1_lib:PWM_Control_MAVR" />
+            <Data_Display Name="PWM_Control_MAVR.dds" />
+            <Data_Display Name="PWM.dds" />
+            <Data_Display Name="Test_Spar_Varactor.dds" />
+            <Data_Display Name="Tol_Varactor_VDC.dds" />
+        </Folder>
+        <Dataset Name="PWM_Control_MAVR.ds" />
+        <Data_Files Name="dc_annotation\%Varactors_%P%W%M1_lib_%P%W%M_%Control_%M%A%V%R_schematic\annotation_1.xml" />
+        <Data_Files Name="dc_annotation\%Varactors_%P%W%M1_lib_%P%W%M_%Control_%M%A%V%R_schematic\annotation_map.xml" />
+        <Data_Files Name="PWM_Control_MAVR.ds" />
+        <Data_Files Name="PWM_Control_MAVR_data\logFile.txt" />
+        <Dataset Name="Tol_Varactor_VDC.ds" />
+        <Data_Files Name="dc_annotation\%D310_lib_%Tol_%Varactor_%V%D%C_schematic\annotation_1.xml" />
+        <Data_Files Name="dc_annotation\%D310_lib_%Tol_%Varactor_%V%D%C_schematic\annotation_map.xml" />
+        <Data_Files Name="Tol_Varactor_VDC.ds" />
+        <Data_Files Name="Tol_Varactor_VDC_data\logFile.txt" />
+        <Folder Name="RIS_Lumped_Circuit">
+            <Cell Name="D310_lib:Classic_RIS_UnitCell" />
+        </Folder>
     </Workspace>
 </ADSWorkspace>

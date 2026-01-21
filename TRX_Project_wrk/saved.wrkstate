@@ -1,5 +1,7 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows/>
+    <Windows>
+        <Schematic height="1001" lib="TRX_Project_lib" y1="-9" width="1920" geom="1,0,2,981,58,958,991,1920,1080" view="schematic" cell="Envelope" x1="-1"/>
+    </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>

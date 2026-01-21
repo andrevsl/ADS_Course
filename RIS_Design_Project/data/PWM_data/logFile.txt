@@ -3,10 +3,10 @@ hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
     (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
 
 
-***** Simulation started at Tue Jan 20 21:03:18 2026
+***** Simulation started at Wed Jan 21 18:12:03 2026
       Running on host: "rfcourse"
       In Directory: "C:\Users\simucstvsl\Documents\ADS_Course\RIS_Design_Project\data"
-      Process ID: 10576
+      Process ID: 7964
 
 .
 
@@ -15,5 +15,5 @@ TRAN Tran1[1] <Varactors_PWM1_lib:PWM:schematic>   time=(0 s->20 ms)
 
 
 Resource usage:
-  Total stopwatch time     =     0.88 seconds.
+  Total stopwatch time     =     0.86 seconds.
 

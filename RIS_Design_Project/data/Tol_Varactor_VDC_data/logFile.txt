@@ -1,0 +1,25 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Wed Jan 21 18:54:48 2026
+      Running on host: "rfcourse"
+      In Directory: "C:\Users\simucstvsl\Documents\ADS_Course\RIS_Design_Project\data"
+      Process ID: 3280
+
+
+CT Sweep1[1] <D310_lib:Tol_Varactor_VDC:schematic>   VDC=(9->11)
+
+SP Sweep1[1].SP1[1/3] <D310_lib:Tol_Varactor_VDC:schematic>  VDC=9  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[2/3] <D310_lib:Tol_Varactor_VDC:schematic>  VDC=10  freq=(1 GHz->20 GHz)
+
+
+SP Sweep1[1].SP1[3/3] <D310_lib:Tol_Varactor_VDC:schematic>  VDC=11  freq=(1 GHz->20 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     0.86 seconds.
+

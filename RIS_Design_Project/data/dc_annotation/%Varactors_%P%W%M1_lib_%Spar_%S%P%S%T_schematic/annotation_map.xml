@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotation_files Simulator="hpeesofsim" Version="1.0" Time="Wed Jan 21 15:08:32 2026">
+ <File name="annotation_1.xml">
+  <Controller name="SP1">
+   <P>Vcc: -3.2999999999999998e+00</P>
+   <P>freq: 1.0000000000000000e+08</P>
+  </Controller>
+ </File>
+</annotation_files>

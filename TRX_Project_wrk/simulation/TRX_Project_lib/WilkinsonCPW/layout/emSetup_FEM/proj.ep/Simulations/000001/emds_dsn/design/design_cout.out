@@ -1,0 +1,5158 @@
+Loading Data from C:\Users\simucstvsl\Documents\ADS_Course\TRX_Project_wrk\simulation\TRX_Project_lib\WilkinsonCPW\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design\design.sat
+Load ACIS file
+  acis version = ACIS 31.0 NT
+  product = Keysight Technologies
+  errmsg = success
+  entlist.count() = 10
+  Unit is  = 1
+removing transformation
+BODY 0 with transformation: scaling=1, translation=(6.4249999999999998, 0, -5)
+BODY 1 with transformation: scaling=1, translation=(0, 0, 0.017000000000000005)
+BODY 2 with transformation: scaling=1, translation=(0, 0, 1.3370000000000002)
+BODY 3 with transformation: scaling=1, translation=(0, 0, 1.3370000000000002)
+BODY 4 with transformation: scaling=1, translation=(0, 0, 1.3370000000000002)
+BODY 5 with transformation: scaling=1, translation=(0, 0, 1.3370000000000002)
+BODY 6 with transformation: scaling=1, translation=(0, 0, 1.3370000000000002)
+BODY 7 with transformation: scaling=1, translation=(0, 0, 0.73699999999999999)
+BODY 8 with transformation: scaling=1, translation=(0, 0, 0.61699999999999999)
+BODY 9 with transformation: scaling=1, translation=(6.4249999999999998, 0, 0.6769999999999996)
+separating bodies
+Entity 0,name=Simulation box, bb=(-7.7750000000000012,-13.125000000000002,-5)->(20.625,13.125000000000002,6.3539999999999992)
+Entity 1,name=FR_4, bb=(-7.7750000000000004,-13.125000000000002,0.017000000000000005)->(20.625,13.125000000000002,1.337)
+Entity 2,name=, bb=(-4.2999999999999998,-5.7999999999999998,1.3370000000000002)->(6.1978,-0.5,1.3540000000000003)
+Entity 3,name=, bb=(-4.2999999999999998,1.7,1.3370000000000002)->(6.1978,7,1.3540000000000003)
+Entity 4,name=, bb=(-4.25,-5.7670000000000003,1.3370000000000002)->(7.8978000000000002,6.9499999999999993,1.3540000000000003)
+Entity 5,name=, bb=(-1.1499999999999999,-2.5982000000000003,1.3370000000000002)->(4.0015000000000001,3.7982,1.3540000000000003)
+Entity 6,name=, bb=(7.6134000000000004,-5.7999999999999998,1.3370000000000002)->(9.0999999999999996,7.0000000000000009,1.3540000000000003)
+Entity 7,name=, bb=(-4.6499999999999995,-10,0.72699999999999998)->(17.5,10,0.73699999999999999)
+Entity 8,name=, bb=(-7.7750000000000004,-13.125000000000002,0.61699999999999999)->(20.625,13.125000000000002,0.61699999999999999)
+Entity 9,name=*unknown*, bb=(-7.7749999999999995,-13.125000000000002,-5)->(20.625,13.125000000000002,6.3539999999999992)
+Creating Topology
+Analyzing Topology
+Merged Objects with same material: merged 10 objects into 6 objects.
+ Current Process: Cleaning topologyObjects Combined
+Creating Mesh
+Restricting h (face curvature)
+Restricting h (face curvature)
+
+Line meshing completed:
+Mesh overview:
+  Vertices: 2553
+  Edges:    2706
+  Surfaces: 0
+  Volumes:  0
+
+Smaller local tree being used
+
+999/1/1 map/can/use rule Free Triangle (1)
+0/4/3 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+774/250/11 map/can/use rule Right 60 (1)
+691/272/5 map/can/use rule Left 60 (1)
+676/4/0 map/can/use rule Right 120 (1)
+770/9/0 map/can/use rule Left 120 (1)
+494/39/0 map/can/use rule Left Right 120 (1)
+125/125/4 map/can/use rule Fill Triangle
+5214/1914/5 map/can/use rule Vis A Vis (1)
+1449/485/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/1/1 map/can/use rule Free Triangle (1)
+0/1/1 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+736/184/6 map/can/use rule Right 60 (1)
+560/160/8 map/can/use rule Left 60 (1)
+793/3/0 map/can/use rule Right 120 (1)
+762/3/0 map/can/use rule Left 120 (1)
+618/58/0 map/can/use rule Left Right 120 (1)
+24/24/4 map/can/use rule Fill Triangle
+4475/2578/4 map/can/use rule Vis A Vis (1)
+999/818/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+1999/1/1 map/can/use rule Free Triangle (1)
+0/1/1 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+1715/804/13 map/can/use rule Right 60 (1)
+1439/699/17 map/can/use rule Left 60 (1)
+1710/3/0 map/can/use rule Right 120 (1)
+1597/3/0 map/can/use rule Left 120 (1)
+1302/275/0 map/can/use rule Left Right 120 (1)
+157/157/9 map/can/use rule Fill Triangle
+8603/3703/10 map/can/use rule Vis A Vis (1)
+2799/1485/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/0/0 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+776/462/15 map/can/use rule Right 60 (1)
+581/321/15 map/can/use rule Left 60 (1)
+750/0/0 map/can/use rule Right 120 (1)
+706/0/0 map/can/use rule Left 120 (1)
+533/97/0 map/can/use rule Left Right 120 (1)
+24/24/1 map/can/use rule Fill Triangle
+3026/1432/2 map/can/use rule Vis A Vis (1)
+762/381/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/1/1 map/can/use rule Free Triangle (1)
+0/3/2 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+822/324/3 map/can/use rule Right 60 (1)
+659/282/13 map/can/use rule Left 60 (1)
+765/7/0 map/can/use rule Right 120 (1)
+776/3/0 map/can/use rule Left 120 (1)
+597/103/0 map/can/use rule Left Right 120 (1)
+63/63/6 map/can/use rule Fill Triangle
+4835/2293/6 map/can/use rule Vis A Vis (1)
+1326/624/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/1/1 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+736/248/3 map/can/use rule Right 60 (1)
+631/226/9 map/can/use rule Left 60 (1)
+650/4/0 map/can/use rule Right 120 (1)
+810/3/0 map/can/use rule Left 120 (1)
+527/14/0 map/can/use rule Left Right 120 (1)
+38/38/7 map/can/use rule Fill Triangle
+4430/2472/7 map/can/use rule Vis A Vis (1)
+1496/853/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/98/91 map/can/use rule Free Triangle (1)
+0/1/1 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+569/302/51 map/can/use rule Right 60 (1)
+533/283/56 map/can/use rule Left 60 (1)
+358/51/5 map/can/use rule Right 120 (1)
+449/70/7 map/can/use rule Left 120 (1)
+136/17/2 map/can/use rule Left Right 120 (1)
+119/119/24 map/can/use rule Fill Triangle
+3791/205/33 map/can/use rule Vis A Vis (1)
+376/4/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/105/94 map/can/use rule Free Triangle (1)
+0/3/3 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+591/380/57 map/can/use rule Right 60 (1)
+465/283/50 map/can/use rule Left 60 (1)
+375/82/7 map/can/use rule Right 120 (1)
+411/42/2 map/can/use rule Left 120 (1)
+125/36/4 map/can/use rule Left Right 120 (1)
+79/79/16 map/can/use rule Fill Triangle
+4443/282/29 map/can/use rule Vis A Vis (1)
+461/12/0 map/can/use rule 2 h Vis A Vis (1)
+
+ Current Process: .
+999/222/181 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+375/337/48 map/can/use rule Right 60 (1)
+329/310/59 map/can/use rule Left 60 (1)
+297/151/16 map/can/use rule Right 120 (1)
+400/203/39 map/can/use rule Left 120 (1)
+95/54/2 map/can/use rule Left Right 120 (1)
+10/10/0 map/can/use rule Fill Triangle
+2484/57/10 map/can/use rule Vis A Vis (1)
+72/0/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+1999/279/222 map/can/use rule Free Triangle (1)
+0/2/2 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+1026/712/103 map/can/use rule Right 60 (1)
+833/559/116 map/can/use rule Left 60 (1)
+640/207/25 map/can/use rule Right 120 (1)
+874/236/40 map/can/use rule Left 120 (1)
+222/73/4 map/can/use rule Left Right 120 (1)
+117/117/11 map/can/use rule Fill Triangle
+6515/236/44 map/can/use rule Vis A Vis (1)
+441/7/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/234/186 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+409/383/43 map/can/use rule Right 60 (1)
+321/304/68 map/can/use rule Left 60 (1)
+350/213/36 map/can/use rule Right 120 (1)
+392/150/13 map/can/use rule Left 120 (1)
+125/62/4 map/can/use rule Left Right 120 (1)
+1/1/0 map/can/use rule Fill Triangle
+2373/56/11 map/can/use rule Vis A Vis (1)
+63/0/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+1999/286/228 map/can/use rule Free Triangle (1)
+0/3/2 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+1076/746/112 map/can/use rule Right 60 (1)
+863/578/125 map/can/use rule Left 60 (1)
+727/286/45 map/can/use rule Right 120 (1)
+855/190/15 map/can/use rule Left 120 (1)
+262/114/11 map/can/use rule Left Right 120 (1)
+141/141/22 map/can/use rule Fill Triangle
+6234/201/45 map/can/use rule Vis A Vis (1)
+405/0/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/386/369 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+228/188/33 map/can/use rule Right 60 (1)
+299/287/25 map/can/use rule Left 60 (1)
+361/86/4 map/can/use rule Right 120 (1)
+617/336/73 map/can/use rule Left 120 (1)
+185/89/1 map/can/use rule Left Right 120 (1)
+3/3/3 map/can/use rule Fill Triangle
+1611/183/35 map/can/use rule Vis A Vis (1)
+0/0/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+1999/481/459 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+682/561/94 map/can/use rule Right 60 (1)
+748/660/111 map/can/use rule Left 60 (1)
+628/165/6 map/can/use rule Right 120 (1)
+957/440/78 map/can/use rule Left 120 (1)
+291/131/3 map/can/use rule Left Right 120 (1)
+23/23/16 map/can/use rule Fill Triangle
+5350/285/62 map/can/use rule Vis A Vis (1)
+185/0/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+2999/585/555 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+1201/944/158 map/can/use rule Right 60 (1)
+1165/952/179 map/can/use rule Left 60 (1)
+958/255/15 map/can/use rule Right 120 (1)
+1345/517/82 map/can/use rule Left 120 (1)
+422/184/7 map/can/use rule Left Right 120 (1)
+62/62/27 map/can/use rule Fill Triangle
+9603/414/88 map/can/use rule Vis A Vis (1)
+558/0/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+3999/667/622 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+1727/1324/227 map/can/use rule Right 60 (1)
+1599/1260/253 map/can/use rule Left 60 (1)
+1315/331/28 map/can/use rule Right 120 (1)
+1778/587/88 map/can/use rule Left 120 (1)
+579/235/8 map/can/use rule Left Right 120 (1)
+110/110/37 map/can/use rule Fill Triangle
+13909/630/111 map/can/use rule Vis A Vis (1)
+1193/1/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+4999/722/665 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+2355/1700/278 map/can/use rule Right 60 (1)
+2127/1551/319 map/can/use rule Left 60 (1)
+1709/385/31 map/can/use rule Right 120 (1)
+2233/620/89 map/can/use rule Left 120 (1)
+745/281/11 map/can/use rule Left Right 120 (1)
+219/219/61 map/can/use rule Fill Triangle
+18661/897/145 map/can/use rule Vis A Vis (1)
+1889/19/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+5999/757/698 map/can/use rule Free Triangle (1)
+0/4/4 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+3034/2023/335 map/can/use rule Right 60 (1)
+2695/1798/361 map/can/use rule Left 60 (1)
+2124/424/35 map/can/use rule Right 120 (1)
+2701/634/89 map/can/use rule Left 120 (1)
+905/303/13 map/can/use rule Left Right 120 (1)
+389/389/91 map/can/use rule Fill Triangle
+22801/1110/185 map/can/use rule Vis A Vis (1)
+2627/20/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+6999/771/708 map/can/use rule Free Triangle (1)
+0/8/6 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+3797/2325/374 map/can/use rule Right 60 (1)
+3377/2033/393 map/can/use rule Left 60 (1)
+2547/440/35 map/can/use rule Right 120 (1)
+3238/643/89 map/can/use rule Left 120 (1)
+1070/308/16 map/can/use rule Left Right 120 (1)
+642/641/135 map/can/use rule Fill Triangle
+26565/1216/220 map/can/use rule Vis A Vis (1)
+3585/20/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+7999/774/710 map/can/use rule Free Triangle (1)
+0/11/9 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+4676/2473/406 map/can/use rule Right 60 (1)
+4156/2157/427 map/can/use rule Left 60 (1)
+3057/445/35 map/can/use rule Right 120 (1)
+3807/644/89 map/can/use rule Left 120 (1)
+1177/308/16 map/can/use rule Left Right 120 (1)
+1163/1155/198 map/can/use rule Fill Triangle
+29041/1248/232 map/can/use rule Vis A Vis (1)
+4230/20/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/359/349 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+383/372/31 map/can/use rule Right 60 (1)
+216/207/37 map/can/use rule Left 60 (1)
+498/298/57 map/can/use rule Right 120 (1)
+516/121/18 map/can/use rule Left 120 (1)
+205/73/3 map/can/use rule Left Right 120 (1)
+3/3/3 map/can/use rule Fill Triangle
+1830/184/30 map/can/use rule Vis A Vis (1)
+0/0/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+1999/473/454 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+894/806/106 map/can/use rule Right 60 (1)
+628/552/109 map/can/use rule Left 60 (1)
+805/417/62 map/can/use rule Right 120 (1)
+845/208/22 map/can/use rule Left 120 (1)
+316/117/6 map/can/use rule Left Right 120 (1)
+26/26/13 map/can/use rule Fill Triangle
+5558/290/50 map/can/use rule Vis A Vis (1)
+65/0/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+2999/589/560 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+1369/1187/174 map/can/use rule Right 60 (1)
+1050/891/204 map/can/use rule Left 60 (1)
+1125/510/72 map/can/use rule Right 120 (1)
+1244/294/30 map/can/use rule Left 120 (1)
+440/164/9 map/can/use rule Left Right 120 (1)
+56/56/25 map/can/use rule Fill Triangle
+9905/499/71 map/can/use rule Vis A Vis (1)
+417/0/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+3999/680/638 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+1885/1605/242 map/can/use rule Right 60 (1)
+1479/1224/290 map/can/use rule Left 60 (1)
+1475/589/81 map/can/use rule Right 120 (1)
+1667/356/32 map/can/use rule Left 120 (1)
+590/218/15 map/can/use rule Left Right 120 (1)
+94/94/32 map/can/use rule Fill Triangle
+14284/761/100 map/can/use rule Vis A Vis (1)
+941/2/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+4999/719/673 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+2520/2003/291 map/can/use rule Right 60 (1)
+2021/1539/354 map/can/use rule Left 60 (1)
+1877/624/89 map/can/use rule Right 120 (1)
+2139/393/36 map/can/use rule Left 120 (1)
+765/249/22 map/can/use rule Left Right 120 (1)
+180/180/49 map/can/use rule Fill Triangle
+18847/969/142 map/can/use rule Vis A Vis (1)
+1519/10/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+5999/750/700 map/can/use rule Free Triangle (1)
+0/4/3 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+3224/2372/348 map/can/use rule Right 60 (1)
+2607/1806/414 map/can/use rule Left 60 (1)
+2337/653/91 map/can/use rule Right 120 (1)
+2601/412/41 map/can/use rule Left 120 (1)
+952/268/23 map/can/use rule Left Right 120 (1)
+318/318/68 map/can/use rule Fill Triangle
+22529/1110/169 map/can/use rule Vis A Vis (1)
+2204/15/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+6999/760/709 map/can/use rule Free Triangle (1)
+0/8/5 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+4018/2650/387 map/can/use rule Right 60 (1)
+3274/2033/455 map/can/use rule Left 60 (1)
+2789/662/91 map/can/use rule Right 120 (1)
+3122/421/41 map/can/use rule Left 120 (1)
+1121/274/24 map/can/use rule Left Right 120 (1)
+577/576/102 map/can/use rule Fill Triangle
+26108/1179/185 map/can/use rule Vis A Vis (1)
+3011/15/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+7999/762/711 map/can/use rule Free Triangle (1)
+0/10/7 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+4903/2851/420 map/can/use rule Right 60 (1)
+4065/2218/485 map/can/use rule Left 60 (1)
+3336/663/91 map/can/use rule Right 120 (1)
+3678/423/41 map/can/use rule Left 120 (1)
+1255/277/25 map/can/use rule Left Right 120 (1)
+1052/1049/170 map/can/use rule Fill Triangle
+28765/1215/192 map/can/use rule Vis A Vis (1)
+3677/15/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/172/155 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+453/356/65 map/can/use rule Right 60 (1)
+376/285/51 map/can/use rule Left 60 (1)
+356/75/6 map/can/use rule Right 120 (1)
+427/110/12 map/can/use rule Left 120 (1)
+147/54/5 map/can/use rule Left Right 120 (1)
+21/21/6 map/can/use rule Fill Triangle
+4778/326/25 map/can/use rule Vis A Vis (1)
+428/7/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+1999/186/168 map/can/use rule Free Triangle (1)
+0/5/5 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+1172/594/106 map/can/use rule Right 60 (1)
+1010/493/86 map/can/use rule Left 60 (1)
+808/89/7 map/can/use rule Right 120 (1)
+919/120/13 map/can/use rule Left 120 (1)
+312/61/5 map/can/use rule Left Right 120 (1)
+286/286/37 map/can/use rule Fill Triangle
+8297/400/50 map/can/use rule Vis A Vis (1)
+970/7/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/158/140 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+499/367/53 map/can/use rule Right 60 (1)
+408/290/69 map/can/use rule Left 60 (1)
+407/129/18 map/can/use rule Right 120 (1)
+436/72/4 map/can/use rule Left 120 (1)
+174/57/2 map/can/use rule Left Right 120 (1)
+35/35/5 map/can/use rule Fill Triangle
+4478/330/29 map/can/use rule Vis A Vis (1)
+492/17/0 map/can/use rule 2 h Vis A Vis (1)
+
+ Current Process: ..
+999/171/157 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+461/343/68 map/can/use rule Right 60 (1)
+373/275/63 map/can/use rule Left 60 (1)
+326/72/6 map/can/use rule Right 120 (1)
+437/128/8 map/can/use rule Left 120 (1)
+120/43/2 map/can/use rule Left Right 120 (1)
+27/27/5 map/can/use rule Fill Triangle
+4504/279/26 map/can/use rule Vis A Vis (1)
+424/8/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/156/142 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+511/386/45 map/can/use rule Right 60 (1)
+409/308/68 map/can/use rule Left 60 (1)
+378/141/15 map/can/use rule Right 120 (1)
+441/98/7 map/can/use rule Left 120 (1)
+144/48/2 map/can/use rule Left Right 120 (1)
+32/32/6 map/can/use rule Fill Triangle
+5016/302/30 map/can/use rule Vis A Vis (1)
+422/4/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/179/96 map/can/use rule Free Triangle (1)
+0/8/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+548/280/31 map/can/use rule Right 60 (1)
+507/273/56 map/can/use rule Left 60 (1)
+372/50/0 map/can/use rule Right 120 (1)
+462/85/10 map/can/use rule Left 120 (1)
+137/27/4 map/can/use rule Left Right 120 (1)
+121/121/13 map/can/use rule Fill Triangle
+3443/183/26 map/can/use rule Vis A Vis (1)
+256/9/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+1999/397/220 map/can/use rule Free Triangle (1)
+0/60/6 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+980/513/78 map/can/use rule Right 60 (1)
+906/495/102 map/can/use rule Left 60 (1)
+710/113/15 map/can/use rule Right 120 (1)
+823/146/24 map/can/use rule Left 120 (1)
+239/71/6 map/can/use rule Left Right 120 (1)
+218/218/43 map/can/use rule Fill Triangle
+5308/322/47 map/can/use rule Vis A Vis (1)
+690/21/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/207/103 map/can/use rule Free Triangle (1)
+0/4/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+503/272/40 map/can/use rule Right 60 (1)
+452/258/50 map/can/use rule Left 60 (1)
+358/54/8 map/can/use rule Right 120 (1)
+446/75/12 map/can/use rule Left 120 (1)
+130/35/2 map/can/use rule Left Right 120 (1)
+96/96/11 map/can/use rule Fill Triangle
+3060/149/22 map/can/use rule Vis A Vis (1)
+188/6/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+1999/414/214 map/can/use rule Free Triangle (1)
+0/21/3 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+1020/536/85 map/can/use rule Right 60 (1)
+948/503/99 map/can/use rule Left 60 (1)
+752/124/21 map/can/use rule Right 120 (1)
+869/160/26 map/can/use rule Left 120 (1)
+263/87/9 map/can/use rule Left Right 120 (1)
+259/259/39 map/can/use rule Fill Triangle
+5577/311/41 map/can/use rule Vis A Vis (1)
+862/15/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/391/372 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+104/70/14 map/can/use rule Right 60 (1)
+220/202/13 map/can/use rule Left 60 (1)
+231/60/22 map/can/use rule Right 120 (1)
+491/337/77 map/can/use rule Left 120 (1)
+65/10/2 map/can/use rule Left Right 120 (1)
+12/12/12 map/can/use rule Fill Triangle
+1891/460/48 map/can/use rule Vis A Vis (1)
+0/0/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+1999/729/663 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+517/441/44 map/can/use rule Right 60 (1)
+635/590/53 map/can/use rule Left 60 (1)
+681/153/29 map/can/use rule Right 120 (1)
+1138/554/100 map/can/use rule Left 120 (1)
+307/125/8 map/can/use rule Left Right 120 (1)
+19/19/19 map/can/use rule Fill Triangle
+7027/775/73 map/can/use rule Vis A Vis (1)
+0/0/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+2999/814/741 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+987/853/104 map/can/use rule Right 60 (1)
+1084/961/114 map/can/use rule Left 60 (1)
+963/250/34 map/can/use rule Right 120 (1)
+1457/668/111 map/can/use rule Left 120 (1)
+402/161/9 map/can/use rule Left Right 120 (1)
+37/37/25 map/can/use rule Fill Triangle
+10731/857/84 map/can/use rule Vis A Vis (1)
+0/0/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+3999/982/877 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+1414/1204/192 map/can/use rule Right 60 (1)
+1486/1282/193 map/can/use rule Left 60 (1)
+1221/338/42 map/can/use rule Right 120 (1)
+1778/761/113 map/can/use rule Left 120 (1)
+490/178/10 map/can/use rule Left Right 120 (1)
+54/54/32 map/can/use rule Fill Triangle
+18774/1218/97 map/can/use rule Vis A Vis (1)
+4014/54/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+4999/1106/989 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+1902/1588/272 map/can/use rule Right 60 (1)
+1862/1577/274 map/can/use rule Left 60 (1)
+1518/440/59 map/can/use rule Right 120 (1)
+2124/836/119 map/can/use rule Left 120 (1)
+590/203/14 map/can/use rule Left Right 120 (1)
+81/81/36 map/can/use rule Fill Triangle
+23200/1364/109 map/can/use rule Vis A Vis (1)
+4353/55/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+5999/1251/1105 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+2411/1995/312 map/can/use rule Right 60 (1)
+2228/1869/346 map/can/use rule Left 60 (1)
+1881/553/65 map/can/use rule Right 120 (1)
+2506/905/123 map/can/use rule Left 120 (1)
+725/255/15 map/can/use rule Left Right 120 (1)
+113/113/47 map/can/use rule Fill Triangle
+31924/1731/137 map/can/use rule Vis A Vis (1)
+7494/74/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+6999/1342/1181 map/can/use rule Free Triangle (1)
+0/0/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+2921/2376/386 map/can/use rule Right 60 (1)
+2653/2173/410 map/can/use rule Left 60 (1)
+2208/633/73 map/can/use rule Right 120 (1)
+2955/977/130 map/can/use rule Left 120 (1)
+844/295/18 map/can/use rule Left Right 120 (1)
+162/162/54 map/can/use rule Fill Triangle
+37862/2012/178 map/can/use rule Vis A Vis (1)
+8014/74/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+7999/1438/1250 map/can/use rule Free Triangle (1)
+0/6/1 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+3503/2791/452 map/can/use rule Right 60 (1)
+3121/2485/462 map/can/use rule Left 60 (1)
+2569/699/78 map/can/use rule Right 120 (1)
+3385/1031/131 map/can/use rule Left 120 (1)
+989/343/24 map/can/use rule Left Right 120 (1)
+235/235/68 map/can/use rule Fill Triangle
+44869/2321/207 map/can/use rule Vis A Vis (1)
+10423/100/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+8999/1514/1314 map/can/use rule Free Triangle (1)
+0/6/1 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+4112/3167/509 map/can/use rule Right 60 (1)
+3597/2771/525 map/can/use rule Left 60 (1)
+2991/759/86 map/can/use rule Right 120 (1)
+3801/1062/132 map/can/use rule Left 120 (1)
+1149/372/25 map/can/use rule Left Right 120 (1)
+308/308/81 map/can/use rule Fill Triangle
+50150/2585/251 map/can/use rule Vis A Vis (1)
+11181/111/1 map/can/use rule 2 h Vis A Vis (1)
+
+ Current Process: ...
+9999/1580/1367 map/can/use rule Free Triangle (1)
+0/7/1 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+4755/3539/558 map/can/use rule Right 60 (1)
+4139/3029/574 map/can/use rule Left 60 (1)
+3375/801/92 map/can/use rule Right 120 (1)
+4299/1095/136 map/can/use rule Left 120 (1)
+1321/407/29 map/can/use rule Left Right 120 (1)
+453/453/104 map/can/use rule Fill Triangle
+56009/2799/287 map/can/use rule Vis A Vis (1)
+12175/116/1 map/can/use rule 2 h Vis A Vis (1)
+
+
+10999/1636/1411 map/can/use rule Free Triangle (1)
+0/14/5 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+5414/3860/596 map/can/use rule Right 60 (1)
+4725/3321/627 map/can/use rule Left 60 (1)
+3794/848/99 map/can/use rule Right 120 (1)
+4750/1120/138 map/can/use rule Left 120 (1)
+1484/428/31 map/can/use rule Left Right 120 (1)
+593/593/126 map/can/use rule Fill Triangle
+63881/3037/323 map/can/use rule Vis A Vis (1)
+14532/128/1 map/can/use rule 2 h Vis A Vis (1)
+
+
+11999/1677/1447 map/can/use rule Free Triangle (1)
+0/18/9 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+6089/4175/643 map/can/use rule Right 60 (1)
+5296/3585/667 map/can/use rule Left 60 (1)
+4176/873/102 map/can/use rule Right 120 (1)
+5242/1141/141 map/can/use rule Left 120 (1)
+1626/446/31 map/can/use rule Left Right 120 (1)
+781/780/157 map/can/use rule Fill Triangle
+69103/3203/357 map/can/use rule Vis A Vis (1)
+15676/129/1 map/can/use rule 2 h Vis A Vis (1)
+
+
+12999/1708/1474 map/can/use rule Free Triangle (1)
+0/22/12 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+6784/4474/689 map/can/use rule Right 60 (1)
+5933/3857/711 map/can/use rule Left 60 (1)
+4603/905/112 map/can/use rule Right 120 (1)
+5703/1154/144 map/can/use rule Left 120 (1)
+1772/457/31 map/can/use rule Left Right 120 (1)
+988/987/182 map/can/use rule Fill Triangle
+73768/3336/380 map/can/use rule Vis A Vis (1)
+16909/129/1 map/can/use rule 2 h Vis A Vis (1)
+
+
+13999/1727/1489 map/can/use rule Free Triangle (1)
+0/23/12 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+7521/4778/729 map/can/use rule Right 60 (1)
+6566/4085/756 map/can/use rule Left 60 (1)
+5044/928/113 map/can/use rule Right 120 (1)
+6208/1160/144 map/can/use rule Left 120 (1)
+1931/470/33 map/can/use rule Left Right 120 (1)
+1247/1243/215 map/can/use rule Fill Triangle
+78678/3490/409 map/can/use rule Vis A Vis (1)
+18139/132/2 map/can/use rule 2 h Vis A Vis (1)
+
+
+14999/1740/1500 map/can/use rule Free Triangle (1)
+0/28/16 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+8243/5037/775 map/can/use rule Right 60 (1)
+7209/4288/797 map/can/use rule Left 60 (1)
+5494/937/113 map/can/use rule Right 120 (1)
+6717/1166/145 map/can/use rule Left 120 (1)
+2097/481/35 map/can/use rule Left Right 120 (1)
+1524/1520/256 map/can/use rule Fill Triangle
+83834/3616/440 map/can/use rule Vis A Vis (1)
+19605/132/2 map/can/use rule 2 h Vis A Vis (1)
+
+
+15999/1750/1507 map/can/use rule Free Triangle (1)
+0/32/19 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+9043/5266/815 map/can/use rule Right 60 (1)
+7912/4491/844 map/can/use rule Left 60 (1)
+5983/949/116 map/can/use rule Right 120 (1)
+7239/1167/146 map/can/use rule Left 120 (1)
+2237/488/37 map/can/use rule Left Right 120 (1)
+1868/1863/306 map/can/use rule Fill Triangle
+87864/3699/453 map/can/use rule Vis A Vis (1)
+20782/132/2 map/can/use rule 2 h Vis A Vis (1)
+
+
+16999/1750/1507 map/can/use rule Free Triangle (1)
+0/40/26 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+9859/5442/835 map/can/use rule Right 60 (1)
+8646/4662/865 map/can/use rule Left 60 (1)
+6500/954/116 map/can/use rule Right 120 (1)
+7823/1167/146 map/can/use rule Left 120 (1)
+2383/488/37 map/can/use rule Left Right 120 (1)
+2292/2287/370 map/can/use rule Fill Triangle
+90639/3728/457 map/can/use rule Vis A Vis (1)
+21571/132/2 map/can/use rule 2 h Vis A Vis (1)
+
+
+17999/1750/1507 map/can/use rule Free Triangle (1)
+0/45/31 map/can/use rule Free Triangle (5)
+0/1/1 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+10678/5612/855 map/can/use rule Right 60 (1)
+9406/4835/882 map/can/use rule Left 60 (1)
+7033/954/116 map/can/use rule Right 120 (1)
+8431/1168/146 map/can/use rule Left 120 (1)
+2491/489/37 map/can/use rule Left Right 120 (1)
+2797/2792/428 map/can/use rule Fill Triangle
+92697/3755/460 map/can/use rule Vis A Vis (1)
+22027/132/2 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/392/97 map/can/use rule Free Triangle (1)
+0/107/12 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+399/317/27 map/can/use rule Right 60 (1)
+343/272/28 map/can/use rule Left 60 (1)
+383/116/4 map/can/use rule Right 120 (1)
+388/91/2 map/can/use rule Left 120 (1)
+163/69/0 map/can/use rule Left Right 120 (1)
+28/28/8 map/can/use rule Fill Triangle
+1855/283/18 map/can/use rule Vis A Vis (1)
+761/40/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+1999/588/183 map/can/use rule Free Triangle (1)
+0/181/25 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+842/591/67 map/can/use rule Right 60 (1)
+691/476/51 map/can/use rule Left 60 (1)
+730/173/17 map/can/use rule Right 120 (1)
+709/127/9 map/can/use rule Left 120 (1)
+265/92/2 map/can/use rule Left Right 120 (1)
+101/101/16 map/can/use rule Fill Triangle
+3989/475/31 map/can/use rule Vis A Vis (1)
+1456/52/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+2999/709/268 map/can/use rule Free Triangle (1)
+0/206/29 map/can/use rule Free Triangle (5)
+0/8/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+1287/798/102 map/can/use rule Right 60 (1)
+1062/639/87 map/can/use rule Left 60 (1)
+1055/222/30 map/can/use rule Right 120 (1)
+1071/156/15 map/can/use rule Left 120 (1)
+336/104/5 map/can/use rule Left Right 120 (1)
+239/238/38 map/can/use rule Fill Triangle
+6084/573/48 map/can/use rule Vis A Vis (1)
+2287/52/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+Surface meshing completed:
+Mesh overview:
+  Vertices: 8979
+  Edges:    2706
+  Surfaces: 19160
+  Volumes:  0
+
+Surface optimization:
+  All faces planar: 1
+  All edges straight: 1
+ Current Process: Optimized face 138/169 Current Process: ....totalActionsTaken = 40556
+
+2D optimization completed:
+Mesh overview:
+  Vertices: 8979
+  Edges:    2706
+  Surfaces: 19160
+  Volumes:  0
+
+ Optimized Face 169 / 169
+
+Surface meshing completed:
+Mesh overview:
+  Vertices: 7470
+  Edges:    2706
+  Surfaces: 16142
+  Volumes:  0
+
+Starting volume meshing:
+Mesh overview:
+  Vertices: 7470
+  Edges:    2706
+  Surfaces: 16142
+  Volumes:  0
+blockfill local h
+rel filldist = 0.10000000000000001
+.......
+
+
+Points:           7537
+Volume Elements:  2882
+25 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 257
+0.05 -  0.1: 77
+ 0.1 - 0.15: 140
+0.15 -  0.2: 199
+ 0.2 - 0.25: 178
+0.25 -  0.3: 161
+ 0.3 - 0.35: 173
+0.35 -  0.4: 220
+ 0.4 - 0.45: 227
+0.45 -  0.5: 233
+ 0.5 - 0.55: 225
+0.55 -  0.6: 204
+ 0.6 - 0.65: 184
+0.65 -  0.7: 131
+ 0.7 - 0.75: 85
+0.75 -  0.8: 83
+ 0.8 - 0.85: 53
+0.85 -  0.9: 37
+ 0.9 - 0.95: 10
+0.95 -    1: 5
+total error: 2.5e+11
+free: 1188, fixed: 1694
+
+Start SwapImprove
+free: 564, fixed: 2261
+
+Start SwapImprove
+
+
+Points:           7537
+Volume Elements:  2815
+25 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 248
+0.05 -  0.1: 66
+ 0.1 - 0.15: 139
+0.15 -  0.2: 194
+ 0.2 - 0.25: 171
+0.25 -  0.3: 161
+ 0.3 - 0.35: 164
+0.35 -  0.4: 222
+ 0.4 - 0.45: 227
+0.45 -  0.5: 214
+ 0.5 - 0.55: 214
+0.55 -  0.6: 200
+ 0.6 - 0.65: 171
+0.65 -  0.7: 130
+ 0.7 - 0.75: 86
+0.75 -  0.8: 88
+ 0.8 - 0.85: 61
+0.85 -  0.9: 42
+ 0.9 - 0.95: 12
+0.95 -    1: 5
+total error: 2.5e+11
+   0 times used rule Free Tetrahedron
+  39 times used rule Tetrahedron 60
+  13 times used rule Tetrahedron 60 with edge(1)
+   0 times used rule Tetrahedron Vis a Vis Point (1)
+   2 times used rule Tetrahedron Vis a Vis Point with edge(1)
+   8 times used rule Tetrahedron Vis a Vis Point with 2 edges (1)
+  16 times used rule Tetrahedron Vis a Vis Point with 3 edges (1)
+   0 times used rule Tetrahedron Vis a Vis Triangle (1)
+   0 times used rule Octaeder 1
+   0 times used rule Octaeder 2
+   0 times used rule Octaeder 2a
+   0 times used rule Pyramid 1
+   4 times used rule Tetrahedron 2 times 60
+   3 times used rule Fill Tetrahedron (1)
+   3 times used rule Tetrahedron 120 (1)
+   0 times used rule Tetrahedron 2 times 120 (1)
+   0 times used rule four Tetrahedron non convex (4)
+   0 times used rule five Tetrahedron non convex (4)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule three Tetrahedron non convex (4)
+   0 times used rule three Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule Tetrahedron 2 in 60 (12)
+   0 times used rule Tetrahedron 120: but more than 180 (13)
+   0 times used rule Free Tetrahedron (14)
+   0 times used rule Free Tetrahedron (15)
+blockfill local h
+rel filldist = 0.1
+.........
+
+
+Points:           9161
+Volume Elements:  36413
+26 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 799
+0.05 -  0.1: 824
+ 0.1 - 0.15: 1067
+0.15 -  0.2: 1438
+ 0.2 - 0.25: 1785
+0.25 -  0.3: 2146
+ 0.3 - 0.35: 2373
+0.35 -  0.4: 2778
+ 0.4 - 0.45: 2922
+0.45 -  0.5: 3275
+ 0.5 - 0.55: 3302
+0.55 -  0.6: 3117
+ 0.6 - 0.65: 2806
+0.65 -  0.7: 2223
+ 0.7 - 0.75: 1792
+0.75 -  0.8: 1620
+ 0.8 - 0.85: 1019
+0.85 -  0.9: 763
+ 0.9 - 0.95: 308
+0.95 -    1: 56
+total error: 2.6e+11
+free: 25404, fixed: 11009
+
+Start SwapImprove
+free: 15905, fixed: 19552
+
+Start SwapImprove
+
+
+Points:           9161
+Volume Elements:  35239
+18 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 1091
+0.05 -  0.1: 743
+ 0.1 - 0.15: 929
+0.15 -  0.2: 1262
+ 0.2 - 0.25: 1563
+0.25 -  0.3: 2027
+ 0.3 - 0.35: 2327
+0.35 -  0.4: 2773
+ 0.4 - 0.45: 2965
+0.45 -  0.5: 3250
+ 0.5 - 0.55: 3330
+0.55 -  0.6: 3078
+ 0.6 - 0.65: 2683
+0.65 -  0.7: 2113
+ 0.7 - 0.75: 1654
+0.75 -  0.8: 1536
+ 0.8 - 0.85: 934
+0.85 -  0.9: 669
+ 0.9 - 0.95: 269
+0.95 -    1: 43
+total error: 1.8e+11
+
+9999/254/248 map/can/use rule Free Tetrahedron
+4525/1878/1669 map/can/use rule Tetrahedron 60
+1262/1175/995 map/can/use rule Tetrahedron 60 with edge(1)
+0/0/0 map/can/use rule Tetrahedron Vis a Vis Point (1)
+13621/1057/535 map/can/use rule Tetrahedron Vis a Vis Point with edge(1)
+6255/2423/547 map/can/use rule Tetrahedron Vis a Vis Point with 2 edges (1)
+3106/2625/1211 map/can/use rule Tetrahedron Vis a Vis Point with 3 edges (1)
+0/0/0 map/can/use rule Tetrahedron Vis a Vis Triangle (1)
+0/0/0 map/can/use rule Octaeder 1
+0/0/0 map/can/use rule Octaeder 2
+0/0/0 map/can/use rule Octaeder 2a
+0/0/0 map/can/use rule Pyramid 1
+1389/1167/233 map/can/use rule Tetrahedron 2 times 60
+643/557/22 map/can/use rule Fill Tetrahedron (1)
+3340/643/395 map/can/use rule Tetrahedron 120 (1)
+0/0/0 map/can/use rule Tetrahedron 2 times 120 (1)
+0/0/0 map/can/use rule four Tetrahedron non convex (4)
+0/0/0 map/can/use rule five Tetrahedron non convex (4)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule three Tetrahedron non convex (4)
+0/0/0 map/can/use rule three Tetrahedron non convex (6)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule Tetrahedron 2 in 60 (12)
+0/0/0 map/can/use rule Tetrahedron 120: but more than 180 (13)
+0/0/0 map/can/use rule Free Tetrahedron (14)
+0/0/0 map/can/use rule Free Tetrahedron (15)
+
+
+19999/273/267 map/can/use rule Free Tetrahedron
+10170/3396/3126 map/can/use rule Tetrahedron 60
+3335/3033/2282 map/can/use rule Tetrahedron 60 with edge(1)
+0/0/0 map/can/use rule Tetrahedron Vis a Vis Point (1)
+33080/2060/898 map/can/use rule Tetrahedron Vis a Vis Point with edge(1)
+14329/4583/1147 map/can/use rule Tetrahedron Vis a Vis Point with 2 edges (1)
+7660/6129/2500 map/can/use rule Tetrahedron Vis a Vis Point with 3 edges (1)
+0/0/0 map/can/use rule Tetrahedron Vis a Vis Triangle (1)
+0/0/0 map/can/use rule Octaeder 1
+0/0/0 map/can/use rule Octaeder 2
+0/0/0 map/can/use rule Octaeder 2a
+0/0/0 map/can/use rule Pyramid 1
+3645/2877/629 map/can/use rule Tetrahedron 2 times 60
+1977/1540/92 map/can/use rule Fill Tetrahedron (1)
+5980/845/501 map/can/use rule Tetrahedron 120 (1)
+0/0/0 map/can/use rule Tetrahedron 2 times 120 (1)
+0/0/0 map/can/use rule four Tetrahedron non convex (4)
+0/0/0 map/can/use rule five Tetrahedron non convex (4)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule three Tetrahedron non convex (4)
+0/0/0 map/can/use rule three Tetrahedron non convex (6)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule Tetrahedron 2 in 60 (12)
+0/0/0 map/can/use rule Tetrahedron 120: but more than 180 (13)
+0/0/0 map/can/use rule Free Tetrahedron (14)
+0/0/0 map/can/use rule Free Tetrahedron (15)
+
+
+29999/273/267 map/can/use rule Free Tetrahedron
+17096/4857/4058 map/can/use rule Tetrahedron 60
+5499/4946/3017 map/can/use rule Tetrahedron 60 with edge(1)
+0/0/0 map/can/use rule Tetrahedron Vis a Vis Point (1)
+50266/2990/1002 map/can/use rule Tetrahedron Vis a Vis Point with edge(1)
+22101/6575/1554 map/can/use rule Tetrahedron Vis a Vis Point with 2 edges (1)
+11523/9170/3140 map/can/use rule Tetrahedron Vis a Vis Point with 3 edges (1)
+0/0/0 map/can/use rule Tetrahedron Vis a Vis Triangle (1)
+0/0/0 map/can/use rule Octaeder 1
+0/0/0 map/can/use rule Octaeder 2
+0/0/0 map/can/use rule Octaeder 2a
+0/0/0 map/can/use rule Pyramid 1
+5788/4658/837 map/can/use rule Tetrahedron 2 times 60
+3326/2719/126 map/can/use rule Fill Tetrahedron (1)
+10058/865/513 map/can/use rule Tetrahedron 120 (1)
+0/0/0 map/can/use rule Tetrahedron 2 times 120 (1)
+317/74/46 map/can/use rule four Tetrahedron non convex (4)
+84/16/10 map/can/use rule five Tetrahedron non convex (4)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+144/132/0 map/can/use rule three Tetrahedron non convex (4)
+0/0/0 map/can/use rule three Tetrahedron non convex (6)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule Tetrahedron 2 in 60 (12)
+0/0/0 map/can/use rule Tetrahedron 120: but more than 180 (13)
+0/0/0 map/can/use rule Free Tetrahedron (14)
+0/0/0 map/can/use rule Free Tetrahedron (15)
+
+
+39999/273/267 map/can/use rule Free Tetrahedron
+25686/5172/4302 map/can/use rule Tetrahedron 60
+5985/5346/3165 map/can/use rule Tetrahedron 60 with edge(1)
+0/0/0 map/can/use rule Tetrahedron Vis a Vis Point (1)
+66583/3233/1006 map/can/use rule Tetrahedron Vis a Vis Point with edge(1)
+29065/6977/1633 map/can/use rule Tetrahedron Vis a Vis Point with 2 edges (1)
+12266/9724/3216 map/can/use rule Tetrahedron Vis a Vis Point with 3 edges (1)
+0/0/0 map/can/use rule Tetrahedron Vis a Vis Triangle (1)
+0/0/0 map/can/use rule Octaeder 1
+0/0/0 map/can/use rule Octaeder 2
+0/0/0 map/can/use rule Octaeder 2a
+0/0/0 map/can/use rule Pyramid 1
+6322/5048/891 map/can/use rule Tetrahedron 2 times 60
+3712/3015/130 map/can/use rule Fill Tetrahedron (1)
+16938/866/514 map/can/use rule Tetrahedron 120 (1)
+0/0/0 map/can/use rule Tetrahedron 2 times 120 (1)
+2281/196/171 map/can/use rule four Tetrahedron non convex (4)
+696/32/28 map/can/use rule five Tetrahedron non convex (4)
+280/82/115 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+226/200/2 map/can/use rule three Tetrahedron non convex (4)
+0/0/0 map/can/use rule three Tetrahedron non convex (6)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule Tetrahedron 2 in 60 (12)
+0/0/0 map/can/use rule Tetrahedron 120: but more than 180 (13)
+0/0/0 map/can/use rule Free Tetrahedron (14)
+0/0/0 map/can/use rule Free Tetrahedron (15)
+
+
+49999/273/267 map/can/use rule Free Tetrahedron
+34481/5183/4322 map/can/use rule Tetrahedron 60
+6041/5363/3179 map/can/use rule Tetrahedron 60 with edge(1)
+0/0/0 map/can/use rule Tetrahedron Vis a Vis Point (1)
+81840/3233/1006 map/can/use rule Tetrahedron Vis a Vis Point with edge(1)
+35744/6997/1641 map/can/use rule Tetrahedron Vis a Vis Point with 2 edges (1)
+12373/9753/3224 map/can/use rule Tetrahedron Vis a Vis Point with 3 edges (1)
+0/0/0 map/can/use rule Tetrahedron Vis a Vis Triangle (1)
+0/0/0 map/can/use rule Octaeder 1
+0/0/0 map/can/use rule Octaeder 2
+0/0/0 map/can/use rule Octaeder 2a
+0/0/0 map/can/use rule Pyramid 1
+6362/5058/891 map/can/use rule Tetrahedron 2 times 60
+3712/3015/130 map/can/use rule Fill Tetrahedron (1)
+24402/866/514 map/can/use rule Tetrahedron 120 (1)
+0/0/0 map/can/use rule Tetrahedron 2 times 120 (1)
+4994/212/187 map/can/use rule four Tetrahedron non convex (4)
+1671/35/41 map/can/use rule five Tetrahedron non convex (4)
+858/167/291 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+233/204/5 map/can/use rule three Tetrahedron non convex (4)
+0/0/0 map/can/use rule three Tetrahedron non convex (6)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule Tetrahedron 2 in 60 (12)
+0/0/0 map/can/use rule Tetrahedron 120: but more than 180 (13)
+0/0/0 map/can/use rule Free Tetrahedron (14)
+0/0/0 map/can/use rule Free Tetrahedron (15)
+
+ 267 times used rule Free Tetrahedron
+4322 times used rule Tetrahedron 60
+3179 times used rule Tetrahedron 60 with edge(1)
+   0 times used rule Tetrahedron Vis a Vis Point (1)
+1006 times used rule Tetrahedron Vis a Vis Point with edge(1)
+1641 times used rule Tetrahedron Vis a Vis Point with 2 edges (1)
+3224 times used rule Tetrahedron Vis a Vis Point with 3 edges (1)
+   0 times used rule Tetrahedron Vis a Vis Triangle (1)
+   0 times used rule Octaeder 1
+   0 times used rule Octaeder 2
+   0 times used rule Octaeder 2a
+   0 times used rule Pyramid 1
+ 891 times used rule Tetrahedron 2 times 60
+ 130 times used rule Fill Tetrahedron (1)
+ 514 times used rule Tetrahedron 120 (1)
+   0 times used rule Tetrahedron 2 times 120 (1)
+ 190 times used rule four Tetrahedron non convex (4)
+  41 times used rule five Tetrahedron non convex (4)
+ 320 times used rule four Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   5 times used rule three Tetrahedron non convex (4)
+   0 times used rule three Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule Tetrahedron 2 in 60 (12)
+   0 times used rule Tetrahedron 120: but more than 180 (13)
+   0 times used rule Free Tetrahedron (14)
+   0 times used rule Free Tetrahedron (15)
+free: 1239, fixed: 23108
+Improve Mesh
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+
+ Current Process: Optimizing volume, step 18free: 1239, fixed: 23108
+Start CombineImprove
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 18627
+illegal tet 18628
+illegal tet 18629
+low volume of tet 0
+illegal tet 18794
+illegal tet 15489
+illegal tet 15493
+illegal tet 19194
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 5.7824116e-19
+low volume of tet 0
+low volume of tet 0
+illegal tet 15283
+low volume of tet 0
+illegal tet 19364
+low volume of tet 1.4456029e-19
+low volume of tet 0
+illegal tet 18791
+illegal tet 18792
+low volume of tet 0
+illegal tet 20313
+illegal tet 20460
+low volume of tet 1.1564823e-18
+low volume of tet 0
+low volume of tet 2.3129646e-18
+illegal tet 21217
+illegal tet 21218
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.8912058e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 22666
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 22670
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.4456029e-19
+low volume of tet 7.2280145e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 5.7824116e-19
+low volume of tet 2.8912058e-19
+low volume of tet 0
+low volume of tet 4.5175091e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 22871
+illegal tet 22872
+low volume of tet 0
+low volume of tet 0
+illegal tet 23042
+illegal tet 23043
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 22895
+illegal tet 22896
+illegal tet 22897
+illegal tet 22898
+illegal tet 22916
+low volume of tet 0
+low volume of tet 0
+illegal tet 22919
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.1564823e-18
+low volume of tet 4.6259293e-18
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 23160
+low volume of tet 0
+low volume of tet 0
+illegal tet 23163
+illegal tet 23164
+illegal tet 23165
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 23208
+illegal tet 23209
+illegal tet 23210
+illegal tet 23211
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 23414
+low volume of tet 0
+low volume of tet 0
+illegal tet 23417
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 7.2280145e-20
+low volume of tet 2.1684043e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.8070036e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.1564823e-18
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 4.5175091e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 24088
+illegal tet 24089
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.0842022e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.8912058e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.1293773e-21
+low volume of tet 4.5175091e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.4117216e-22
+low volume of tet 5.6468863e-22
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3.6140072e-20
+low volume of tet 3.6140072e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 7.2280145e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 8.4615062e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 5.4774797e-20
+low volume of tet 3.6140072e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.2587545e-21
+low volume of tet 5.6468863e-22
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.8912058e-19
+low volume of tet 0
+160 elements combined
+CombineImprove done
+free: 718, fixed: 22995
+Improve Mesh
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+
+free: 718, fixed: 22995
+
+Start SwapImprove
+free: 678, fixed: 23070
+
+Start SwapImprove2
+Total badness = 3.000002e+12
+Total badness = 3.000002e+12
+swapimprove2 done
+free: 687, fixed: 23078
+Improve Mesh
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+
+free: 687, fixed: 23078
+Start CombineImprove
+low volume of tet 7.2280145e-20
+low volume of tet 2.8912058e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 9.0350181e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 22115
+illegal tet 23721
+low volume of tet 0
+illegal tet 23723
+low volume of tet 0
+low volume of tet 4.5175091e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3.6140072e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.7105054e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 7.2280145e-20
+low volume of tet 0
+low volume of tet 4.5175091e-20
+low volume of tet 0
+low volume of tet 1.8973538e-19
+low volume of tet 0
+low volume of tet 6.7762636e-21
+low volume of tet 5.4210109e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3.6140072e-20
+low volume of tet 2.8912058e-19
+illegal tet 16326
+illegal tet 16327
+illegal tet 20164
+low volume of tet 0
+low volume of tet 2.8912058e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.3129646e-18
+low volume of tet 5.7824116e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 5.7824116e-19
+low volume of tet 1.4456029e-19
+low volume of tet 7.2280145e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.8070036e-20
+low volume of tet 9.0350181e-21
+low volume of tet 0
+low volume of tet 2.2587545e-21
+low volume of tet 0
+low volume of tet 5.7824116e-19
+low volume of tet 0
+low volume of tet 7.2280145e-20
+low volume of tet 0
+low volume of tet 2.8912058e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.8912058e-19
+low volume of tet 1.1564823e-18
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.2649025e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 5.6468863e-22
+low volume of tet 9.3526555e-22
+low volume of tet 1.1293773e-21
+low volume of tet 0
+low volume of tet 9.0350181e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 9.0350181e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 5.4210109e-20
+low volume of tet 3.6140072e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 9.0350181e-21
+low volume of tet 9.0350181e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 5.6468863e-22
+low volume of tet 0
+low volume of tet 9.0350181e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 23213
+illegal tet 23265
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3.6140072e-20
+low volume of tet 0
+low volume of tet 7.2280145e-20
+low volume of tet 5.7824116e-19
+low volume of tet 4.3368087e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.8912058e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3.0493186e-20
+low volume of tet 0
+low volume of tet 1.4456029e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.4456029e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.4456029e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.0842022e-19
+low volume of tet 0
+low volume of tet 1.8070036e-20
+low volume of tet 1.0842022e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+44 elements combined
+CombineImprove done
+free: 502, fixed: 23061
+Improve Mesh
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+
+free: 502, fixed: 23061
+
+Start SwapImprove
+free: 489, fixed: 23063
+
+Start SwapImprove2
+detected illegal tet1: 23068
+detected illegal tet1: 23076
+Total badness = 4.0000004e+12
+Total badness = 4.0000004e+12
+swapimprove2 done
+free: 490, fixed: 23064
+Improve Mesh
+no success with linesearch
+no success with linesearch
+no success with linesearch
+
+free: 490, fixed: 23064
+Start CombineImprove
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 5.7824116e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 5.7824116e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 5.7824116e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.1684043e-19
+low volume of tet 0
+low volume of tet 2.8912058e-19
+low volume of tet 7.2280145e-20
+low volume of tet 1.1564823e-18
+low volume of tet 0
+low volume of tet 7.2280145e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 20460
+low volume of tet 0
+illegal tet 22672
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 5.5511151e-17
+illegal tet 23076
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3.6140072e-20
+low volume of tet 1.8070036e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 9.0350181e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.1293773e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.8070036e-20
+low volume of tet 0
+low volume of tet 1.8070036e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+19 elements combined
+CombineImprove done
+free: 416, fixed: 23025
+Improve Mesh
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+
+free: 416, fixed: 23025
+
+Start SwapImprove
+free: 416, fixed: 23025
+
+Start SwapImprove2
+Total badness = 3.0000002e+12
+Total badness = 3.0000002e+12
+swapimprove2 done
+free: 424, fixed: 23022
+Improve Mesh
+
+ Current Process: Optimizing volume, step 33free: 424, fixed: 23022
+Start CombineImprove
+low volume of tet 7.2280145e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3.6140072e-20
+low volume of tet 0
+illegal tet 19439
+low volume of tet 0
+illegal tet 23288
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 22514
+illegal tet 22515
+low volume of tet 7.2280145e-20
+low volume of tet 0
+low volume of tet 0
+illegal tet 22892
+illegal tet 22894
+low volume of tet 1.4456029e-19
+low volume of tet 0
+low volume of tet 7.2280145e-20
+low volume of tet 1.4456029e-19
+6 elements combined
+CombineImprove done
+free: 406, fixed: 23010
+Improve Mesh
+
+ SYSTEM ERROR: more elements on face
+more elements on face!!!
+el = np = 4 2330 8683 8682 8994
+hel = np = 3 2330 8683 8682
+face = 2330, 8683, 8682
+points = 
+p = (2.8141621,-2.7313613,1.337)
+p = (2.9976307,-2.6366828,1.2481612)
+p = (2.7783115,-2.5871879,1.1373733)
+ SYSTEM ERROR: more elements on face
+more elements on face!!!
+el = np = 4 9063 8588 5991 9074
+hel = np = 3 5991 8588 9074
+face = 5991, 8588, 9074
+points = 
+p = (-0.87958557,3.8986492,0.737)
+p = (-1.4008608,3.1829349,0.96825229)
+p = (-0.95181554,3.454712,0.84355933)
+ SYSTEM ERROR: more elements on face
+more elements on face!!!
+el = np = 4 9063 6001 8588 9074
+hel = np = 3 6001 9074 8588
+face = 6001, 9074, 8588
+points = 
+p = (-0.62223624,3.1385896,0.737)
+p = (-0.95181554,3.454712,0.84355933)
+p = (-1.4008608,3.1829349,0.96825229)
+ SYSTEM ERROR: more elements on face
+more elements on face!!!
+el = np = 4 9107 9071 9103 6010
+hel = np = 3 6010 9107 9103
+face = 6010, 9107, 9103
+points = 
+p = (7.9201507,-5.8776944,0.737)
+p = (7.7530997,-5.7991084,0.83952719)
+p = (7.8374623,-5.6364777,0.83021639)
+ SYSTEM ERROR: more elements on face
+more elements on face!!!
+el = np = 4 2330 8683 8682 8994
+hel = np = 3 8682 8683 8994
+face = 8682, 8683, 8994
+points = 
+p = (2.7783115,-2.5871879,1.1373733)
+p = (2.9976307,-2.6366828,1.2481612)
+p = (2.8022631,-2.7815986,1.2534886)
+ SYSTEM ERROR: more elements on face
+more elements on face!!!
+el = np = 4 8024 8750 8853 8973
+hel = np = 3 8750 8973 8853
+face = 8750, 8973, 8853
+points = 
+p = (7.3261137,1.3358069,0.93731324)
+p = (7.4632905,1.4490259,0.95436539)
+p = (7.621807,1.3504338,0.8791988)
+ SYSTEM ERROR: more elements on face
+more elements on face!!!
+el = np = 4 8825 8899 9012 9053
+hel = np = 3 8825 9012 9053
+face = 8825, 9012, 9053
+points = 
+p = (6.4768322,-6.2582201,1.1711117)
+p = (6.5797193,-6.0990929,1.0592617)
+p = (6.4665597,-6.105685,1.1106806)
+
+9999/60/57 map/can/use rule Free Tetrahedron
+7492/616/647 map/can/use rule Tetrahedron 60
+573/500/451 map/can/use rule Tetrahedron 60 with edge(1)
+0/0/0 map/can/use rule Tetrahedron Vis a Vis Point (1)
+16205/337/177 map/can/use rule Tetrahedron Vis a Vis Point with edge(1)
+6767/838/247 map/can/use rule Tetrahedron Vis a Vis Point with 2 edges (1)
+1268/970/361 map/can/use rule Tetrahedron Vis a Vis Point with 3 edges (1)
+0/0/0 map/can/use rule Tetrahedron Vis a Vis Triangle (1)
+0/0/0 map/can/use rule Octaeder 1
+0/0/0 map/can/use rule Octaeder 2
+0/0/0 map/can/use rule Octaeder 2a
+0/0/0 map/can/use rule Pyramid 1
+589/443/104 map/can/use rule Tetrahedron 2 times 60
+232/164/12 map/can/use rule Fill Tetrahedron (1)
+5708/123/77 map/can/use rule Tetrahedron 120 (1)
+0/0/0 map/can/use rule Tetrahedron 2 times 120 (1)
+1406/52/50 map/can/use rule four Tetrahedron non convex (4)
+694/3/4 map/can/use rule five Tetrahedron non convex (4)
+300/23/73 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+15/15/1 map/can/use rule three Tetrahedron non convex (4)
+0/0/0 map/can/use rule three Tetrahedron non convex (6)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule Tetrahedron 2 in 60 (12)
+0/0/0 map/can/use rule Tetrahedron 120: but more than 180 (13)
+0/0/0 map/can/use rule Free Tetrahedron (14)
+0/0/0 map/can/use rule Free Tetrahedron (15)
+
+  57 times used rule Free Tetrahedron
+ 647 times used rule Tetrahedron 60
+ 451 times used rule Tetrahedron 60 with edge(1)
+   0 times used rule Tetrahedron Vis a Vis Point (1)
+ 177 times used rule Tetrahedron Vis a Vis Point with edge(1)
+ 247 times used rule Tetrahedron Vis a Vis Point with 2 edges (1)
+ 361 times used rule Tetrahedron Vis a Vis Point with 3 edges (1)
+   0 times used rule Tetrahedron Vis a Vis Triangle (1)
+   0 times used rule Octaeder 1
+   0 times used rule Octaeder 2
+   0 times used rule Octaeder 2a
+   0 times used rule Pyramid 1
+ 104 times used rule Tetrahedron 2 times 60
+  12 times used rule Fill Tetrahedron (1)
+  77 times used rule Tetrahedron 120 (1)
+   0 times used rule Tetrahedron 2 times 120 (1)
+  50 times used rule four Tetrahedron non convex (4)
+   4 times used rule five Tetrahedron non convex (4)
+  84 times used rule four Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   1 times used rule three Tetrahedron non convex (4)
+   0 times used rule three Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule Tetrahedron 2 in 60 (12)
+   0 times used rule Tetrahedron 120: but more than 180 (13)
+   0 times used rule Free Tetrahedron (14)
+   0 times used rule Free Tetrahedron (15)
+free: 685, fixed: 23279
+Improve Mesh
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+
+ Current Process: Optimizing volume, step 36free: 685, fixed: 23279
+Start CombineImprove
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 9250
+low volume of tet 0
+illegal tet 17037
+illegal tet 17057
+low volume of tet 0
+illegal tet 10005
+illegal tet 10370
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.8912058e-19
+low volume of tet 3.1903157e-20
+low volume of tet 0
+illegal tet 19547
+low volume of tet 0
+illegal tet 22871
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 15759
+illegal tet 15761
+illegal tet 15762
+illegal tet 20728
+illegal tet 20729
+low volume of tet 0
+illegal tet 20735
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 16498
+illegal tet 16499
+illegal tet 16505
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.3129646e-18
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 23580
+illegal tet 23581
+low volume of tet 0
+illegal tet 23599
+illegal tet 23600
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 23648
+illegal tet 23649
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.8070036e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 7.2280145e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 7.0586079e-23
+low volume of tet 0
+51 elements combined
+CombineImprove done
+free: 502, fixed: 23234
+Improve Mesh
+
+free: 502, fixed: 23234
+
+Start SwapImprove
+free: 497, fixed: 23241
+
+Start SwapImprove2
+Total badness = 2.0000002e+12
+Total badness = 2.0000002e+12
+swapimprove2 done
+free: 506, fixed: 23243
+Improve Mesh
+
+free: 506, fixed: 23243
+Start CombineImprove
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 4825
+illegal tet 11058
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 7.9056408e-21
+low volume of tet 0
+low volume of tet 3.6140072e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3.3881318e-21
+low volume of tet 4.5175091e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.8070036e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 4.5175091e-21
+low volume of tet 0
+low volume of tet 7.2280145e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 9.0350181e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.7105054e-20
+low volume of tet 3.6140072e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.8070036e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 5.7824116e-19
+low volume of tet 0
+low volume of tet 5.7824116e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3.2526065e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 5.7824116e-19
+low volume of tet 1.4456029e-19
+low volume of tet 0
+low volume of tet 0
+illegal tet 21792
+illegal tet 21879
+low volume of tet 0
+low volume of tet 0
+illegal tet 22556
+illegal tet 22759
+low volume of tet 9.0350181e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.764652e-23
+low volume of tet 1.764652e-23
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+20 elements combined
+CombineImprove done
+free: 437, fixed: 23220
+Improve Mesh
+
+free: 437, fixed: 23220
+
+Start SwapImprove
+free: 411, fixed: 23241
+
+Start SwapImprove2
+Total badness = 207713.5
+Total badness = 207714.15
+swapimprove2 done
+free: 413, fixed: 23240
+Improve Mesh
+
+free: 413, fixed: 23240
+Start CombineImprove
+low volume of tet 0
+low volume of tet 4.6086043e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.3129646e-18
+low volume of tet 2.3129646e-18
+illegal tet 21830
+illegal tet 22967
+illegal tet 22993
+low volume of tet 0
+low volume of tet 0
+low volume of tet 5.7824116e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.8070036e-20
+low volume of tet 1.8070036e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.4456029e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.8912058e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 8.8232599e-24
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3.8601762e-24
+low volume of tet 5.7824116e-19
+low volume of tet 5.7824116e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 6.3245127e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.8912058e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 6.3527471e-22
+low volume of tet 0
+illegal tet 16555
+illegal tet 22763
+low volume of tet 2.8912058e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.1564823e-18
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3.6140072e-20
+low volume of tet 5.7824116e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.764652e-23
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 7.2280145e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+20 elements combined
+CombineImprove done
+free: 302, fixed: 23244
+Improve Mesh
+
+free: 302, fixed: 23244
+
+Start SwapImprove
+free: 311, fixed: 23231
+
+Start SwapImprove2
+Total badness = 206070.94
+Total badness = 206070.94
+swapimprove2 done
+free: 311, fixed: 23231
+Improve Mesh
+
+free: 311, fixed: 23231
+Start CombineImprove
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 17285
+illegal tet 17982
+illegal tet 17983
+illegal tet 19710
+low volume of tet 0
+low volume of tet 0
+2 elements combined
+CombineImprove done
+free: 307, fixed: 23225
+Improve Mesh
+
+ Current Process: Optimizing volume, step 53 SYSTEM ERROR: more elements on face
+more elements on face!!!
+el = np = 4 9104 9112 9100 9113
+hel = np = 3 9100 9113 9104
+face = 9100, 9113, 9104
+points = 
+p = (5.0604359,-0.77759194,1.2093531)
+p = (5.0672933,-0.76622846,1.2137915)
+p = (5.0729096,-0.76968514,1.2076304)
+ SYSTEM ERROR: more elements on face
+more elements on face!!!
+el = np = 4 9104 9112 9100 9113
+hel = np = 3 9104 9113 9112
+face = 9104, 9113, 9112
+points = 
+p = (5.0729096,-0.76968514,1.2076304)
+p = (5.0672933,-0.76622846,1.2137915)
+p = (5.0696716,-0.77127524,1.217533)
+  18 times used rule Free Tetrahedron
+ 155 times used rule Tetrahedron 60
+  94 times used rule Tetrahedron 60 with edge(1)
+   0 times used rule Tetrahedron Vis a Vis Point (1)
+  38 times used rule Tetrahedron Vis a Vis Point with edge(1)
+  53 times used rule Tetrahedron Vis a Vis Point with 2 edges (1)
+  73 times used rule Tetrahedron Vis a Vis Point with 3 edges (1)
+   0 times used rule Tetrahedron Vis a Vis Triangle (1)
+   0 times used rule Octaeder 1
+   0 times used rule Octaeder 2
+   0 times used rule Octaeder 2a
+   0 times used rule Pyramid 1
+  11 times used rule Tetrahedron 2 times 60
+   2 times used rule Fill Tetrahedron (1)
+  27 times used rule Tetrahedron 120 (1)
+   0 times used rule Tetrahedron 2 times 120 (1)
+   6 times used rule four Tetrahedron non convex (4)
+   0 times used rule five Tetrahedron non convex (4)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule three Tetrahedron non convex (4)
+   0 times used rule three Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule Tetrahedron 2 in 60 (12)
+   0 times used rule Tetrahedron 120: but more than 180 (13)
+   0 times used rule Free Tetrahedron (14)
+   0 times used rule Free Tetrahedron (15)
+blockfill local h
+rel filldist = 0.1
+.........+..
+
+
+Points:           12612
+Volume Elements:  48577
+37 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 579
+0.05 -  0.1: 876
+ 0.1 - 0.15: 1378
+0.15 -  0.2: 1477
+ 0.2 - 0.25: 1771
+0.25 -  0.3: 2136
+ 0.3 - 0.35: 2764
+0.35 -  0.4: 3643
+ 0.4 - 0.45: 3577
+0.45 -  0.5: 4102
+ 0.5 - 0.55: 4198
+0.55 -  0.6: 4156
+ 0.6 - 0.65: 3850
+0.65 -  0.7: 3367
+ 0.7 - 0.75: 3696
+0.75 -  0.8: 2758
+ 0.8 - 0.85: 2127
+0.85 -  0.9: 1430
+ 0.9 - 0.95: 544
+0.95 -    1: 148
+total error: 3.7e+11
+free: 27547, fixed: 21030
+
+Start SwapImprove
+free: 17221, fixed: 30047
+
+Start SwapImprove
+
+
+Points:           12612
+Volume Elements:  47096
+28 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 697
+0.05 -  0.1: 961
+ 0.1 - 0.15: 1091
+0.15 -  0.2: 1205
+ 0.2 - 0.25: 1465
+0.25 -  0.3: 1874
+ 0.3 - 0.35: 2544
+0.35 -  0.4: 3614
+ 0.4 - 0.45: 3591
+0.45 -  0.5: 4135
+ 0.5 - 0.55: 4233
+0.55 -  0.6: 4115
+ 0.6 - 0.65: 3769
+0.65 -  0.7: 3275
+ 0.7 - 0.75: 3649
+0.75 -  0.8: 2715
+ 0.8 - 0.85: 2084
+0.85 -  0.9: 1405
+ 0.9 - 0.95: 536
+0.95 -    1: 138
+total error: 2.8e+11
+vol = -2.6e-07 h = 4.7
+vol = -2.7e-08 h = 2.8
+vol = -3.9e-07 h = 4.3
+vol = -9.8e-08 h = 2.1
+vol = -2.1e-10 h = 0.34
+vol = -3.3e-08 h = 2.1
+
+9999/251/266 map/can/use rule Free Tetrahedron
+4932/1584/1799 map/can/use rule Tetrahedron 60
+1190/995/910 map/can/use rule Tetrahedron 60 with edge(1)
+0/0/0 map/can/use rule Tetrahedron Vis a Vis Point (1)
+14587/791/479 map/can/use rule Tetrahedron Vis a Vis Point with edge(1)
+6269/1982/470 map/can/use rule Tetrahedron Vis a Vis Point with 2 edges (1)
+2642/1917/852 map/can/use rule Tetrahedron Vis a Vis Point with 3 edges (1)
+0/0/0 map/can/use rule Tetrahedron Vis a Vis Triangle (1)
+0/0/0 map/can/use rule Octaeder 1
+0/0/0 map/can/use rule Octaeder 2
+0/0/0 map/can/use rule Octaeder 2a
+0/0/0 map/can/use rule Pyramid 1
+1297/890/248 map/can/use rule Tetrahedron 2 times 60
+570/365/26 map/can/use rule Fill Tetrahedron (1)
+2282/390/244 map/can/use rule Tetrahedron 120 (1)
+0/0/0 map/can/use rule Tetrahedron 2 times 120 (1)
+0/0/0 map/can/use rule four Tetrahedron non convex (4)
+0/0/0 map/can/use rule five Tetrahedron non convex (4)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule three Tetrahedron non convex (4)
+0/0/0 map/can/use rule three Tetrahedron non convex (6)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule Tetrahedron 2 in 60 (12)
+0/0/0 map/can/use rule Tetrahedron 120: but more than 180 (13)
+0/0/0 map/can/use rule Free Tetrahedron (14)
+0/0/0 map/can/use rule Free Tetrahedron (15)
+
+
+19999/251/266 map/can/use rule Free Tetrahedron
+11028/2488/2934 map/can/use rule Tetrahedron 60
+2710/2225/1880 map/can/use rule Tetrahedron 60 with edge(1)
+0/0/0 map/can/use rule Tetrahedron Vis a Vis Point (1)
+30115/1276/589 map/can/use rule Tetrahedron Vis a Vis Point with edge(1)
+13456/3273/1002 map/can/use rule Tetrahedron Vis a Vis Point with 2 edges (1)
+6081/4138/1856 map/can/use rule Tetrahedron Vis a Vis Point with 3 edges (1)
+0/0/0 map/can/use rule Tetrahedron Vis a Vis Triangle (1)
+0/0/0 map/can/use rule Octaeder 1
+0/0/0 map/can/use rule Octaeder 2
+0/0/0 map/can/use rule Octaeder 2a
+0/0/0 map/can/use rule Pyramid 1
+3125/2088/563 map/can/use rule Tetrahedron 2 times 60
+1609/1106/83 map/can/use rule Fill Tetrahedron (1)
+4985/411/265 map/can/use rule Tetrahedron 120 (1)
+0/0/0 map/can/use rule Tetrahedron 2 times 120 (1)
+0/0/0 map/can/use rule four Tetrahedron non convex (4)
+0/0/0 map/can/use rule five Tetrahedron non convex (4)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule three Tetrahedron non convex (4)
+0/0/0 map/can/use rule three Tetrahedron non convex (6)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule Tetrahedron 2 in 60 (12)
+0/0/0 map/can/use rule Tetrahedron 120: but more than 180 (13)
+0/0/0 map/can/use rule Free Tetrahedron (14)
+0/0/0 map/can/use rule Free Tetrahedron (15)
+
+
+29999/251/266 map/can/use rule Free Tetrahedron
+19613/2706/3222 map/can/use rule Tetrahedron 60
+3128/2570/2114 map/can/use rule Tetrahedron 60 with edge(1)
+0/0/0 map/can/use rule Tetrahedron Vis a Vis Point (1)
+46099/1421/606 map/can/use rule Tetrahedron Vis a Vis Point with edge(1)
+20446/3594/1143 map/can/use rule Tetrahedron Vis a Vis Point with 2 edges (1)
+6911/4681/2012 map/can/use rule Tetrahedron Vis a Vis Point with 3 edges (1)
+0/0/0 map/can/use rule Tetrahedron Vis a Vis Triangle (1)
+0/0/0 map/can/use rule Octaeder 1
+0/0/0 map/can/use rule Octaeder 2
+0/0/0 map/can/use rule Octaeder 2a
+0/0/0 map/can/use rule Pyramid 1
+3587/2381/627 map/can/use rule Tetrahedron 2 times 60
+1873/1285/91 map/can/use rule Fill Tetrahedron (1)
+11989/412/266 map/can/use rule Tetrahedron 120 (1)
+0/0/0 map/can/use rule Tetrahedron 2 times 120 (1)
+1930/200/198 map/can/use rule four Tetrahedron non convex (4)
+521/20/33 map/can/use rule five Tetrahedron non convex (4)
+161/46/84 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+56/49/2 map/can/use rule three Tetrahedron non convex (4)
+0/0/0 map/can/use rule three Tetrahedron non convex (6)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule Tetrahedron 2 in 60 (12)
+0/0/0 map/can/use rule Tetrahedron 120: but more than 180 (13)
+0/0/0 map/can/use rule Free Tetrahedron (14)
+0/0/0 map/can/use rule Free Tetrahedron (15)
+
+
+39999/251/266 map/can/use rule Free Tetrahedron
+28468/2716/3258 map/can/use rule Tetrahedron 60
+3142/2579/2126 map/can/use rule Tetrahedron 60 with edge(1)
+0/0/0 map/can/use rule Tetrahedron Vis a Vis Point (1)
+61848/1424/606 map/can/use rule Tetrahedron Vis a Vis Point with edge(1)
+27134/3607/1155 map/can/use rule Tetrahedron Vis a Vis Point with 2 edges (1)
+6978/4696/2035 map/can/use rule Tetrahedron Vis a Vis Point with 3 edges (1)
+0/0/0 map/can/use rule Tetrahedron Vis a Vis Triangle (1)
+0/0/0 map/can/use rule Octaeder 1
+0/0/0 map/can/use rule Octaeder 2
+0/0/0 map/can/use rule Octaeder 2a
+0/0/0 map/can/use rule Pyramid 1
+3628/2388/636 map/can/use rule Tetrahedron 2 times 60
+1891/1288/91 map/can/use rule Fill Tetrahedron (1)
+19370/412/266 map/can/use rule Tetrahedron 120 (1)
+0/0/0 map/can/use rule Tetrahedron 2 times 120 (1)
+4420/214/220 map/can/use rule four Tetrahedron non convex (4)
+1323/27/43 map/can/use rule five Tetrahedron non convex (4)
+546/109/242 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+58/51/2 map/can/use rule three Tetrahedron non convex (4)
+0/0/0 map/can/use rule three Tetrahedron non convex (6)
+0/0/0 map/can/use rule four Tetrahedron non convex (6)
+0/0/0 map/can/use rule Tetrahedron 2 in 60 (12)
+0/0/0 map/can/use rule Tetrahedron 120: but more than 180 (13)
+0/0/0 map/can/use rule Free Tetrahedron (14)
+0/0/0 map/can/use rule Free Tetrahedron (15)
+
+ 266 times used rule Free Tetrahedron
+3263 times used rule Tetrahedron 60
+2134 times used rule Tetrahedron 60 with edge(1)
+   0 times used rule Tetrahedron Vis a Vis Point (1)
+ 606 times used rule Tetrahedron Vis a Vis Point with edge(1)
+1158 times used rule Tetrahedron Vis a Vis Point with 2 edges (1)
+2035 times used rule Tetrahedron Vis a Vis Point with 3 edges (1)
+   0 times used rule Tetrahedron Vis a Vis Triangle (1)
+   0 times used rule Octaeder 1
+   0 times used rule Octaeder 2
+   0 times used rule Octaeder 2a
+   0 times used rule Pyramid 1
+ 638 times used rule Tetrahedron 2 times 60
+  93 times used rule Fill Tetrahedron (1)
+ 266 times used rule Tetrahedron 120 (1)
+   0 times used rule Tetrahedron 2 times 120 (1)
+ 229 times used rule four Tetrahedron non convex (4)
+  57 times used rule five Tetrahedron non convex (4)
+ 410 times used rule four Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   2 times used rule three Tetrahedron non convex (4)
+   0 times used rule three Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule Tetrahedron 2 in 60 (12)
+   0 times used rule Tetrahedron 120: but more than 180 (13)
+   0 times used rule Free Tetrahedron (14)
+   0 times used rule Free Tetrahedron (15)
+free: 1112, fixed: 54292
+Improve Mesh
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+
+ Current Process: Optimizing volume, step 18free: 1112, fixed: 54292
+Start CombineImprove
+low volume of tet 9.0350181e-21
+low volume of tet 4.5175091e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.8912058e-19
+low volume of tet 7.2280145e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 7.2280145e-20
+illegal tet 53139
+illegal tet 53140
+illegal tet 53141
+illegal tet 53142
+low volume of tet 3.6140072e-20
+low volume of tet 7.2280145e-20
+low volume of tet 0
+low volume of tet 3.6140072e-20
+low volume of tet 0
+illegal tet 53640
+low volume of tet 0
+low volume of tet 0
+illegal tet 53643
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 53680
+illegal tet 53681
+illegal tet 53682
+illegal tet 53683
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 53875
+illegal tet 53876
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 53915
+illegal tet 53916
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 54096
+illegal tet 54097
+low volume of tet 0
+low volume of tet 0
+illegal tet 54100
+illegal tet 54101
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 54105
+illegal tet 54106
+low volume of tet 0
+low volume of tet 0
+illegal tet 54109
+illegal tet 54110
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.764652e-23
+low volume of tet 1.323489e-23
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 54962
+low volume of tet 0
+low volume of tet 0
+illegal tet 54965
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3.6140072e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.1293773e-21
+low volume of tet 5.6468863e-22
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 55078
+low volume of tet 0
+low volume of tet 0
+illegal tet 55081
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 55190
+illegal tet 55191
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 9.0350181e-21
+low volume of tet 1.4823077e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.1175824e-22
+low volume of tet 1.4117216e-22
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.205815e-24
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.2587545e-21
+low volume of tet 3.3881318e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+181 elements combined
+CombineImprove done
+free: 507, fixed: 54165
+Improve Mesh
+
+free: 507, fixed: 54165
+
+Start SwapImprove
+free: 494, fixed: 54183
+
+Start SwapImprove2
+detected illegal tet1: 50981
+detected illegal tet1: 53850
+Total badness = 474289.86
+Total badness = 474378.36
+swapimprove2 done
+free: 496, fixed: 54185
+Improve Mesh
+
+free: 496, fixed: 54185
+Start CombineImprove
+low volume of tet 8.8232599e-24
+low volume of tet 8.8232599e-23
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 48642
+illegal tet 53660
+illegal tet 53661
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.4117216e-22
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.1293773e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3.5293039e-23
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 49821
+illegal tet 49824
+low volume of tet 0
+low volume of tet 0
+low volume of tet 4.4116299e-24
+low volume of tet 5.6468863e-22
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.1293773e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.2587545e-21
+low volume of tet 3.3881318e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 7.0586079e-22
+low volume of tet 0
+low volume of tet 2.8234432e-22
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 53637
+illegal tet 53638
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.1293773e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 7.7644687e-22
+low volume of tet 1.4117216e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.6940659e-21
+low volume of tet 1.764652e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 4.5175091e-21
+low volume of tet 4.5175091e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.8234432e-22
+low volume of tet 0
+low volume of tet 5.6468863e-22
+low volume of tet 5.6468863e-22
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3.5293039e-23
+low volume of tet 0
+low volume of tet 1.4117216e-22
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 5.6468863e-22
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 5.7824116e-19
+low volume of tet 6.6174449e-23
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.4117216e-22
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 9.8820511e-22
+low volume of tet 0
+low volume of tet 8.8232599e-24
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.0469963e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 7.2280145e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3.6140072e-20
+low volume of tet 1.4456029e-19
+44 elements combined
+CombineImprove done
+free: 343, fixed: 54147
+Improve Mesh
+
+ Current Process: Optimizing volume, step 25free: 343, fixed: 54147
+
+Start SwapImprove
+free: 342, fixed: 54142
+
+Start SwapImprove2
+detected illegal tet1: 50981
+detected illegal tet1: 53849
+Total badness = 392067.62
+Total badness = 392103.12
+swapimprove2 done
+free: 344, fixed: 54143
+Improve Mesh
+
+free: 344, fixed: 54143
+Start CombineImprove
+low volume of tet 1.5881868e-24
+illegal tet 48284
+illegal tet 49992
+illegal tet 51916
+low volume of tet 0
+illegal tet 53959
+low volume of tet 0
+illegal tet 53799
+illegal tet 53823
+illegal tet 53827
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.4705128e-22
+low volume of tet 1.4117216e-22
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.1293773e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.1293773e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 5.6468863e-22
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.1293773e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.8070036e-20
+low volume of tet 1.1293773e-21
+illegal tet 53702
+illegal tet 53703
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.2587545e-21
+low volume of tet 1.4117216e-22
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3.1763736e-22
+low volume of tet 2.8234432e-22
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+15 elements combined
+CombineImprove done
+free: 286, fixed: 54127
+Improve Mesh
+
+free: 286, fixed: 54127
+
+Start SwapImprove
+free: 287, fixed: 54131
+
+Start SwapImprove2
+detected illegal tet1: 30481
+detected illegal tet1: 39913
+detected illegal tet1: 50981
+Total badness = 7.0000004e+12
+Total badness = 5.0000004e+12
+swapimprove2 done
+free: 290, fixed: 54131
+Improve Mesh
+no success with linesearch
+
+ Current Process: Optimizing volume, step 33free: 290, fixed: 54131
+Start CombineImprove
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.8912058e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.4456029e-19
+3 elements combined
+CombineImprove done
+free: 276, fixed: 54132
+Improve Mesh
+no success with linesearch
+
+ SYSTEM ERROR: more elements on face
+more elements on face!!!
+el = np = 4 11857 12119 11947 11932
+hel = np = 3 11857 11947 11932
+face = 11857, 11947, 11932
+points = 
+p = (7.6456007,-0.75965164,1.3411363)
+p = (7.7188798,-0.79406505,1.3471009)
+p = (7.6808315,-0.76580331,1.3429874)
+ SYSTEM ERROR: more elements on face
+more elements on face!!!
+el = np = 4 11857 12119 11947 11932
+hel = np = 3 11857 11932 12119
+face = 11857, 11932, 12119
+points = 
+p = (7.6456007,-0.75965164,1.3411363)
+p = (7.6808315,-0.76580331,1.3429874)
+p = (7.6793011,-0.77146968,1.2977812)
+ SYSTEM ERROR: more elements on face
+more elements on face!!!
+el = np = 4 11925 11881 12027 11970
+hel = np = 3 11881 11970 12027
+face = 11881, 11970, 12027
+points = 
+p = (4.5014584,0.60346194,1.4745033)
+p = (4.4403133,0.64907696,1.4009438)
+p = (4.4626092,0.68573317,1.3823715)
+ SYSTEM ERROR: more elements on face
+more elements on face!!!
+el = np = 4 12049 12072 12140 12019
+hel = np = 3 12019 12072 12049
+face = 12019, 12072, 12049
+points = 
+p = (3.9015308,-0.45522765,1.3423105)
+p = (3.9252658,-0.44435862,1.3417145)
+p = (3.923023,-0.4378713,1.3416423)
+ SYSTEM ERROR: more elements on face
+more elements on face!!!
+el = np = 4 12050 12157 12051 12159
+hel = np = 3 12050 12157 12051
+face = 12050, 12157, 12051
+points = 
+p = (6.1424356,1.7091171,1.3412501)
+p = (6.1418248,1.7101624,1.343491)
+p = (6.1482026,1.7256695,1.3473708)
+  41 times used rule Free Tetrahedron
+ 483 times used rule Tetrahedron 60
+ 316 times used rule Tetrahedron 60 with edge(1)
+   0 times used rule Tetrahedron Vis a Vis Point (1)
+ 118 times used rule Tetrahedron Vis a Vis Point with edge(1)
+ 214 times used rule Tetrahedron Vis a Vis Point with 2 edges (1)
+ 341 times used rule Tetrahedron Vis a Vis Point with 3 edges (1)
+   0 times used rule Tetrahedron Vis a Vis Triangle (1)
+   0 times used rule Octaeder 1
+   0 times used rule Octaeder 2
+   0 times used rule Octaeder 2a
+   0 times used rule Pyramid 1
+  84 times used rule Tetrahedron 2 times 60
+   8 times used rule Fill Tetrahedron (1)
+  54 times used rule Tetrahedron 120 (1)
+   0 times used rule Tetrahedron 2 times 120 (1)
+  43 times used rule four Tetrahedron non convex (4)
+   5 times used rule five Tetrahedron non convex (4)
+  86 times used rule four Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   1 times used rule three Tetrahedron non convex (4)
+   0 times used rule three Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule Tetrahedron 2 in 60 (12)
+   0 times used rule Tetrahedron 120: but more than 180 (13)
+   0 times used rule Free Tetrahedron (14)
+   0 times used rule Free Tetrahedron (15)
+free: 380, fixed: 54463
+Improve Mesh
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+
+ Current Process: Optimizing volume, step 36free: 380, fixed: 54463
+Start CombineImprove
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 54457
+illegal tet 54458
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.5410988e-21
+low volume of tet 1.1293773e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+60 elements combined
+CombineImprove done
+free: 240, fixed: 54362
+Improve Mesh
+
+free: 240, fixed: 54362
+
+Start SwapImprove
+free: 257, fixed: 54353
+
+Start SwapImprove2
+Total badness = 376246.6
+Total badness = 376264.93
+swapimprove2 done
+free: 265, fixed: 54353
+Improve Mesh
+
+free: 265, fixed: 54353
+Start CombineImprove
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.2587545e-21
+low volume of tet 9.0350181e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 54068
+low volume of tet 0
+illegal tet 54366
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+6 elements combined
+CombineImprove done
+free: 244, fixed: 54349
+Improve Mesh
+
+free: 244, fixed: 54349
+
+Start SwapImprove
+free: 263, fixed: 54321
+
+Start SwapImprove2
+Total badness = 367869.54
+Total badness = 367869.54
+swapimprove2 done
+ Current Process: Optimizing volume, step 45free: 263, fixed: 54321
+Improve Mesh
+no success with linesearch
+
+free: 263, fixed: 54321
+Start CombineImprove
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.8234432e-22
+low volume of tet 2.8234432e-22
+low volume of tet 2.8234432e-22
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 53770
+low volume of tet 0
+low volume of tet 0
+illegal tet 54382
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.2587545e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+6 elements combined
+CombineImprove done
+free: 254, fixed: 54304
+Improve Mesh
+
+free: 254, fixed: 54304
+
+Start SwapImprove
+free: 247, fixed: 54305
+
+Start SwapImprove2
+Total badness = 365702.05
+Total badness = 365689.2
+swapimprove2 done
+free: 249, fixed: 54304
+Improve Mesh
+
+free: 249, fixed: 54304
+Start CombineImprove
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 7.2280145e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.8234432e-22
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.2587545e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.1293773e-21
+illegal tet 5904
+illegal tet 6652
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.5528937e-21
+9 elements combined
+CombineImprove done
+free: 206, fixed: 54307
+Improve Mesh
+
+ Current Process: Optimizing volume, step 53   3 times used rule Free Tetrahedron
+  34 times used rule Tetrahedron 60
+  26 times used rule Tetrahedron 60 with edge(1)
+   0 times used rule Tetrahedron Vis a Vis Point (1)
+   4 times used rule Tetrahedron Vis a Vis Point with edge(1)
+  11 times used rule Tetrahedron Vis a Vis Point with 2 edges (1)
+  29 times used rule Tetrahedron Vis a Vis Point with 3 edges (1)
+   0 times used rule Tetrahedron Vis a Vis Triangle (1)
+   0 times used rule Octaeder 1
+   0 times used rule Octaeder 2
+   0 times used rule Octaeder 2a
+   0 times used rule Pyramid 1
+   5 times used rule Tetrahedron 2 times 60
+   1 times used rule Fill Tetrahedron (1)
+   4 times used rule Tetrahedron 120 (1)
+   0 times used rule Tetrahedron 2 times 120 (1)
+   0 times used rule four Tetrahedron non convex (4)
+   0 times used rule five Tetrahedron non convex (4)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule three Tetrahedron non convex (4)
+   0 times used rule three Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule Tetrahedron 2 in 60 (12)
+   0 times used rule Tetrahedron 120: but more than 180 (13)
+   0 times used rule Free Tetrahedron (14)
+   0 times used rule Free Tetrahedron (15)
+blockfill local h
+rel filldist = 0.1
+.........+..
+
+
+Points:           12121
+Volume Elements:  1014
+10 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 249
+0.05 -  0.1: 11
+ 0.1 - 0.15: 25
+0.15 -  0.2: 38
+ 0.2 - 0.25: 44
+0.25 -  0.3: 51
+ 0.3 - 0.35: 39
+0.35 -  0.4: 24
+ 0.4 - 0.45: 51
+0.45 -  0.5: 39
+ 0.5 - 0.55: 47
+0.55 -  0.6: 58
+ 0.6 - 0.65: 50
+0.65 -  0.7: 58
+ 0.7 - 0.75: 53
+0.75 -  0.8: 55
+ 0.8 - 0.85: 49
+0.85 -  0.9: 39
+ 0.9 - 0.95: 25
+0.95 -    1: 9
+total error: 1e+11
+free: 0, fixed: 1014
+
+Start SwapImprove
+free: 0, fixed: 1014
+
+Start SwapImprove
+
+
+Points:           12121
+Volume Elements:  1014
+10 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 249
+0.05 -  0.1: 11
+ 0.1 - 0.15: 25
+0.15 -  0.2: 38
+ 0.2 - 0.25: 44
+0.25 -  0.3: 51
+ 0.3 - 0.35: 39
+0.35 -  0.4: 24
+ 0.4 - 0.45: 51
+0.45 -  0.5: 39
+ 0.5 - 0.55: 47
+0.55 -  0.6: 58
+ 0.6 - 0.65: 50
+0.65 -  0.7: 58
+ 0.7 - 0.75: 53
+0.75 -  0.8: 55
+ 0.8 - 0.85: 49
+0.85 -  0.9: 39
+ 0.9 - 0.95: 25
+0.95 -    1: 9
+total error: 1e+11
+   0 times used rule Free Tetrahedron
+   0 times used rule Tetrahedron 60
+   0 times used rule Tetrahedron 60 with edge(1)
+   0 times used rule Tetrahedron Vis a Vis Point (1)
+   0 times used rule Tetrahedron Vis a Vis Point with edge(1)
+   0 times used rule Tetrahedron Vis a Vis Point with 2 edges (1)
+   0 times used rule Tetrahedron Vis a Vis Point with 3 edges (1)
+   0 times used rule Tetrahedron Vis a Vis Triangle (1)
+   0 times used rule Octaeder 1
+   0 times used rule Octaeder 2
+   0 times used rule Octaeder 2a
+   0 times used rule Pyramid 1
+   0 times used rule Tetrahedron 2 times 60
+   0 times used rule Fill Tetrahedron (1)
+   0 times used rule Tetrahedron 120 (1)
+   0 times used rule Tetrahedron 2 times 120 (1)
+   0 times used rule four Tetrahedron non convex (4)
+   0 times used rule five Tetrahedron non convex (4)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule three Tetrahedron non convex (4)
+   0 times used rule three Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule Tetrahedron 2 in 60 (12)
+   0 times used rule Tetrahedron 120: but more than 180 (13)
+   0 times used rule Free Tetrahedron (14)
+   0 times used rule Free Tetrahedron (15)
+Vol Meshing added
+  39819 tetrahedra through Delaunay tetrahedralization
+  19963 tetrahedra through advancing front tetrahedralization
+  8 passes on advancing front tetrahedralization
+
+
+Points:           12106
+Volume Elements:  55035
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 1073
+0.05 -  0.1: 1343
+ 0.1 - 0.15: 1200
+0.15 -  0.2: 1542
+ 0.2 - 0.25: 2012
+0.25 -  0.3: 2547
+ 0.3 - 0.35: 2966
+0.35 -  0.4: 3219
+ 0.4 - 0.45: 3781
+0.45 -  0.5: 4204
+ 0.5 - 0.55: 4597
+0.55 -  0.6: 4843
+ 0.6 - 0.65: 4632
+0.65 -  0.7: 4464
+ 0.7 - 0.75: 3908
+0.75 -  0.8: 3338
+ 0.8 - 0.85: 2552
+0.85 -  0.9: 1728
+ 0.9 - 0.95: 871
+0.95 -    1: 215
+total error: 2.8e+05
+
+Volume meshing completed:
+Mesh overview:
+  Vertices: 12106
+  Edges:    2706
+  Surfaces: 16142
+  Volumes:  55035
+Start CombineImprove
+low volume of tet 1.7e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 54454
+illegal tet 54473
+low volume of tet 9e-21
+low volume of tet 5.5e-24
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3.6e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3e-16
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 7.4e-17
+low volume of tet 0
+low volume of tet 2.2e-16
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.8e-15
+low volume of tet 7.4e-17
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 9.3e-18
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+6 elements combined
+CombineImprove done
+Improve Mesh
+Total badness = 3.7e+05
+no success with linesearch
+
+Total badness = 365004
+start SplitImprove
+Total badness = 365004
+Splitt - Improve done
+Total badness = 318096.4
+Improve Mesh
+Total badness = 318096.4
+no success with linesearch
+
+Total badness = 316369.34
+Improve Mesh
+Total badness = 316369.34
+no success with linesearch
+
+Total badness = 316259.75
+
+
+Points:           12101
+Volume Elements:  54999
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 1067
+0.05 -  0.1: 1340
+ 0.1 - 0.15: 1193
+0.15 -  0.2: 1550
+ 0.2 - 0.25: 2003
+0.25 -  0.3: 2552
+ 0.3 - 0.35: 2968
+0.35 -  0.4: 3231
+ 0.4 - 0.45: 3773
+0.45 -  0.5: 4204
+ 0.5 - 0.55: 4579
+0.55 -  0.6: 4827
+ 0.6 - 0.65: 4662
+0.65 -  0.7: 4443
+ 0.7 - 0.75: 3898
+0.75 -  0.8: 3354
+ 0.8 - 0.85: 2553
+0.85 -  0.9: 1711
+ 0.9 - 0.95: 876
+0.95 -    1: 215
+total error: 2.5e+05
+Start CombineImprove
+0 elements combined
+CombineImprove done
+Improve Mesh
+Total badness = 3.2e+05
+no success with linesearch
+
+Total badness = 316167.01
+start SplitImprove
+Total badness = 316167.01
+Splitt - Improve done
+Total badness = 291352.62
+Improve Mesh
+Total badness = 291352.62
+
+Total badness = 277299.1
+Improve Mesh
+Total badness = 277299.1
+no success with linesearch
+
+Total badness = 274552.4
+
+
+Points:           12103
+Volume Elements:  55008
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 1075
+0.05 -  0.1: 1345
+ 0.1 - 0.15: 1192
+0.15 -  0.2: 1545
+ 0.2 - 0.25: 2006
+0.25 -  0.3: 2568
+ 0.3 - 0.35: 2940
+0.35 -  0.4: 3246
+ 0.4 - 0.45: 3769
+0.45 -  0.5: 4212
+ 0.5 - 0.55: 4583
+0.55 -  0.6: 4828
+ 0.6 - 0.65: 4663
+0.65 -  0.7: 4425
+ 0.7 - 0.75: 3903
+0.75 -  0.8: 3368
+ 0.8 - 0.85: 2545
+0.85 -  0.9: 1702
+ 0.9 - 0.95: 880
+0.95 -    1: 213
+total error: 2.2e+05
+Start CombineImprove
+0 elements combined
+CombineImprove done
+Improve Mesh
+Total badness = 2.7e+05
+
+Total badness = 273642.35
+start SplitImprove
+Total badness = 273642.35
+Splitt - Improve done
+Total badness = 273642.35
+Improve Mesh
+Total badness = 273642.35
+
+Total badness = 273366.16
+Improve Mesh
+Total badness = 273366.16
+
+Total badness = 273239.99
+
+
+Points:           12103
+Volume Elements:  55008
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 1074
+0.05 -  0.1: 1344
+ 0.1 - 0.15: 1191
+0.15 -  0.2: 1545
+ 0.2 - 0.25: 2007
+0.25 -  0.3: 2566
+ 0.3 - 0.35: 2936
+0.35 -  0.4: 3256
+ 0.4 - 0.45: 3763
+0.45 -  0.5: 4222
+ 0.5 - 0.55: 4562
+0.55 -  0.6: 4854
+ 0.6 - 0.65: 4660
+0.65 -  0.7: 4421
+ 0.7 - 0.75: 3897
+0.75 -  0.8: 3371
+ 0.8 - 0.85: 2550
+0.85 -  0.9: 1696
+ 0.9 - 0.95: 880
+0.95 -    1: 213
+total error: 2.2e+05
+
+Volume optimization completed:
+Mesh overview:
+  Vertices: 12103
+  Edges:    2706
+  Surfaces: 16142
+  Volumes:  55008
+ Current Process: .....Generated 55008 Tetrahedra, 116145 Surfaces, 12103 Points

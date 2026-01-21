@@ -1,0 +1,19 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Wed Jan 21 18:21:26 2026
+      Running on host: "rfcourse"
+      In Directory: "C:\Users\simucstvsl\Documents\ADS_Course\RIS_Design_Project\data"
+      Process ID: 8876
+
+.
+
+
+TRAN Tran1[1] <Varactors_PWM1_lib:PWM_Control_MAVR:schematic>   time=(0 s->20 ms)
+
+
+Resource usage:
+  Total stopwatch time     =     0.84 seconds.
+
