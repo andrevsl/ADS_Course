@@ -1,8 +1,5 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows>
-        <Schematic view="schematic" x1="553" width="644" geom="1,0,1,554,435,644,550,1920,1080" cell="TX_PShifter_RX" lib="TRX_Project_lib" y1="397" height="550"/>
-        <DDS name="Wilkinson.dds"/>
-    </Windows>
+    <Windows/>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>
