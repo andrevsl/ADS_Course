@@ -1,0 +1,136 @@
+; Top Design: "JitterAnalysis_lib:Ptolemy_Cosim_Jitter_Simulation_Setup_FIR:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="JitterAnalysis_lib:Ptolemy_Cosim_Jitter_Simulation_Setup_FIR:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+; Library Name: Numeric
+; Cell Name: Bits
+; View Name: schematic
+define Bits ( N__3 ) 
+parameters  Type=0  ProbOfZero=0.5  LFSR_Length=12  LFSR_InitState=1 
+_vKeysightEEsof_dSDF_nImpulseFloat_lsdfstars:R1  N__0 Level=1.0 Period=2 Delay=1 
+_vKeysightEEsof_dHOF_nBus_lhofstars:B1  N__2 N__1 BusWidth=1 
+_vKeysightEEsof_dHOF_nBus_lhofstars:B3  N__4 N__3 BusWidth=1 
+_vKeysightEEsof_dHOF_nIfElse_lhofstars:I6  N__9 N__5 N__7 N__6 N__4 N__8 Condition=int( Type ) 
+_vKeysightEEsof_dHOF_nBus_lhofstars:B2  N__10 N__9 BusWidth=1 
+_vKeysightEEsof_dHOF_nIfElse_lhofstars:I4  N__14 N__0 N__12 N__11 N__2 N__13 Condition=int( Type ) 
+_vKeysightEEsof_dSDF_nLFSR_lsdfomnistars:L1  N__16 N__15 Seed="LFSR_Seed" FeedbackList="List" 
+_vKeysightEEsof_dHOF_nIfElse_lhofstars:I5  N__1 N__15 N__17 N__16 N__10 N__18 Condition=int( Type ) 
+_vKeysightEEsof_dSDF_nIID_x5fUniform_lsdfstars:I7  N__12 Lower=0.0 Upper=1.0 
+_vKeysightEEsof_dSDF_nFloatToInt_lsdfstars:F14  N__8 N__7 
+_vKeysightEEsof_dSDF_nQuant_lsdfstars:Q14  N__18 N__17 Thresholds="Thresholds" Levels="" 
+_vKeysightEEsof_dSDF_nDownSample_lsdfstars:D1  N__6 N__5 Factor=2 Phase=1 
+
+Thresholds=if ( ProbOfZero <= 0 ) then "-1.0" elseif ( ProbOfZero >= 1 ) then "2.0" else "ProbOfZero" endif
+
+L=if ( ( LFSR_Length > 1 ) && ( LFSR_Length < 32 ) ) then LFSR_Length else 12 endif
+LFSR_Seed=if ( ( LFSR_InitState > 0 ) && ( LFSR_InitState < 2**L ) ) then LFSR_InitState else 1 endif
+List=if (L<=9) then List1 elseif (L<=17) then List2 elseif (L<=25) then List3 else List4 endif
+List1=if (L==2) then L2 elseif (L==3) then L3 elseif (L==4) then L4 elseif (L==5) then L5 elseif (L==6) then L6 elseif (L==7) then L7 elseif (L==8) then L8 else L9 endif
+List2=if (L==10) then L10 elseif (L==11) then L11 elseif (L==12) then L12 elseif (L==13) then L13 elseif (L==14) then L14 elseif (L==15) then L15 elseif (L==16) then L16 else L17 endif
+List3=if (L==18) then L18 elseif (L==19) then L19 elseif (L==20) then L20 elseif (L==21) then L21 elseif (L==22) then L22 elseif (L==23) then L23 elseif (L==24) then L24 else L25 endif
+List4=if (L==26) then L26 elseif (L==27) then L27 elseif (L==28) then L28 elseif (L==29) then L29 elseif (L==30) then L30 else L31 endif
+List5=if (L==2) then L2 elseif (L==3) then L3 elseif (L==4) then L4 elseif (L==5) then L5 elseif (L==6) then L6 elseif (L==7) then L7 elseif (L==8) then L8 elseif (L==9) then L9 elseif (L==10) then L10 elseif (L==11) then L11 elseif (L==12) then L12 elseif (L==13) then L13 elseif (L==14) then L14 elseif (L==15) then L15 elseif (L==16) then L16 elseif (L==17) then L17 elseif (L==18) then L18 elseif (L==19) then L19 elseif (L==20) then L20 elseif (L==21) then L21 elseif (L==22) then L22 elseif (L==23) then L23 elseif (L==24) then L24 elseif (L==25) then L25 elseif (L==26) then L26 elseif (L==27) then L27 elseif (L==28) then L28 elseif (L==29) then L29 elseif (L==30) then L30 else L31 endif
+
+L2="2 1"
+L3="3 1"
+L4="4 1"
+L5="5 2"
+L6="6 1"
+L7="7 1"
+L8="8 5 3 1"
+
+L9="9 4"
+L10="10 3"
+L11="11 7 3 2"
+L12="12 6 4 1"
+L13="13 4 3 1"
+L14="14 12 2 1"
+L15="15 1"
+
+L16="16 12 3 1"
+L17="17 3"
+L18="18 7"
+L19="19 5 2 1"
+L20="20 3"
+L21="21 2"
+L22="22 1"
+
+L23="23 5"
+L24="24 7 2"
+L25="25 3"
+L26="26 6 2 1"
+L27="27 5 2 1"
+L28="28 3"
+L29="29 2"
+L30="30 23 2 1"
+L31="31 3"
+end Bits
+
+; Library Name: Timed
+; Cell Name: DelayRF
+; View Name: schematic
+define DelayRF ( N__3  N__2 ) 
+parameters  RIn=DefaultRIn  ROut=DefaultROut  RTemp=DefaultRTemp  Delay=-1  InterpolationMethod=0  IncludeCarrierPhaseShift=1 
+R:R2  N__1 N__2 R=ROut Temp=RTemp 
+R:R1  0 N__3 R=RIn Temp=-273.15 
+_vKeysightEEsof_dTSDF_n_x5fDelayRF_ltsdfstars:D3  N__3 N__1 RIn=RIn ROut=ROut RTemp=-273.15 Delay=Delay InterpolationMethod=InterpolationMethod IncludeCarrierPhaseShift=IncludeCarrierPhaseShift 
+end DelayRF
+
+; Library Name: Signal_Converters
+; Cell Name: LogicToNRZ
+; View Name: schematic
+define LogicToNRZ ( N__2  N__4 ) 
+parameters  Amplitude=1.0 
+_vKeysightEEsof_dSDF_nMpy_lsdfstars_pinput_x3d2_aMpy2:M2  N__2 N__1 N__0 
+_vKeysightEEsof_dSDF_nConst_lsdfstars:C1  N__1 Level=2*Amplitude 
+_vKeysightEEsof_dSDF_nSub_lsdfstars:S3  N__0 N__3 N__4 
+_vKeysightEEsof_dSDF_nConst_lsdfstars:C2  N__3 Level=Amplitude 
+end LogicToNRZ
+
+; Library Name: Sinks
+; Cell Name: TimedSink
+; View Name: schematic
+define TimedSink ( N__1 ) 
+parameters  Plot=0  RLoad=DefaultRLoad  RTemp=DefaultRTemp  Start=DefaultTimeStart  Stop=DefaultTimeStop  ControlSimulation=1 
+R:R1  N__1 0 R=RLoad Temp=RTemp 
+_vKeysightEEsof_dTSDF_n_x5fTimedSink_ltsdfsinks:T1  N__1 Plot=Plot RLoad=RLoad RTemp=RTemp Start=Start Stop=Stop ControlSimulation=ControlSimulation 
+end TimedSink
+
+Bits:B1  N__0 Type=1 ProbOfZero=0.5 LFSR_Length=Prbs_Length LFSR_InitState=1 
+_vKeysightEEsof_dSDF_nRepeat_lsdfstars:R1  N__2 N__1 NumTimes=Samples_Per_Bit BlockSize=1 
+
+FIRFile="<Ptolemy_Cosim_Jitter_Simulation_Setup_FIR.txt"
+TimedSink:T1  N__4 Plot=0 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:F2  N__3 N__4 TStep=TimeStep 
+
+TimeStep=1/(Data_Rate*Samples_Per_Bit)
+TimeStop=Number_of_Bits/Data_Rate
+NumericStop=Number_of_Bits*Samples_Per_Bit
+TimedSink:T3  N__5 Plot=0 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+DelayRF:D1  N__6 N__5 RIn=DefaultRIn ROut=DefaultROut RTemp=DefaultRTemp Delay=6.66 nsec InterpolationMethod=0 IncludeCarrierPhaseShift=1 
+_vKeysightEEsof_dSDF_nFIR_lsdfdspstars:F3  N__1 N__3 Taps=FIRFile Decimation=1 DecimationPhase=0 Interpolation=1 
+
+Data_Rate=3.125 GHz
+Prbs_Length=4
+Samples_Per_Bit=50
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:F1  N__1 N__6 TStep=TimeStep 
+DefaultNumericStart=0
+DefaultNumericStop=NumericStop
+DefaultTimeStart=0 usec
+DefaultTimeStop=TimeStop
+DefaultSeed=1234567
+DefaultRIn=50 Ohm
+DefaultROut=50 Ohm
+DefaultRLoad=1.0e18 Ohm
+DefaultRTemp=-273.15
+__DefaultPartition=1
+__SimulationID=0
+_vKeysightEEsof_dTSDF_nDF_ltsdf:DF DefaultTimeUnit=3 DefaultSeed=if (DefaultSeed==0) then 0 else (DefaultSeed+__SimulationID) endif DefaultPartition=__DefaultPartition DeadlockManager=0 CktCosimInputs=0 OutputPlan="DF_Output" 
+OutputPlan:DF_Output \
+      Type="Output" \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+
+Number_of_Bits=(2^Prbs_Length-1)*1024
+LogicToNRZ:L1  N__0 N__2 Amplitude=1.0 

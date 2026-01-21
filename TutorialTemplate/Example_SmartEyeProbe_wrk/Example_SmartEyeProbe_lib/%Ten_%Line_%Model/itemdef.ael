@@ -1,0 +1,2 @@
+create_item("Ten_Line_Model","Ten_Line_Model","X",16,-1,NULL,"Component Parameters",NULL,"%43?global %;%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","Ten_Line_Model","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","",0,NULL,0,
+create_parm("Length","Length",68608,"StdFormSet",5,prm("StdForm","100 mm")));

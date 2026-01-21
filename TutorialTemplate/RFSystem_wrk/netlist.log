@@ -1,0 +1,78 @@
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="RFSystem_lib:ACPR_IS_136:schematic"
+#uselib "sml" , "PI4DQPSK_ModTuned"
+PI4DQPSK_ModTuned:MOD1  N__1 N__2 N__0 Fnom=RFfreq Rout=50 Ohm SymbolRate=sym_rate Delay=0 nsec 
+HB:Env1 MaxOrder=4 Freq[1]=RFfreq Order[1]=5 StatusLevel=2 FundOversample=2 \
+Restart=no UseGear=no EnvIntegOrder=1 EnvBandwidth=1 UseAllSS_Freqs=yes UseOutFile=no UseInFile=no SweepVar="time" SweepPlan="Env1_stim" OutputPlan="Env1_Output" ConvMode=2 MaxIters=10 ArcLevelMaxStep=0.0 MaxStepRatio=100 MaxShrinkage=1.0e-5 ArcMaxStep=0.0 \
+UseKrylov=0 SamanskiiConstant=2 \
+
+
+SweepPlan: Env1_stim Stop=numpts*tstep Step=tstep 
+
+OutputPlan:Env1_Output \
+      Type="Output" \
+      UseNodeNestLevel=no \
+      NodeNestLevel=2 \
+      UseEquationNestLevel=no \
+      EquationNestLevel=2 \
+      EquationName[1]="IinFund" \
+      EquationName[2]="IloadFund" \
+      EquationName[3]="Pavs" \
+      EquationName[4]="VinFund" \
+      EquationName[5]="VloadFund" \
+      EquationName[6]="VloadFund_ideal" \
+      EquationName[7]="Vlower_fund" \
+      EquationName[8]="Vmain_fund" \
+      EquationName[9]="Vupper_fund" \
+      EquationName[10]="sym_rate" \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2 \
+      UseDeviceCurrentNestLevel=no \
+      DeviceCurrentNestLevel=0 \
+      DeviceCurrentDeviceType="All" \
+      DeviceCurrentSymSyntax=yes \
+      UseCurrentNestLevel=yes \
+      CurrentNestLevel=999 \
+      UseDeviceVoltageNestLevel=no \
+      DeviceVoltageNestLevel=0 \
+      DeviceVoltageDeviceType="All"
+
+Tran:Env1_tran HB_Sol=1 SteadyState=1 StatusLevel=3 \
+Freq[1]=RFfreq Order[1]=5 \
+OutputPlan="Env1_Output"
+
+Component:tahb_Env1 Module="ATAHB" Type="ModelExtractor" \ 
+ Tran_Analysis="Env1_tran" HB_Analysis="Env1" 
+
+aele Vmain_fund=Vmain[1];Vupper_fund=Vupper[1];Vlower_fund=Vlower[1];VloadFund=Vload[1];IloadFund=Iload.i[1];VinFund=Vinput[1];IinFund=Iinput.i[1];VloadFund_ideal=Vout_ideal[1];
+
+numpts=512*4
+sam_per_sym=10
+tstep=1/(sym_rate*sam_per_sym)
+Pavs=15 _dBm
+Filt_delay_syms=15
+RFfreq=850 MHz
+sym_rate=24.3 kHz
+R:R3  Vmain 0 R=50 Ohm Noise=no 
+#uselib "ckt" , "BPF_RaisedCos"
+BPF_RaisedCos:BPF4  N__12 Vmain Alpha=0.35 Fcenter=RFfreq SymbolRate=sym_rate DelaySymbols=Filt_delay_syms Exponent=0.5 DutyCycle=00 SincE=0 Gain=1.0 Zout=0.01 WindowType=0 
+R:R2  Vlower 0 R=50 Ohm Noise=no 
+#uselib "ckt" , "BPF_RaisedCos"
+BPF_RaisedCos:BPF6  N__12 Vlower Alpha=0.35 Fcenter=RFfreq-30kHz SymbolRate=sym_rate DelaySymbols=Filt_delay_syms Exponent=0.5 DutyCycle=00 SincE=0 Gain=1.0 Zout=0.01 WindowType=0 
+R:R4  Vupper 0 R=50 Ohm Noise=no 
+#uselib "ckt" , "BPF_RaisedCos"
+BPF_RaisedCos:BPF2  N__12 Vupper Alpha=0.35 Fcenter=RFfreq+30kHz SymbolRate=sym_rate DelaySymbols=Filt_delay_syms Exponent=0.5 DutyCycle=00 SincE=0 Gain=1.0 Zout=0.01 WindowType=0 
+Short:Iload  N__12 Vload Mode=0 SaveCurrent=yes 
+#uselib "ckt" , "VtLFSR_DT"
+VtLFSR_DT:SRC2  N__0 0 Vlow=-1 V Vhigh=1 V Rate=2*sym_rate Delay=0 nsec Taps=6538 Seed=27 Rout=1 Ohm 
+R:R5  Vload 0 R=50 Ohm Noise=yes 
+V_Source:SRC1  N__1 0 Type="V_1Tone" V[1]=dbmtov(Pavs,50) Freq[1]=RFfreq    SaveCurrent=1 
+R:R1  Vout_ideal 0 R=50 Ohm Noise=no 
+#uselib "ckt" , "BPF_RaisedCos"
+BPF_RaisedCos:BPF7  N__10 Vout_ideal Alpha=0.35 Fcenter=RFfreq SymbolRate=sym_rate DelaySymbols=Filt_delay_syms Exponent=0.5 DutyCycle=00 SincE=0 Gain=1.0 Zout=50 WindowType=0 
+#uselib "ckt" , "BPF_RaisedCos"
+BPF_RaisedCos:BPF1  N__2 N__10 Alpha=0.35 Fcenter=RFfreq SymbolRate=sym_rate DelaySymbols=Filt_delay_syms Exponent=0.5 DutyCycle=100 SincE=0 Gain=1.0 Zout=50 WindowType=0 
+#uselib "ckt" , "BPF_RaisedCos"
+BPF_RaisedCos:BPF3  N__2 N__11 Alpha=0.35 Fcenter=RFfreq SymbolRate=sym_rate DelaySymbols=Filt_delay_syms Exponent=0.5 DutyCycle=100 SincE=0 Gain=1.0 Zout=50 WindowType=0 
+Short:Iinput  N__11 Vinput Mode=0 SaveCurrent=yes 
+Amplifier:AMP1  Vinput N__12 S21=dbpolar(15,0) S11=polar(0,0) S22=0+j*0 S12=0. GainCompType=0 ReferToInput=0 TOI=30 GainComp=1. ClipDataFile=0 

@@ -1,0 +1,4593 @@
+
+HPEESOFSIM  (ver. "130" rev. "400" -- 10/10/99 23:03:16)
+Copyright Hewlett-Packard Company, 1989-1999.
+Linker loading f:\ads\hptolemy\lib.win32\hofstars.dll
+
+Linker loading E:\eesof\hptolemy\lib.win32\sdfedgestars.dll
+
+Linker loading f:\ads\hptolemy\lib.win32\tsdf.dll
+
+Linker loading f:\ads\hptolemy\lib.win32\sdfstars.dll
+
+Linker loading f:\ads\hptolemy\lib.win32\tsdfgemstars.dll
+
+Linker loading f:\ads\hptolemy\lib.win32\tsdfstars.dll
+
+
+CT Sweep2[1] <(GEMX netlist)>   MeasType=(0->2)
+
+CT Sweep2[1].Sweep1[1/3] <(GEMX netlist)>  MeasType=0  InputNormValue=(-12->2)
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):3,3,4,3,4,5,10,12,4,4,3,5,6,8,4,20,
+
+iteration:5,
+
+Burst 1:  delay= 0  phase= 5  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.219388386573341
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):3,4,7,20,3,3,20,4,4,16,20,6,4,4,4,20,
+
+iteration:6,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.18715747611392
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):6,6,20,3,3,3,4,5,4,5,5,4,3,4,5,6,
+
+iteration:5,
+
+Burst 3:  delay= 0  phase= 7  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.202992094850986
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):6,7,3,9,3,8,8,20,5,6,10,20,3,9,4,5,
+
+iteration:10,
+
+Burst 4:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.222488233123957
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):3,3,3,4,20,4,5,3,8,14,20,10,3,6,7,6,
+
+iteration:7,
+
+Burst 5:  delay= 0  phase= 14  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.183440387028562
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.203093315538153
+
+
+IQ offset= -7.21612065661834 dB
+
+
+frequency error= 6.24537819688743 Hz
+
+
+amplitude droop= -0.000128288590874393 dB/symbol
+
+
+DF1: Simulation completed in 24.445 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):3,3,20,3,4,4,8,8,4,4,3,5,6,10,6,14,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 8  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.20734103887133
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):3,4,4,4,4,4,4,4,5,16,14,4,4,4,4,20,
+
+iteration:4,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.178365452495407
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):6,6,18,5,3,20,4,5,4,5,5,4,20,4,4,6,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.196208121023747
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):3,5,3,4,10,11,14,16,3,8,5,6,12,20,4,20,
+
+iteration:3,
+
+Burst 4:  delay= 0  phase= 8  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.209990246460413
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):3,3,4,4,20,4,5,4,8,14,20,10,3,5,20,6,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 7  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.176730939020649
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.193727159574309
+
+
+IQ offset= -7.10685453576159 dB
+
+
+frequency error= 2.27846385319517 Hz
+
+
+amplitude droop= -0.000130049545663804 dB/symbol
+
+
+DF1: Simulation completed in 24.255 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):3,15,20,3,4,4,8,8,4,4,3,4,6,10,8,20,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 5  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.197467730144402
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):3,4,4,4,4,4,4,5,6,14,8,5,4,4,4,16,
+
+iteration:5,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.170726139312596
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):6,4,8,5,5,20,4,5,4,5,4,4,3,4,4,6,
+
+iteration:3,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.185875563203254
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):3,5,3,4,5,20,8,10,9,10,8,5,4,20,4,3,
+
+iteration:4,
+
+Burst 4:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.198698851165499
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):3,3,4,5,13,4,4,5,8,12,20,12,3,8,20,5,
+
+iteration:8,
+
+Burst 5:  delay= 0  phase= 13  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.169310499067348
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.18441575657862
+
+
+IQ offset= -6.89198133208458 dB
+
+
+frequency error= 0.532761649179056 Hz
+
+
+amplitude droop= -0.000130046674919347 dB/symbol
+
+
+DF1: Simulation completed in 23.183 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):3,3,20,3,4,3,6,6,4,4,3,5,6,12,8,20,
+
+iteration:3,
+
+Burst 1:  delay= 0  phase= 5  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.185806255037429
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):20,4,4,4,4,4,5,5,6,10,3,5,4,4,4,10,
+
+iteration:3,
+
+Burst 2:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.162472446672172
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):6,4,6,5,9,12,4,5,4,5,4,4,4,4,4,3,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.174667002832194
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):20,5,3,9,6,20,6,6,3,10,10,4,8,20,4,10,
+
+iteration:4,
+
+Burst 4:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.185615623891573
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,3,4,7,5,4,4,5,8,12,16,12,3,10,20,6,
+
+iteration:6,
+
+Burst 5:  delay= 0  phase= 15  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.160716535069659
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.173855572700605
+
+
+IQ offset= -6.47374098287514 dB
+
+
+frequency error= 3.14492051079031 Hz
+
+
+amplitude droop= -0.000130023940938803 dB/symbol
+
+
+DF1: Simulation completed in 22.983 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):3,8,20,4,4,4,5,6,4,4,3,6,6,12,10,20,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 5  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.173462986656997
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):20,4,4,4,4,4,5,6,6,8,6,6,4,4,4,8,
+
+iteration:6,
+
+Burst 2:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.15263219386737
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):6,4,5,20,6,6,5,5,4,5,4,4,4,4,4,20,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.162594324387479
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):20,5,3,20,20,10,5,5,3,8,10,4,8,3,4,3,
+
+iteration:4,
+
+Burst 4:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.172135426209454
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,3,4,20,4,4,3,5,8,10,14,12,3,10,20,8,
+
+iteration:10,
+
+Burst 5:  delay= 0  phase= 13  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.150963922757829
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.162357770775826
+
+
+IQ offset= -6.68276999611957 dB
+
+
+frequency error= 12.2977031332584 Hz
+
+
+amplitude droop= -0.000130006004024029 dB/symbol
+
+
+DF1: Simulation completed in 24.045 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):3,8,20,4,4,4,4,5,4,4,3,6,6,12,8,20,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.158248637274376
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):20,4,4,4,4,4,5,6,6,8,6,5,4,4,4,4,
+
+iteration:6,
+
+Burst 2:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.141349015985216
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):5,4,4,20,3,3,5,5,5,5,5,4,4,4,4,20,
+
+iteration:3,
+
+Burst 3:  delay= 0  phase= 5  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.148707557427826
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):20,5,3,20,5,5,5,5,3,8,8,6,10,7,4,20,
+
+iteration:3,
+
+Burst 4:  delay= 0  phase= 2  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.155896384902066
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):3,3,4,4,4,4,3,5,6,10,12,10,3,10,20,8,
+
+iteration:3,
+
+Burst 5:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.139463424288597
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.148733003975616
+
+
+IQ offset= -6.68265988547776 dB
+
+
+frequency error= 4.96983797654876 Hz
+
+
+amplitude droop= -0.000130157572475256 dB/symbol
+
+
+DF1: Simulation completed in 22.873 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):4,8,13,5,4,4,4,4,4,4,3,6,6,10,6,20,
+
+iteration:6,
+
+Burst 1:  delay= 0  phase= 14  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.142217704204894
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):20,4,4,4,4,4,5,5,5,6,5,5,4,4,4,5,
+
+iteration:5,
+
+Burst 2:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.128812112078476
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):4,4,4,3,3,4,5,5,5,5,5,4,4,4,4,12,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 5  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.134287555423511
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):14,4,4,3,3,5,5,5,3,6,8,6,8,3,4,14,
+
+iteration:4,
+
+Burst 4:  delay= 0  phase= 2  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.14040482032504
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,5,4,20,4,4,4,5,6,8,10,10,3,8,18,8,
+
+iteration:5,
+
+Burst 5:  delay= 0  phase= 1  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.126960448407143
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.134536528087813
+
+
+IQ offset= -6.62290027828906 dB
+
+
+frequency error= 4.20219531997328 Hz
+
+
+amplitude droop= -0.000130020657038277 dB/symbol
+
+
+DF1: Simulation completed in 21.36 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):4,6,20,4,4,4,3,3,4,4,3,5,6,8,3,20,
+
+iteration:3,
+
+Burst 1:  delay= 0  phase= 14  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.126239152149965
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):20,4,4,4,4,4,5,5,4,5,4,5,4,4,4,5,
+
+iteration:4,
+
+Burst 2:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.115364327903145
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):4,4,4,4,4,4,5,5,5,5,5,4,4,4,4,6,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 3  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.119527538320016
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):10,4,4,3,3,5,5,4,6,6,6,6,8,4,4,8,
+
+iteration:6,
+
+Burst 4:  delay= 0  phase= 8  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.123519130849218
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,5,4,5,4,4,4,5,6,8,10,8,3,8,14,8,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.113708071670034
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.119671644178476
+
+
+IQ offset= -7.005615643178 dB
+
+
+frequency error= 4.77123937249466 Hz
+
+
+amplitude droop= -0.000130185947597862 dB/symbol
+
+
+DF1: Simulation completed in 20.039 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):4,5,20,4,4,4,4,3,4,5,3,5,6,8,6,20,
+
+iteration:3,
+
+Burst 1:  delay= 0  phase= 7  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.110335884284482
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):10,4,4,4,4,4,4,4,4,4,3,4,4,4,4,5,
+
+iteration:3,
+
+Burst 2:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.101383776267914
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):4,4,4,4,5,4,5,5,5,5,4,4,4,4,4,4,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.104175180631402
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):8,4,4,4,3,5,4,4,4,5,6,6,6,4,4,6,
+
+iteration:4,
+
+Burst 4:  delay= 0  phase= 8  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.107179274240056
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,5,4,4,4,3,4,5,6,6,8,8,20,6,10,6,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 2  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0999833517148893
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.104611493427749
+
+
+IQ offset= -7.20783970511796 dB
+
+
+frequency error= 4.63371761364575 Hz
+
+
+amplitude droop= -0.000130236200903485 dB/symbol
+
+
+DF1: Simulation completed in 19.368 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):5,5,3,4,4,4,4,3,4,5,3,4,6,6,8,12,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0942627540210876
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):6,4,4,4,4,4,4,4,4,4,3,4,4,4,4,4,
+
+iteration:3,
+
+Burst 2:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0874064585048763
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):4,4,4,4,5,4,5,5,5,5,4,4,4,4,4,4,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0889466827762753
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):6,4,4,4,3,4,4,4,4,4,6,5,6,4,4,4,
+
+iteration:4,
+
+Burst 4:  delay= 0  phase= 15  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0912286993061163
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,4,4,4,4,3,4,5,5,6,6,6,10,6,8,6,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0862046018443676
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.0896098392905446
+
+
+IQ offset= -7.65850931959759 dB
+
+
+frequency error= 2.42927469677186 Hz
+
+
+amplitude droop= -0.000118910917996383 dB/symbol
+
+
+DF1: Simulation completed in 18.056 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):4,5,16,5,5,5,5,4,4,5,20,5,6,6,8,10,
+
+iteration:5,
+
+Burst 1:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0788337559068095
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):5,3,4,3,3,3,4,3,3,4,3,4,4,4,4,4,
+
+iteration:4,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0737819357301444
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):4,4,4,4,5,5,5,5,5,5,5,5,4,5,5,5,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0743985981364336
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):5,4,4,4,3,4,4,4,4,4,5,5,4,4,4,3,
+
+iteration:3,
+
+Burst 4:  delay= 0  phase= 15  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0759125465715479
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,4,4,4,4,3,4,5,5,6,6,6,7,6,8,6,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0727600702274325
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.0751373813144736
+
+
+IQ offset= -7.92739778526026 dB
+
+
+frequency error= 0.271133142982915 Hz
+
+
+amplitude droop= -2.6009752105599e-005 dB/symbol
+
+
+DF1: Simulation completed in 18.567 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):5,4,5,4,4,4,4,4,4,5,20,4,5,6,6,6,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0647497837363761
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):4,4,4,4,4,4,3,3,3,4,3,4,4,4,4,4,
+
+iteration:4,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0609713868242418
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):7,7,6,6,5,4,4,4,5,5,4,4,4,4,4,5,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.061084227157074
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):4,4,4,4,4,4,4,3,4,4,4,4,4,4,4,4,
+
+iteration:4,
+
+Burst 4:  delay= 0  phase= 15  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0621466178222704
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,4,4,4,3,4,4,4,5,5,6,6,6,5,6,5,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0600822200334547
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.0618068471146834
+
+
+IQ offset= -8.46409852985881 dB
+
+
+frequency error= 0.43078258816612 Hz
+
+
+amplitude droop= -2.60270734039576e-005 dB/symbol
+
+
+DF1: Simulation completed in 18.136 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):6,4,4,4,4,4,4,4,4,5,8,4,4,4,6,6,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0521124141578091
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):3,4,4,4,4,4,4,4,4,4,3,3,4,4,4,4,
+
+iteration:3,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0493296823397119
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):5,5,4,5,5,4,4,4,4,4,4,4,4,4,4,4,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0491551665964927
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):4,4,4,4,4,4,4,3,4,4,4,4,4,4,4,4,
+
+iteration:3,
+
+Burst 4:  delay= 0  phase= 7  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0498361151827844
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,4,4,3,3,4,4,4,5,5,5,5,5,5,6,5,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0485363556743328
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.0497939467902262
+
+
+IQ offset= -9.24680399857792 dB
+
+
+frequency error= 0.29047655386901 Hz
+
+
+amplitude droop= -2.60358493091973e-005 dB/symbol
+
+
+DF1: Simulation completed in 19.638 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):5,4,5,4,4,4,4,4,4,4,4,4,4,4,6,6,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0411488636827009
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):4,4,4,4,4,4,4,4,4,3,3,3,4,4,4,5,
+
+iteration:3,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0391188233701772
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 14  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0387572521276514
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):4,4,4,3,3,4,3,3,4,4,4,4,3,4,4,4,
+
+iteration:3,
+
+Burst 4:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0392008302117918
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):3,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 7  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0383877241624196
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.0393226987109482
+
+
+IQ offset= -10.1497863326991 dB
+
+
+frequency error= 0.657632388339305 Hz
+
+
+amplitude droop= -2.60370026471761e-005 dB/symbol
+
+
+DF1: Simulation completed in 18.386 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):5,4,5,4,4,4,4,4,4,4,12,5,4,4,4,6,
+
+iteration:5,
+
+Burst 1:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0319760789674082
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):4,4,4,4,4,4,4,4,4,3,3,3,4,4,4,5,
+
+iteration:3,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0304847978874631
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 13  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0300790880643879
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):4,4,4,4,3,4,3,3,4,4,4,4,3,4,4,4,
+
+iteration:3,
+
+Burst 4:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0303879237725674
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):3,4,4,4,4,4,4,4,4,5,5,5,5,5,5,4,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 7  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0298073838387068
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.0305470545061067
+
+
+IQ offset= -11.0404946729649 dB
+
+
+frequency error= 0.00610038726903384 Hz
+
+
+amplitude droop= -2.60418140617141e-005 dB/symbol
+
+
+DF1: Simulation completed in 17.005 CPU seconds.
+
+
+CT Sweep2[1].Sweep1[2/3] <(GEMX netlist)>  MeasType=1  InputNormValue=(-12->2)
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):3,3,4,3,4,5,10,12,4,4,3,5,6,8,4,20,
+
+iteration:5,
+
+Burst 1:  delay= 0  phase= 5  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.219388386573341
+
+iteration:5,
+
+Peak EVM for current burst:  0.499616935310601
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):3,4,7,20,3,3,20,4,4,16,20,6,4,4,4,20,
+
+iteration:6,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.18715747611392
+
+iteration:6,
+
+Peak EVM for current burst:  0.389578062905458
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):6,6,20,3,3,3,4,5,4,5,5,4,3,4,5,6,
+
+iteration:5,
+
+Burst 3:  delay= 0  phase= 7  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.202992094850986
+
+iteration:5,
+
+Peak EVM for current burst:  0.508373284965522
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):6,7,3,9,3,8,8,20,5,6,10,20,3,9,4,5,
+
+iteration:10,
+
+Burst 4:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.222488233123957
+
+iteration:10,
+
+Peak EVM for current burst:  0.498127944449392
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):3,3,3,4,20,4,5,3,8,14,20,10,3,6,7,6,
+
+iteration:7,
+
+Burst 5:  delay= 0  phase= 14  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.183440387028562
+
+iteration:7,
+
+Peak EVM for current burst:  0.419253671419178
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.203093315538153
+
+
+IQ offset= -7.21612065661834 dB
+
+
+frequency error= 6.24537819688743 Hz
+
+
+amplitude droop= -0.000128288590874393 dB/symbol
+
+
+E2.EVM_Measurement: peakEVM= 0.46298997981003
+
+
+DF1: Simulation completed in 24.766 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):3,3,20,3,4,4,8,8,4,4,3,5,6,10,6,14,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 8  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.20734103887133
+
+iteration:4,
+
+Peak EVM for current burst:  0.487279804950147
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):3,4,4,4,4,4,4,4,5,16,14,4,4,4,4,20,
+
+iteration:4,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.178365452495407
+
+iteration:4,
+
+Peak EVM for current burst:  0.371582600689236
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):6,6,18,5,3,20,4,5,4,5,5,4,20,4,4,6,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.196208121023747
+
+iteration:4,
+
+Peak EVM for current burst:  0.467298592937131
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):3,5,3,4,10,11,14,16,3,8,5,6,12,20,4,20,
+
+iteration:3,
+
+Burst 4:  delay= 0  phase= 8  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.209990246460413
+
+iteration:3,
+
+Peak EVM for current burst:  0.451834486333337
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):3,3,4,4,20,4,5,4,8,14,20,10,3,5,20,6,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 7  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.176730939020649
+
+iteration:4,
+
+Peak EVM for current burst:  0.414881189537223
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.193727159574309
+
+
+IQ offset= -7.10685453576159 dB
+
+
+frequency error= 2.27846385319517 Hz
+
+
+amplitude droop= -0.000130049545663804 dB/symbol
+
+
+E2.EVM_Measurement: peakEVM= 0.438575334889415
+
+
+DF1: Simulation completed in 24.935 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):3,15,20,3,4,4,8,8,4,4,3,4,6,10,8,20,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 5  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.197467730144402
+
+iteration:4,
+
+Peak EVM for current burst:  0.454502147794067
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):3,4,4,4,4,4,4,5,6,14,8,5,4,4,4,16,
+
+iteration:5,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.170726139312596
+
+iteration:5,
+
+Peak EVM for current burst:  0.351110270472549
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):6,4,8,5,5,20,4,5,4,5,4,4,3,4,4,6,
+
+iteration:3,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.185875563203254
+
+iteration:3,
+
+Peak EVM for current burst:  0.408838784889895
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):3,5,3,4,5,20,8,10,9,10,8,5,4,20,4,3,
+
+iteration:4,
+
+Burst 4:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.198698851165499
+
+iteration:4,
+
+Peak EVM for current burst:  0.40421695443871
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):3,3,4,5,13,4,4,5,8,12,20,12,3,8,20,5,
+
+iteration:8,
+
+Burst 5:  delay= 0  phase= 13  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.169310499067348
+
+iteration:8,
+
+Peak EVM for current burst:  0.392191074062436
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.18441575657862
+
+
+IQ offset= -6.89198133208458 dB
+
+
+frequency error= 0.532761649179056 Hz
+
+
+amplitude droop= -0.000130046674919347 dB/symbol
+
+
+E2.EVM_Measurement: peakEVM= 0.402171846331532
+
+
+DF1: Simulation completed in 23.955 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):3,3,20,3,4,3,6,6,4,4,3,5,6,12,8,20,
+
+iteration:3,
+
+Burst 1:  delay= 0  phase= 5  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.185806255037429
+
+iteration:3,
+
+Peak EVM for current burst:  0.423468358884901
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):20,4,4,4,4,4,5,5,6,10,3,5,4,4,4,10,
+
+iteration:3,
+
+Burst 2:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.162472446672172
+
+iteration:3,
+
+Peak EVM for current burst:  0.337692230345323
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):6,4,6,5,9,12,4,5,4,5,4,4,4,4,4,3,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.174667002832194
+
+iteration:4,
+
+Peak EVM for current burst:  0.372311003463978
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):20,5,3,9,6,20,6,6,3,10,10,4,8,20,4,10,
+
+iteration:4,
+
+Burst 4:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.185615623891573
+
+iteration:4,
+
+Peak EVM for current burst:  0.368360733105176
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,3,4,7,5,4,4,5,8,12,16,12,3,10,20,6,
+
+iteration:6,
+
+Burst 5:  delay= 0  phase= 15  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.160716535069659
+
+iteration:6,
+
+Peak EVM for current burst:  0.358235217643975
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.173855572700605
+
+
+IQ offset= -6.47374098287514 dB
+
+
+frequency error= 3.14492051079031 Hz
+
+
+amplitude droop= -0.000130023940938803 dB/symbol
+
+
+E2.EVM_Measurement: peakEVM= 0.372013508688671
+
+
+DF1: Simulation completed in 23.664 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):3,8,20,4,4,4,5,6,4,4,3,6,6,12,10,20,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 5  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.173462986656997
+
+iteration:4,
+
+Peak EVM for current burst:  0.3912982474317
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):20,4,4,4,4,4,5,6,6,8,6,6,4,4,4,8,
+
+iteration:6,
+
+Burst 2:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.15263219386737
+
+iteration:6,
+
+Peak EVM for current burst:  0.308761023716697
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):6,4,5,20,6,6,5,5,4,5,4,4,4,4,4,20,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.162594324387479
+
+iteration:4,
+
+Peak EVM for current burst:  0.340427694614269
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):20,5,3,20,20,10,5,5,3,8,10,4,8,3,4,3,
+
+iteration:4,
+
+Burst 4:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.172135426209454
+
+iteration:4,
+
+Peak EVM for current burst:  0.347301097176155
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,3,4,20,4,4,3,5,8,10,14,12,3,10,20,8,
+
+iteration:10,
+
+Burst 5:  delay= 0  phase= 13  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.150963922757829
+
+iteration:10,
+
+Peak EVM for current burst:  0.342730129072358
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.162357770775826
+
+
+IQ offset= -6.68276999611957 dB
+
+
+frequency error= 12.2977031332584 Hz
+
+
+amplitude droop= -0.000130006004024029 dB/symbol
+
+
+E2.EVM_Measurement: peakEVM= 0.346103638402236
+
+
+DF1: Simulation completed in 24.856 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):3,8,20,4,4,4,4,5,4,4,3,6,6,12,8,20,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.158248637274376
+
+iteration:4,
+
+Peak EVM for current burst:  0.338115920159682
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):20,4,4,4,4,4,5,6,6,8,6,5,4,4,4,4,
+
+iteration:6,
+
+Burst 2:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.141349015985216
+
+iteration:6,
+
+Peak EVM for current burst:  0.278390171471785
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):5,4,4,20,3,3,5,5,5,5,5,4,4,4,4,20,
+
+iteration:3,
+
+Burst 3:  delay= 0  phase= 5  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.148707557427826
+
+iteration:3,
+
+Peak EVM for current burst:  0.327891271727221
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):20,5,3,20,5,5,5,5,3,8,8,6,10,7,4,20,
+
+iteration:3,
+
+Burst 4:  delay= 0  phase= 2  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.155896384902066
+
+iteration:3,
+
+Peak EVM for current burst:  0.29684469668252
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):3,3,4,4,4,4,3,5,6,10,12,10,3,10,20,8,
+
+iteration:3,
+
+Burst 5:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.139463424288597
+
+iteration:3,
+
+Peak EVM for current burst:  0.319696122262035
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.148733003975616
+
+
+IQ offset= -6.68265988547776 dB
+
+
+frequency error= 4.96983797654876 Hz
+
+
+amplitude droop= -0.000130157572475256 dB/symbol
+
+
+E2.EVM_Measurement: peakEVM= 0.312187636460649
+
+
+DF1: Simulation completed in 23.373 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):4,8,13,5,4,4,4,4,4,4,3,6,6,10,6,20,
+
+iteration:6,
+
+Burst 1:  delay= 0  phase= 14  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.142217704204894
+
+iteration:6,
+
+Peak EVM for current burst:  0.298825124410044
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):20,4,4,4,4,4,5,5,5,6,5,5,4,4,4,5,
+
+iteration:5,
+
+Burst 2:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.128812112078476
+
+iteration:5,
+
+Peak EVM for current burst:  0.256596036239381
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):4,4,4,3,3,4,5,5,5,5,5,4,4,4,4,12,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 5  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.134287555423511
+
+iteration:4,
+
+Peak EVM for current burst:  0.310106345698733
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):14,4,4,3,3,5,5,5,3,6,8,6,8,3,4,14,
+
+iteration:4,
+
+Burst 4:  delay= 0  phase= 2  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.14040482032504
+
+iteration:4,
+
+Peak EVM for current burst:  0.275491666446057
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,5,4,20,4,4,4,5,6,8,10,10,3,8,18,8,
+
+iteration:5,
+
+Burst 5:  delay= 0  phase= 1  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.126960448407143
+
+iteration:5,
+
+Peak EVM for current burst:  0.264408111380564
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.134536528087813
+
+
+IQ offset= -6.62290027828906 dB
+
+
+frequency error= 4.20219531997328 Hz
+
+
+amplitude droop= -0.000130020657038277 dB/symbol
+
+
+E2.EVM_Measurement: peakEVM= 0.281085456834956
+
+
+DF1: Simulation completed in 21.992 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):4,6,20,4,4,4,3,3,4,4,3,5,6,8,3,20,
+
+iteration:3,
+
+Burst 1:  delay= 0  phase= 14  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.126239152149965
+
+iteration:3,
+
+Peak EVM for current burst:  0.275033046791663
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):20,4,4,4,4,4,5,5,4,5,4,5,4,4,4,5,
+
+iteration:4,
+
+Burst 2:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.115364327903145
+
+iteration:4,
+
+Peak EVM for current burst:  0.238103507151261
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):4,4,4,4,4,4,5,5,5,5,5,4,4,4,4,6,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 3  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.119527538320016
+
+iteration:4,
+
+Peak EVM for current burst:  0.280588001385317
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):10,4,4,3,3,5,5,4,6,6,6,6,8,4,4,8,
+
+iteration:6,
+
+Burst 4:  delay= 0  phase= 8  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.123519130849218
+
+iteration:6,
+
+Peak EVM for current burst:  0.239980070833796
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,5,4,5,4,4,4,5,6,8,10,8,3,8,14,8,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.113708071670034
+
+iteration:4,
+
+Peak EVM for current burst:  0.256614052651976
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.119671644178476
+
+
+IQ offset= -7.005615643178 dB
+
+
+frequency error= 4.77123937249466 Hz
+
+
+amplitude droop= -0.000130185947597862 dB/symbol
+
+
+E2.EVM_Measurement: peakEVM= 0.258063735762803
+
+
+DF1: Simulation completed in 20.73 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):4,5,20,4,4,4,4,3,4,5,3,5,6,8,6,20,
+
+iteration:3,
+
+Burst 1:  delay= 0  phase= 7  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.110335884284482
+
+iteration:3,
+
+Peak EVM for current burst:  0.241556059068851
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):10,4,4,4,4,4,4,4,4,4,3,4,4,4,4,5,
+
+iteration:3,
+
+Burst 2:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.101383776267914
+
+iteration:3,
+
+Peak EVM for current burst:  0.217862984997648
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):4,4,4,4,5,4,5,5,5,5,4,4,4,4,4,4,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.104175180631402
+
+iteration:4,
+
+Peak EVM for current burst:  0.247161966380463
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):8,4,4,4,3,5,4,4,4,5,6,6,6,4,4,6,
+
+iteration:4,
+
+Burst 4:  delay= 0  phase= 8  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.107179274240056
+
+iteration:4,
+
+Peak EVM for current burst:  0.211725914770141
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,5,4,4,4,3,4,5,6,6,8,8,20,6,10,6,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 2  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0999833517148893
+
+iteration:4,
+
+Peak EVM for current burst:  0.209397485736379
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.104611493427749
+
+
+IQ offset= -7.20783970511796 dB
+
+
+frequency error= 4.63371761364575 Hz
+
+
+amplitude droop= -0.000130236200903485 dB/symbol
+
+
+E2.EVM_Measurement: peakEVM= 0.225540882190696
+
+
+DF1: Simulation completed in 19.938 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):5,5,3,4,4,4,4,3,4,5,3,4,6,6,8,12,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0942627540210876
+
+iteration:4,
+
+Peak EVM for current burst:  0.206117061252729
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):6,4,4,4,4,4,4,4,4,4,3,4,4,4,4,4,
+
+iteration:3,
+
+Burst 2:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0874064585048763
+
+iteration:3,
+
+Peak EVM for current burst:  0.195505428395515
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):4,4,4,4,5,4,5,5,5,5,4,4,4,4,4,4,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0889466827762753
+
+iteration:4,
+
+Peak EVM for current burst:  0.219234532540772
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):6,4,4,4,3,4,4,4,4,4,6,5,6,4,4,4,
+
+iteration:4,
+
+Burst 4:  delay= 0  phase= 15  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0912286993061163
+
+iteration:4,
+
+Peak EVM for current burst:  0.209802721982545
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,4,4,4,4,3,4,5,5,6,6,6,10,6,8,6,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0862046018443676
+
+iteration:4,
+
+Peak EVM for current burst:  0.187544059269948
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.0896098392905446
+
+
+IQ offset= -7.65850931959759 dB
+
+
+frequency error= 2.42927469677186 Hz
+
+
+amplitude droop= -0.000118910917996383 dB/symbol
+
+
+E2.EVM_Measurement: peakEVM= 0.203640760688302
+
+
+DF1: Simulation completed in 18.497 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):4,5,16,5,5,5,5,4,4,5,20,5,6,6,8,10,
+
+iteration:5,
+
+Burst 1:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0788337559068095
+
+iteration:5,
+
+Peak EVM for current burst:  0.179527023091575
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):5,3,4,3,3,3,4,3,3,4,3,4,4,4,4,4,
+
+iteration:4,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0737819357301444
+
+iteration:4,
+
+Peak EVM for current burst:  0.169407017527031
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):4,4,4,4,5,5,5,5,5,5,5,5,4,5,5,5,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0743985981364336
+
+iteration:4,
+
+Peak EVM for current burst:  0.188819466189722
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):5,4,4,4,3,4,4,4,4,4,5,5,4,4,4,3,
+
+iteration:3,
+
+Burst 4:  delay= 0  phase= 15  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0759125465715479
+
+iteration:3,
+
+Peak EVM for current burst:  0.183358848499625
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,4,4,4,4,3,4,5,5,6,6,6,7,6,8,6,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0727600702274325
+
+iteration:4,
+
+Peak EVM for current burst:  0.157128140849812
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.0751373813144736
+
+
+IQ offset= -7.92739778526026 dB
+
+
+frequency error= 0.271133142982915 Hz
+
+
+amplitude droop= -2.6009752105599e-005 dB/symbol
+
+
+E2.EVM_Measurement: peakEVM= 0.175648099231553
+
+
+DF1: Simulation completed in 19.788 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):5,4,5,4,4,4,4,4,4,5,20,4,5,6,6,6,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0647497837363761
+
+iteration:4,
+
+Peak EVM for current burst:  0.152190488042899
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):4,4,4,4,4,4,3,3,3,4,3,4,4,4,4,4,
+
+iteration:4,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0609713868242418
+
+iteration:4,
+
+Peak EVM for current burst:  0.144731828512862
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):7,7,6,6,5,4,4,4,5,5,4,4,4,4,4,5,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.061084227157074
+
+iteration:4,
+
+Peak EVM for current burst:  0.159786826930535
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):4,4,4,4,4,4,4,3,4,4,4,4,4,4,4,4,
+
+iteration:4,
+
+Burst 4:  delay= 0  phase= 15  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0621466178222704
+
+iteration:4,
+
+Peak EVM for current burst:  0.15317798277944
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,4,4,4,3,4,4,4,5,5,6,6,6,5,6,5,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0600822200334547
+
+iteration:4,
+
+Peak EVM for current burst:  0.132559716161891
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.0618068471146834
+
+
+IQ offset= -8.46409852985881 dB
+
+
+frequency error= 0.43078258816612 Hz
+
+
+amplitude droop= -2.60270734039576e-005 dB/symbol
+
+
+E2.EVM_Measurement: peakEVM= 0.148489368485525
+
+
+DF1: Simulation completed in 18.477 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):6,4,4,4,4,4,4,4,4,5,8,4,4,4,6,6,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0521124141578091
+
+iteration:4,
+
+Peak EVM for current burst:  0.126063907392858
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):3,4,4,4,4,4,4,4,4,4,3,3,4,4,4,4,
+
+iteration:3,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0493296823397119
+
+iteration:3,
+
+Peak EVM for current burst:  0.121693881957642
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):5,5,4,5,5,4,4,4,4,4,4,4,4,4,4,4,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0491551665964927
+
+iteration:4,
+
+Peak EVM for current burst:  0.132022236054912
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):4,4,4,4,4,4,4,3,4,4,4,4,4,4,4,4,
+
+iteration:3,
+
+Burst 4:  delay= 0  phase= 7  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0498361151827844
+
+iteration:3,
+
+Peak EVM for current burst:  0.110478707779096
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,4,4,3,3,4,4,4,5,5,5,5,5,5,6,5,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0485363556743328
+
+iteration:4,
+
+Peak EVM for current burst:  0.109109575072268
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.0497939467902262
+
+
+IQ offset= -9.24680399857792 dB
+
+
+frequency error= 0.29047655386901 Hz
+
+
+amplitude droop= -2.60358493091973e-005 dB/symbol
+
+
+E2.EVM_Measurement: peakEVM= 0.119873661651355
+
+
+DF1: Simulation completed in 17.665 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):5,4,5,4,4,4,4,4,4,4,4,4,4,4,6,6,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0411488636827009
+
+iteration:4,
+
+Peak EVM for current burst:  0.102109678629861
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):4,4,4,4,4,4,4,4,4,3,3,3,4,4,4,5,
+
+iteration:3,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0391188233701772
+
+iteration:3,
+
+Peak EVM for current burst:  0.0993403889951265
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 14  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0387572521276514
+
+iteration:4,
+
+Peak EVM for current burst:  0.102713231560215
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):4,4,4,3,3,4,3,3,4,4,4,4,3,4,4,4,
+
+iteration:3,
+
+Burst 4:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0392008302117918
+
+iteration:3,
+
+Peak EVM for current burst:  0.0981423866259153
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):3,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 7  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0383877241624196
+
+iteration:4,
+
+Peak EVM for current burst:  0.0887518942778162
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.0393226987109482
+
+
+IQ offset= -10.1497863326991 dB
+
+
+frequency error= 0.657632388339305 Hz
+
+
+amplitude droop= -2.60370026471761e-005 dB/symbol
+
+
+E2.EVM_Measurement: peakEVM= 0.0982115160177866
+
+
+DF1: Simulation completed in 22.633 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):5,4,5,4,4,4,4,4,4,4,12,5,4,4,4,6,
+
+iteration:5,
+
+Burst 1:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0319760789674082
+
+iteration:5,
+
+Peak EVM for current burst:  0.0810722057213583
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):4,4,4,4,4,4,4,4,4,3,3,3,4,4,4,5,
+
+iteration:3,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0304847978874631
+
+iteration:3,
+
+Peak EVM for current burst:  0.0780924183779071
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 13  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0300790880643879
+
+iteration:4,
+
+Peak EVM for current burst:  0.0829229074033398
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):4,4,4,4,3,4,3,3,4,4,4,4,3,4,4,4,
+
+iteration:3,
+
+Burst 4:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0303879237725674
+
+iteration:3,
+
+Peak EVM for current burst:  0.0786811054167444
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):3,4,4,4,4,4,4,4,4,5,5,5,5,5,5,4,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 7  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0298073838387068
+
+iteration:4,
+
+Peak EVM for current burst:  0.0701560066639027
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.0305470545061067
+
+
+IQ offset= -11.0404946729649 dB
+
+
+frequency error= 0.00610038726903384 Hz
+
+
+amplitude droop= -2.60418140617141e-005 dB/symbol
+
+
+E2.EVM_Measurement: peakEVM= 0.0781849287166505
+
+
+DF1: Simulation completed in 18.947 CPU seconds.
+
+
+CT Sweep2[1].Sweep1[3/3] <(GEMX netlist)>  MeasType=2  InputNormValue=(-12->2)
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):3,3,4,3,4,5,10,12,4,4,3,5,6,8,4,20,
+
+iteration:5,
+
+Burst 1:  delay= 0  phase= 5  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.219388386573341
+
+iteration:5,
+
+95th percentile for current burst:  0.388978293754747
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):3,4,7,20,3,3,20,4,4,16,20,6,4,4,4,20,
+
+iteration:6,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.18715747611392
+
+iteration:6,
+
+95th percentile for current burst:  0.3334162667602
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):6,6,20,3,3,3,4,5,4,5,5,4,3,4,5,6,
+
+iteration:5,
+
+Burst 3:  delay= 0  phase= 7  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.202992094850986
+
+iteration:5,
+
+95th percentile for current burst:  0.400437164093703
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):6,7,3,9,3,8,8,20,5,6,10,20,3,9,4,5,
+
+iteration:10,
+
+Burst 4:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.222488233123957
+
+iteration:10,
+
+95th percentile for current burst:  0.409431061903289
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):3,3,3,4,20,4,5,3,8,14,20,10,3,6,7,6,
+
+iteration:7,
+
+Burst 5:  delay= 0  phase= 14  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.183440387028562
+
+iteration:7,
+
+95th percentile for current burst:  0.330255357403953
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.203093315538153
+
+
+IQ offset= -7.21612065661834 dB
+
+
+frequency error= 6.24537819688743 Hz
+
+
+amplitude droop= -0.000128288590874393 dB/symbol
+
+
+E2.EVM_Measurement: 95th percentile= 0.372503628783179
+
+
+DF1: Simulation completed in 26.158 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):3,3,20,3,4,4,8,8,4,4,3,5,6,10,6,14,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 8  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.20734103887133
+
+iteration:4,
+
+95th percentile for current burst:  0.376369439574013
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):3,4,4,4,4,4,4,4,5,16,14,4,4,4,4,20,
+
+iteration:4,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.178365452495407
+
+iteration:4,
+
+95th percentile for current burst:  0.318734366709579
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):6,6,18,5,3,20,4,5,4,5,5,4,20,4,4,6,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.196208121023747
+
+iteration:4,
+
+95th percentile for current burst:  0.37740686871579
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):3,5,3,4,10,11,14,16,3,8,5,6,12,20,4,20,
+
+iteration:3,
+
+Burst 4:  delay= 0  phase= 8  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.209990246460413
+
+iteration:3,
+
+95th percentile for current burst:  0.393471603847315
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):3,3,4,4,20,4,5,4,8,14,20,10,3,5,20,6,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 7  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.176730939020649
+
+iteration:4,
+
+95th percentile for current burst:  0.31740895991749
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.193727159574309
+
+
+IQ offset= -7.10685453576159 dB
+
+
+frequency error= 2.27846385319517 Hz
+
+
+amplitude droop= -0.000130049545663804 dB/symbol
+
+
+E2.EVM_Measurement: 95th percentile= 0.356678247752837
+
+
+DF1: Simulation completed in 25.166 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):3,15,20,3,4,4,8,8,4,4,3,4,6,10,8,20,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 5  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.197467730144402
+
+iteration:4,
+
+95th percentile for current burst:  0.350013948381577
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):3,4,4,4,4,4,4,5,6,14,8,5,4,4,4,16,
+
+iteration:5,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.170726139312596
+
+iteration:5,
+
+95th percentile for current burst:  0.301135663344641
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):6,4,8,5,5,20,4,5,4,5,4,4,3,4,4,6,
+
+iteration:3,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.185875563203254
+
+iteration:3,
+
+95th percentile for current burst:  0.344467684281192
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):3,5,3,4,5,20,8,10,9,10,8,5,4,20,4,3,
+
+iteration:4,
+
+Burst 4:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.198698851165499
+
+iteration:4,
+
+95th percentile for current burst:  0.37938257217865
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):3,3,4,5,13,4,4,5,8,12,20,12,3,8,20,5,
+
+iteration:8,
+
+Burst 5:  delay= 0  phase= 13  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.169310499067348
+
+iteration:8,
+
+95th percentile for current burst:  0.296936376716831
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.18441575657862
+
+
+IQ offset= -6.89198133208458 dB
+
+
+frequency error= 0.532761649179056 Hz
+
+
+amplitude droop= -0.000130046674919347 dB/symbol
+
+
+E2.EVM_Measurement: 95th percentile= 0.334387248980578
+
+
+DF1: Simulation completed in 24.465 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):3,3,20,3,4,3,6,6,4,4,3,5,6,12,8,20,
+
+iteration:3,
+
+Burst 1:  delay= 0  phase= 5  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.185806255037429
+
+iteration:3,
+
+95th percentile for current burst:  0.332756148762706
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):20,4,4,4,4,4,5,5,6,10,3,5,4,4,4,10,
+
+iteration:3,
+
+Burst 2:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.162472446672172
+
+iteration:3,
+
+95th percentile for current burst:  0.293558596731306
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):6,4,6,5,9,12,4,5,4,5,4,4,4,4,4,3,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.174667002832194
+
+iteration:4,
+
+95th percentile for current burst:  0.327763509150525
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):20,5,3,9,6,20,6,6,3,10,10,4,8,20,4,10,
+
+iteration:4,
+
+Burst 4:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.185615623891573
+
+iteration:4,
+
+95th percentile for current burst:  0.338894769235058
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,3,4,7,5,4,4,5,8,12,16,12,3,10,20,6,
+
+iteration:6,
+
+Burst 5:  delay= 0  phase= 15  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.160716535069659
+
+iteration:6,
+
+95th percentile for current burst:  0.283870378576734
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.173855572700605
+
+
+IQ offset= -6.47374098287514 dB
+
+
+frequency error= 3.14492051079031 Hz
+
+
+amplitude droop= -0.000130023940938803 dB/symbol
+
+
+E2.EVM_Measurement: 95th percentile= 0.315368680491266
+
+
+DF1: Simulation completed in 24.025 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):3,8,20,4,4,4,5,6,4,4,3,6,6,12,10,20,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 5  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.173462986656997
+
+iteration:4,
+
+95th percentile for current burst:  0.30869357143777
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):20,4,4,4,4,4,5,6,6,8,6,6,4,4,4,8,
+
+iteration:6,
+
+Burst 2:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.15263219386737
+
+iteration:6,
+
+95th percentile for current burst:  0.274798268480336
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):6,4,5,20,6,6,5,5,4,5,4,4,4,4,4,20,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.162594324387479
+
+iteration:4,
+
+95th percentile for current burst:  0.296270501113331
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):20,5,3,20,20,10,5,5,3,8,10,4,8,3,4,3,
+
+iteration:4,
+
+Burst 4:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.172135426209454
+
+iteration:4,
+
+95th percentile for current burst:  0.303409463405003
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,3,4,20,4,4,3,5,8,10,14,12,3,10,20,8,
+
+iteration:10,
+
+Burst 5:  delay= 0  phase= 13  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.150963922757829
+
+iteration:10,
+
+95th percentile for current burst:  0.267313731952212
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.162357770775826
+
+
+IQ offset= -6.68276999611957 dB
+
+
+frequency error= 12.2977031332584 Hz
+
+
+amplitude droop= -0.000130006004024029 dB/symbol
+
+
+E2.EVM_Measurement: 95th percentile= 0.29009710727773
+
+
+DF1: Simulation completed in 25.236 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):3,8,20,4,4,4,4,5,4,4,3,6,6,12,8,20,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.158248637274376
+
+iteration:4,
+
+95th percentile for current burst:  0.280242871313404
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):20,4,4,4,4,4,5,6,6,8,6,5,4,4,4,4,
+
+iteration:6,
+
+Burst 2:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.141349015985216
+
+iteration:6,
+
+95th percentile for current burst:  0.257654385730937
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):5,4,4,20,3,3,5,5,5,5,5,4,4,4,4,20,
+
+iteration:3,
+
+Burst 3:  delay= 0  phase= 5  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.148707557427826
+
+iteration:3,
+
+95th percentile for current burst:  0.26480675322502
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):20,5,3,20,5,5,5,5,3,8,8,6,10,7,4,20,
+
+iteration:3,
+
+Burst 4:  delay= 0  phase= 2  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.155896384902066
+
+iteration:3,
+
+95th percentile for current burst:  0.271869360951293
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):3,3,4,4,4,4,3,5,6,10,12,10,3,10,20,8,
+
+iteration:3,
+
+Burst 5:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.139463424288597
+
+iteration:3,
+
+95th percentile for current burst:  0.254940341723472
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.148733003975616
+
+
+IQ offset= -6.68265988547776 dB
+
+
+frequency error= 4.96983797654876 Hz
+
+
+amplitude droop= -0.000130157572475256 dB/symbol
+
+
+E2.EVM_Measurement: 95th percentile= 0.265902742588825
+
+
+DF1: Simulation completed in 24.035 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):4,8,13,5,4,4,4,4,4,4,3,6,6,10,6,20,
+
+iteration:6,
+
+Burst 1:  delay= 0  phase= 14  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.142217704204894
+
+iteration:6,
+
+95th percentile for current burst:  0.258000962693657
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):20,4,4,4,4,4,5,5,5,6,5,5,4,4,4,5,
+
+iteration:5,
+
+Burst 2:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.128812112078476
+
+iteration:5,
+
+95th percentile for current burst:  0.236994723965737
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):4,4,4,3,3,4,5,5,5,5,5,4,4,4,4,12,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 5  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.134287555423511
+
+iteration:4,
+
+95th percentile for current burst:  0.249102010504563
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):14,4,4,3,3,5,5,5,3,6,8,6,8,3,4,14,
+
+iteration:4,
+
+Burst 4:  delay= 0  phase= 2  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.14040482032504
+
+iteration:4,
+
+95th percentile for current burst:  0.240362959528289
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,5,4,20,4,4,4,5,6,8,10,10,3,8,18,8,
+
+iteration:5,
+
+Burst 5:  delay= 0  phase= 1  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.126960448407143
+
+iteration:5,
+
+95th percentile for current burst:  0.231137828850311
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.134536528087813
+
+
+IQ offset= -6.62290027828906 dB
+
+
+frequency error= 4.20219531997328 Hz
+
+
+amplitude droop= -0.000130020657038277 dB/symbol
+
+
+E2.EVM_Measurement: 95th percentile= 0.243119697108511
+
+
+DF1: Simulation completed in 22.202 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):4,6,20,4,4,4,3,3,4,4,3,5,6,8,3,20,
+
+iteration:3,
+
+Burst 1:  delay= 0  phase= 14  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.126239152149965
+
+iteration:3,
+
+95th percentile for current burst:  0.2253799667745
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):20,4,4,4,4,4,5,5,4,5,4,5,4,4,4,5,
+
+iteration:4,
+
+Burst 2:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.115364327903145
+
+iteration:4,
+
+95th percentile for current burst:  0.214106794879673
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):4,4,4,4,4,4,5,5,5,5,5,4,4,4,4,6,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 3  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.119527538320016
+
+iteration:4,
+
+95th percentile for current burst:  0.221892568968033
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):10,4,4,3,3,5,5,4,6,6,6,6,8,4,4,8,
+
+iteration:6,
+
+Burst 4:  delay= 0  phase= 8  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.123519130849218
+
+iteration:6,
+
+95th percentile for current burst:  0.211145026906979
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,5,4,5,4,4,4,5,6,8,10,8,3,8,14,8,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.113708071670034
+
+iteration:4,
+
+95th percentile for current burst:  0.214416718387582
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.119671644178476
+
+
+IQ offset= -7.005615643178 dB
+
+
+frequency error= 4.77123937249466 Hz
+
+
+amplitude droop= -0.000130185947597862 dB/symbol
+
+
+E2.EVM_Measurement: 95th percentile= 0.217388215183353
+
+
+DF1: Simulation completed in 20.98 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):4,5,20,4,4,4,4,3,4,5,3,5,6,8,6,20,
+
+iteration:3,
+
+Burst 1:  delay= 0  phase= 7  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.110335884284482
+
+iteration:3,
+
+95th percentile for current burst:  0.200087892634394
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):10,4,4,4,4,4,4,4,4,4,3,4,4,4,4,5,
+
+iteration:3,
+
+Burst 2:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.101383776267914
+
+iteration:3,
+
+95th percentile for current burst:  0.182714303939841
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):4,4,4,4,5,4,5,5,5,5,4,4,4,4,4,4,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.104175180631402
+
+iteration:4,
+
+95th percentile for current burst:  0.197560454238703
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):8,4,4,4,3,5,4,4,4,5,6,6,6,4,4,6,
+
+iteration:4,
+
+Burst 4:  delay= 0  phase= 8  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.107179274240056
+
+iteration:4,
+
+95th percentile for current burst:  0.186825173170172
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,5,4,4,4,3,4,5,6,6,8,8,20,6,10,6,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 2  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0999833517148893
+
+iteration:4,
+
+95th percentile for current burst:  0.185879731785952
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.104611493427749
+
+
+IQ offset= -7.20783970511796 dB
+
+
+frequency error= 4.63371761364575 Hz
+
+
+amplitude droop= -0.000130236200903485 dB/symbol
+
+
+E2.EVM_Measurement: 95th percentile= 0.190613511153813
+
+
+DF1: Simulation completed in 20.289 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):5,5,3,4,4,4,4,3,4,5,3,4,6,6,8,12,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0942627540210876
+
+iteration:4,
+
+95th percentile for current burst:  0.173742416344337
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):6,4,4,4,4,4,4,4,4,4,3,4,4,4,4,4,
+
+iteration:3,
+
+Burst 2:  delay= 0  phase= 10  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0874064585048763
+
+iteration:3,
+
+95th percentile for current burst:  0.152376529708549
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):4,4,4,4,5,4,5,5,5,5,4,4,4,4,4,4,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0889466827762753
+
+iteration:4,
+
+95th percentile for current burst:  0.168099873722803
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):6,4,4,4,3,4,4,4,4,4,6,5,6,4,4,4,
+
+iteration:4,
+
+Burst 4:  delay= 0  phase= 15  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0912286993061163
+
+iteration:4,
+
+95th percentile for current burst:  0.154618573709818
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,4,4,4,4,3,4,5,5,6,6,6,10,6,8,6,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0862046018443676
+
+iteration:4,
+
+95th percentile for current burst:  0.15611754585732
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.0896098392905446
+
+
+IQ offset= -7.65850931959759 dB
+
+
+frequency error= 2.42927469677186 Hz
+
+
+amplitude droop= -0.000118910917996383 dB/symbol
+
+
+E2.EVM_Measurement: 95th percentile= 0.160990987868565
+
+
+DF1: Simulation completed in 18.847 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):4,5,16,5,5,5,5,4,4,5,20,5,6,6,8,10,
+
+iteration:5,
+
+Burst 1:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0788337559068095
+
+iteration:5,
+
+95th percentile for current burst:  0.146682443787971
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):5,3,4,3,3,3,4,3,3,4,3,4,4,4,4,4,
+
+iteration:4,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0737819357301444
+
+iteration:4,
+
+95th percentile for current burst:  0.125948291505858
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):4,4,4,4,5,5,5,5,5,5,5,5,4,5,5,5,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0743985981364336
+
+iteration:4,
+
+95th percentile for current burst:  0.1401786201869
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):5,4,4,4,3,4,4,4,4,4,5,5,4,4,4,3,
+
+iteration:3,
+
+Burst 4:  delay= 0  phase= 15  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0759125465715479
+
+iteration:3,
+
+95th percentile for current burst:  0.129554411372299
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,4,4,4,4,3,4,5,5,6,6,6,7,6,8,6,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0727600702274325
+
+iteration:4,
+
+95th percentile for current burst:  0.134433177585083
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.0751373813144736
+
+
+IQ offset= -7.92739778526026 dB
+
+
+frequency error= 0.271133142982915 Hz
+
+
+amplitude droop= -2.6009752105599e-005 dB/symbol
+
+
+E2.EVM_Measurement: 95th percentile= 0.135359388887622
+
+
+DF1: Simulation completed in 19.889 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):5,4,5,4,4,4,4,4,4,5,20,4,5,6,6,6,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0647497837363761
+
+iteration:4,
+
+95th percentile for current burst:  0.117675467987028
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):4,4,4,4,4,4,3,3,3,4,3,4,4,4,4,4,
+
+iteration:4,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0609713868242418
+
+iteration:4,
+
+95th percentile for current burst:  0.104813516146015
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):7,7,6,6,5,4,4,4,5,5,4,4,4,4,4,5,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.061084227157074
+
+iteration:4,
+
+95th percentile for current burst:  0.113627999320796
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):4,4,4,4,4,4,4,3,4,4,4,4,4,4,4,4,
+
+iteration:4,
+
+Burst 4:  delay= 0  phase= 15  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0621466178222704
+
+iteration:4,
+
+95th percentile for current burst:  0.106304128865051
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,4,4,4,3,4,4,4,5,5,6,6,6,5,6,5,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0600822200334547
+
+iteration:4,
+
+95th percentile for current burst:  0.11303245901783
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.0618068471146834
+
+
+IQ offset= -8.46409852985881 dB
+
+
+frequency error= 0.43078258816612 Hz
+
+
+amplitude droop= -2.60270734039576e-005 dB/symbol
+
+
+E2.EVM_Measurement: 95th percentile= 0.111090714267344
+
+
+DF1: Simulation completed in 18.877 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):6,4,4,4,4,4,4,4,4,5,8,4,4,4,6,6,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0521124141578091
+
+iteration:4,
+
+95th percentile for current burst:  0.092464201287892
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):3,4,4,4,4,4,4,4,4,4,3,3,4,4,4,4,
+
+iteration:3,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0493296823397119
+
+iteration:3,
+
+95th percentile for current burst:  0.0871310741023867
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):5,5,4,5,5,4,4,4,4,4,4,4,4,4,4,4,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0491551665964927
+
+iteration:4,
+
+95th percentile for current burst:  0.0923728207349339
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):4,4,4,4,4,4,4,3,4,4,4,4,4,4,4,4,
+
+iteration:3,
+
+Burst 4:  delay= 0  phase= 7  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0498361151827844
+
+iteration:3,
+
+95th percentile for current burst:  0.0880687659767638
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):4,4,4,3,3,4,4,4,5,5,5,5,5,5,6,5,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 6  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0485363556743328
+
+iteration:4,
+
+95th percentile for current burst:  0.0926861375852073
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.0497939467902262
+
+
+IQ offset= -9.24680399857792 dB
+
+
+frequency error= 0.29047655386901 Hz
+
+
+amplitude droop= -2.60358493091973e-005 dB/symbol
+
+
+E2.EVM_Measurement: 95th percentile= 0.0905445999374367
+
+
+DF1: Simulation completed in 17.946 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):5,4,5,4,4,4,4,4,4,4,4,4,4,4,6,6,
+
+iteration:4,
+
+Burst 1:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0411488636827009
+
+iteration:4,
+
+95th percentile for current burst:  0.0713232146494763
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):4,4,4,4,4,4,4,4,4,3,3,3,4,4,4,5,
+
+iteration:3,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0391188233701772
+
+iteration:3,
+
+95th percentile for current burst:  0.0700913514424373
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 14  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0387572521276514
+
+iteration:4,
+
+95th percentile for current burst:  0.0698921994605454
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):4,4,4,3,3,4,3,3,4,4,4,4,3,4,4,4,
+
+iteration:3,
+
+Burst 4:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0392008302117918
+
+iteration:3,
+
+95th percentile for current burst:  0.0685277512212483
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):3,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 7  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0383877241624196
+
+iteration:4,
+
+95th percentile for current burst:  0.0743007734596619
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.0393226987109482
+
+
+IQ offset= -10.1497863326991 dB
+
+
+frequency error= 0.657632388339305 Hz
+
+
+amplitude droop= -2.60370026471761e-005 dB/symbol
+
+
+E2.EVM_Measurement: 95th percentile= 0.0708270580466738
+
+
+DF1: Simulation completed in 17.585 CPU seconds.
+
+DF1: Simulation started.
+
+E2.EVM_Measurement: Data collection for EVM started...
+
+
+E2.EVM_Measurement: Data collection is 100% completed...
+
+
+EVM computation started...
+
+
+iteration(phase):5,4,5,4,4,4,4,4,4,4,12,5,4,4,4,6,
+
+iteration:5,
+
+Burst 1:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0319760789674082
+
+iteration:5,
+
+95th percentile for current burst:  0.0541747400278433
+
+EVM computation 42.9% completed.
+
+
+iteration(phase):4,4,4,4,4,4,4,4,4,3,3,3,4,4,4,5,
+
+iteration:3,
+
+Burst 2:  delay= 0  phase= 11  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0304847978874631
+
+iteration:3,
+
+95th percentile for current burst:  0.0541770354441778
+
+EVM computation 57.1% completed.
+
+
+iteration(phase):4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
+
+iteration:4,
+
+Burst 3:  delay= 0  phase= 13  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0300790880643879
+
+iteration:4,
+
+95th percentile for current burst:  0.0552394669808145
+
+EVM computation 71.4% completed.
+
+
+iteration(phase):4,4,4,4,3,4,3,3,4,4,4,4,3,4,4,4,
+
+iteration:3,
+
+Burst 4:  delay= 0  phase= 12  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0303879237725674
+
+iteration:3,
+
+95th percentile for current burst:  0.0548991699144999
+
+EVM computation 85.7% completed.
+
+
+iteration(phase):3,4,4,4,4,4,4,4,4,5,5,5,5,5,5,4,
+
+iteration:4,
+
+Burst 5:  delay= 0  phase= 7  m_delay= 0  m_delayR 0
+
+
+EVMrms for current burst:  0.0298073838387068
+
+iteration:4,
+
+95th percentile for current burst:  0.0569350908006456
+
+EVM computation 100.0% completed.
+
+
+E2.EVM_Measurement: 
+EVMrms= 0.0305470545061067
+
+
+IQ offset= -11.0404946729649 dB
+
+
+frequency error= 0.00610038726903384 Hz
+
+
+amplitude droop= -2.60418140617141e-005 dB/symbol
+
+
+E2.EVM_Measurement: 95th percentile= 0.0550851006335962
+
+
+DF1: Simulation completed in 17.866 CPU seconds.
+
+
+---------------------------------------------------------------------------------------------
+Simulation finished: dataset `EVM_NonLinearAmp' written in `e:\project\EVM_Examples_prj\data'.
+---------------------------------------------------------------------------------------------
+
+Resource usage:
+    Total CPU time: 937.77 seconds.
+    Simulation stopwatch time: 960.68 seconds.
+    Total stopwatch time: 961.43 seconds.
+

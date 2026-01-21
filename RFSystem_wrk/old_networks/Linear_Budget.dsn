@@ -1,0 +1,19 @@
+1     7.703    0 0
+10    1    "Linear_Budget"    2    1093362534    0    36    1    0
+20    0    ""    -750 3375 7449 5833 1    2 -3 1    972685567    0    "schematic.prf" "schematic.lay"
+90    "SIM_DSS"  3  0 0 ``
+90    "SIM_DDS"  3  1 0 `Linear_Budget`
+90    "SIM_OPENDDS"  3  1 0 `ON`
+90    "SIM_HOST"  3  1 0 `local`
+40    4    0    0    0
+50    6    -750 3375 7449 3653 1    0    0    0    0    0    0    0    0
+62    0    278    9    -750 3375 0    2    0    0    0    20    0   "Arial For CAE"   `Please see Linear_Budget_wrk under Com_Sys example Directory.
+`
+40    5    0    0    0
+50    6    1375 5500 4772 5833 1    0    0    0    0    0    0    0    0
+62    0    333    9    1375 5500 0    1    0    0    0    24    0   "Arial For CAE"   `Linear Budget Analysis`
+44    0    0    0    0    0    0    0
+21
+20    1    ""    0 0 0 0 0    1 -2 1    0    0    "layout.prf" "layout.lay"
+44    0    0    0    0    0    0    0
+21

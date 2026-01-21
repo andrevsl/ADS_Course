@@ -1,0 +1,90 @@
+; Top Design: "ACPR_From_1_Tone_Swp_lib:ACPR_EVM_wWCDMA_wMC_TB:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="ACPR_From_1_Tone_Swp_lib:ACPR_EVM_wWCDMA_wMC_TB:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+; Library Name: ACPR_From_1_Tone_Swp_lib
+; Cell Name: pa4
+; View Name: schematic
+define pa4 ( N__23  N__22  N__9  N__8 ) 
+;parameters 
+model MSub1 MSUB H=20.0 mil Er=4.3 stat{ gauss +/- 5 % } Mur=1 Cond=5.8E+7 Hu=250 mil T=.15 mil TanD=0 Rough=0 mil DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+MLIN2:TL16  N__1 N__0 Subst="MSub1" W=20.0 mil L=15.0 mil stat{ gauss +/- 10 % } Temp=27.0 Mod=1 
+MLIN2:TL14  N__2 N__3 Subst="MSub1" W=20.0 mil L=15.0 mil stat{ gauss +/- 10 % } Temp=27.0 Mod=1 
+MLIN2:TL13  N__5 N__4 Subst="MSub1" W=20.0 mil L=25.0 mil stat{ gauss +/- 10 % } Temp=27.0 Mod=1 
+L:L2  N__7 0 L=0.3 nH stat{ gauss +/- 10 % } Noise=yes  
+MLIN2:TL17  N__20 N__8 Subst="MSub1" W=20.0 mil L=15.0 mil Temp=27.0 Mod=1 
+#uselib "RfTransistorLibrary" , "pf_nec_NE900175_19931018"
+pf_nec_NE900175_19931018:A1  N__5 N__12 N__7 
+MLIN2:TL1  N__17 N__14 Subst="MSub1" W=20.0 mil L=15.0 mil Temp=27.0 Mod=1 
+MLIN2:TL19  N__19 N__9 Subst="MSub1" W=20.0 mil L=15.0 mil Temp=27.0 Mod=1 
+C:C2  N__9 0 C=94.390 pF 
+C:C4  0 N__8 C=1.0 pF 
+MLIN2:TL15  N__21 N__22 Subst="MSub1" W=20.0 mil L=15.0 mil Temp=27.0 Mod=1 
+MLIN2:TL11  N__23 N__16 Subst="MSub1" W=20.0 mil L=15.0 mil Temp=27.0 Mod=1 
+MLIN2:TL12  N__13 N__12 Subst="MSub1" W=20.0 mil L=25.0 mil Temp=27.0 Mod=1 
+C:C3  N__21 N__3 C=5.034 pF 
+C:C1  N__16 N__17 C=2.799 pF 
+MTEEO:Tee4  N__4 N__2 N__1 Subst="MSub1" W1=20.0 mil W2=20.0 mil W3=20.0 mil Temp=27.0 
+MTEEO:Tee3  N__14 N__13 N__15 Subst="MSub1" W1=20.0 mil W2=20.0 mil W3=20.0 mil Temp=27.0 
+MLIN2:TL18  N__15 N__18 Subst="MSub1" W=20.0 mil L=15.0 mil Temp=27.0 Mod=1 
+L:L11  N__18 N__19 L=2.2 nH Noise=yes  
+L:L41  N__0 N__20 L=47.0 nH Noise=yes  
+end pa4
+
+aele MainLimits={-(3.84 MHz/2),(3.84 MHz/2)};UpChLimits=MainLimits +(5 MHz);LoChLimits=MainLimits -(5 MHz);Vin_fund=_3GPPFDD_UE_Tx_12_2_SigGen..Vsource[0::3000];Vload_fundHB=Vload[1];
+
+
+SweepPlan:Plan1 SweepPlan[1]="Plan1_seg1" \ 
+SweepPlan[2]="Plan1_seg2" 
+SweepPlan:Plan1_seg1 Start=-20 Stop=5 Step=1 
+SweepPlan:Plan1_seg2 Start=5.5 Stop=15 Step=0.5 
+MonteCarlo:MonteCarlo1  SimInstanceName[1]="HB1" NumIters=10 MaxTrials=1000 PerformNomSim=yes SaveSolns=no SaveSpecs=yes SaveRandVars=yes UpdateDataset=no SaveAllIterations=yes UseAllSpecs=yes StatusLevel=2 Enable=yes StartTrial=0 StopTrial=-1 StatVariations=yes ProcessVariations=yes MismatchVariations=no 
+
+RFfreq=1950 MHz
+RFpower=10 _dBm
+Zload=50
+Zsource=50
+HB:HB1 MaxOrder=4 Freq[1]=RFfreq Order[1]=15 StatusLevel=2 FundOversample=1 \
+Restart=no UseAllSS_Freqs=yes UseOutFile=no \
+UseInFile=no SweepVar="RFpower" SweepPlan="Plan1" OutputPlan="HB1_Output" 
+
+OutputPlan:HB1_Output \
+      Type="Output" \
+      UseNodeNestLevel=no \
+      NodeNestLevel=2 \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=0 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=0 \
+      SavedEquationName[1]="LoChLimits" \
+      SavedEquationName[2]="LoChLimitsAlt" \
+      SavedEquationName[3]="MainLimits" \
+      SavedEquationName[4]="UpChLimits" \
+      SavedEquationName[5]="UpChLimitsAlt" \
+      SavedEquationName[6]="Vin_fund" \
+      SavedEquationName[7]="Vload_fundHB" \
+      SavedEquationName[8]="Zload" \
+      SavedEquationName[9]="Zsource" \
+      UseDeviceCurrentNestLevel=no \
+      DeviceCurrentNestLevel=0 \
+      DeviceCurrentDeviceType="All" \
+      DeviceCurrentSymSyntax=yes \
+      UseCurrentNestLevel=no \
+      CurrentNestLevel=999 \
+      UseDeviceVoltageNestLevel=no \
+      DeviceVoltageNestLevel=0 \
+      DeviceVoltageDeviceType="All"
+
+Tran:HB1_tran HB_Sol=1 SteadyState=1 StatusLevel=3 \
+Freq[1]=RFfreq Order[1]=15 
+
+Component:tahb_HB1 Module="ATAHB" Type="ModelExtractor" \ 
+ Tran_Analysis="HB1_tran" HB_Analysis="HB1" 
+
+pa4:X1  N__1 Vload N__5 V_high 
+Port:PORT1  N__1 0 Num=1 Z=Zsource P[1]=dbmtow(RFpower) Freq[1]=RFfreq    Noise=yes 
+Port:Term1  Vload 0 Num=2 Z=Zload Noise=yes 
+V_Source:SRC1  V_high 0 Type="V_DC" Vdc=6.0 V stat{ gauss +/- 5 % } SaveCurrent=1 
+V_Source:SRC2  N__5 0 Type="V_DC" Vdc=-1.2 V stat{ gauss +/- 5 % } SaveCurrent=1 
+aele ACPR_Data=ACPR_ChPwr_or_EVM_from_1tone_swp_r1("ACPR","LI",1,Vload_fundHB,Vin_fund,inputSigPowers,Zsource,Zload,MainLimits,LoChLimits,UpChLimits,"Kaiser");AltCPR_Data=ACPR_ChPwr_or_EVM_from_1tone_swp_r1("ACPR","LI",1,Vload_fundHB,Vin_fund,inputSigPowers,Zsource,Zload,MainLimits,LoChLimitsAlt,UpChLimitsAlt,"Kaiser");Power_Data=ACPR_ChPwr_or_EVM_from_1tone_swp_r1("MAINCHP","LI",1,Vload_fundHB,Vin_fund,inputSigPowers,Zsource,Zload,MainLimits,LoChLimits,UpChLimits,"Kaiser");EVM_Data=ACPR_ChPwr_or_EVM_from_1tone_swp_r1("EVM","LI",1,Vload_fundHB,Vin_fund,inputSigPowers,Zsource,Zload,MainLimits,LoChLimits,UpChLimits,"Kaiser");MeanBiasCurrent=Data_from_1tone_swp("LI", 1, -real(SRC1.i[0]), Vin_fund, inputSigPowers, Zsource, Zload);P_DC=MeanBiasCurrent*real(expand(V_high[::,0,0]));
+aele inputSigPowers1=[-5::2.5::5];inputSigPowers2=[8::1::12];inputSigPowers=[inputSigPowers1,inputSigPowers2];LoChLimitsAlt=MainLimits -(10 MHz);UpChLimitsAlt=MainLimits +(10 MHz);

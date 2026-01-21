@@ -1,4 +1,6 @@
 INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
 INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
-DEFINE RIS_Design_Project_lib RIS_Design_Project_lib
-ASSIGN RIS_Design_Project_lib libMode shared
+DEFINE Varactors_PWM1_lib Varactors_PWM1_lib
+ASSIGN Varactors_PWM1_lib libMode shared
+DEFINE D310_lib D310_lib
+ASSIGN D310_lib libMode shared

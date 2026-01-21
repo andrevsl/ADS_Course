@@ -1,0 +1,92 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Sun Jan 11 13:55:59 2026
+      Running on host: "rfcourse"
+      In Directory: "C:\Users\simucstvsl\Documents\ADS_Course\MultiChan_NL_Budget_wrk\data"
+      Process ID: 4188
+
+
+HB HB1[1] <MultiChan_NL_Budget_lib:IQ_mod_bud:schematic>
+Pt DC convergence is used.
+Message from hpeesofsim during TRAN analysis `HB1'.
+    Required filter order is calculated to be 6 for component
+                 `a6_BPF1.CMP1'
+Message from hpeesofsim during TRAN analysis `HB1'.
+    Required filter order is calculated to be 7 for component
+                 `b2_BPF2.CMP1'
+Message from hpeesofsim during TRAN analysis `HB1'.
+    Required filter order is calculated to be 7 for component
+                 `a2_BPF1.CMP1'
+    Number of tones:   1.
+    Number of frequencies:   4.
+    Number of time samples:  8.
+    Number of HB equations (problem size): 371.
+    Auto mode: off.
+    Convergence mode: Fast.
+    Linear solver: Krylov (GS_GMRES).
+    Preconditioner: DCP.
+    The general solver is used for HB Krylov preconditioning.
+------------------------------------------------------------------------
+Newton solver:				Linear solver:
+Iter	KCL residual	Sol update	Iters	Residual
+------------------------------------------------------------------------
+0 	6.32456 mA               
+1 	6.07153 aA  	79.0569 mV  	  1	4.712e-16   
+2 	3.46945 aA  	44.7924 aV  	  1	1.110e-16   
+
+HB HB1[1] <MultiChan_NL_Budget_lib:IQ_mod_bud:schematic>
+    Number of tones:   3.
+    Number of frequencies:   62.
+    Number of time samples:  512.
+    Number of HB equations (HB problem size): 6519.
+    Number of SS/noise equations (SS/noise problem size): 13038.
+    Auto mode: off.
+    Convergence mode: Fast.
+    Linear solver: Krylov (GS_GMRES).
+    Preconditioner: DCP.
+    The general solver is used for HB Krylov preconditioning.
+------------------------------------------------------------------------
+Newton solver:				Linear solver:
+Iter	KCL residual	Sol update	Iters	Residual
+------------------------------------------------------------------------
+0 	1 A                      
+1 	143.747 mA  	500 mV      	  2	2.649e-15   
+2 	77.8764 mA  	4.37104 V   	  3	5.200e-03   
+3 	43.54 mA    	2.58083 V   	  3	1.757e-04   
+4 	3.90525 mA  	560.342 mV  	  3	2.132e-07   
+5 	14.8058 uA  	73.8683 mV  	  3	7.711e-10   
+6 	20.789 fA   	105.174 uV  	  3	1.469e-13   
+7 	1.32656 fA  	347.948 fV  	  3	4.168e-06   
+
+HB_NOISE HB1[1] <MultiChan_NL_Budget_lib:IQ_mod_bud:schematic>
+Warning detected by hpeesofsim during spectral noise analysis `HB_NOISE'.
+    Given a set of Harmonic Balance large-signal frequencies LSfreq
+    (determined by Freq[], Order[] and MaxOrder) and a noise frequency
+    FreqForNoise, the small-signal frequencies used in a nonlinear noise
+    analysis are SSfreq=LSfreq+FreqForNoise and SSfreq=LSfreq-FreqForNoise.
+    For this circuit, more than one such small-signal frequency differs
+    from InputFreq by less than BandwidthForNoise. This means that the
+    simulator is unable to uniquely determine what small-signal tone
+    should be used for computing the small-signal conversion gains needed
+    for the evaluation of NFssb and NFdsb. The small-signal frequency
+    corresponding to the large-signal frequency with the lowest order will
+    be used. In rare cases, NFssb and NFdsb are inaccurate. To eliminate
+    this warning and the possibility of inaccurate results:
+     o Reduce Order[] or MaxOrder to eliminate a conflicting large-signal
+       frequency
+     o Offset FreqForNoise and InputFreq by a small amount, like 1-2 Hz.
+     o Offset one of the fundamental frequencies by a small amount, like
+       1-2 Hz.
+     o Eliminate any colliding tones in your Harmonic Balance setup,
+       if present.
+
+    Noise Freq=801 MHz  NFssb=9.684dB  NFdsb=9.684dB  Conv Gain=27.89dB
+
+    Noise Freq=801 MHz  NFssb=9.684dB  NFdsb=9.684dB  Conv Gain=27.89dB
+
+Resource usage:
+  Total stopwatch time     =     1.57 seconds.
+

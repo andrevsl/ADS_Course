@@ -1,0 +1,17 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Sat Jan 10 17:04:33 2026
+      Running on host: "rfcourse"
+      In Directory: "C:\Users\simucstvsl\Documents\ADS_Course\TutorialTemplate\Co_Sim_noise_wrk\data"
+      Process ID: 9064
+
+
+SP SP1[1] <Co_Sim_noise_lib:SP_measVSmod_NEW:schematic>   freq=(100 MHz->10 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     1.25 seconds.
+

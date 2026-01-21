@@ -1,0 +1,7 @@
+<!DOCTYPE DisplayAttributes>
+<Lpp_Differences_List>
+    <LPP layer="ads_device" purpose="ads_drawing1" rgb="16755200"/>
+    <LPP mode="1" layer="ads_device" purpose="ads_drawing4" fill="25"/>
+    <LPP layer="ads_instance" purpose="drawing" visible="1"/>
+    <LPP layer="ads_y9" purpose="ads_drawing6" alpha="130"/>
+</Lpp_Differences_List>

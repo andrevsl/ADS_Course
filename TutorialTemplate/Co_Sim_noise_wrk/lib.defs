@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/ads.defs
+DEFINE Co_Sim_noise_lib ./Co_Sim_noise_lib
+ASSIGN Co_Sim_noise_lib writePath Co_Sim_noise_lib
+ASSIGN Co_Sim_noise_lib libMode shared

@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+DEFINE ACPR_From_1_Tone_Swp_lib ACPR_From_1_Tone_Swp_lib
+ASSIGN ACPR_From_1_Tone_Swp_lib writePath ACPR_From_1_Tone_Swp_lib
+ASSIGN ACPR_From_1_Tone_Swp_lib libMode shared

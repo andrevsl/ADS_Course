@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<COMPONENTS>
+  <COMPONENT>
+    <NAME>IQ_DEMOD_Subsystem</NAME>
+    <VENDOR>/a/new/wlv/groucho/d2/marketing/users/ghasiani/ADS_2002_examples/Cosim_lab_prj/networks</VENDOR>
+    <DESCRIPTION>IQ_DEMOD_Subsystem</DESCRIPTION>
+    <LIBRARY>Sub-networks</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+    <AVAILABILITY>Available</AVAILABILITY>
+    <URL>N/A</URL>
+    <LICENSE>N/A</LICENSE>
+  </COMPONENT>
+</COMPONENTS>

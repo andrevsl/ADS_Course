@@ -1,0 +1,17 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Tue Jan 20 21:45:52 2026
+      Running on host: "rfcourse"
+      In Directory: "C:\Users\simucstvsl\Documents\ADS_Course\RIS_Design_Project\data"
+      Process ID: 6468
+
+
+SP SP1[1] <Varactors_PWM1_lib:Spar_PinDiode:schematic>   freq=(100 MHz->4 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     0.87 seconds.
+

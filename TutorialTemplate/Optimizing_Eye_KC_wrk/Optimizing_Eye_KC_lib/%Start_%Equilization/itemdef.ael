@@ -1,0 +1,10 @@
+create_text_form("StdForm","Standard","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("Start_Equilization","Start_Equilization","X",16,-1,NULL,"Component Parameters",NULL,"%43?global %;%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","Start_Equilization","%t%b%r%38?%:\n%39?all_parm%A%:%30?%s%:%k%?[%1i]%;=%s%;%;%;%e%e%;","Start_Equilization",3,NULL,0,
+create_parm("C1","C1",68608,"StdFormSet",4,prm("StdForm","2 pF")),
+create_parm("C2","C2",68608,"StdFormSet",4,prm("StdForm","1.8 pF")),
+create_parm("R1","R1",68608,"StdFormSet",1,prm("StdForm","15")),
+create_parm("R2","R2",68608,"StdFormSet",1,prm("StdForm","20")),
+create_parm("R3","R3",68608,"StdFormSet",1,prm("StdForm","200")),
+create_parm("L1","L1",68608,"StdFormSet",3,prm("StdForm","1 nH")));

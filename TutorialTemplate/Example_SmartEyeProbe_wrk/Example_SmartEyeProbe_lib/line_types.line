@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LineTypes>
+    <line name="Stripline100Ohm">
+        <TMLtype>Custom</TMLtype>
+        <substrate>Example_SmartEyeProbe_lib:FR4_8layer</substrate>
+        <strips>
+            <strip stripId="strip1" defaultWidth="2">
+                <layer name="pc3:drawing"/>
+                <spacing type="edge-edge" value="5"/>
+            </strip>
+            <strip stripId="strip2" defaultWidth="2">
+                <layer name="pc3:drawing"/>
+                <spacing type="edge-edge" value="5"/>
+            </strip>
+        </strips>
+        <planes>
+            <plane layerName="pc2:drawing"/>
+            <plane layerName="pc4:drawing"/>
+        </planes>
+        <beginEndStyle type="truncate"/>
+        <cornerStyle type="square"/>
+        <simulationModel>
+            <modelSet>TLines-Multilayer</modelSet>
+            <useSingleTLineElementToModelATrace>false</useSingleTLineElementToModelATrace>
+            <autogenerateSubstrate>true</autogenerateSubstrate>
+            <substrateInstanceName></substrateInstanceName>
+        </simulationModel>
+    </line>
+</LineTypes>

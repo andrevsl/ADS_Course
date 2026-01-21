@@ -1,0 +1,53 @@
+; Top Design: "Example_SmartEyeProbe_lib:02_TB_Smart_Eye_Probe:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="Example_SmartEyeProbe_lib:02_TB_Smart_Eye_Probe:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+; Library Name: Example_SmartEyeProbe_lib
+; Cell Name: Ten_Line_Model
+; View Name: schematic
+define Ten_Line_Model ( P1  P2  P3  P4  P5  P6  P7  P8  P9  P10  P11  P12  P13  P14  P15  P16  P17  P18  P19  P20 ) 
+parameters  Length=100 mm 
+PC_Line:brd  P1 P3 P5 P7 P9 P11 P13 P15 P17 P19 P20 P18 P16 P14 P12 P10 P8 P6 P4 P2 N=10 Subst="Stripline" Length=Length W[1]=W S[1]=S W[2]=W S[2]=S W[3]=W S[3]=S W[4]=W S[4]=S W[5]=W S[5]=S W[6]=W S[6]=S W[7]=W S[7]=S W[8]=W S[8]=S W[9]=W S[9]=S W[10]=W Layer[1]=Lay2 Layer[2]=Lay2 Layer[3]=Lay2 Layer[4]=Lay2 Layer[5]=Lay2 Layer[6]=Lay2 Layer[7]=Lay2 Layer[8]=Lay2 Layer[9]=Lay2 Layer[10]=Lay2 ReuseRLGC=0 W_FileFormat=0 
+
+W=50 um
+S=75 um
+Lay2=2
+model Stripline Substrate N=3 Er[1]=4.3 H[1]=88 um TanD[1]=0.02 T[1]=0 Cond[1]=4.1e7 Er[2]=4.3 H[2]=100 um TanD[2]=0.02 T[2]=25 um Cond[2]=4.1e7 T[3]=0 um Cond[3]=4.1e7 LayerType[1]="ground" LayerType[2]="signal" LayerType[3]="ground" DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 Rough=0 mil Huray_RatioOfA=1 Huray_r=0 um Huray_Aflat=0 um * 1 um Huray_N=14 
+end Ten_Line_Model
+
+XTLK:Tx_Lane0 N__39 N__25  Model="ADSXtlk"  NewModel=yes  PhaseToTxMode=1 PhaseToTx=180 SameSourceSettingAsTx=yes Vhigh=1.0 V Vlow=0.0 V RiseFallTime=100 psec BitSquenceMode=1 PRBSMode=0 RegisterLength=8 SameEncoderSettingAsTx=no Encoder=0 SameEQSettingAsTx=yes EQMode=0 TapInterval=1.0 SameElectricalSettingAsTx=yes SameRJSettingAsTx=yes
+XTLK:Tx_Lane2 N__7 N__24  Model="ADSXtlk"  NewModel=yes  PhaseToTxMode=1 PhaseToTx=180 SameSourceSettingAsTx=yes Vhigh=0.5 V Vlow=-0.5 V RiseFallTime=100 psec BitSquenceMode=1 PRBSMode=0 RegisterLength=8 SameEncoderSettingAsTx=yes Encoder=0 SameEQSettingAsTx=yes EQMode=0 TapInterval=1.0 SameElectricalSettingAsTx=yes ExcludeLoad=no Load=100 Ohm SameRJSettingAsTx=yes
+TX:HS_Tx_Lane0 N__4 N__28  BitRate=BitRate Model="ADSTx"  Vhigh=0.5*Amp Vlow=-0.5*Amp RiseFallTime=RiseTime Mode=0 RegisterLength=8 Encoder=5 TapInterval=1.0 ExcludeLoad=no Load=100 Ohm EQMode=1 Deemphasis=3.5
+Termination:Rx_Lane0 N__5 N__37  Load=100 Ohm
+
+BitRate=DPHY12
+Amp=400 mV
+RiseTime=0.5/BitRate
+Termination:Lane3Term N__33 N__22  Load=100 Ohm
+Termination:Lane1Term N__15 N__3  Load=100 Ohm
+Termination:Lane2Term N__11 N__9  Load=100 Ohm
+
+DPHY10=1.0 Gbps
+DPHY11=1.5 Gbps
+DPHY12=2.5 Gbps
+DPHY20=4.5 Gbps
+
+;Smart_Probe
+#load "python","TDM_SmartProbe"
+ComponentWithNodes:Smart_Eye_Probe N__5 N__37 N__15 N__3 N__2 N__6 Type="ModelExtractor" Module="SmartProbe" \
+ TimePoints=800 AmplitudeResolution=0.001 V DisableTransientOutput=yes \
+ LowerBoundary=40 UpperBoundary=60 LowerThreshold=20 UpperThreshold=80 \
+ UseTriggeredEye=yes EnableClockDeskewing=yes TriggerVoltage=0.0 V TriggerEdge="Both" \
+ TargerBER=1e-12 ExtrapolateBER=no MaskWidth=0.0 MaskHeight=0.0 V EnableCustomMaskVerticalCenter=no \
+ SignalType=list(2,2,2) \
+ SignalEnabled=list(1,1,1) \
+ TxSource=list("","","") \
+ Measurements=list("Density","Height","Width") 
+
+Termination:ClockTerm N__6 N__2  Load=100 Ohm
+XTLK:FwdClock N__20 N__21  Model="ADSXtlk"  NewModel=yes  PhaseToTxMode=0 PhaseToTx=180 SameSourceSettingAsTx=yes Vhigh=1.0 V Vlow=0.0 V RiseFallTime=100 psec BitSquenceMode=0 PRBSMode=2 BitSequence="10101010" SameEncoderSettingAsTx=yes Encoder=0 SameEQSettingAsTx=yes EQMode=0 TapInterval=1.0 SameElectricalSettingAsTx=yes SameRJSettingAsTx=yes
+XTLK:Tx_Lane1 N__8 N__16  Model="ADSXtlk"  NewModel=yes  PhaseToTxMode=0 PhaseToTx=180 SameSourceSettingAsTx=yes Vhigh=1.0 V Vlow=0.0 V RiseFallTime=100 psec BitSquenceMode=1 PRBSMode=0 RegisterLength=8 SameEncoderSettingAsTx=yes Encoder=0 SameEQSettingAsTx=yes EQMode=0 TapInterval=1.0 SameElectricalSettingAsTx=yes SameRJSettingAsTx=yes
+Ten_Line_Model:X1  N__20 N__6 N__21 N__2 N__4 N__5 N__28 N__37 N__8 N__15 N__16 N__3 N__7 N__11 N__24 N__9 N__39 N__33 N__25 N__22 Length=350 mm 
+ChannelSim:ChannelSim1 Type="FastConvolution"  NumberOfBits=1000 ToleranceMode=1 EnforcePassivity=yes MaxImpulseLength=1000 NumberTimePtPerUI=32 BlockSize=1024 StatusLevel=5 AntiAliasingWindow=1
+
+__debug_ImpLFEOff=0

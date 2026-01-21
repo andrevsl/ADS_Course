@@ -1,0 +1,13 @@
+create_text_form("StdForm","Standard","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("Control_0","Control_0","Tester",16,-1,NULL,"Component Parameters",NULL,"%43?global %;%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","Control_0","%t%b%r%38?%:\n%39?all_parm%A%:%30?%s%:%k%?[%1i]%;=%s%;%;%;%e%e%;","Control_0",3,NULL,0,
+create_parm("Rate","Clock rate of all outputs",68608,"StdFormSet",0,prm("StdForm","166 MHz")),
+create_parm("Rise","Rise time for all outputs",68608,"StdFormSet",6,prm("StdForm","1 nsec")),
+create_parm("Fall","Fall time for all outputs",68608,"StdFormSet",6,prm("StdForm","1 nsec")),
+create_parm("Vlow0","Vlow0",68608,"StdFormSet",9,prm("StdForm","0 V")),
+create_parm("Vhigh0","Vhigh0",68608,"StdFormSet",9,prm("StdForm","5 V")),
+create_parm("BitSeq0","BitSeq0",262144,"StdFormSet",-1,prm("StdForm","\"1101010100101\"")),
+create_parm("TimeStep","TimeStep",68608,"StdFormSet",6,prm("StdForm","100 psec")),
+create_parm("Rsrc","Rsrc",68608,"StdFormSet",1,prm("StdForm","50 ")),
+create_parm("Rload","Rload",68608,"StdFormSet",1,prm("StdForm","50 ")));

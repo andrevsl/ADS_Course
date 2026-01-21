@@ -1,0 +1,43 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Sun Jan 11 17:19:15 2026
+      Running on host: "rfcourse"
+      In Directory: "C:\Users\simucstvsl\Documents\ADS_Course\TRX_Project_wrk\data"
+      Process ID: 17572
+
+
+CT Sweep1[1] <TRX_Project_lib:PhaseShifter:schematic_test>   ph=(0->360)
+
+SP Sweep1[1].SP1[1/9] <TRX_Project_lib:PhaseShifter:schematic_test>  ph=0  freq=(500 MHz->6 GHz)
+
+
+SP Sweep1[1].SP1[2/9] <TRX_Project_lib:PhaseShifter:schematic_test>  ph=45  freq=(500 MHz->6 GHz)
+
+
+SP Sweep1[1].SP1[3/9] <TRX_Project_lib:PhaseShifter:schematic_test>  ph=90  freq=(500 MHz->6 GHz)
+
+
+SP Sweep1[1].SP1[4/9] <TRX_Project_lib:PhaseShifter:schematic_test>  ph=135  freq=(500 MHz->6 GHz)
+
+
+SP Sweep1[1].SP1[5/9] <TRX_Project_lib:PhaseShifter:schematic_test>  ph=180  freq=(500 MHz->6 GHz)
+
+
+SP Sweep1[1].SP1[6/9] <TRX_Project_lib:PhaseShifter:schematic_test>  ph=225  freq=(500 MHz->6 GHz)
+
+
+SP Sweep1[1].SP1[7/9] <TRX_Project_lib:PhaseShifter:schematic_test>  ph=270  freq=(500 MHz->6 GHz)
+
+
+SP Sweep1[1].SP1[8/9] <TRX_Project_lib:PhaseShifter:schematic_test>  ph=315  freq=(500 MHz->6 GHz)
+
+
+SP Sweep1[1].SP1[9/9] <TRX_Project_lib:PhaseShifter:schematic_test>  ph=360  freq=(500 MHz->6 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     1.03 seconds.
+

@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/ads.defs
+DEFINE 1xEV_SignalSource_lib 1xEV_SignalSource_lib
+ASSIGN 1xEV_SignalSource_lib writePath 1xEV_SignalSource_lib
+ASSIGN 1xEV_SignalSource_lib libMode shared

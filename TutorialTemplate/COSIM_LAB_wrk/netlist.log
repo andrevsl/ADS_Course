@@ -1,0 +1,705 @@
+; Top Design: "COSIM_LAB_PRJ_lib:FULL_COSIM_16QAM_constel:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="COSIM_LAB_PRJ_lib:FULL_COSIM_16QAM_constel:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+; Library Name: Numeric
+; Cell Name: Add2
+; View Name: schematic
+define Add2 ( N__2  N__1  N__3 ) 
+;parameters 
+_vKeysightEEsof_dHOF_nNop_lhofstars_pinput_x3d2_aBusMerge2:B1  N__2 N__1 N__0 
+_vKeysightEEsof_dSDF_nAdd_lsdfstars:A1  N__0 N__3 
+end Add2
+
+; Library Name: Numeric
+; Cell Name: Bits
+; View Name: schematic
+define Bits ( N__3 ) 
+parameters  Type=0  ProbOfZero=0.5  LFSR_Length=12  LFSR_InitState=1 
+_vKeysightEEsof_dSDF_nImpulseFloat_lsdfstars:R1  N__0 Level=1.0 Period=2 Delay=1 
+_vKeysightEEsof_dHOF_nBus_lhofstars:B1  N__2 N__1 BusWidth=1 
+_vKeysightEEsof_dHOF_nBus_lhofstars:B3  N__4 N__3 BusWidth=1 
+_vKeysightEEsof_dHOF_nIfElse_lhofstars:I6  N__9 N__5 N__7 N__6 N__4 N__8 Condition=int( Type ) 
+_vKeysightEEsof_dHOF_nBus_lhofstars:B2  N__10 N__9 BusWidth=1 
+_vKeysightEEsof_dHOF_nIfElse_lhofstars:I4  N__14 N__0 N__12 N__11 N__2 N__13 Condition=int( Type ) 
+_vKeysightEEsof_dSDF_nLFSR_lsdfomnistars:L1  N__16 N__15 Seed="LFSR_Seed" FeedbackList="List" 
+_vKeysightEEsof_dHOF_nIfElse_lhofstars:I5  N__1 N__15 N__17 N__16 N__10 N__18 Condition=int( Type ) 
+_vKeysightEEsof_dSDF_nIID_x5fUniform_lsdfstars:I7  N__12 Lower=0.0 Upper=1.0 
+_vKeysightEEsof_dSDF_nFloatToInt_lsdfstars:F14  N__8 N__7 
+_vKeysightEEsof_dSDF_nQuant_lsdfstars:Q14  N__18 N__17 Thresholds="Thresholds" Levels="" 
+_vKeysightEEsof_dSDF_nDownSample_lsdfstars:D1  N__6 N__5 Factor=2 Phase=1 
+
+Thresholds=if ( ProbOfZero <= 0 ) then "-1.0" elseif ( ProbOfZero >= 1 ) then "2.0" else "ProbOfZero" endif
+
+L=if ( ( LFSR_Length > 1 ) && ( LFSR_Length < 32 ) ) then LFSR_Length else 12 endif
+LFSR_Seed=if ( ( LFSR_InitState > 0 ) && ( LFSR_InitState < 2**L ) ) then LFSR_InitState else 1 endif
+List=if (L<=9) then List1 elseif (L<=17) then List2 elseif (L<=25) then List3 else List4 endif
+List1=if (L==2) then L2 elseif (L==3) then L3 elseif (L==4) then L4 elseif (L==5) then L5 elseif (L==6) then L6 elseif (L==7) then L7 elseif (L==8) then L8 else L9 endif
+List2=if (L==10) then L10 elseif (L==11) then L11 elseif (L==12) then L12 elseif (L==13) then L13 elseif (L==14) then L14 elseif (L==15) then L15 elseif (L==16) then L16 else L17 endif
+List3=if (L==18) then L18 elseif (L==19) then L19 elseif (L==20) then L20 elseif (L==21) then L21 elseif (L==22) then L22 elseif (L==23) then L23 elseif (L==24) then L24 else L25 endif
+List4=if (L==26) then L26 elseif (L==27) then L27 elseif (L==28) then L28 elseif (L==29) then L29 elseif (L==30) then L30 else L31 endif
+List5=if (L==2) then L2 elseif (L==3) then L3 elseif (L==4) then L4 elseif (L==5) then L5 elseif (L==6) then L6 elseif (L==7) then L7 elseif (L==8) then L8 elseif (L==9) then L9 elseif (L==10) then L10 elseif (L==11) then L11 elseif (L==12) then L12 elseif (L==13) then L13 elseif (L==14) then L14 elseif (L==15) then L15 elseif (L==16) then L16 elseif (L==17) then L17 elseif (L==18) then L18 elseif (L==19) then L19 elseif (L==20) then L20 elseif (L==21) then L21 elseif (L==22) then L22 elseif (L==23) then L23 elseif (L==24) then L24 elseif (L==25) then L25 elseif (L==26) then L26 elseif (L==27) then L27 elseif (L==28) then L28 elseif (L==29) then L29 elseif (L==30) then L30 else L31 endif
+
+L2="2 1"
+L3="3 1"
+L4="4 1"
+L5="5 2"
+L6="6 1"
+L7="7 1"
+L8="8 5 3 1"
+
+L9="9 4"
+L10="10 3"
+L11="11 7 3 2"
+L12="12 6 4 1"
+L13="13 4 3 1"
+L14="14 12 2 1"
+L15="15 1"
+
+L16="16 12 3 1"
+L17="17 3"
+L18="18 7"
+L19="19 5 2 1"
+L20="20 3"
+L21="21 2"
+L22="22 1"
+
+L23="23 5"
+L24="24 7 2"
+L25="25 3"
+L26="26 6 2 1"
+L27="27 5 2 1"
+L28="28 3"
+L29="29 2"
+L30="30 23 2 1"
+L31="31 3"
+end Bits
+
+; Library Name: COSIM_LAB_PRJ_lib
+; Cell Name: Mixer_GilCel
+; View Name: schematic
+define Mixer_GilCel ( N__5  N__19  N__1  N__4 ) 
+;parameters 
+#uselib "ckt" , "tf"
+tf:TF3  N__3 N__1 N__2 0 T=1.00 
+#uselib "ckt" , "tf3"
+tf3:TF1  N__5 N__7 0 N__8 N__6 N__6 T1=1.00 T2=1.00 
+#uselib "ckt" , "tf3"
+tf3:TF2  N__4 N__10 0 N__11 N__9 N__9 T1=1.00 T2=1.00 
+"Q34MOD":BJT14  N__18 N__18 0 Area=1 Mode=1 Noise=yes 
+C:C2  N__13 N__2 C=1.0 uF 
+C:C1  N__16 N__3 C=1.0 uF 
+R:R8  N__19 N__13 R=Rbias Noise=no 
+R:R10  N__19 N__16 R=Rbias Noise=no 
+"Q34MOD":BJT1  N__12 N__18 0 Area=1 Mode=1 Noise=yes 
+"Q34MOD":BJT3  N__14 N__7 N__12 Area=1 Mode=1 Noise=yes 
+"Q34MOD":BJT4  N__15 N__8 N__12 Area=1 Mode=1 Noise=yes 
+"Q34MOD":BJT7  N__13 N__10 N__14 Area=1 Mode=1 Noise=yes 
+"Q34MOD":BJT6  N__13 N__11 N__15 Area=1 Mode=1 Noise=yes 
+"Q34MOD":BJT5  N__16 N__11 N__14 Area=1 Mode=1 Noise=yes 
+"Q34MOD":BJT8  N__16 N__10 N__15 Area=1 Mode=1 Noise=yes 
+V_Source:SRC3  N__9 0 Type="V_DC" Vdc=4.0e+00 V SaveCurrent=1 
+V_Source:SRC1  N__6 0 Type="V_DC" Vdc=2.7000e+00 V SaveCurrent=1 
+R:R11  N__19 N__18 R=3830 Ohm Noise=no 
+
+Rbias=500 Ohm
+model Q34MOD BJT NPN=1 PNP=0 Is=4.08E-16 Bf=166 Nf=1.03 Vaf=25 Ikf=0.02325 Ise=1.218E-12 Ne=2 Br=5.123 Nr=1 Var=0 Ikr=0.12 Isc=4.08E-12 Nc=2 Rb=59.2 Irb=0 Rbm=14.1 Re=0.833 Rc=22 Imax=1 Cje=3.123E-13 Vje=0.85 Mje=0.4 Cjc=2.13E-13 Vjc=0.75 Mjc=0.5 Xcjc=0.22 Cjs=1.65E-13 Vjs=0.7 Mjs=0.5 Fc=0.5 Xtf=3.16 Tf=7.97E-12 Vtf=0 Itf=0.0465 Ptf=18 Tr=1.6E-9 Af=1 Ab=1 Fb=1 Iss=4.96E-13 Ns=1 Nk=0.5 Ffe=1 Lateral=0 RbModel=0 Approxqb=1 Tnom=25 Eg=1.11 Xtb=2.2 Xti=8 
+end Mixer_GilCel
+
+; Library Name: COSIM_LAB_PRJ_lib
+; Cell Name: PA_2stg
+; View Name: schematic
+define PA_2stg ( N__24  N__22 ) 
+;parameters 
+MLIN2:TL20  N__14 N__15 Subst="MSub1" W=20.0 mil L=15.0 mil Temp=27.0 Mod=1 
+MLIN2:TL19  N__34 N__13 Subst="MSub1" W=20.0 mil L=15.0 mil Temp=27.0 Mod=1 
+MLIN2:TL18  N__17 N__18 Subst="MSub1" W=20.0 mil L=15.0 mil Temp=27.0 Mod=1 
+MLIN2:TL17  N__1 N__16 Subst="MSub1" W=20.0 mil L=10.0 mil Temp=27.0 Mod=1 
+MLIN2:TL11  N__20 N__26 Subst="MSub1" W=25.0 mil L=10.0 mil Temp=27.0 Mod=1 
+MLIN2:TL12  N__28 N__2 Subst="MSub1" W=25.0 mil L=10.0 mil Temp=27.0 Mod=1 
+MLIN2:TL15  N__33 N__36 Subst="MSub1" W=20.0 mil L=25.0 mil Temp=27.0 Mod=1 
+MLIN2:TL1  N__9 N__10 Subst="MSub1" W=20.0 mil L=15.0 mil Temp=27.0 Mod=1 
+MLIN2:TL2  N__6 N__8 Subst="MSub1" W=20.0 mil L=15.0 mil Temp=27.0 Mod=1 
+MLIN2:TL3  N__12 N__19 Subst="MSub1" W=20.0 mil L=15.0 mil Temp=27.0 Mod=1 
+MLIN2:TL4  N__4 N__11 Subst="MSub1" W=20.0 mil L=10.0 mil Temp=27.0 Mod=1 
+MLIN2:TL7  N__3 N__41 Subst="MSub1" W=25.0 mil L=20.0 mil Temp=27.0 Mod=1 
+MLIN2:TL8  N__40 N__7 Subst="MSub1" W=20.0 mil L=25.0 mil Temp=27.0 Mod=1 
+MLIN2:TL9  N__5 N__43 Subst="MSub1" W=20.0 mil L=25.0 mil Temp=27.0 Mod=1 
+MTEE:Tee3  N__2 N__31 N__1 Subst="MSub1" W1=20.0 mil W2=20.0 mil W3=20.0 mil 
+MTEE:Tee1  N__39 N__3 N__4 Subst="MSub1" W1=20.0 mil W2=20.0 mil W3=20.0 mil 
+MTEE:Tee2  N__7 N__5 N__6 Subst="MSub1" W1=20.0 mil W2=20.0 mil W3=20.0 mil 
+MLIN2:TL10  N__44 N__21 Subst="MSub1" W=25.0 mil L=20.0 mil Temp=27.0 Mod=1 
+model MSub1 MSUB H=20 mil Er=9.6 Mur=1 Cond=1.0E+306 Hu=3.9e+34 mil T=.15 mil TanD=0 Rough=0 mil DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+C:C5  N__10 0 C=100.0 nF 
+C:C6  N__19 0 C=100.0 nF 
+C:C2  N__15 0 C=100.0 nF 
+C:C1  N__18 0 C=100.0 nF 
+L:L6  N__8 N__9 L=9.223993e+00 nH opt{ 5 nH to 50 nH } Noise=yes  
+V_Source:SRC3  N__10 0 Type="V_DC" Vdc=5.492358e+00 V opt{ 4.5 V to 6.5 V } SaveCurrent=1 
+L:L8  N__11 N__12 L=2.022522e+00 nH opt{ 1 nH to 20 nH } Noise=yes  
+L:L5  N__13 N__14 L=1.097206e+01 nH opt{ 5 nH to 50 nH } Noise=yes  
+V_Source:SRC2  N__15 0 Type="V_DC" Vdc=4.602021e+00 V opt{ 4.5 V to 6.5 V } SaveCurrent=1 
+L:L4  N__16 N__17 L=2.629591e+00 nH opt{ 1 nH to 30 nH } Noise=yes  
+V_Source:SRC1  N__18 0 Type="V_DC" Vdc=-8.005247e-01 V opt{ -1.8 V to -.8 V } SaveCurrent=1 
+V_Source:SRC4  N__19 0 Type="V_DC" Vdc=-8.008529e-01 V opt{ -1.6 V to -.8 V } SaveCurrent=1 
+R:R1  N__24 N__20 R=12 Ohm Noise=yes 
+R:R2  N__24 0 R=430 Ohm Noise=yes 
+R:R3  N__20 0 R=430 Ohm Noise=yes 
+R:R5  N__21 N__22 R=18 Ohm Noise=yes 
+R:R4  N__21 0 R=270 Ohm Noise=yes 
+R:R6  N__22 0 R=270 Ohm Noise=yes 
+C:C4  N__27 N__26 C=3.519762e-01 nF opt{ .01 nF to 100 nF } 
+L:L3  N__27 N__28 L=1.122391e-01 nH opt{ .001 nH to 20 nH } Noise=yes  
+#uselib "RfTransistorLibrary" , "pf_nec_NE900175_19931018"
+pf_nec_NE900175_19931018:A1  N__30 N__32 N__29 
+L:L1  N__29 0 L=1.251490e-01 nH opt{ .1 nH to 5 nH } Noise=yes  
+MLIN2:TL14  N__30 N__35 Subst="MSub1" W=20.0 mil L=25.0 mil Temp=27.0 Mod=1 
+MLIN2:TL13  N__31 N__32 Subst="MSub1" W=25.0 mil L=20.0 mil Temp=27.0 Mod=1 
+MTEE:Tee4  N__35 N__33 N__34 Subst="MSub1" W1=20.0 mil W2=20.0 mil W3=20.0 mil 
+L:L2  N__36 N__37 L=6.823413e+00 nH opt{ .001 nH to 20 nH } Noise=yes  
+C:C3  N__37 N__38 C=9.999990e+01 nF opt{ .1 nF to 100 nF } 
+MLIN2:TL6  N__38 N__39 Subst="MSub1" W=25.0 mil L=40.0 mil Temp=27.0 Mod=1 
+#uselib "RfTransistorLibrary" , "pf_nec_NE900175_19931018"
+pf_nec_NE900175_19931018:A2  N__40 N__41 N__42 
+L:L7  N__42 0 L=1.000414e-01 nH opt{ .1 nH to 5 nH } Noise=yes  
+L:L10  N__43 N__45 L=8.164606e+00 nH opt{ .001 nH to 20 nH } Noise=yes  
+C:C8  N__45 N__44 C=9.999717e+01 nF noopt{ .1 nF to 100 nF } 
+end PA_2stg
+
+; Library Name: COSIM_LAB_PRJ_lib
+; Cell Name: Synth_RCfiltA
+; View Name: schematic
+define Synth_RCfiltA ( NET_1  N__630 ) 
+;parameters 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G90  NET_1 N__6 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.00048828125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G89  NET_1 N__11 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.00048828125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G88  NET_1 N__16 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.000244140625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G87  NET_1 N__21 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.00048828125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G86  NET_1 N__26 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.000732421875 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G85  NET_1 N__31 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.000244140625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G84  NET_1 N__36 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.00048828125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G83  NET_1 N__41 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.0009765625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G82  NET_1 N__46 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.00048828125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G81  NET_1 N__51 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.000244140625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G80  NET_1 N__56 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.0009765625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G79  NET_1 N__61 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.00048828125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G78  NET_1 N__66 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.000244140625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G77  NET_1 N__71 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.0009765625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G76  NET_1 N__76 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.000732421875 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G75  NET_1 N__81 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.00048828125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G74  NET_1 N__86 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.00146484375 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G73  NET_1 N__91 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.0009765625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G72  NET_1 N__96 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.00048828125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G71  NET_1 N__101 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.001953125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G70  NET_1 N__106 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.001708984375 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G69  NET_1 N__111 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.000244140625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G68  NET_1 N__116 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.002197265625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G67  NET_1 N__121 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.00244140625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G66  NET_1 N__126 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.000244140625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G65  NET_1 N__131 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.002197265625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G64  NET_1 N__136 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.002685546875 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G63  NET_1 N__141 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.000244140625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G62  NET_1 N__146 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.003173828125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G61  NET_1 N__151 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.003662109375 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G60  NET_1 N__156 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.00048828125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G59  NET_1 N__161 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.006591796875 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G58  NET_1 N__166 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.008544921875 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G57  NET_1 N__171 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.00146484375 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G56  NET_1 N__176 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.011474609375 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G55  NET_1 N__181 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.020263671875 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G54  NET_1 N__186 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.01416015625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G53  NET_1 N__191 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.009765625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G52  NET_1 N__196 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.03857421875 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G51  NET_1 N__201 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.048583984375 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G50  NET_1 N__206 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.0185546875 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G49  NET_1 N__211 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.055908203125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G48  NET_1 N__216 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.15380859375 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G47  NET_1 N__221 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.2373046875 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G46  NET_1 N__226 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.27001953125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G45  NET_1 N__231 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.2373046875 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G44  NET_1 N__236 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.15380859375 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G43  NET_1 N__241 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.055908203125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G42  NET_1 N__246 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.0185546875 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G41  NET_1 N__251 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.048583984375 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G40  NET_1 N__256 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.03857421875 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G39  NET_1 N__261 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.009765625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G38  NET_1 N__266 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.01416015625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G37  NET_1 N__271 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.020263671875 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G36  NET_1 N__276 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.011474609375 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G35  NET_1 N__281 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.00146484375 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G34  NET_1 N__286 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.008544921875 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G33  NET_1 N__291 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.006591796875 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G32  NET_1 N__296 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.00048828125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G31  NET_1 N__301 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.003662109375 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G30  NET_1 N__306 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.003173828125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G29  NET_1 N__311 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.000244140625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G28  NET_1 N__316 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.002685546875 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G27  NET_1 N__321 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.002197265625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G26  NET_1 N__326 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.000244140625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G25  NET_1 N__331 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.00244140625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G24  NET_1 N__336 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.002197265625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G23  NET_1 N__341 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.000244140625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G22  NET_1 N__346 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.001708984375 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G21  NET_1 N__351 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.001953125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G20  NET_1 N__356 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.00048828125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G19  NET_1 N__361 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.0009765625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G18  NET_1 N__366 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.00146484375 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G17  NET_1 N__371 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.00048828125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G16  NET_1 N__376 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.000732421875 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G15  NET_1 N__381 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.0009765625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G14  NET_1 N__386 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.000244140625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G13  NET_1 N__391 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.00048828125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G12  NET_1 N__396 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.0009765625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G11  NET_1 N__401 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.000244140625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G10  NET_1 N__406 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.00048828125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G9  NET_1 N__411 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.0009765625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G8  NET_1 N__416 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.00048828125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G7  NET_1 N__421 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.000244140625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G6  NET_1 N__426 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.000732421875 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G5  NET_1 N__431 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0.00048828125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G4  NET_1 N__436 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.000244140625 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G3  NET_1 N__441 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.00048828125 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G1  NET_1 N__450 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R1  N__450 N__447 N__448 N__449 N__451 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A1  N__446 N__451 N__445 N__452 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R2  N__452 N__442 N__443 N__444 N__453 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A2  N__441 N__453 N__440 N__454 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R3  N__454 N__437 N__438 N__439 N__455 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A3  N__436 N__455 N__435 N__456 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R4  N__456 N__432 N__433 N__434 N__457 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A4  N__431 N__457 N__430 N__458 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R5  N__458 N__427 N__428 N__429 N__459 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A5  N__426 N__459 N__425 N__460 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R6  N__460 N__422 N__423 N__424 N__461 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A6  N__421 N__461 N__420 N__462 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R7  N__462 N__417 N__418 N__419 N__463 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A7  N__416 N__463 N__415 N__464 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R8  N__464 N__412 N__413 N__414 N__465 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A8  N__411 N__465 N__410 N__466 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R9  N__466 N__407 N__408 N__409 N__467 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A9  N__406 N__467 N__405 N__468 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R10  N__468 N__402 N__403 N__404 N__469 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A10  N__401 N__469 N__400 N__470 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R11  N__470 N__397 N__398 N__399 N__471 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A11  N__396 N__471 N__395 N__472 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R12  N__472 N__392 N__393 N__394 N__473 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A12  N__391 N__473 N__390 N__474 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R13  N__474 N__387 N__388 N__389 N__475 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A13  N__386 N__475 N__385 N__476 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R14  N__476 N__382 N__383 N__384 N__477 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A14  N__381 N__477 N__380 N__478 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R15  N__478 N__377 N__378 N__379 N__479 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A15  N__376 N__479 N__375 N__480 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R16  N__480 N__372 N__373 N__374 N__481 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A16  N__371 N__481 N__370 N__482 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R17  N__482 N__367 N__368 N__369 N__483 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A17  N__366 N__483 N__365 N__484 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R18  N__484 N__362 N__363 N__364 N__485 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A18  N__361 N__485 N__360 N__486 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R19  N__486 N__357 N__358 N__359 N__487 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A19  N__356 N__487 N__355 N__488 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R20  N__488 N__352 N__353 N__354 N__489 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A20  N__351 N__489 N__350 N__490 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R21  N__490 N__347 N__348 N__349 N__491 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A21  N__346 N__491 N__345 N__492 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R22  N__492 N__342 N__343 N__344 N__493 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A22  N__341 N__493 N__340 N__494 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R23  N__494 N__337 N__338 N__339 N__495 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A23  N__336 N__495 N__335 N__496 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R24  N__496 N__332 N__333 N__334 N__497 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A24  N__331 N__497 N__330 N__498 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R25  N__498 N__327 N__328 N__329 N__499 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A25  N__326 N__499 N__325 N__500 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R26  N__500 N__322 N__323 N__324 N__501 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A26  N__321 N__501 N__320 N__502 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R27  N__502 N__317 N__318 N__319 N__503 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A27  N__316 N__503 N__315 N__504 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R28  N__504 N__312 N__313 N__314 N__505 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A28  N__311 N__505 N__310 N__506 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R29  N__506 N__307 N__308 N__309 N__507 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A29  N__306 N__507 N__305 N__508 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R30  N__508 N__302 N__303 N__304 N__509 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A30  N__301 N__509 N__300 N__510 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R31  N__510 N__297 N__298 N__299 N__511 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A31  N__296 N__511 N__295 N__512 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R32  N__512 N__292 N__293 N__294 N__513 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A32  N__291 N__513 N__290 N__514 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R33  N__514 N__287 N__288 N__289 N__515 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A33  N__286 N__515 N__285 N__516 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R34  N__516 N__282 N__283 N__284 N__517 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A34  N__281 N__517 N__280 N__518 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R35  N__518 N__277 N__278 N__279 N__519 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A35  N__276 N__519 N__275 N__520 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R36  N__520 N__272 N__273 N__274 N__521 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A36  N__271 N__521 N__270 N__522 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R37  N__522 N__267 N__268 N__269 N__523 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A37  N__266 N__523 N__265 N__524 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R38  N__524 N__262 N__263 N__264 N__525 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A38  N__261 N__525 N__260 N__526 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R39  N__526 N__257 N__258 N__259 N__527 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A39  N__256 N__527 N__255 N__528 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R40  N__528 N__252 N__253 N__254 N__529 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A40  N__251 N__529 N__250 N__530 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R41  N__530 N__247 N__248 N__249 N__531 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A41  N__246 N__531 N__245 N__532 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R42  N__532 N__242 N__243 N__244 N__533 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A42  N__241 N__533 N__240 N__534 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R43  N__534 N__237 N__238 N__239 N__535 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A43  N__236 N__535 N__235 N__536 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R44  N__536 N__232 N__233 N__234 N__537 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A44  N__231 N__537 N__230 N__538 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R45  N__538 N__227 N__228 N__229 N__539 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A45  N__226 N__539 N__225 N__540 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R46  N__540 N__222 N__223 N__224 N__541 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A46  N__221 N__541 N__220 N__542 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R47  N__542 N__217 N__218 N__219 N__543 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A47  N__216 N__543 N__215 N__544 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R48  N__544 N__212 N__213 N__214 N__545 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A48  N__211 N__545 N__210 N__546 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R49  N__546 N__207 N__208 N__209 N__547 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A49  N__206 N__547 N__205 N__548 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R50  N__548 N__202 N__203 N__204 N__549 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A50  N__201 N__549 N__200 N__550 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R51  N__550 N__197 N__198 N__199 N__551 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A51  N__196 N__551 N__195 N__552 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R52  N__552 N__192 N__193 N__194 N__553 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A52  N__191 N__553 N__190 N__554 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R53  N__554 N__187 N__188 N__189 N__555 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A53  N__186 N__555 N__185 N__556 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R54  N__556 N__182 N__183 N__184 N__557 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A54  N__181 N__557 N__180 N__558 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R55  N__558 N__177 N__178 N__179 N__559 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A55  N__176 N__559 N__175 N__560 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R56  N__560 N__172 N__173 N__174 N__561 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A56  N__171 N__561 N__170 N__562 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R57  N__562 N__167 N__168 N__169 N__563 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A57  N__166 N__563 N__165 N__564 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R58  N__564 N__162 N__163 N__164 N__565 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A58  N__161 N__565 N__160 N__566 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R59  N__566 N__157 N__158 N__159 N__567 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A59  N__156 N__567 N__155 N__568 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R60  N__568 N__152 N__153 N__154 N__569 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A60  N__151 N__569 N__150 N__570 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R61  N__570 N__147 N__148 N__149 N__571 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A61  N__146 N__571 N__145 N__572 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R62  N__572 N__142 N__143 N__144 N__573 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A62  N__141 N__573 N__140 N__574 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R63  N__574 N__137 N__138 N__139 N__575 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A63  N__136 N__575 N__135 N__576 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R64  N__576 N__132 N__133 N__134 N__577 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A64  N__131 N__577 N__130 N__578 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R65  N__578 N__127 N__128 N__129 N__579 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A65  N__126 N__579 N__125 N__580 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R66  N__580 N__122 N__123 N__124 N__581 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A66  N__121 N__581 N__120 N__582 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R67  N__582 N__117 N__118 N__119 N__583 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A67  N__116 N__583 N__115 N__584 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R68  N__584 N__112 N__113 N__114 N__585 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A68  N__111 N__585 N__110 N__586 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R69  N__586 N__107 N__108 N__109 N__587 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A69  N__106 N__587 N__105 N__588 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R70  N__588 N__102 N__103 N__104 N__589 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A70  N__101 N__589 N__100 N__590 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R71  N__590 N__97 N__98 N__99 N__591 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A71  N__96 N__591 N__95 N__592 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R72  N__592 N__92 N__93 N__94 N__593 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A72  N__91 N__593 N__90 N__594 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R73  N__594 N__87 N__88 N__89 N__595 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A73  N__86 N__595 N__85 N__596 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R74  N__596 N__82 N__83 N__84 N__597 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A74  N__81 N__597 N__80 N__598 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R75  N__598 N__77 N__78 N__79 N__599 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A75  N__76 N__599 N__75 N__600 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R76  N__600 N__72 N__73 N__74 N__601 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A76  N__71 N__601 N__70 N__602 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R77  N__602 N__67 N__68 N__69 N__603 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A77  N__66 N__603 N__65 N__604 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R78  N__604 N__62 N__63 N__64 N__605 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A78  N__61 N__605 N__60 N__606 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R79  N__606 N__57 N__58 N__59 N__607 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A79  N__56 N__607 N__55 N__608 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R80  N__608 N__52 N__53 N__54 N__609 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A80  N__51 N__609 N__50 N__610 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R81  N__610 N__47 N__48 N__49 N__611 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A81  N__46 N__611 N__45 N__612 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R82  N__612 N__42 N__43 N__44 N__613 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A82  N__41 N__613 N__40 N__614 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R83  N__614 N__37 N__38 N__39 N__615 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A83  N__36 N__615 N__35 N__616 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R84  N__616 N__32 N__33 N__34 N__617 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A84  N__31 N__617 N__30 N__618 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R85  N__618 N__27 N__28 N__29 N__619 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A85  N__26 N__619 N__25 N__620 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R86  N__620 N__22 N__23 N__24 N__621 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A86  N__21 N__621 N__20 N__622 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R87  N__622 N__17 N__18 N__19 N__623 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A87  N__16 N__623 N__15 N__624 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R88  N__624 N__12 N__13 N__14 N__625 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A88  N__11 N__625 N__10 N__626 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R89  N__626 N__7 N__8 N__9 N__627 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A89  N__6 N__627 N__5 N__628 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nRegSyn_lsdfsynthstars:R90  N__628 N__2 N__3 N__4 N__629 OutputPrecision=1.12 ArithType=0 SetType=1 ValueS=0 
+_vKeysightEEsof_dSDF_nAddSyn_lsdfsynthstars:A90  N__631 N__629 N__1 N__630 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 AddSub=0 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G91  NET_1 N__631 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=0 GainPrecision=1.12 
+_vKeysightEEsof_dSDF_nGainSyn_lsdfsynthstars:G2  NET_1 N__446 RoundFix=0 OutputPrecision=1.12 ArithType=0 OvflowType=0 Gain=-0.00048828125 GainPrecision=1.12 
+end Synth_RCfiltA
+
+; Library Name: COSIM_LAB_PRJ_lib
+; Cell Name: Wilkinson
+; View Name: schematic
+define Wilkinson ( N__0  N__2  N__4 ) 
+;parameters 
+R:R3  N__0 N__2 R=100 Ohm Noise=yes 
+R:R1  N__0 N__4 R=70.7 Ohm Noise=yes 
+R:R2  N__2 N__4 R=70.7 Ohm Noise=yes 
+end Wilkinson
+
+; Library Name: COSIM_LAB_PRJ_lib
+; Cell Name: phase_shift
+; View Name: schematic
+define phase_shift ( N__3  N__5  N__1 ) 
+;parameters 
+R:R1  N__5 0 R=100 Ohm Noise=yes 
+C:C1  N__1 N__5 C=.8 pF 
+R:R2  N__1 N__3 R=100 Ohm Noise=yes 
+C:C2  0 N__3 C=.8 pF 
+end phase_shift
+
+; Library Name: Timed
+; Cell Name: DelayRF
+; View Name: schematic
+define DelayRF ( N__3  N__2 ) 
+parameters  RIn=DefaultRIn  ROut=DefaultROut  RTemp=DefaultRTemp  Delay=-1  InterpolationMethod=0  IncludeCarrierPhaseShift=1 
+R:R2  N__1 N__2 R=ROut Temp=RTemp 
+R:R1  0 N__3 R=RIn Temp=-273.15 
+_vKeysightEEsof_dTSDF_n_x5fDelayRF_ltsdfstars:D3  N__3 N__1 RIn=RIn ROut=ROut RTemp=-273.15 Delay=Delay InterpolationMethod=InterpolationMethod IncludeCarrierPhaseShift=IncludeCarrierPhaseShift 
+end DelayRF
+
+; Library Name: Timed
+; Cell Name: GainRF
+; View Name: schematic
+define GainRF ( N__3  N__2 ) 
+parameters  RIn=DefaultRIn  ROut=DefaultROut  RTemp=DefaultRTemp  Gain=1  NoiseFigure=0  GCType=0  TOIout=3  dBc1out=1  PSat=1  GCSat=1  GComp="0  0  0" 
+R:R2  N__1 N__2 R=ROut Temp=RTemp 
+R:R1  0 N__3 R=RIn Temp=-273.15 
+_vKeysightEEsof_dTSDF_n_x5fGainRF_ltsdfstars:G1  N__3 N__1 RIn=RIn ROut=ROut RTemp=RTemp Gain=Gain NoiseFigure=NoiseFigure GCType=GCType TOIout=TOIout dBc1out=dBc1out PSat=PSat GCSat=GCSat GComp=GComp 
+end GainRF
+
+; Library Name: COSIM_LAB_PRJ_lib
+; Cell Name: IQ_MOD_CKT
+; View Name: schematic
+define IQ_MOD_CKT ( N__0  N__4  N__8 ) 
+;parameters 
+Mixer_GilCel:X6  N__0 N__3 N__2 N__1 
+Mixer_GilCel:X9  N__4 N__7 N__6 N__5 
+PA_2stg:X1  N__9 N__8 
+
+HB:Env1 Freq[1]=2 GHz \
+ Order[1]=1 \
+  MaxOrder=2 StatusLevel=2 FundOversample=1 MaxIters=250 SamanskiiConstant=2 \
+ Restart=no ArcLevelMaxStep=0.0 MaxStepRatio=100 MaxShrinkage=1.0e-5 ArcMaxStep=0.0 \
+ UseGear=no EnvIntegOrder=1 EnvBandwidth=1 SweepVar="time" DevOpPtLevel=0 \
+ UseInFile=no UseOutFile=no UseKrylov=0 ConvMode=2 EnvFitDisableCache=no \
+ SweepPlan="Env1_stim" OutputPlan="Env1_Output"
+
+OutputPlan:Env1_Output \
+       Type="Output" \
+       UseNodeNestLevel=yes \
+       NodeNestLevel=2 \
+       UseEquationNestLevel=yes \
+       EquationNestLevel=2 \
+       UseSavedEquationNestLevel=yes \
+       SavedEquationNestLevel=2 \
+       UseDeviceCurrentNestLevel=no \
+       DeviceCurrentNestLevel=0 \
+       DeviceCurrentDeviceType="All" \
+       DeviceCurrentSymSyntax=yes \
+       UseCurrentNestLevel=yes \
+       CurrentNestLevel=999 \
+       UseDeviceVoltageNestLevel=no \
+       DeviceVoltageNestLevel=0 \
+       DeviceVoltageDeviceType="All" 
+
+SweepPlan:Env1_stim Stop=0.3125 usec Step=3.125 nsec
+
+Tran:Env1_tran HB_Sol=1 SteadyState=1 StatusLevel=3 \
+ Freq[1]=2 GHz \
+ Order[1]=1 \
+ OutputPlan="Env1_Output"
+
+Component:tahb_Env1 Module="ATAHB" Type="ModelExtractor" Tran_Analysis="Env1_tran" HB_Analysis="Env1"
+
+V_Source:SRC4  N__7 0 Type="V_DC" Vdc=5.0 V SaveCurrent=1 
+Port:PORT1  N__12 0 Num=1 Z=50 Ohm P[1]=dbmtow(8) Freq[1]=2 GHz    Noise=yes 
+Wilkinson:X3  N__6 N__2 N__9 
+V_Source:SRC3  N__3 0 Type="V_DC" Vdc=5.0 V SaveCurrent=1 
+phase_shift:X4  N__1 N__5 N__12 
+end IQ_MOD_CKT
+
+; Library Name: Timed
+; Cell Name: LPF_RaisedCosineTimed
+; View Name: schematic
+define LPF_RaisedCosineTimed ( N__3  N__2 ) 
+parameters  RIn=DefaultRIn  ROut=DefaultROut  RTemp=DefaultRTemp  Loss=0.0  CornerFreq=500  ExcessBw=0.5  Type=0  SquareRoot=0  Delay=0.004  WindowType=0 
+R:R2  N__1 N__2 R=ROut Temp=-273.15 
+R:R1  0 N__3 R=RIn Temp=-273.15 
+_vKeysightEEsof_dTSDF_n_x5fLPF_x5fRaisedCosineTimed_ltsdfstars:L1  N__3 N__1 RIn=RIn ROut=ROut RTemp=RTemp Loss=Loss CornerFreq=CornerFreq ExcessBw=ExcessBw Type=Type SquareRoot=SquareRoot Delay=Delay WindowType=WindowType 
+end LPF_RaisedCosineTimed
+
+; Library Name: Timed
+; Cell Name: N_Tones
+; View Name: schematic
+define N_Tones ( N__1 ) 
+parameters  ROut=DefaultROut  RTemp=DefaultRTemp  TStep=0.0001  Frequency1=999999  Power1=.010  Phase1=0.0  AdditionalTones=""  RandomPhase=0  PhaseNoiseData=""  PN_Type=0 
+_vKeysightEEsof_dTSDF_n_x5fN_x5fTones_ltsdfstars:N1  N__0 ROut=ROut RTemp=-273.15 TStep=TStep Frequency1=Frequency1 Power1=Power1 Phase1=Phase1 AdditionalTones=AdditionalTones RandomPhase=RandomPhase PhaseNoiseData=PhaseNoiseData PN_Type=PN_Type 
+R:R1  N__0 N__1 R=ROut Temp=RTemp 
+end N_Tones
+
+; Library Name: Timed
+; Cell Name: QAM_DemodExtOsc
+; View Name: schematic
+define QAM_DemodExtOsc ( N__3  N__4  N__5  N__6 ) 
+parameters  RIn=DefaultRIn  ROut=DefaultROut  RTemp=DefaultRTemp  Sensitivity=1  GainImbalance=0  PhaseImbalance=0 
+_vKeysightEEsof_dTSDF_n_x5fQAM_x5fDemodExtOsc_ltsdfstars:Q1  N__3 N__4 N__2 N__1 RIn=RIn ROut=ROut RTemp=-273.15 Sensitivity=Sensitivity GainImbalance=GainImbalance PhaseImbalance=PhaseImbalance 
+R:R1  N__3 0 R=RIn Temp=-273.15 
+R:R2  N__4 0 R=RIn Temp=-273.15 
+R:R3  N__2 N__5 R=ROut Temp=RTemp 
+R:R4  N__1 N__6 R=ROut Temp=RTemp 
+end QAM_DemodExtOsc
+
+; Library Name: Sinks
+; Cell Name: SpectrumAnalyzer
+; View Name: schematic
+define SpectrumAnalyzer ( N__1 ) 
+parameters  Plot=0  RLoad=DefaultRLoad  RTemp=DefaultRTemp  Start=DefaultTimeStart  Stop=DefaultTimeStop  Window=0  WindowConstant=0.0  Bias=1  FStart=0.0  FStop=100e9  NumFreqs=0  NPoints=0  Overlap=0 
+_vKeysightEEsof_dTSDF_n_x5fSpectrumAnalyzer_ltsdfsinks:S1  N__1 Plot=Plot RLoad=RLoad RTemp=RTemp Start=Start Stop=Stop Window=Window WindowConstant=WindowConstant Bias=Bias FStart=FStart FStop=FStop NumFreqs=NumFreqs NPoints=NPoints Overlap=Overlap 
+R:R1  N__1 0 R=RLoad Temp=RTemp 
+end SpectrumAnalyzer
+
+; Library Name: Timed
+; Cell Name: SplitterRF
+; View Name: schematic
+define SplitterRF ( N__3  N__4  N__5 ) 
+parameters  RIn=DefaultRIn  ROut=DefaultROut  RTemp=DefaultRTemp 
+_vKeysightEEsof_dTSDF_n_x5fSplitterRF_ltsdfstars:S1  N__3 N__2 N__1 RIn=RIn ROut=ROut RTemp=-273.15 
+R:R1  N__3 0 R=RIn Temp=-273.15 
+R:R2  N__2 N__4 R=ROut Temp=RTemp 
+R:R3  N__1 N__5 R=ROut Temp=RTemp 
+end SplitterRF
+
+; Library Name: COSIM_LAB_PRJ_lib
+; Cell Name: Synth_16QAM_IQ
+; View Name: schematic
+define Synth_16QAM_IQ ( N__36  N__35 ) 
+;parameters 
+Bits:B2  N__8 Type=0 ProbOfZero=0.5 LFSR_Length=12 LFSR_InitState=1 
+_vKeysightEEsof_dSDF_nFloatToFixSyn_lsdfsynthstars:F1  N__8 N__32 RoundFix=0 OutputPrecision="1.0" ArithType=1 OvflowType=0 
+_vKeysightEEsof_dSDF_nBufferSyn_lsdfsynthstars:B3  N__17 N__16 Width=1 InvMask=1 
+_vKeysightEEsof_dSDF_nRomSyn_lsdfsynthstars:RQ  N__12 N__23 OutputPrecision="3.0" ArithType=1 romFile="romq.dat" Depth=16 
+_vKeysightEEsof_dSDF_nBusRipSyn_lsdfsynthstars:B7  N__18 N__11 N__10 OutputPrecision="3.0" ArithType=1 Offset=1 RipPrecision="2.0" 
+_vKeysightEEsof_dSDF_nAndSyn_lsdfsynthstars:A1  N__11 N__20 Width=1 Size=2 
+_vKeysightEEsof_dSDF_nRomSyn_lsdfsynthstars:RI  N__12 N__22 OutputPrecision="3.0" ArithType=1 romFile="romi.dat" Depth=16 
+_vKeysightEEsof_dSDF_nBusMergeSyn_lsdfsynthstars:B4  N__13 N__14 N__15 Width=8 
+_vKeysightEEsof_dSDF_nMuxSyn_lsdfsynthstars:M1  N__15 N__16 N__12 Width=4 Size=2 WidthS=1 
+_vKeysightEEsof_dSDF_nShiftRegSPSyn_lsdfsynthstars:S1  N__32 N__9 N__16 reset N__13 Width=4 Dir=1 ValueS=0 
+_vKeysightEEsof_dSDF_nShiftRegSPSyn_lsdfsynthstars:S2  N__32 N__7 N__17 reset N__14 Width=4 Dir=1 ValueS=0 
+_vKeysightEEsof_dSDF_nBusRipSyn_lsdfsynthstars:B1  N__18 N__17 N__6 OutputPrecision="3.0" ArithType=1 Offset=0 RipPrecision="1.0" 
+_vKeysightEEsof_dSDF_nCounterSyn_lsdfsynthstars:C1  N__3 N__4 N__5 reset N__18 Width=3 ValueS=0 
+_vKeysightEEsof_dSDF_nBusMergeSyn_lsdfsynthstars:B6  N__23 N__31 N__19 Width=6 
+_vKeysightEEsof_dSDF_nMuxSyn_lsdfsynthstars:M3  N__19 N__20 N__25 Width=3 Size=2 WidthS=1 
+_vKeysightEEsof_dSDF_nMuxSyn_lsdfsynthstars:M2  N__21 N__20 N__24 Width=3 Size=2 WidthS=1 
+_vKeysightEEsof_dSDF_nBusMergeSyn_lsdfsynthstars:B5  N__22 N__31 N__21 Width=6 
+_vKeysightEEsof_dSDF_nCastSyn_lsdfsynthstars:C3  N__24 N__26 OutputPrecision="1.2" ArithType=0 
+_vKeysightEEsof_dSDF_nCastSyn_lsdfsynthstars:C4  N__25 N__27 OutputPrecision="1.2" ArithType=0 
+Synth_RCfiltA:X2  N__26 N__33 
+Synth_RCfiltA:X3  N__27 N__34 
+_vKeysightEEsof_dSDF_nConst_lsdfstars:C2  N__28 Level=1.0 
+_vKeysightEEsof_dSDF_nFloatToFixSyn_lsdfsynthstars:F2  N__29 reset RoundFix=0 OutputPrecision="1.0" ArithType=1 OvflowType=0 
+Add2:X1  N__30 N__28 N__29 
+_vKeysightEEsof_dSDF_nImpulseFloat_lsdfstars:I1  N__30 Level=-1.0 Period=0 Delay=0 
+_vKeysightEEsof_dSDF_nConstSyn_lsdfsynthstars:C5  N__31 OutputPrecision="1.2" ArithType=0 ConstValue=0.0 
+_vKeysightEEsof_dSDF_nFixToFloatSyn_lsdfsynthstars:FiltIv  N__33 N__1 
+_vKeysightEEsof_dSDF_nFixToFloatSyn_lsdfsynthstars:FiltQv  N__34 N__0 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:F4  N__0 N__35 TStep=3.125 nsec 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:F3  N__1 N__36 TStep=3.125 nsec 
+end Synth_16QAM_IQ
+
+; Library Name: Sinks
+; Cell Name: TimedSink
+; View Name: schematic
+define TimedSink ( N__1 ) 
+parameters  Plot=0  RLoad=DefaultRLoad  RTemp=DefaultRTemp  Start=DefaultTimeStart  Stop=DefaultTimeStop  ControlSimulation=1 
+R:R1  N__1 0 R=RLoad Temp=RTemp 
+_vKeysightEEsof_dTSDF_n_x5fTimedSink_ltsdfsinks:T1  N__1 Plot=Plot RLoad=RLoad RTemp=RTemp Start=Start Stop=Stop ControlSimulation=ControlSimulation 
+end TimedSink
+
+; Library Name: Interactive_Controls_and_Displays
+; Cell Name: TkConstellation
+; View Name: schematic
+define TkConstellation ( N__2  N__1 ) 
+parameters  Label="Tk Constellation"  NumSamplesPerSymbol=10  Amplitude=2  SampleDelay=2  Persistence=200  UpdateSize=10  Style=1 
+_vKeysightEEsof_dSDF_nRectToCx_lsdfstars:R1  N__2 N__1 N__0 
+_vKeysightEEsof_dSDF_nRectToCx_lsdfstars:R4  N__4 N__3 N__0 
+_vKeysightEEsof_dSDF_nMpyCx_lsdfstars:M4  N__0 N__5 
+_vKeysightEEsof_dSDF_nTkSlider_lsdftclstars:T3  N__6 Low=-180.0 High=180.0 Value=0.0 Identifier="{Label} Rotation (deg)" PutInControlPanel=1 Granularity=360 
+_vKeysightEEsof_dSDF_nGain_lsdfstars:G8  N__6 N__7 Gain=pi/180 
+_vKeysightEEsof_dSDF_nSin_lsdfstars:S2  N__7 N__3 
+_vKeysightEEsof_dSDF_nCos_lsdfstars:C6  N__7 N__4 
+_vKeysightEEsof_dSDF_nVarDelay_lsdfstars:V6  N__5 N__8 N__9 MaxDelay=NumSamplesPerSymbol 
+_vKeysightEEsof_dSDF_nTkSlider_lsdftclstars:T4  N__8 Low=0.0 High=NumSamplesPerSymbol Value=SampleDelay Identifier="{Label} Sample Delay" PutInControlPanel=1 Granularity=NumSamplesPerSymbol 
+_vKeysightEEsof_dSDF_nDownSample_lsdfstars:D2  N__11 N__10 Factor=NumSamplesPerSymbol Phase=0 
+_vKeysightEEsof_dHOF_nIfElse_lhofstars:I1  N__9 N__13 N__10 N__13 N__12 N__11 Condition=int(Style) 
+_vKeysightEEsof_dSDF_nCxToRect_lsdfstars:C7  N__12 N__15 N__14 
+_vKeysightEEsof_dSDF_nTkXYPlot_lsdftclstars:T5  N__15 N__14 Label=Label Geometry="400x400+0+0" xTitle="Re" yTitle="Im" xRange="(-Amplitude) (Amplitude)" yRange="(-Amplitude) (Amplitude)" Persistence=Persistence Style=Style UpdateSize=UpdateSize 
+end TkConstellation
+
+TkConstellation:Trajectory  N__2 N__3 Label="Trajectory" NumSamplesPerSymbol=4 Amplitude=0.12 SampleDelay=2 Persistence=500 UpdateSize=10 Style=1 
+TkConstellation:Constellation  N__2 N__3 Label="Constellation" NumSamplesPerSymbol=4 Amplitude=0.12 SampleDelay=2 Persistence=100 UpdateSize=20 Style=0 
+R:R1  N__4 0 R=50 Ohm Noise=no 
+DefaultNumericStart=0.0
+DefaultNumericStop=100.0
+DefaultTimeStart=0.0 usec
+DefaultTimeStop=100.0 usec
+DefaultSeed=1234567
+DefaultRIn=50
+DefaultROut=50
+DefaultRLoad=1.0e15
+DefaultRTemp=-273.15
+__DefaultPartition=1
+__SimulationID=0
+_vKeysightEEsof_dTSDF_nDF_ltsdf:DF1 DefaultTimeUnit=3 DefaultSeed=if (DefaultSeed==0) then 0 else (DefaultSeed+__SimulationID) endif DefaultPartition=__DefaultPartition ProfileTimes="" logFile="" DeadlockManager=0 CktCosimInputs=0 OutputPlan="DF1_Output" 
+OutputPlan:DF1_Output \
+      Type="Output" \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+LPF_RaisedCosineTimed:L1  N__6 N__5 RIn=50 Ohm ROut=50 Ohm RTemp=-273.15 Loss=0.0 CornerFreq=40.0 MHz ExcessBw=0.3 Type=0 SquareRoot=1 Delay=100 nsec WindowType=0 
+LPF_RaisedCosineTimed:L2  N__8 N__7 RIn=50 Ohm ROut=50 Ohm RTemp=-273.15 Loss=0.0 CornerFreq=40.0 MHz ExcessBw=0.3 Type=0 SquareRoot=1 Delay=100 nsec WindowType=0 
+IQ_MOD_CKT:X1  N__10 N__9 N__11 
+OutSelector:O1  N__11 N__12 OutFreq=2 GHz OutBW=0 Hz 
+TimedSink:Irec  N__7 Plot=0 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=0 usec Stop=1.625 usec ControlSimulation=1 
+TimedSink:Qrec  N__5 Plot=0 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=0 usec Stop=1.625 usec ControlSimulation=1 
+TimedSink:IRef  N__4 Plot=0 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=0 usec Stop=1.625 usec ControlSimulation=1 
+TimedSink:QRef  N__14 Plot=0 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=0 usec Stop=1.625 usec ControlSimulation=1 
+TimedSink:RFIC_input  IQ_MOD_Input Plot=0 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=0 usec Stop=1.625 usec ControlSimulation=0 
+TimedSink:DSP_out  N__15 Plot=0 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=0 usec Stop=1.625 usec ControlSimulation=0 
+SplitterRF:S3  N__16 N__10 IQ_MOD_Input RIn=50 Ohm ROut=50 Ohm RTemp=-274.0 
+GainRF:G1  N__15 N__16 RIn=50 Ohm ROut=50 Ohm RTemp=-274.0 Gain=0.005+j*0.0 NoiseFigure=0.0 GCType=0 GComp="0.0 0.0 0.0 " 
+TimedSink:Attn_out  N__16 Plot=0 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=0 usec Stop=1.625 usec ControlSimulation=0 
+R:R4  N__5 0 R=50 Ohm Noise=no 
+R:R5  N__7 0 R=50 Ohm Noise=no 
+R:R3  N__11 0 R=50 Ohm Noise=no 
+R:R2  N__14 0 R=50 Ohm Noise=no 
+DelayRF:D4  N__17 N__14 RIn=50 Ohm ROut=50 Ohm RTemp=-274.0 Delay=100 nsec InterpolationMethod=0 IncludeCarrierPhaseShift=0 
+GainRF:G3  IQ_MOD_Input N__18 RIn=50 Ohm ROut=50 Ohm RTemp=-274.0 Gain=200+j*0.0 NoiseFigure=0.0 GCType=0 GComp="0.0 0.0 0.0 " 
+DelayRF:D3  N__18 N__4 RIn=50 Ohm ROut=50 Ohm RTemp=-274.0 Delay=100 nsec InterpolationMethod=0 IncludeCarrierPhaseShift=0 
+QAM_DemodExtOsc:Q2  N__19 N__20 N__8 N__6 RIn=50 Ohm ROut=50 Ohm RTemp=-274.0 Sensitivity=1.0 GainImbalance=0.0 PhaseImbalance=0.0 
+SplitterRF:S4  N__12 N__19 N__13 RIn=50 Ohm ROut=50 Ohm RTemp=-274.0 
+GainRF:G4  N__21 N__17 RIn=50 Ohm ROut=50 Ohm RTemp=-274.0 Gain=200+j*0.0 NoiseFigure=0.0 GCType=0 GComp="0.0 0.0 0.0 " 
+SplitterRF:S2  N__22 N__21 N__9 RIn=50 Ohm ROut=50 Ohm RTemp=-274.0 
+GainRF:G2  N__23 N__22 RIn=50 Ohm ROut=50 Ohm RTemp=-274.0 Gain=0.005+j*0.0 NoiseFigure=0.0 GCType=0 GComp="0.0 0.0 0.0 " 
+N_Tones:N1  N__20 ROut=50 Ohm RTemp=-274.0 TStep=3.125 nsec Frequency1=2 GHz Power1=0.01 W Phase1=125 RandomPhase=0 PhaseNoiseData="" PN_Type=0 
+Synth_16QAM_IQ:X2  N__15 N__23 
+_vKeysightEEsof_dTSDF_nTimedToFloat_ltsdfstars:T4  N__5 N__3 
+_vKeysightEEsof_dTSDF_nTimedToFloat_ltsdfstars:T5  N__7 N__2 
+SpectrumAnalyzer:S5  N__13 Plot=0 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=0.45 usec Stop=3.575 usec Window=0 WindowConstant=0.0 Bias=1 FStart=0.0 Hz FStop=100e9 Hz NumFreqs=0 NPoints=0 Overlap=0 

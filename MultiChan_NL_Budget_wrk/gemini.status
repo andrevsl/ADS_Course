@@ -1,0 +1,43 @@
+
+HPEESOFSIM  (ver. "130" rev. "day" -- 10/27/99 03:51:23)
+Copyright Hewlett-Packard Company, 1989-1999.
+
+HB HB1[1] <(GEMX netlist)>
+Krylov-HB: 123 freqs, 512 time-samples.
+
+Message from HPEESOFSIM during DC analysis `HB1'.
+Required filter order is calculated to be 6 for component
+                 a6_BPF1.CMP1
+
+
+Message from HPEESOFSIM during DC analysis `HB1'.
+Required filter order is calculated to be 7 for component
+                 a2_BPF1.CMP1
+
+
+Message from HPEESOFSIM during DC analysis `HB1'.
+Required filter order is calculated to be 7 for component
+                 b2_BPF2.CMP1
+
+........
+
+HB_NOISE HB1[1] <(GEMX netlist)>
+
+Warning detected by HPEESOFSIM during spectral noise analysis `HB_NOISE'.
+    The specified input frequency mixes to the noise frequency more
+    than once.  The simulation results may be inaccurate.  Adjust either
+    the input and noise frequencies or the frequency of the fundamental(s)
+    to avoid this situation.
+.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Simulation finished: dataset `IQ_mod_bud' written in `/a/new/wlv/groucho/d1/marketing/users/cedelman/work/r200work/ex200/Com_Sys/MultiChan_NL_Budget_prj/data'.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Resource usage:
+    Total CPU time: 6.45 seconds.
+    Simulation stopwatch time: 25.61 seconds.
+    Total stopwatch time: 30.21 seconds.
+    Incremental virtual memory (data only) used:  12.1 MBytes.
+

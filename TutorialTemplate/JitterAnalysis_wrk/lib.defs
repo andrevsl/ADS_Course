@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/ads.defs
+DEFINE JitterAnalysis_lib ./JitterAnalysis_lib
+ASSIGN JitterAnalysis_lib writePath JitterAnalysis_lib
+ASSIGN JitterAnalysis_lib libMode shared

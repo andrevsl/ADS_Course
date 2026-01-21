@@ -1,0 +1,8 @@
+<!DOCTYPE SaveWorkspaceState>
+<SaveWorkspaceState>
+    <Windows>
+        <Schematic geom="1,0,3,226,173,1344,808,1920,1080" view="schematic" y1="-9" cell="01_README" lib="Example_SmartEyeProbe_lib" width="1920" x1="-1" height="1001"/>
+        <DDS name="02_TB_Smart_Eye_Probe.dds"/>
+    </Windows>
+    <MainWindowTab tab="1"/>
+</SaveWorkspaceState>

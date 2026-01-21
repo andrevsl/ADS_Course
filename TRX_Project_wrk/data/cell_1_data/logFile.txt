@@ -1,0 +1,20 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Sun Jan 11 00:48:03 2026
+      Running on host: "rfcourse"
+      In Directory: "C:\Users\simucstvsl\Documents\ADS_Course\TRX_Project_wrk\data"
+      Process ID: 12064
+
+
+HB Env1[1] <TRX_Project_lib:cell_1:schematic>   time=(0 s->100 ns)
+...........
+Warning detected by hpeesofsim during circuit set up.
+    Unable to resolve variable(s) or functions(s) in expression ` Meas1=timefile(time,"5GNRWaveform.txt")'
+        timefile
+
+Resource usage:
+  Total stopwatch time     =     0.93 seconds.
+

@@ -1,0 +1,104 @@
+; Top Design: "Optimizing_Eye_KC_lib:Test_Circuit_1:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="Optimizing_Eye_KC_lib:Test_Circuit_1:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+; Library Name: Optimizing_Eye_KC_lib
+; Cell Name: Vf_BitSeq_Local
+; View Name: schematic
+define Vf_BitSeq_Local ( P1  P2 ) 
+parameters  Vlow=0 V  Vhigh=5 V  Rate=1 MHz  Rise=1 nsec  Fall=1 nsec  BitSeq="1101010100101" 
+V_Source:SRC1  P1 P2 Type="V_1Tone" V[1]=sv1 Freq[1]=_freq1    Vac=svac SaveCurrent=0 
+
+Tstart=0
+
+fa(x) = bitseq(x,Rate,Rise,Fall,Vlow,Vhigh,BitSeq)
+s1 = spectrum(fa(0),Npts,(Tstop-Tstart),Tstart)
+Fstep= 1/Tstop
+Fstop=1/(2*Tstep)
+Npts=Fstop/Fstep
+h1 = int(freq/Fstep + 0.5)
+svac = if (abs(h1*Fstep - freq) < 1e-6*Fstep and h1 < length(s1)) then s1[h1+1] else 0.0 endif
+sv1=if(_harm>=length(s1)) then 0.0 else s1[_harm+1] endif
+end Vf_BitSeq_Local
+
+; Library Name: Optimizing_Eye_KC_lib
+; Cell Name: Diff_Vf_BitSeq
+; View Name: schematic
+define Diff_Vf_BitSeq ( N__6  N__7 ) 
+parameters  Vlow=0 V  Vhigh=5 V  Rate=1 MHz  Rise=1 nsec  Fall=1 nsec  BitSeq="1101010100101"  Rsrc=50 
+R:R7  N__2 N__6 R=Rsrc Noise=yes 
+V_Source:SRC2  N__3 0 Type="V_DC" Vdc=(Vlow+Vhigh)/2 SaveCurrent=0 
+#uselib "ckt" , "VCVS"
+VCVS:SRC1  N__2 N__3 N__7 N__3 G=-1 T=0.0 nsec R1=1e100 Ohm R2=Rsrc F=0.0 GHz 
+Vf_BitSeq_Local:X2  N__2 0 Vlow=Vlow Vhigh=Vhigh Rate=Rate Rise=Rise Fall=Fall BitSeq=BitSeq 
+end Diff_Vf_BitSeq
+
+; Library Name: Optimizing_Eye_KC_lib
+; Cell Name: Control_1
+; View Name: schematic
+define Control_1 ( N__2  N__4  N__5  N__6 ) 
+parameters  Rate=166 MHz  Rise=1 nsec  Fall=1 nsec  Vlow0=0 V  Vhigh0=5 V  BitSeq0="1101010100101"  TimeStep=100 psec  Rsrc=50   Rload=50  
+aele Eye_Plot=FrontPanel_eye(Diff0,Rate,1,FrontPanel_eye_delay(Diff0,Rate,"NRZ"));Eye_Diagram=FrontPanel_eye_regular(Eye_Plot,451);Eye_bin_data=eye_binning(Eye_Plot,451,321);Time_Marker1=0/451*max(max(indep(Eye_Diagram)));Time_Marker2=286/451*max(max(indep(Eye_Diagram)));Amplitude_Marker1=162/321*(max(Diff0)-min(Diff0))+min(Diff0);Amplitude_Marker2=161/321*(max(Diff0)-min(Diff0))+min(Diff0);eye_jitter_histogram=FrontPanel_eye_horizontal_histogram(Eye_bin_data,Time_Marker1,Time_Marker2,Amplitude_Marker1,Amplitude_Marker2);Eye_jitter_pp=FrontPanel_pp_rms_jitter(eye_jitter_histogram)[0];Eye_jitter_rms=FrontPanel_pp_rms_jitter(eye_jitter_histogram)[1];
+aele Rise_fall_pct_low=20;Rise_fall_pct_high=80;Eye_cross_hist=FrontPanel_eye_horizontal_histogram(Get_eye,0,max(max(indep(Single_eye))),Eye_crossing[0],Eye_crossing[0]);Eye_delay=get_indep_values(Eye_cross_hist,max(Eye_cross_hist));Single_eye_centered=eye(Diff0,Rate,,0.5/Rate+Eye_delay);Get_rise=FrontPanel_eye_rise_trace(FrontPanel_eye_regular(Single_eye_centered,451),Waveform_topbase[4],Waveform_topbase[0],Rise_fall_pct_low,Rise_fall_pct_high);Get_wave_rise_marker=FrontPanel_eye_risefall_marker(eye_binning(Get_rise,451,321),Waveform_topbase[4],Waveform_topbase[0],Rise_fall_pct_low,Rise_fall_pct_high);Average_wave_rise_time=indep(Get_wave_rise_marker)[2]-indep(Get_wave_rise_marker)[0];Get_fall=FrontPanel_eye_fall_trace(FrontPanel_eye_regular(Single_eye_centered,451),Waveform_topbase[4],Waveform_topbase[0],Rise_fall_pct_low,Rise_fall_pct_high);Get_wave_fall_marker=FrontPanel_eye_risefall_marker(eye_binning(Get_fall,451,321),Waveform_topbase[4],Waveform_topbase[0],Rise_fall_pct_low,Rise_fall_pct_high);Average_wave_fall_time=indep(Get_wave_fall_marker)[0]-indep(Get_wave_fall_marker)[2];
+aele Eye_Level_Zero=Eye_top_base[1];Eye_Level_One=Eye_top_base[4];Eye_Level_Mean=Eye_top_base[6];Eye_Amplitude=Eye_Level_One-Eye_Level_Zero;Eye_Height=Eye_top_base[9]-Eye_top_base[8];Eye_Height_dB=10*log(Eye_Height);Eye_Width=FrontPanel_eye_width(Get_eye,Eye_crossing,Rate);Eye_Opening_Factor=(Eye_top_base[3]-Eye_top_base[2])/(Eye_Level_One-Eye_Level_Zero);Eye_Signal_to_Noise=(Eye_top_base[4]-Eye_top_base[1])/(Eye_top_base[2]-Eye_top_base[1]+Eye_top_base[4]-Eye_top_base[3]+1.0e-20);
+aele Amplitude_histogram_data=FrontPanel_eye_amplitude_histogram(Get_eye);Waveform_topbase=FrontPanel_wave_topbase(Amplitude_histogram_data,"NRZ");Waveform_top=Waveform_topbase[0];Waveform_base=Waveform_topbase[4];Eye_crossing=FrontPanel_eye_crossings(Get_eye,Waveform_topbase[7],Waveform_topbase[2],"NRZ");Eye_top_base=FrontPanel_eye_topbase(Get_eye,Eye_crossing,40,60,"NRZ");
+aele Get_max_voltage=max(Diff0);Get_min_voltage=min(Diff0);Get_avg_voltage=(Get_max_voltage-Get_min_voltage);Level_40=0.2*Get_avg_voltage;Level_60=0.8*Get_avg_voltage;
+AC:AC1 SortNoise=0 IncludePortNoise=yes BandwidthForNoise=1 Hz FreqConversion=no UseFiniteDiff=no StatusLevel=2 OutputBudgetIV=no DevOpPtLevel=0 \
+SweepVar="freq" SweepPlan="AC1_stim" OutputPlan="AC1_Output" 
+
+SweepPlan: AC1_stim Start=0 Stop=Fstop Step=Fstep 
+
+OutputPlan:AC1_Output \
+      Type="Output" \
+      UseNodeNestLevel=yes \
+      NodeNestLevel=2 \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2 \
+      UseDeviceCurrentNestLevel=no \
+      DeviceCurrentNestLevel=0 \
+      DeviceCurrentDeviceType="All" \
+      DeviceCurrentSymSyntax=yes \
+      UseCurrentNestLevel=yes \
+      CurrentNestLevel=999 \
+      UseDeviceVoltageNestLevel=no \
+      DeviceVoltageNestLevel=0 \
+      DeviceVoltageDeviceType="All"
+
+aele Single_eye=eye(Diff0,Rate);Get_eye=eye_binning(FrontPanel_eye(Diff0,Rate),400,320);
+
+Tstop=length(BitSeq0)/Rate
+Fstep=1/Tstop
+Fstop=0.5/TimeStep
+Tstep=TimeStep
+Npts=Tstop/Tstep
+aele Diff0=ts(Out0p,0,Tstop,Npts,,,,,"Hanning");
+R:R7  Out0p 0 R=Rload Noise=yes 
+R:R1  N__5 Out0p R=0 Noise=yes 
+R:R2  N__6 Out0n R=0 Noise=yes 
+R:R8  Out0n 0 R=Rload Noise=yes 
+Diff_Vf_BitSeq:SRC1  N__2 N__4 Vlow=Vlow0 Vhigh=Vhigh0 Rate=Rate Rise=Rise Fall=Fall BitSeq=BitSeq0 Rsrc=Rsrc 
+end Control_1
+
+; Library Name: Optimizing_Eye_KC_lib
+; Cell Name: Start_Equilization
+; View Name: schematic
+define Start_Equilization ( N__1  N__4 ) 
+parameters  C1=2 pF  C2=1.8 pF  R1=15  R2=20  R3=200  L1=1 nH 
+R:R2  N__1 N__0 R=R3 Noise=yes 
+L:L1  N__0 0 L=L1 Noise=yes  
+R:R1  N__1 N__3 R=R1 Noise=yes 
+R:R3  N__4 N__0 R=R3 Noise=yes 
+R:R4  N__4 N__1 R=R2 Noise=yes 
+C:C2  N__3 N__4 C=C2 
+C:C1  N__1 N__4 C=C1 
+end Start_Equilization
+
+#uselib "ckt" , "S4P"
+S4P:SNP2  N__6 N__5 N__4 N__3 0 File="C:\Users\simucstvsl\Documents\ADS_Course\TutorialTemplate\Optimizing_Eye_KC_wrk\data\drive_lines_s4p.ds" Type="dataset" Block="SP1.SP" InterpMode="linear" InterpDom="" ExtrapMode="interpMode" Temp=27.0 CheckPassivity=0 
+Control_1:Tester1  N__6 N__4 out_p out_n Rate=15 GHz Rise=2 psec Fall=2 psec Vlow0=0 V Vhigh0=2 V BitSeq0="110101010010101000011101101000111110101101100011110010110101011110111100001010101111110101010010111110100000010100111010111101010110000011110000111111111110101010100101011" TimeStep=1/(15e9*32) Rsrc=50 Ohm Rload=50 Ohm 
+
+;#@# autodisplay="Test_Circuit_0"
+Start_Equilization:X1  N__5 out_p C1=2 pF C2=1.8 pF R1=15 Ohm R2=20 Ohm R3=200 Ohm L1=1 nH 
+Start_Equilization:X2  N__3 out_n C1=2 pF C2=1.8 pF R1=15 Ohm R2=20 Ohm R3=200 Ohm L1=1 nH 

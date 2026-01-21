@@ -1,0 +1,60 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Sat Jan 10 19:34:00 2026
+      Running on host: "rfcourse"
+      In Directory: "C:\Users\simucstvsl\Documents\ADS_Course\TutorialTemplate\Example_SmartEyeProbe_wrk\data"
+      Process ID: 12152
+
+
+Characterizing the circuit.
+
+Characterizing Tx channel.
+
+COMPONENT : X1.brd
+    Characterizing to 10 GHz 
+
+    Use an adaptive sample spacing of 19.53 MHz.
+..
+Pt DC convergence is used.
+
+Characterizing cross-talk channel.
+
+COMPONENT : X1.brd
+    Characterizing to 10 GHz 
+
+Characterizing cross-talk channel.
+
+COMPONENT : X1.brd
+    Characterizing to 10 GHz 
+
+Characterizing cross-talk channel.
+
+COMPONENT : X1.brd
+    Characterizing to 10 GHz 
+
+Characterizing cross-talk channel.
+
+COMPONENT : X1.brd
+    Characterizing to 10 GHz 
+
+Characterization finished.
+
+Channel Simulator: Analysis started
+Simulating Tx and synchronous cross-talk channels.
+Tx and synchronous cross-talk channels finished.
+Message from Smart_Eye_Probe
+Finalizing SmartProbe measurements.
+Warning detected by hpeesofsim in Smart_Eye_Probe during circuit set up `ChannelSim1'.
+    For Ch2: Can not find eye crossing points.
+    Please increase the numeric value in the 'Amplitude resolution' field
+    and/or the number of time points per UI using the 'Number of time points' field.
+    Without eye crossing points, non-BER based measurements cannot be measured.
+
+Channel Simulator: Analysis finished
+
+Resource usage:
+  Total stopwatch time     =   340.51 seconds.
+

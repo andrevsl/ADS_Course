@@ -1,0 +1,50 @@
+; Top Design: "TRX_Project_lib:Envelope:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="TRX_Project_lib:Envelope:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+
+Rate=122.88e6*4
+Tstep=1/(Rate)
+Tstop=1e-5
+P_RF_dBm=5
+F_RF_Hz=4.5G
+Port:Term2  out 0 Num=2 Z=50 Ohm Noise=yes 
+#uselib "sml" , "Amplifier2"
+Amplifier2:AMP1  in out S21=dbpolar(12,0) S11=polar(0,0) S22=polar(0,180) S12=0 GainCompType=0 ReferToInput=0 GainCompSat=5.0 dB GainCompPower=30 GainComp=1.0 dB ClipDataFile=1 
+
+HB:Env3 Freq[1]=F_RF_Hz \
+ Order[1]=5 \
+  MaxOrder=4 StatusLevel=1 FundOversample=2 UseGear=yes EnvIntegOrder=2 \
+ EnvBandwidth=1 EnvWarnPoorFit=yes EnvUsePoorFit=yes SweepVar="time" DevOpPtLevel=0 \
+ EnvFitDisableCache=no CompactTestSignalLength=50 usec SweepPlan="Env3_stim" OutputPlan="Env3_Output"
+
+OutputPlan:Env3_Output \
+       Type="Output" \
+       UseNodeNestLevel=yes \
+       NodeNestLevel=2 \
+       UseEquationNestLevel=yes \
+       EquationNestLevel=2 \
+       UseSavedEquationNestLevel=yes \
+       SavedEquationNestLevel=2 \
+       UseDeviceCurrentNestLevel=no \
+       DeviceCurrentNestLevel=0 \
+       DeviceCurrentDeviceType="All" \
+       DeviceCurrentSymSyntax=yes \
+       UseCurrentNestLevel=yes \
+       CurrentNestLevel=999 \
+       UseDeviceVoltageNestLevel=no \
+       DeviceVoltageNestLevel=0 \
+       DeviceVoltageDeviceType="All" 
+
+SweepPlan:Env3_stim Stop=Tstop Step=Tstep
+
+Tran:Env3_tran HB_Sol=1 SteadyState=1 StatusLevel=3 \
+ Freq[1]=F_RF_Hz \
+ Order[1]=5 \
+ OutputPlan="Env3_Output"
+
+Component:tahb_Env3 Module="ATAHB" Type="ModelExtractor" Tran_Analysis="Env3_tran" HB_Analysis="Env3"
+
+Port:PORT2  in 0 Num=3 Z=50 Ohm P[1]=polar(dbmtow(P_RF_dBm),0) Freq[1]=F_RF_Hz    Mod=file{DAC1, "voltage"} Noise=yes Pac=polar(dbmtow(0),0) 
+#uselib "ckt" , "DAC"
+DAC:DAC1  File="C:\Users\simucstvsl\Documents\ADS_Course\Datasets\5g_ofdm_qam64.tim" Type="tim" InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 

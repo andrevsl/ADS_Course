@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE LTE_BS_Tx_lib LTE_BS_Tx_lib
+ASSIGN LTE_BS_Tx_lib libMode shared

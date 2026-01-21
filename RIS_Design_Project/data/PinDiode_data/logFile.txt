@@ -1,0 +1,18 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Tue Jan 20 20:09:41 2026
+      Running on host: "rfcourse"
+      In Directory: "C:\Users\simucstvsl\Documents\ADS_Course\RIS_Design_Project\data"
+      Process ID: 10040
+
+
+DC DC1[1] <Varactors_PWM1_lib:PinDiode:schematic>  
+.
+DC convergence achieved in 36 iterations.
+
+Resource usage:
+  Total stopwatch time     =     0.90 seconds.
+

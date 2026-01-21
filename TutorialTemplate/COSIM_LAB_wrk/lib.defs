@@ -1,0 +1,5 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE COSIM_LAB_PRJ_lib ./COSIM_LAB_PRJ_lib
+ASSIGN COSIM_LAB_PRJ_lib writePath COSIM_LAB_PRJ_lib
+ASSIGN COSIM_LAB_PRJ_lib libMode shared

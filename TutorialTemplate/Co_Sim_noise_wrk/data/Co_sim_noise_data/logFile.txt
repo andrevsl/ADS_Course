@@ -1,0 +1,36 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Sun Jan 11 12:53:34 2026
+      Running on host: "rfcourse"
+      In Directory: "C:\Users\simucstvsl\Documents\ADS_Course\TutorialTemplate\Co_Sim_noise_wrk\data"
+      Process ID: 7256
+
+`DF1': Simulation started. 
+`DF1': Scheduling completed in 0 milliseconds (CPU time).
+Pt DC convergence is used.
+    Number of tones:   1.
+    Number of frequencies:   2.
+    Number of time samples:  16.
+    Number of HB equations (problem size): 72.
+    Auto mode: off.
+    Convergence mode: Fast.
+    Linear solver: direct.
+------------------------------------------------------------------------
+Newton solver:				
+Iter	KCL residual	Sol update
+------------------------------------------------------------------------
+0.0*	12.5 uA                  
+1.0 	0 A                      
+`DF1': Data collection complete at 11 seconds (CPU time).
+`BER_MC': Stop time reached without meeting the estimation relative
+    variance specified. Total number of symbols processed = 493; estimation
+    relative variance = 1.0
+`BER_MC': BER = 0.00202839756592292
+`DF1': Simulation completed in 1 minute 44 seconds (CPU time).
+
+Resource usage:
+  Total stopwatch time     =   110.05 seconds.
+

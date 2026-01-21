@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DCOPData Simulator="hpeesofsim" Version="1.0" Time="Tue Jan 20 20:09:42 2026">
+ <Controller name="DC1">
+  <SweepCondition>
+   <P>freq: 0.0000000000000000e+00</P>
+  </SweepCondition>
+  <DC_OPDeclaration/>
+  <DC_Voltages>
+   <V>0: 0.0000000000000000e+00</V>
+   <V>V1: -2.0000000000000000e+00</V>
+   <V>V2: -1.0000222482168052e-10</V>
+   <GV>0: 0.0000000000000000e+00</GV>
+  </DC_Voltages>
+  <DC_PinCurrents>
+   <I>DIODE1: -1.9998817416914489e-12, 2.0000444964336102e-12</I>
+   <I>R1: -2.0000444964336102e-12, 2.0000444964336102e-12</I>
+   <I>SRC1: 2.0000444964336102e-12, -2.0000444964336102e-12</I>
+  </DC_PinCurrents>
+  <DC_OPInstances/>
+ </Controller>
+</DCOPData>

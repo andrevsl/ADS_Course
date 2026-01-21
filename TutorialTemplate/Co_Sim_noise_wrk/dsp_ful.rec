@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<COMPONENTS>
+  <COMPONENT>
+    <NAME>amplifier_model_2b</NAME>
+    <VENDOR>C:\users\My_ADS_projects_2003A\Others\Co_Sim_prj\networks</VENDOR>
+    <DESCRIPTION>amplifier_model_2b</DESCRIPTION>
+    <LIBRARY>Sub-networks</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+    <AVAILABILITY>Available</AVAILABILITY>
+    <URL>N/A</URL>
+    <LICENSE>N/A</LICENSE>
+  </COMPONENT>
+</COMPONENTS>

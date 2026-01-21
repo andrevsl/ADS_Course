@@ -1,0 +1,8 @@
+ConnectionMethod = 1
+SpiceDialect = 3
+ElementReplacementTable
+IgnoreFirstLine = true
+SuppressNameMapping = false
+ComponentName = spice1
+NumberOfPins = 0
+DirectoryToStoreNetList = C:\Users\simucstvsl\Documents\ADS_Course\RIS_Design_Project

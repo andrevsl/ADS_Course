@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      shtiwari
+HostName                       gomti.msr.is.keysight.com
+ProcessIdentifier              8684
+ProcessCreationTime_UTC        1591804120
+ProcessCreationTime_Readable   Wed 10 Jun 2020 09:18:40 PM IST IST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/shtiwari/AMitJ_Example/Example_SmartEyeProbe_wrk/Example_SmartEyeProbe_lib/01_%R%E%A%D%M%E/schematic/sch.oa.cdslck
+TimeEditLocked                 Fri 12 Jun 2020 01:30:20 PM IST IST

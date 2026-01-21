@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dc_annotation_options>
+ <options view="schematic" ToggleVoltage="false" cell="PinDiode" ToggleCurrent="false" library="Varactors_PWM1_lib"/>
+</dc_annotation_options>

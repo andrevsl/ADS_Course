@@ -1,0 +1,65 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Sat Jan 10 16:59:41 2026
+      Running on host: "rfcourse"
+      In Directory: "C:\Users\simucstvsl\Documents\ADS_Course\TutorialTemplate\COSIM_LAB_wrk\data"
+      Process ID: 8060
+
+`DF1': Simulation started. 
+`DF1': Scheduling completed in 78 milliseconds (CPU time).
+Warning detected by hpeesofsim during Ptolemy simulation initialization `DF1'.
+    _MultiplierRF `M2.M1': When either of the two input signals is baseband
+    only Type=Both is valid. Type will be forced to Both.
+
+Warning detected by hpeesofsim during Ptolemy simulation initialization `DF1'.
+    _MultiplierRF `M1.M1': When either of the two input signals is baseband
+    only Type=Both is valid. Type will be forced to Both.
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with no DC path to ground (topology corrected): 4
+
+Pt DC convergence is used.
+
+COMPONENT : X1.X1.TL10 envelope bandwidth characterization
+
+COMPONENT : X1.X1.TL1 envelope bandwidth characterization
+
+COMPONENT : X1.X1.TL2 envelope bandwidth characterization
+
+COMPONENT : X1.X1.TL9 envelope bandwidth characterization
+
+COMPONENT : X1.X1.TL8 envelope bandwidth characterization
+
+COMPONENT : X1.X1.TL3 envelope bandwidth characterization
+
+COMPONENT : X1.X1.TL4 envelope bandwidth characterization
+
+COMPONENT : X1.X1.TL7 envelope bandwidth characterization
+
+COMPONENT : X1.X1.TL6 envelope bandwidth characterization
+
+COMPONENT : X1.X1.TL20 envelope bandwidth characterization
+
+COMPONENT : X1.X1.TL19 envelope bandwidth characterization
+
+COMPONENT : X1.X1.TL15 envelope bandwidth characterization
+
+COMPONENT : X1.X1.TL14 envelope bandwidth characterization
+
+COMPONENT : X1.X1.TL18 envelope bandwidth characterization
+
+COMPONENT : X1.X1.TL17 envelope bandwidth characterization
+
+COMPONENT : X1.X1.TL13 envelope bandwidth characterization
+
+COMPONENT : X1.X1.TL12 envelope bandwidth characterization
+
+COMPONENT : X1.X1.TL11 envelope bandwidth characterization
+`DF1': Simulation completed in 1 minute 22 seconds (CPU time).
+
+Resource usage:
+  Total stopwatch time     =    54.69 seconds.
+

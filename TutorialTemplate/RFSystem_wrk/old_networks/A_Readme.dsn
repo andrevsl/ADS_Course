@@ -1,0 +1,61 @@
+1     7.703    0 0
+10    1    "A_Readme"    2    1121713149    0    0    341    0
+20    0    ""    -4250 -3861 7389 4903 1    2 -3 1    1121713078    0    "schematic.prf" "schematic.lay"
+40    4    0    0    0
+50    1    -3735 -3861 7140 -2736 1    0    0    0    0    0    0    2    0
+60    2    0    4    -3735 -3861 7140 -2736 1    0    0    0    0
+70    -3735 -3861    7140 -2736    -3735 0
+40    5    0    0    0
+50    6    -4180 -2719 7179 -2219 1    0    0    0    0    0    0    0    0
+62    0    250    9    -4180 -2469 0    2    0    0    0    18    0   "Arial For CAE"   `PCS_Rx_TOI_test  is referred to in the Circuit Simulation Manual, Section 18,"Budget Measurements",
+at Figure 18-5.`
+50    6    -4250 -2609 7389 4569 1    0    0    0    0    0    0    0    0
+62    0    194    9    -4250 4375 0    37    0    0    0    14    0   "Arial For CAE"   `This example contains many different RF system-level simulations, not all directly related.
+
+Amp_TOI shows how to simulate the output-referred third-order intercept point of an amplifier.
+Mixer_TOI shows how to simulate the output-referred third-order intercept point of a mixer.
+Mixer_Noise1 shows a simple receiver noise figure simulation with both the LO and RF included as large-signal tones.
+Mixer_Noise2 shows an alternative method of simulating noise figure, that does not require a large-signal tone at the RF
+  input. The result is the same.
+LS_Mix_Sweep simulates the conversion gain of a receiver as a function of RF input frequency.
+ACPR_IS_136 is a set-up to simulate an amplifier with a pi/4 DQPSK-modulated signal, corresponding to the IS-136
+  standard.  The user may set the source power, modulation data bit sequence, source and load impedances, and other parameters.
+  The set-up includes a pair of filters for generating an undistorted signal for error vector magnitude calculation, as well as a set
+  of filter banks so the effects of receive-side filtering in the main and adjacent channels can be included. There are several
+  different data displays for displaying the results from this simulation.
+ 
+ACPR_IS_136transmitted shows the power spectrum at the load at the output of the amplifier. It also shows the upper and lower
+  adjacent-channel power ratios, main channel output power, and power gain.
+ACPR_IS_136received computes the upper and lower adjacent-channel power ratios when the receive-side filtering present in the
+IS-136 system is included.
+IS_136_ConstEVM uses the const_evm() function to plot the ideal and distorted constellations, ideal and distorted trajectories, and 
+  compute the error vector magnitude versus time, as well as the percent error vector magnitude.
+
+Linear_Sweep simulates the "linear" conversion gain, phase shift and group delay of the same receiver.  
+PCS_Rx_Budget simulates the power and gain budget of a PCS receiver. The simulation results are shown in PCS_Rx_Bud_Gain.dds
+  and PCS_Rx_Bud_Power.dds.
+PCS_RX models the parts of the receiver that are on one IC, including many amplifiers and two mixers, although these are all
+ behavioral models. Note that if all the deactivated components are activated, and the appropriate wires are added, this design can be
+ simulated.
+PCS_RF_rcvr is the same thing as PCS_RX, except without all the deactivated components. It is not meant to be simulated by itself.
+PCS_diplexer is a simple diplexer that passes signals from the transmitter to the RF In terminal and passes received signals from the
+  RF In terminal to the receiver chain.  It is not meant to be simulated by itself.
+Diplexer_test simulates the S-parameters from the RF In terminal to the receiver out terminal.
+PCS_Tx is a transmitter chain, without filters.  It is not meant to be simulated by itself, and is not used in any other design.
+PCS_Rx_TOI_test simulates the third-order intercept point of the receiver, with two tones at the input. Two tones are included from
+  the transmitter, and if the isolation of the diplexer is reduced, they make the intermodulation distortion of the receiver worse by
+  over-driving the input stages.
+
+`
+50    6    -2926 -3822 6431 -2822 1    0    0    0    0    0    0    0    0
+62    0    250    9    -2926 -3072 0    4    0    0    0    18    0   "Arial For CAE"   `Please also see Linear_Budget_wrk and MultiChan_NL_Budget_wrk for more
+Budget simulations and Budget features in ADS. For Budget simulations of cascaded
+2-port networks, the RF System Budget Analysis using the Budget Controller is 
+recommded. Please see Tutorial/RF_Budget_Examples_wrk. `
+50    6    -809 4625 1059 4903 1    0    0    0    0    0    0    0    0
+62    0    278    17    125 4625 0    1    0    0    0    20    0   "Arial For CAE Bold"   `RFSYstem_wrk`
+44    0    0    0    0    0    0    0
+21
+20    1    ""    0 0 0 0 0    1 -2 1    0    0    "layout.prf" "layout.lay"
+44    0    0    0    0    0    0    0
+21

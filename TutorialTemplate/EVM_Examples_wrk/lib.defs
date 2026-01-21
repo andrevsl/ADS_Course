@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/ads.defs
+DEFINE EVM_Examples_lib EVM_Examples_lib
+ASSIGN EVM_Examples_lib writePath EVM_Examples_lib
+ASSIGN EVM_Examples_lib libMode shared

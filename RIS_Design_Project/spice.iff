@@ -1,0 +1,9 @@
+FRAMEWORKÿ2ÿ
+ICONÿ/ÿfileÿNetlistsÿ/Netlists:fileÿ0ÿ0ÿ
+ICONÿ/Netlists:fileÿdesignÿUNNAMEDÿ/Netlists:file/UNNAMED:designÿ0ÿ0ÿ
+SCIONPAGEÿ/Netlists:file/UNNAMED:designÿADS_ITEM_SCHEM_NAME=SYM_0Portÿ
+SCIONOBJÿMÿUNNAMEDÿ_M=1ÿ_M_ADS_UNIT=-1ÿ_M_ADS_LABEL=Subcircuit parallel factorÿ_M_ADS_ATTR=1073807360ÿ_M_ADS_FORMSET=StdFormSetÿ_M_ADS_INDEX=1ÿ_M_ADS_FORM_NAME=StdFormÿIFF_PROPERTY_MAPPING_ADS=ÿ
+ENDPAGEÿ
+CIRCUITPAGEÿ/Netlists:file/UNNAMED:designÿ125ÿ25ÿ12.5ÿONÿIN/100ÿ
+CMPÿ/hpeesoflib:file/Diode_Model:designÿ0ÿ0ÿ0.0000ÿ0.0000ÿÿd310ÿNÿNÿOFFÿ Is=60e-18ÿ N=1.02ÿ Rs=.45ÿ Xti=3ÿ Eg=1.11ÿ Cjo=.19pÿ M=.15ÿ Vj=.25ÿ Fc=.5ÿ Bv=50ÿ Ibv=5uÿ Tt=75nÿ Nbv=1.02ÿ Kf=ÿ Af=ÿ Isr=ÿ Nr=ÿ Ikf=ÿ Ibvl=ÿ Nbvl=ÿ Tnom=27ÿ IkModel=1ÿ Imax=1000ÿ Trs1=0ÿ Trs2=0ÿ
+ENDPAGEÿ

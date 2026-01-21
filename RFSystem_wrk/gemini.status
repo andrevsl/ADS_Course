@@ -1,0 +1,54 @@
+
+HPEESOFSIM  (ver. "130" rev. "day" -- 08/03/99 05:41:59)
+Copyright Hewlett-Packard Company, 1989-1999.
+
+HB HB1[1] <(GEMX netlist)>
+Krylov-HB: 792 freqs, 16384 time-samples.
+
+Message from HPEESOFSIM during DC analysis `HB1'.
+Required filter order is calculated to be 7 for component
+                 BPF4.CMP1
+
+
+Message from HPEESOFSIM during DC analysis `HB1'.
+Required filter order is calculated to be 7 for component
+                 BPF5.CMP1
+
+
+Message from HPEESOFSIM during DC analysis `HB1'.
+Required filter order is calculated to be 7 for component
+                 BPF3.CMP1
+
+
+Message from HPEESOFSIM during DC analysis `HB1'.
+Required filter order is calculated to be 7 for component
+                 BPF7.CMP1
+
+
+Message from HPEESOFSIM during DC analysis `HB1'.
+Required filter order is calculated to be 7 for component
+                 BPF6.CMP1
+
+
+Message from HPEESOFSIM during DC analysis `HB1'.
+Required filter order is calculated to be 7 for component
+                 X2.BPF2.CMP1
+
+
+Message from HPEESOFSIM during DC analysis `HB1'.
+Required filter order is calculated to be 7 for component
+                 X2.BPF1.CMP1
+
+........
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+Simulation finished: dataset `qaPCS_Rx_TOI_test' written in `/hfs/d1/local/users/meszaros/appexp130/rday/examples/Com_Sys/RFSystem_prj/data'.
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Resource usage:
+    Total CPU time: 24.31 seconds.
+    Simulation stopwatch time: 25.32 seconds.
+    Total stopwatch time: 30.28 seconds.
+    Incremental virtual memory (data only) used:  64 MBytes.
+

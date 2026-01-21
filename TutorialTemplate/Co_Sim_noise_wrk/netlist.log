@@ -1,0 +1,202 @@
+; Top Design: "Co_Sim_noise_lib:Co_sim_noise:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="Co_Sim_noise_lib:Co_sim_noise:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+; Library Name: Timed
+; Cell Name: Data
+; View Name: schematic
+define Data ( N__1 ) 
+parameters  ROut=DefaultROut  RTemp=DefaultRTemp  TStep=0.0001  BitTime=0.001  UserPattern=""  Type=1  SequencePattern=8  Repeat=1 
+_vKeysightEEsof_dTSDF_n_x5fData_ltsdfstars:D1  N__0 ROut=ROut RTemp=-273.15 TStep=TStep BitTime=BitTime UserPattern=UserPattern Type=Type SequencePattern=SequencePattern Repeat=Repeat 
+R:R1  N__0 N__1 R=ROut Temp=RTemp 
+end Data
+
+; Library Name: Timed
+; Cell Name: DelayRF
+; View Name: schematic
+define DelayRF ( N__3  N__2 ) 
+parameters  RIn=DefaultRIn  ROut=DefaultROut  RTemp=DefaultRTemp  Delay=-1  InterpolationMethod=0  IncludeCarrierPhaseShift=1 
+R:R2  N__1 N__2 R=ROut Temp=RTemp 
+R:R1  0 N__3 R=RIn Temp=-273.15 
+_vKeysightEEsof_dTSDF_n_x5fDelayRF_ltsdfstars:D3  N__3 N__1 RIn=RIn ROut=ROut RTemp=-273.15 Delay=Delay InterpolationMethod=InterpolationMethod IncludeCarrierPhaseShift=IncludeCarrierPhaseShift 
+end DelayRF
+
+; Library Name: Timed
+; Cell Name: LPF_RaisedCosineTimed
+; View Name: schematic
+define LPF_RaisedCosineTimed ( N__3  N__2 ) 
+parameters  RIn=DefaultRIn  ROut=DefaultROut  RTemp=DefaultRTemp  Loss=0.0  CornerFreq=500  ExcessBw=0.5  Type=0  SquareRoot=0  Delay=0.004  WindowType=0 
+R:R2  N__1 N__2 R=ROut Temp=-273.15 
+R:R1  0 N__3 R=RIn Temp=-273.15 
+_vKeysightEEsof_dTSDF_n_x5fLPF_x5fRaisedCosineTimed_ltsdfstars:L1  N__3 N__1 RIn=RIn ROut=ROut RTemp=RTemp Loss=Loss CornerFreq=CornerFreq ExcessBw=ExcessBw Type=Type SquareRoot=SquareRoot Delay=Delay WindowType=WindowType 
+end LPF_RaisedCosineTimed
+
+; Library Name: Timed
+; Cell Name: QAM_Demod
+; View Name: schematic
+define QAM_Demod ( N__3  N__4  N__5 ) 
+parameters  RIn=DefaultRIn  ROut=DefaultROut  RTemp=DefaultRTemp  RefFreq=1000000  Sensitivity=1.0  Phase=0.0  GainImbalance=0.0  PhaseImbalance=0.0 
+_vKeysightEEsof_dTSDF_n_x5fQAM_x5fDemod_ltsdfstars:Q1  N__3 N__2 N__1 RIn=RIn ROut=ROut RTemp=-273.15 RefFreq=RefFreq Sensitivity=Sensitivity Phase=Phase GainImbalance=GainImbalance PhaseImbalance=PhaseImbalance 
+R:R1  N__3 0 R=RIn Temp=-273.15 
+R:R2  N__2 N__4 R=ROut Temp=RTemp 
+R:R3  N__1 N__5 R=ROut Temp=RTemp 
+end QAM_Demod
+
+; Library Name: Timed
+; Cell Name: QAM_Mod
+; View Name: schematic
+define QAM_Mod ( N__2  N__1  N__3 ) 
+parameters  RIn=DefaultRIn  ROut=DefaultROut  RTemp=DefaultRTemp  FCarrier=1000000  Power=0.01  VRef=1  Phase=0  GainImbalance=0  PhaseImbalance=0 
+R:R2  0 N__1 R=RIn Temp=-273.15 
+R:R1  N__2 0 R=RIn Temp=-273.15 
+R:R3  N__3 N__4 R=ROut Temp=RTemp 
+_vKeysightEEsof_dTSDF_n_x5fQAM_x5fMod_ltsdfstars:Q1  N__2 N__1 N__4 RIn=RIn ROut=ROut RTemp=-273.15 FCarrier=FCarrier Power=Power VRef=VRef Phase=Phase GainImbalance=GainImbalance PhaseImbalance=PhaseImbalance 
+end QAM_Mod
+
+; Library Name: Co_Sim_noise_lib
+; Cell Name: RF_downcon
+; View Name: schematic
+define RF_downcon ( Port1  Port2 ) 
+parameters  amp_nf=1 
+
+RX_AntTemp=150
+RF_BW=25 MHz
+#uselib "ckt" , "PwrSplit2"
+PwrSplit2:PWR1  N__2 Port1 N__1 SP21=dbpolar(-111,-180) SP31=0.707 SP11=0. SP22=0.  Isolation=100. dB ZRef=50. Ohm CheckPassivity=1 
+R:R2  N__1 0 R=50 Ohm Temp=RX_AntTemp - 273.15 Noise=yes 
+
+HB:Env1 Freq[1]=1.9 GHz \
+Freq[2]=2 GHz \
+ Order[1]=1 \
+Order[2]=1 \
+ Oversample[1]=4 \
+Oversample[2]=4 \
+ NoiseFreqPlan="Env1_nl_stim"   MaxOrder=2 StatusLevel=0 FundOversample=4 MaxIters=250 SamanskiiConstant=2 \
+ Restart=no ArcLevelMaxStep=0.0 MaxStepRatio=100 MaxShrinkage=1.0e-5 ArcMaxStep=0.0 \
+ UseGear=no EnvIntegOrder=1 EnvNoise=yes EnvBandwidth=1 EnvWarnPoorFit=no \
+ EnvUsePoorFit=no SweepVar="time" InputFreq=100 MHz NoiseInputPort=1 NoiseOutputPort=2 \
+ PhaseNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 UseInFile=no \
+ UseOutFile=no UseKrylov=0 ConvMode=2 EnvFitDisableCache=no SweepPlan="Env1_stim" OutputPlan="Env1_Output"
+
+OutputPlan:Env1_Output \
+       Type="Output" \
+       UseNodeNestLevel=yes \
+       NodeNestLevel=2 \
+       UseEquationNestLevel=yes \
+       EquationNestLevel=2 \
+       UseSavedEquationNestLevel=yes \
+       SavedEquationNestLevel=2 \
+       UseDeviceCurrentNestLevel=no \
+       DeviceCurrentNestLevel=0 \
+       DeviceCurrentDeviceType="All" \
+       DeviceCurrentSymSyntax=yes \
+       UseCurrentNestLevel=yes \
+       CurrentNestLevel=999 \
+       UseDeviceVoltageNestLevel=no \
+       DeviceVoltageNestLevel=0 \
+       DeviceVoltageDeviceType="All" 
+
+SweepPlan:Env1_stim Stop=2000 usec Step=2.5 usec
+
+Tran:Env1_tran HB_Sol=1 SteadyState=1 StatusLevel=3 \
+ Freq[1]=1.9 GHz \
+ Order[1]=1 \
+ OutputPlan="Env1_Output"
+
+Component:tahb_Env1 Module="ATAHB" Type="ModelExtractor" Tran_Analysis="Env1_tran" HB_Analysis="Env1"
+
+SweepPlan:Env1_nl_stim  Center=100 MHz Span=1 MHz Lin=101
+#uselib "ckt" , "BPF_Butterworth"
+BPF_Butterworth:BPF1  N__2 N__5 Fcenter=2 GHz BWpass=RF_BW Apass=1 dB BWstop=1.2 GHz Astop=40 dB StopType="open" N=5 IL=0 dB Qu=1E308 Z1=50 Ohm Z2=50 Ohm Temp=-273.15 
+Amplifier:AMP1  N__5 N__6 S21=dbpolar(20,180) S11=0. S22=0. S12=0. NF=amp_nf dB GainCompType=0 ReferToInput=1 TOI=100 GainComp=1. ClipDataFile=0 
+Mixer:MIX1  N__6 Port2 N__7 SideBand=0 ConvGain=10+j*0. S11=0. S22=0. S33=0. NF=10 dB GainCompType=0 ReferToInput=1 TOI=100 GainComp=1. 
+V_Source:SRC2  N__8 0 Type="V_1Tone" V[1]=50 mV Freq[1]=1.9 GHz    SaveCurrent=1 
+R:R1  N__8 N__7 R=50 Ohm Noise=yes 
+end RF_downcon
+
+; Library Name: Sinks
+; Cell Name: SpectrumAnalyzer
+; View Name: schematic
+define SpectrumAnalyzer ( N__1 ) 
+parameters  Plot=0  RLoad=DefaultRLoad  RTemp=DefaultRTemp  Start=DefaultTimeStart  Stop=DefaultTimeStop  Window=0  WindowConstant=0.0  Bias=1  FStart=0.0  FStop=100e9  NumFreqs=0  NPoints=0  Overlap=0 
+_vKeysightEEsof_dTSDF_n_x5fSpectrumAnalyzer_ltsdfsinks:S1  N__1 Plot=Plot RLoad=RLoad RTemp=RTemp Start=Start Stop=Stop Window=Window WindowConstant=WindowConstant Bias=Bias FStart=FStart FStop=FStop NumFreqs=NumFreqs NPoints=NPoints Overlap=Overlap 
+R:R1  N__1 0 R=RLoad Temp=RTemp 
+end SpectrumAnalyzer
+
+; Library Name: Sinks
+; Cell Name: TimedSink
+; View Name: schematic
+define TimedSink ( N__1 ) 
+parameters  Plot=0  RLoad=DefaultRLoad  RTemp=DefaultRTemp  Start=DefaultTimeStart  Stop=DefaultTimeStop  ControlSimulation=1 
+R:R1  N__1 0 R=RLoad Temp=RTemp 
+_vKeysightEEsof_dTSDF_n_x5fTimedSink_ltsdfsinks:T1  N__1 Plot=Plot RLoad=RLoad RTemp=RTemp Start=Start Stop=Stop ControlSimulation=ControlSimulation 
+end TimedSink
+
+; Library Name: Interactive_Controls_and_Displays
+; Cell Name: TkConstellation
+; View Name: schematic
+define TkConstellation ( N__2  N__1 ) 
+parameters  Label="Tk Constellation"  NumSamplesPerSymbol=10  Amplitude=2  SampleDelay=2  Persistence=200  UpdateSize=10  Style=1 
+_vKeysightEEsof_dSDF_nRectToCx_lsdfstars:R1  N__2 N__1 N__0 
+_vKeysightEEsof_dSDF_nRectToCx_lsdfstars:R4  N__4 N__3 N__0 
+_vKeysightEEsof_dSDF_nMpyCx_lsdfstars:M4  N__0 N__5 
+_vKeysightEEsof_dSDF_nTkSlider_lsdftclstars:T3  N__6 Low=-180.0 High=180.0 Value=0.0 Identifier="{Label} Rotation (deg)" PutInControlPanel=1 Granularity=360 
+_vKeysightEEsof_dSDF_nGain_lsdfstars:G8  N__6 N__7 Gain=pi/180 
+_vKeysightEEsof_dSDF_nSin_lsdfstars:S2  N__7 N__3 
+_vKeysightEEsof_dSDF_nCos_lsdfstars:C6  N__7 N__4 
+_vKeysightEEsof_dSDF_nVarDelay_lsdfstars:V6  N__5 N__8 N__9 MaxDelay=NumSamplesPerSymbol 
+_vKeysightEEsof_dSDF_nTkSlider_lsdftclstars:T4  N__8 Low=0.0 High=NumSamplesPerSymbol Value=SampleDelay Identifier="{Label} Sample Delay" PutInControlPanel=1 Granularity=NumSamplesPerSymbol 
+_vKeysightEEsof_dSDF_nDownSample_lsdfstars:D2  N__11 N__10 Factor=NumSamplesPerSymbol Phase=0 
+_vKeysightEEsof_dHOF_nIfElse_lhofstars:I1  N__9 N__13 N__10 N__13 N__12 N__11 Condition=int(Style) 
+_vKeysightEEsof_dSDF_nCxToRect_lsdfstars:C7  N__12 N__15 N__14 
+_vKeysightEEsof_dSDF_nTkXYPlot_lsdftclstars:T5  N__15 N__14 Label=Label Geometry="400x400+0+0" xTitle="Re" yTitle="Im" xRange="(-Amplitude) (Amplitude)" yRange="(-Amplitude) (Amplitude)" Persistence=Persistence Style=Style UpdateSize=UpdateSize 
+end TkConstellation
+
+; Library Name: Sinks
+; Cell Name: berMC
+; View Name: schematic
+define berMC ( N__1  N__2 ) 
+parameters  Plot=0  RLoad=DefaultRLoad  RTemp=DefaultRTemp  Start=DefaultTimeStart  Stop=DefaultTimeStop  ControlSimulation=1  SymbolTime=1.0  EstRelVariance=0.0  NumThreshold=1  ThresholdSetting=0  Threshold="0"  DelayBound=-1.0  berOutput=4  StatusUpdatePeriod=1000 
+R:R1  N__1 0 R=RLoad Temp=RTemp 
+R:R2  0 N__2 R=RLoad Temp=RTemp 
+_vKeysightEEsof_dTSDF_n_x5fberMC_ltsdfgemstars:b1  N__1 N__2 Plot=Plot RLoad=RLoad RTemp=RTemp Start=Start Stop=Stop ControlSimulation=ControlSimulation SymbolTime=SymbolTime EstRelVariance=EstRelVariance NumThreshold=NumThreshold ThresholdSetting=ThresholdSetting Threshold=Threshold DelayBound=DelayBound berOutput=berOutput StatusUpdatePeriod=StatusUpdatePeriod 
+end berMC
+
+SpectrumAnalyzer:S1  N__0 Plot=0 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop Window=4 WindowConstant=0.0 Bias=1 NPoints=0 Overlap=0 
+RF_downcon:X6  N__2 N__1 amp_nf=nf1 dB 
+berMC:BER_MC  N__4 N__0 Plot=0 RLoad=50 Ohm RTemp=DefaultRTemp Start=387.5 usec Stop=10230 usec ControlSimulation=1 SymbolTime=20 usec EstRelVariance=0.01 NumThreshold=1 ThresholdSetting=0 Threshold="0" DelayBound=-1 usec berOutput=4 StatusUpdatePeriod=1000 
+DelayRF:D4  N__5 N__4 RIn=50.0 Ohm ROut=50.0 Ohm RTemp=-274.0 Delay=160 usec InterpolationMethod=0 IncludeCarrierPhaseShift=1 
+LPF_RaisedCosineTimed:L1  N__5 N__6 RIn=50.0 Ohm ROut=50.0 Ohm RTemp=-274.0 Loss=0.0 CornerFreq=0.025 MHz ExcessBw=0.35 Type=1 SquareRoot=1 Delay=80 usec WindowType=0 
+LPF_RaisedCosineTimed:L2  N__8 N__7 RIn=50.0 Ohm ROut=50.0 Ohm RTemp=-274.0 Loss=0.0 CornerFreq=.025 MHz ExcessBw=0.35 Type=1 SquareRoot=1 Delay=80 usec WindowType=0 
+LPF_RaisedCosineTimed:L5  N__3 N__9 RIn=50.0 Ohm ROut=50.0 Ohm RTemp=-274.0 Loss=0.0 CornerFreq=.025 MHz ExcessBw=0.35 Type=1 SquareRoot=1 Delay=80 usec WindowType=0 
+LPF_RaisedCosineTimed:L4  N__10 N__0 RIn=50.0 Ohm ROut=50.0 Ohm RTemp=-274.0 Loss=0.0 CornerFreq=.025 MHz ExcessBw=0.35 Type=1 SquareRoot=1 Delay=80 usec WindowType=0 
+DefaultNumericStart=0.0
+DefaultNumericStop=2000.0
+DefaultTimeStart=0.0 usec
+DefaultTimeStop=2000.0 usec
+DefaultSeed=1234567
+DefaultRIn=50
+DefaultROut=50
+DefaultRLoad=1.0e15
+DefaultRTemp=-273.15
+__DefaultPartition=1
+__SimulationID=0
+_vKeysightEEsof_dTSDF_nDF_ltsdf:DF1 DefaultTimeUnit=3 DefaultSeed=if (DefaultSeed==0) then 0 else (DefaultSeed+__SimulationID) endif DefaultPartition=__DefaultPartition OutVar="" ProfileTimes="" logFile="" DeadlockManager=0 CktCosimInputs=0 OutputPlan="DF1_Output" 
+OutputPlan:DF1_Output \
+      Type="Output" \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+
+nf1=1.0
+QAM_Mod:Q1  N__7 N__6 N__2 RIn=50.0 Ohm ROut=50.0 Ohm RTemp=-274.0 FCarrier=2 GHz Power=1 mW VRef=sqrt(2) V Phase=0.0 GainImbalance=0.0 PhaseImbalance=0.0 
+TkConstellation:T10  N__7 N__6 Label="Input Constellation" NumSamplesPerSymbol=8 Amplitude=2 SampleDelay=4 Persistence=1000 UpdateSize=10 Style=0 
+TkConstellation:T9  N__9 N__0 Label="Output Constellation" NumSamplesPerSymbol=8 Amplitude=0.5*10e-4 SampleDelay=4 Persistence=1000 UpdateSize=10 Style=0 
+QAM_Demod:Q2  N__12 N__3 N__10 RIn=50.0 Ohm ROut=50.0 Ohm RTemp=-274.0 RefFreq=100 MHz Sensitivity=0.15*1.414 Phase=0.0 GainImbalance=0.0 PhaseImbalance=0.0 
+#uselib "ckt" , "EnvOutShort"
+EnvOutShort:O1  N__1 N__12 OutFreq=100 MHz 
+Data:D2  N__8 ROut=50.0 Ohm RTemp=-274.0 TStep=2.5 usec BitTime=20 usec UserPattern="" Type=1 SequencePattern=8 Repeat=1 
+Data:D1  N__5 ROut=50.0 Ohm RTemp=-274.0 TStep=2.5 usec BitTime=20 usec UserPattern="" Type=1 SequencePattern=12 Repeat=1 
+TimedSink:T12  N__5 Plot=0 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:T11  N__0 Plot=0 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+_vKeysightEEsof_dTSDF_nTimedToFloat_ltsdfstars:T3  N__0 N__11 

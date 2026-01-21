@@ -1,0 +1,17 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Sat Jan 10 19:25:19 2026
+      Running on host: "rfcourse"
+      In Directory: "C:\Users\simucstvsl\Documents\ADS_Course\TutorialTemplate\Optimizing_Eye_KC_wrk\data"
+      Process ID: 7036
+
+
+AC Tester1.AC1[1] <Optimizing_Eye_KC_lib:Test_Circuit_1:schematic>   freq=(0 Hz->240 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =    13.07 seconds.
+

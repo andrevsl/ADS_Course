@@ -1,0 +1,5 @@
+create_item("Wilkinson_Layout","Wilkinson_Layout","X",16,-1,NULL,"Component Parameters",NULL,"%43?global %;%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","Wilkinson_Layout","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","",3,NULL,0,
+create_parm("w1","Subnetwork 1.4 mm",66560,"StdFormSet",5,prm("StdForm","1.2 mm")),
+create_parm("L1","Subnetwork 2 mm",66560,"StdFormSet",5,prm("StdForm","2 mm")),
+create_parm("R","Subnetwork 5 mm",66560,"StdFormSet",5,prm("StdForm","3.4 mm")),
+create_parm("w2","Subnetwork 0.7 mm",66560,"StdFormSet",5,prm("StdForm","0.6 mm")));

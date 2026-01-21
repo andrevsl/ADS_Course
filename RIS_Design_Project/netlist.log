@@ -1,0 +1,36 @@
+; Top Design: "Varactors_PWM1_lib:DataAcessWaveform:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="Varactors_PWM1_lib:DataAcessWaveform:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+#uselib "ckt" , "DAC"
+DAC:DAC1  File="C:\Users\simucstvsl\Documents\ADS_Course\Datasets\5g_ofdm_qam64.tim" Type="tim" InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+Port:Term1  Vin 0 Num=1 Z=50 Ohm Noise=yes 
+Tran:Tran1 StartTime=0.0 usec StopTime=32 usec MaxTimeStep=3.255208333333e-08 sec LimitStepForTL=yes TimeStepControl=2 TruncTol=7.0 ChargeTol=1.0e-14 IntegMethod=0 MaxGearOrder=2 \
+Mu=0.5 MaxOrder=4 Freq[1]=1.0 GHz Order[1]=3 HB_Window=no \
+HB_Sol=no ImpApprox=no ShortTL_Delay=1.0 psec ImpMode=1 UseInitCond=no \
+LoadGminDC=no CheckKCL=yes CheckOnlyDeltaV=yes OverloadAlert=no DeviceBypass=no \
+MaxIters=10 MaxItersDC=200 DevOpPtLevel=0 StatusLevel=2 OutputAllPoints=yes \
+NoiseScale=1 ImpEnforcePassivity=yes \
+OutputPlan="Tran1_Output" 
+
+OutputPlan:Tran1_Output \
+      Type="Output" \
+      UseNodeNestLevel=yes \
+      NodeNestLevel=2 \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2 \
+      UseDeviceCurrentNestLevel=no \
+      DeviceCurrentNestLevel=0 \
+      DeviceCurrentDeviceType="All" \
+      DeviceCurrentSymSyntax=yes \
+      UseCurrentNestLevel=yes \
+      CurrentNestLevel=999 \
+      UseDeviceVoltageNestLevel=no \
+      DeviceVoltageNestLevel=0 \
+      DeviceVoltageDeviceType="All"
+
+
+__debug_ImpLFEOff=0 
+Port:PORT2  Vin 0 Num=2 Z=50 Ohm P[1]=polar(dbmtow(0),0) Freq[1]=1 GHz    Mod=file{DAC1, "voltage"} Noise=yes Pac=polar(dbmtow(0),0) LimitPhaseNoiseToCarrier=no 

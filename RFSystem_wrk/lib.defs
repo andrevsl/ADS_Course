@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/ads.defs
+DEFINE RFSystem_lib ./RFSystem_lib
+ASSIGN RFSystem_lib writePath RFSystem_lib
+ASSIGN RFSystem_lib libMode shared

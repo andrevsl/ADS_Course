@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/ads.defs
+DEFINE MultiChan_NL_Budget_lib ./MultiChan_NL_Budget_lib
+ASSIGN MultiChan_NL_Budget_lib writePath MultiChan_NL_Budget_lib
+ASSIGN MultiChan_NL_Budget_lib libMode shared

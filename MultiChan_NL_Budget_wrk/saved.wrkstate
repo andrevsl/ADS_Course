@@ -1,0 +1,8 @@
+<!DOCTYPE SaveWorkspaceState>
+<SaveWorkspaceState>
+    <Windows>
+        <Schematic y1="-9" x1="-1" height="1001" geom="1,0,2,-13,42,967,755,1920,1080" lib="MultiChan_NL_Budget_lib" view="schematic" width="1920" cell="IQ_mod_bud"/>
+        <DDS name="IQ_mod_bud.dds"/>
+    </Windows>
+    <MainWindowTab tab="1"/>
+</SaveWorkspaceState>

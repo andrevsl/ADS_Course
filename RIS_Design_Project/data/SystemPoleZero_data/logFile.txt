@@ -1,0 +1,19 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Tue Jan 20 13:17:57 2026
+      Running on host: "rfcourse"
+      In Directory: "C:\Users\simucstvsl\Documents\ADS_Course\RIS_Design_Project\data"
+      Process ID: 7104
+
+.
+
+
+TRAN Tran1[1] <RIS_Design_Project_lib:SystemPoleZero:schematic>   time=(0 s->20 ms)
+
+
+Resource usage:
+  Total stopwatch time     =     0.85 seconds.
+

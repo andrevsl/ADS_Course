@@ -1,0 +1,28 @@
+Netlist Translator (*) 550.shp Jul 24 2021
+IFF translation log
+
+Input format: PSpice
+Input filename: C:/Users/simucstvsl/Documents/Vendors/RFDiodes/bar63_02l/Spice/D310.TXT
+
+Output format: IFF file
+Output filename: spice.iff
+
+Special options:
+    Processing first line as comment.
+
+Begin translation at Tue Jan 20 20:06:31 2026
+
+Creating schematic with named connections.
+Reading item definition file "C:\Program Files\Keysight\ADS2022/config\spctoiff.cfg"
+
+Translation completed at Tue Jan 20 20:06:31 2026.
+
+========================================================================
+End of Spice Translation Log file, beginning of IFF Translation Log File
+========================================================================
+
+Beginning IFF import
+Processing IFF file: C:\Users\simucstvsl\Documents\ADS_Course\RIS_Design_Project\spice.iff
+Creating design D310_lib:UNNAMED:schematic
+Creating design D310_lib:UNNAMED:symbol
+IFF import complete
